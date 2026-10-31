@@ -1,4 +1,4 @@
-import { nextLabel, record } from '../format.js';
+import { divisionId, nextLabel, record } from '../format.js';
 import Heat from './Heat.jsx';
 
 export default function Conference({ conf }) {
@@ -16,7 +16,7 @@ export default function Conference({ conf }) {
       </div>
 
       {conf.divisions.map((d) => (
-        <div className="card division" key={d.name}>
+        <div className="card division" key={d.name} id={divisionId(d.name)}>
           <div className="mono division-name">{d.name}</div>
           {d.teams.map((t) => {
             const next = nextLabel(t.next);

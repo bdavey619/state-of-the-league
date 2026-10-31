@@ -40,3 +40,5 @@ export function updatedLabel(iso) {
   const d = new Date(iso);
   return `${DAY.format(d)}, ${DATE.format(d)} · ${shortTime(d)}`;
 }
+
+export const divisionId = (name) => `div-${name.toLowerCase().replace(/\s+/g, '-')}`;

@@ -85,7 +85,14 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
 .segmented button[aria-pressed='true'] { background: var(--ink); color: var(--bg); }
 
 .mini-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 46%), 1fr)); gap: 10px; }
-.mini { padding: 10px 12px 6px; }
+.mini {
+  display: block; width: 100%; padding: 10px 12px 6px; text-align: left; color: var(--ink);
+  cursor: pointer; transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.mini:hover { border-color: #cfcbc2; }
+.mini.selected { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
+.mini .label { display: block; }
+.power-row { width: 100%; border: 0; background: transparent; color: var(--ink); text-align: left; cursor: pointer; padding: 0; }
 .label {
   font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--dim); padding-bottom: 4px;
@@ -97,6 +104,7 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
 .mini-row > .mono:nth-child(2) { text-align: right; white-space: nowrap; }
 .mini-row .team-cell { gap: 6px; }
 .mini-row + .mini-row { border-top: 1px solid var(--hair); }
+.division { scroll-margin-top: 16px; }
 .mini-row .abbr { font-weight: 600; font-size: 13px; }
 .mini-row .dim { font-size: 11px; }
 
@@ -160,13 +168,12 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
 .mobile-only { display: none; }
 
 /* Phone list */
-.m-list { display: flex; flex-direction: column; gap: 14px; }
-.m-title { font-size: 18px; }
-.m-group { display: flex; flex-direction: column; gap: 6px; }
-.m-group-name {
-  padding: 0 4px; font-size: 10px; font-weight: 500; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--dim);
+.d-panel { display: flex; flex-direction: column; gap: 10px; scroll-margin-top: 12px; }
+.d-empty {
+  padding: 18px; border: 1px dashed #d6d2c9; border-radius: 14px;
+  text-align: center; font-size: 13px; color: var(--muted); scroll-margin-top: 12px;
 }
+.m-meta { font-size: 10px; color: var(--dim); }
 .m-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 .m-team + .m-team { border-top: 1px solid var(--hair); }
 .m-row {

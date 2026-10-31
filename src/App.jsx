@@ -1,13 +1,28 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import Glance from './components/Glance.jsx';
 import Conference from './components/Conference.jsx';
-import MobileList from './components/MobileList.jsx';
-import { updatedLabel } from './format.js';
+import DivisionDetail from './components/DivisionDetail.jsx';
+import { divisionId, updatedLabel } from './format.js';
 
 export default function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [view, setView] = useState('standings');
+  const [division, setDivision] = useState(() => store.get());
+  const [openTeam, setOpenTeam] = useState(null);
+  const panelRef = useRef(null);
+
+  const divisions = useMemo(() => (data ? data.conferences.flatMap((c) => c.divisions) : []), [data]);
+  const selectedDivision = divisions.find((d) => d.name === division) || null;
+
+  function pick(name, abbr = null) {
+    setDivision(name);
+    setOpenTeam(abbr);
+    store.set(name);
+    const wide = window.matchMedia('(min-width: 761px)').matches;
+    const target = wide ? document.getElementById(divisionId(name)) : panelRef.current;
+    requestAnimationFrame(() => target?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  }
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/nfl.json`, { cache: 'no-cache' })
@@ -46,7 +61,13 @@ export default function App() {
               <h1>The state of the NFL</h1>
             </div>
 
-            <Glance conferences={data.conferences} view={view} setView={setView} />
+            <Glance
+              conferences={data.conferences}
+              view={view}
+              setView={setView}
+              selected={division}
+              onPick={pick}
+            />
 
             <div className="desktop-only">
               {data.conferences.map((c) => (
@@ -55,7 +76,12 @@ export default function App() {
             </div>
 
             <div className="mobile-only">
-              <MobileList conferences={data.conferences} view={view} />
+              <DivisionDetail
+                ref={panelRef}
+                division={selectedDivision}
+                openTeam={openTeam}
+                setOpenTeam={setOpenTeam}
+              />
             </div>
 
             <footer className="footer">
@@ -74,3 +100,13 @@ export default function App() {
     </div>
   );
 }
+
+// Remembers the last division you opened (per browser).
+const store = {
+  get() {
+    try { return localStorage.getItem('sotl:nfl:division'); } catch { return null; }
+  },
+  set(v) {
+    try { localStorage.setItem('sotl:nfl:division', v); } catch { /* private mode */ }
+  },
+};

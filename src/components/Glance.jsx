@@ -2,8 +2,9 @@ import { useMemo } from 'react';
 import { HEAT, record } from '../format.js';
 import Heat from './Heat.jsx';
 
-export default function Glance({ conferences, view, setView }) {
-
+// Summary: division standings (2-up on phones) or power rankings. Tapping a division card,
+// or a team in the power list, calls onPick(divisionName, teamAbbr?).
+export default function Glance({ conferences, view, setView, selected, onPick }) {
   const divisions = useMemo(() => conferences.flatMap((c) => c.divisions), [conferences]);
   const power = useMemo(() => {
     const all = divisions.flatMap((d) => d.teams.map((t) => ({ ...t, division: d.name })));
@@ -28,10 +29,17 @@ export default function Glance({ conferences, view, setView }) {
       {view === 'standings' ? (
         <div className="mini-grid">
           {divisions.map((d) => (
-            <div className="card mini" key={d.name}>
-              <div className="mono label">{d.name}</div>
+            <button
+              type="button"
+              className={`card mini${selected === d.name ? ' selected' : ''}`}
+              key={d.name}
+              aria-pressed={selected === d.name}
+              aria-label={`${d.name}: show teams`}
+              onClick={() => onPick(d.name)}
+            >
+              <span className="mono label">{d.name}</span>
               {d.teams.map((t) => (
-                <div className="mini-row" key={t.abbr}>
+                <span className="mini-row" key={t.abbr}>
                   <span className="team-cell">
                     <span className="swatch" style={{ background: t.color }} aria-hidden="true" />
                     <span className="abbr">{t.abbr}</span>
@@ -39,9 +47,9 @@ export default function Glance({ conferences, view, setView }) {
                   <span className="mono">{record(t)}</span>
                   <span className="mono dim">#{t.rank}</span>
                   <Heat label={t.heat} />
-                </div>
+                </span>
               ))}
-            </div>
+            </button>
           ))}
         </div>
       ) : (
@@ -49,7 +57,7 @@ export default function Glance({ conferences, view, setView }) {
           {power.map((col, i) => (
             <div className="card power" key={i}>
               {col.map((t) => (
-                <div className="power-row" key={t.abbr}>
+                <button type="button" className="power-row" key={t.abbr} onClick={() => onPick(t.division, t.abbr)}>
                   <span className="mono dim">{t.rank}</span>
                   <span className="team-cell">
                     <span className="swatch" style={{ background: t.color }} aria-hidden="true" />
@@ -59,7 +67,7 @@ export default function Glance({ conferences, view, setView }) {
                   <span className="mono">{record(t)}</span>
                   <span className="mono dim small division-cell">{t.division}</span>
                   <Heat label={t.heat} />
-                </div>
+                </button>
               ))}
             </div>
           ))}
