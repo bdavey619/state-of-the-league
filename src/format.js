@@ -26,6 +26,7 @@ export function kickoffLabel(iso, now = new Date()) {
   if (!iso) return '';
   const d = new Date(iso);
   const days = (d - now) / 86400000;
+  if (d.toDateString() === now.toDateString()) return `Today ${shortTime(d)}`;
   if (days > -1 && days < 6) return `${DAY.format(d)} ${shortTime(d)}`;
   return `${DATE.format(d)}, ${shortTime(d)}`;
 }

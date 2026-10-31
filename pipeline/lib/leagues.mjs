@@ -9,6 +9,8 @@ Rules:
 - story: one plain sentence, at most 110 characters, about where this team's season stands right now. Prefer what is most telling (an injury, trade or firing from the headlines, a streak, a record that doesn't match the point differential, a notable recent result).
 - player: pick exactly one name from "Player candidates". line: at most 55 characters on why to watch them.
 - Write scores winner first, the way box scores do: "lost 20-3 at SEA", "beat GB 27-19".
+- Start with the team's nickname ("The Pistons are 5-1..."), not its abbreviation or city shorthand. Opponents can be abbreviations.
+- Headlines often describe the opponent in a game. Only use news that is about THIS team's own players, coaches or front office; never attribute another team's injury or move to this team.
 - Use ONLY facts in the packet. Every number you write must appear in the packet. Do not guess injuries, trades, coaches or anything not stated. No hype words, no exclamation marks.`;
 
 export const NFL = {
