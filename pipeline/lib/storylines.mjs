@@ -88,10 +88,10 @@ export function fallback(team, notes = [], league = NFL) {
   };
 }
 
-async function callClaude(packets, feedback, system) {
+export async function callClaude(packets, feedback, system, opts = {}) {
   for (let attempt = 0; ; attempt++) {
     try {
-      return await callClaudeOnce(packets, feedback, system);
+      return await callClaudeOnce(packets, feedback, system, opts);
     } catch (e) {
       if (attempt >= 3 || !e.retryable) throw e;
       await new Promise((r) => setTimeout(r, 4000 * 2 ** attempt));
@@ -99,7 +99,7 @@ async function callClaude(packets, feedback, system) {
   }
 }
 
-async function callClaudeOnce(packets, feedback, system) {
+async function callClaudeOnce(packets, feedback, system, opts = {}) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -124,7 +124,8 @@ async function callClaudeOnce(packets, feedback, system) {
   }
   const json = await res.json();
   const text = (json.content || []).map((c) => c.text || '').join('');
-  const body = text.slice(text.indexOf('['), text.lastIndexOf(']') + 1);
+  const [open, close] = opts.object ? ['{', '}'] : ['[', ']'];
+  const body = text.slice(text.indexOf(open), text.lastIndexOf(close) + 1);
   try {
     return JSON.parse(body);
   } catch {

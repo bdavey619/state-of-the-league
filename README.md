@@ -27,6 +27,18 @@ Claude (storylines) ──────────┘        └─ pipeline/cac
 - **Division order and NBA conference seeds** use win percentage, then point differential (not the
   leagues' full tiebreakers).
 
+### What changed (and the weekly recap)
+
+Every refresh stores a compact snapshot in `pipeline/history/<league>.json` and compares it with the
+previous one. Only shifts are recorded, never game results: a new division leader, an unbeaten run
+ending or a first win, a team turning hot or cold, a power-rank move of 4+ (NFL) / 5+ (NBA), and streak
+milestones. Events are kept for three weeks. On the site, a one-line banner shows the ones newer than
+your last visit (remembered per browser); otherwise it shows the weekly recap.
+
+The recap is three league-wide storylines written by Claude once a week (NFL: after the week's last
+game; NBA: each Monday) from the week's changes and the current team storylines. Checks reject game
+scores and any number that isn't in the facts. `--force-recap` rewrites it.
+
 ### NBA differences
 
 - Games come from ESPN's scoreboard one day at a time, opening night through a week ahead.

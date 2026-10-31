@@ -68,7 +68,7 @@ jobs:
         run: |
           git config user.name "state-of-the-league bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/data pipeline/cache/*-storylines.json pipeline/cache/*-run-log.json
+          git add public/data pipeline/history pipeline/cache/*-storylines.json pipeline/cache/*-run-log.json
           git diff --cached --quiet || git commit -m "Update NFL data"
           git push
 

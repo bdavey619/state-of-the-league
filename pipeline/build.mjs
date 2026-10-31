@@ -19,6 +19,8 @@ import { LEAGUES } from './lib/leagues.mjs';
 import { arrange, buildTeams, leagueNotes, seasonState } from './lib/model.mjs';
 import { applyPower } from './lib/power.mjs';
 import { storyKey, writeStorylines } from './lib/storylines.mjs';
+import { diff, prune, snapshot } from './lib/changes.mjs';
+import { recapKey, writeRecap } from './lib/recap.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
@@ -37,6 +39,7 @@ const paths = {
   stories: resolve(ROOT, args.cache || `pipeline/cache/${K}-storylines.json`),
   power: resolve(ROOT, `pipeline/overrides/${K}-power.json`),
   runLog: resolve(ROOT, args.runlog || `pipeline/cache/${K}-run-log.json`),
+  history: resolve(ROOT, args.history || `pipeline/history/${K}.json`),
 };
 
 async function readJSON(p, fallback) {
@@ -107,6 +110,29 @@ async function main() {
   }
   await writeJSON(paths.stories, cache);
 
+  // What changed since the previous refresh (shifts only, never game results).
+  const history = await readJSON(paths.history, { snapshot: null, events: [], recap: null });
+  const current = snapshot(conferences);
+  // A switch between pasted and computed power ranks moves everyone at once; ignore those moves.
+  const fresh = diff(history.snapshot, current, league.teams, league, now.toISOString(), { skipRank: history.powerSource !== powerSource });
+  const events = prune([...(history.events || []), ...fresh], now);
+  if (fresh.length) console.log(`changes: ${fresh.map((e) => e.text).join(' | ')}`);
+
+  // Weekly recap, written once per week (or with --force-recap).
+  const rk = recapKey(league, games, now);
+  let recap = history.recap;
+  if (!recap || recap.key !== rk.key || args['force-recap'] || (useAI && recap.source !== 'claude' && process.env.ANTHROPIC_API_KEY)) {
+    const withStories = conferences.map((c) => ({
+      ...c,
+      divisions: c.divisions.map((d) => ({ ...d, teams: d.teams.map((t) => ({ ...t, story: cache[t.abbr].result.story })) })),
+    }));
+    const weekEvents = events.filter((e) => now - new Date(e.at) < 7 * 86400000);
+    const written = await writeRecap({ conferences: withStories, events: weekEvents, league, useAI });
+    if (written) recap = { key: rk.key, label: rk.label, at: now.toISOString(), ...written };
+    console.log(`recap: ${rk.label} (${written?.source || 'none'})`);
+  }
+  await writeJSON(paths.history, { snapshot: current, powerSource, events, recap });
+
   const through = state.lastCompletedDate ? `through ${throughFmt.format(new Date(state.lastCompletedDate))}` : 'preseason';
   const out = {
     league: league.name,
@@ -120,6 +146,8 @@ async function main() {
     updatedAt: now.toISOString(),
     powerSource,
     aiStorylines: false,
+    changes: [...events].sort((a, b) => String(b.at).localeCompare(String(a.at)) || b.weight - a.weight),
+    recap: recap ? { label: recap.label, at: recap.at, bullets: recap.bullets } : null,
     conferences: conferences.map((c) => ({
       abbr: c.abbr,
       name: c.name,
@@ -145,7 +173,7 @@ async function main() {
   };
   out.aiStorylines = aiCount > league.teamCount / 2;
   await writeJSON(paths.out, out);
-  await writeJSON(paths.runLog, { at: now.toISOString(), model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5', claudeStories: aiCount, issues });
+  await writeJSON(paths.runLog, { at: now.toISOString(), model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5', claudeStories: aiCount, recap: recap?.source || null, newChanges: fresh.length, issues });
   console.log(`wrote ${paths.out}: ${out.kicker}, ${aiCount}/${league.teamCount} storylines from Claude, power: ${powerSource}`);
 }
 

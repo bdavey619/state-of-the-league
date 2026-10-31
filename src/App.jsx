@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Glance from './components/Glance.jsx';
 import Conference from './components/Conference.jsx';
 import DivisionDetail from './components/DivisionDetail.jsx';
+import Digest from './components/Digest.jsx';
 import { divisionId, updatedLabel } from './format.js';
 
 const LEAGUES = ['nfl', 'nba'];
@@ -97,6 +98,8 @@ export default function App() {
               <div className="mono kicker">{kicker} · your local time</div>
               <h1>The state of the {data.league || name}</h1>
             </div>
+
+            <Digest league={league} data={data} />
 
             <Glance
               conferences={data.conferences}
