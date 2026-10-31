@@ -185,7 +185,9 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
   font-size: 14px; line-height: 1.45; color: var(--text);
 }
 .digest-list li + li { border-top: 1px solid var(--hair); }
-.digest-swatches { flex: none; display: inline-flex; gap: 3px; transform: translateY(1px); }
+.digest-swatches { flex: none; width: 34px; display: inline-flex; gap: 3px; transform: translateY(1px); }
+.digest-list .digest-dot { margin-right: 28px; }
+.digest-peek .digest-swatches { width: auto; }
 .digest-dot { flex: none; width: 6px; height: 6px; border-radius: 999px; background: var(--up); transform: translateY(-2px); }
 
 /* Desktop vs phone layouts */
