@@ -1,9 +1,13 @@
 {
   "league": "NFL",
   "season": 2026,
+  "seasonLabel": "2026",
   "week": 8,
+  "badge": "WK 8",
+  "kicker": "Week 8 · through Thu, Oct 29",
   "throughLabel": "through Thu, Oct 29",
-  "updatedAt": "2026-10-31T16:52:51.450Z",
+  "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
+  "updatedAt": "2026-10-31T17:01:23.905Z",
   "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
   "aiStorylines": true,
   "conferences": [

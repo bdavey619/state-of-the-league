@@ -1,0 +1,867 @@
+{
+  "league": "NBA",
+  "season": 2026,
+  "seasonLabel": "2026-27",
+  "week": null,
+  "badge": "2026-27",
+  "kicker": "2026-27 · through Fri, Oct 30",
+  "throughLabel": "through Fri, Oct 30",
+  "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
+  "updatedAt": "2026-10-31T17:01:25.184Z",
+  "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
+  "aiStorylines": true,
+  "conferences": [
+    {
+      "abbr": "East",
+      "name": "Eastern Conference",
+      "divisions": [
+        {
+          "name": "East Atlantic",
+          "teams": [
+            {
+              "abbr": "PHI",
+              "city": "Philadelphia",
+              "name": "76ers",
+              "color": "#006BB6",
+              "w": 5,
+              "l": 1,
+              "t": 0,
+              "pf": 652,
+              "pa": 630,
+              "rank": 7,
+              "heat": "Warm",
+              "seed": 2,
+              "form": "5-1",
+              "story": "Philly is 5-1 with a +22 margin over six games, the latest a 98-93 win over NY; still a small sample.",
+              "player": {
+                "name": "Tyrese Maxey",
+                "pos": "G",
+                "line": "27 points vs NY in the 98-93 win"
+              },
+              "next": {
+                "opp": "CHA",
+                "home": false,
+                "kickoff": "2026-10-31T22:00Z",
+                "network": "NBA TV"
+              }
+            },
+            {
+              "abbr": "BOS",
+              "city": "Boston",
+              "name": "Celtics",
+              "color": "#007A33",
+              "w": 4,
+              "l": 1,
+              "t": 0,
+              "pf": 604,
+              "pa": 558,
+              "rank": 4,
+              "heat": "Hot",
+              "seed": 3,
+              "form": "4-1",
+              "story": "Boston has won 4 straight, the latest 125-111 over CHI, and is 4-1 with a +46 differential in five games.",
+              "player": {
+                "name": "Payton Pritchard",
+                "pos": "G",
+                "line": "30 points vs CHI"
+              },
+              "next": {
+                "opp": "ORL",
+                "home": false,
+                "kickoff": "2026-11-01T20:30Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "TOR",
+              "city": "Toronto",
+              "name": "Raptors",
+              "color": "#CE1141",
+              "w": 3,
+              "l": 2,
+              "t": 0,
+              "pf": 584,
+              "pa": 531,
+              "rank": 8,
+              "heat": "Steady",
+              "seed": 4,
+              "form": "3-2",
+              "story": "Toronto is 3-2 with a +53 differential, but fell 121-114 to ORL despite Barnes' 41 points.",
+              "player": {
+                "name": "Scottie Barnes",
+                "pos": "F",
+                "line": "41 points vs ORL, his first 40-point game"
+              },
+              "next": {
+                "opp": "LAL",
+                "home": false,
+                "kickoff": "2026-11-02T02:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "NY",
+              "city": "New York",
+              "name": "Knicks",
+              "color": "#F58426",
+              "w": 2,
+              "l": 4,
+              "t": 0,
+              "pf": 642,
+              "pa": 646,
+              "rank": 18,
+              "heat": "Steady",
+              "seed": 10,
+              "form": "2-4",
+              "story": "New York is 2-4 after a 98-93 loss at PHI, though its point differential is only -4 through six games.",
+              "player": {
+                "name": "Karl-Anthony Towns",
+                "pos": "C",
+                "line": "12 rebounds vs PHI"
+              },
+              "next": {
+                "opp": "BKN",
+                "home": true,
+                "kickoff": "2026-11-03T00:30Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "BKN",
+              "city": "Brooklyn",
+              "name": "Nets",
+              "color": "#000000",
+              "w": 0,
+              "l": 5,
+              "t": 0,
+              "pf": 551,
+              "pa": 606,
+              "rank": 28,
+              "heat": "Cold",
+              "seed": 15,
+              "form": "0-5",
+              "story": "Brooklyn is 0-5 with a -55 differential; its closest loss was 125-124 at BOS on Oct 27.",
+              "player": {
+                "name": "Michael Porter Jr.",
+                "pos": "F",
+                "line": "12 rebounds in the 125-124 loss at BOS"
+              },
+              "next": {
+                "opp": "IND",
+                "home": false,
+                "kickoff": "2026-11-01T22:00Z",
+                "network": "NBA League Pass"
+              }
+            }
+          ]
+        },
+        {
+          "name": "East Central",
+          "teams": [
+            {
+              "abbr": "DET",
+              "city": "Detroit",
+              "name": "Pistons",
+              "color": "#C8102E",
+              "w": 5,
+              "l": 1,
+              "t": 0,
+              "pf": 659,
+              "pa": 611,
+              "rank": 5,
+              "heat": "Hot",
+              "seed": 1,
+              "form": "5-1",
+              "story": "Detroit is 5-1 and first in the East, with a +48 margin over just six games.",
+              "player": {
+                "name": "Cade Cunningham",
+                "pos": "G",
+                "line": "20 pts in the 110-94 win over BKN"
+              },
+              "next": {
+                "opp": "CHA",
+                "home": false,
+                "kickoff": "2026-11-03T00:30Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "CLE",
+              "city": "Cleveland",
+              "name": "Cavaliers",
+              "color": "#860038",
+              "w": 3,
+              "l": 2,
+              "t": 0,
+              "pf": 590,
+              "pa": 585,
+              "rank": 13,
+              "heat": "Steady",
+              "seed": 5,
+              "form": "3-2",
+              "story": "Cleveland is 3-2 with a +5 point margin after five games, falling 114-111 at ATL last time out.",
+              "player": {
+                "name": "James Harden",
+                "pos": "G",
+                "line": "24 points vs ATL on Oct 29"
+              },
+              "next": {
+                "opp": "MIL",
+                "home": false,
+                "kickoff": "2026-11-01T00:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "IND",
+              "city": "Indiana",
+              "name": "Pacers",
+              "color": "#FDBB30",
+              "w": 2,
+              "l": 4,
+              "t": 0,
+              "pf": 700,
+              "pa": 719,
+              "rank": 20,
+              "heat": "Cool",
+              "seed": 11,
+              "form": "2-4",
+              "story": "Indiana has lost three straight and sits 2-4, 11th in the East, after a 145-125 loss at MIA.",
+              "player": {
+                "name": "Tyrese Haliburton",
+                "pos": "G",
+                "line": "9 assists vs MIL on Oct 26"
+              },
+              "next": {
+                "opp": "BKN",
+                "home": true,
+                "kickoff": "2026-11-01T22:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "MIL",
+              "city": "Milwaukee",
+              "name": "Bucks",
+              "color": "#00471B",
+              "w": 1,
+              "l": 4,
+              "t": 0,
+              "pf": 567,
+              "pa": 621,
+              "rank": 26,
+              "heat": "Cold",
+              "seed": 13,
+              "form": "1-4",
+              "story": "Milwaukee is 1-4 with a -54 margin, including a 132-100 loss to HOU, in a five-game sample.",
+              "player": {
+                "name": "Tyler Herro",
+                "pos": "G",
+                "line": "23 points vs HOU on Oct 28"
+              },
+              "next": {
+                "opp": "CLE",
+                "home": true,
+                "kickoff": "2026-11-01T00:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "CHI",
+              "city": "Chicago",
+              "name": "Bulls",
+              "color": "#CE1141",
+              "w": 1,
+              "l": 5,
+              "t": 0,
+              "pf": 681,
+              "pa": 776,
+              "rank": 29,
+              "heat": "Cold",
+              "seed": 14,
+              "form": "1-5",
+              "story": "Chicago has lost four straight and is 1-5 with a -95 margin, last falling 125-111 at BOS.",
+              "player": {
+                "name": "Norman Powell",
+                "pos": "G",
+                "line": "30 points vs NY on Oct 28"
+              },
+              "next": {
+                "opp": "PHI",
+                "home": false,
+                "kickoff": "2026-11-03T00:30Z",
+                "network": "NBA League Pass"
+              }
+            }
+          ]
+        },
+        {
+          "name": "East Southeast",
+          "teams": [
+            {
+              "abbr": "ATL",
+              "city": "Atlanta",
+              "name": "Hawks",
+              "color": "#E03A3E",
+              "w": 3,
+              "l": 3,
+              "t": 0,
+              "pf": 715,
+              "pa": 687,
+              "rank": 14,
+              "heat": "Steady",
+              "seed": 6,
+              "form": "3-3",
+              "story": "Hawks are 3-3 and +28 overall, helped by a 128-81 win at CHA, and beat CLE 114-111 to snap a skid.",
+              "player": {
+                "name": "Onyeka Okongwu",
+                "pos": "F",
+                "line": "Season-high 29 pts and 12 reb vs CLE"
+              },
+              "next": {
+                "opp": "NO",
+                "home": false,
+                "kickoff": "2026-10-31T23:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "WSH",
+              "city": "Washington",
+              "name": "Wizards",
+              "color": "#002B5C",
+              "w": 3,
+              "l": 3,
+              "t": 0,
+              "pf": 663,
+              "pa": 658,
+              "rank": 17,
+              "heat": "Steady",
+              "seed": 7,
+              "form": "3-3",
+              "story": "Wizards are 3-3 with a +5 differential after a 95-79 win over CHA; it's a small sample so far.",
+              "player": {
+                "name": "Trae Young",
+                "pos": "G",
+                "line": "21 pts, 9 ast and 7 reb vs CHA"
+              },
+              "next": {
+                "opp": "ORL",
+                "home": false,
+                "kickoff": "2026-11-03T00:30Z",
+                "network": "MNMT"
+              }
+            },
+            {
+              "abbr": "CHA",
+              "city": "Charlotte",
+              "name": "Hornets",
+              "color": "#00788C",
+              "w": 3,
+              "l": 3,
+              "t": 0,
+              "pf": 584,
+              "pa": 636,
+              "rank": 21,
+              "heat": "Cool",
+              "seed": 8,
+              "form": "3-3",
+              "story": "Hornets are 3-3 despite a -52 differential, and have lost 2 straight, most recently 95-79 at WSH.",
+              "player": {
+                "name": "Brandon Miller",
+                "pos": "F",
+                "line": "19 pts vs WSH on Oct 30"
+              },
+              "next": {
+                "opp": "PHI",
+                "home": true,
+                "kickoff": "2026-10-31T22:00Z",
+                "network": "NBA TV"
+              }
+            },
+            {
+              "abbr": "ORL",
+              "city": "Orlando",
+              "name": "Magic",
+              "color": "#0077C0",
+              "w": 2,
+              "l": 3,
+              "t": 0,
+              "pf": 549,
+              "pa": 592,
+              "rank": 23,
+              "heat": "Steady",
+              "seed": 9,
+              "form": "2-3",
+              "story": "Magic are 2-3 and -43 overall; they lost 129-99 at TOR, then beat TOR 121-114 in the rematch.",
+              "player": {
+                "name": "Franz Wagner",
+                "pos": "F",
+                "line": "26 pts and 11 ast vs TOR"
+              },
+              "next": {
+                "opp": "BOS",
+                "home": true,
+                "kickoff": "2026-11-01T20:30Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "MIA",
+              "city": "Miami",
+              "name": "Heat",
+              "color": "#98002E",
+              "w": 2,
+              "l": 4,
+              "t": 0,
+              "pf": 710,
+              "pa": 729,
+              "rank": 19,
+              "heat": "Steady",
+              "seed": 12,
+              "form": "2-4",
+              "story": "Heat are 2-4 with a -19 differential but have won 2 straight, including 145-125 over IND.",
+              "player": {
+                "name": "Giannis Antetokounmpo",
+                "pos": "F",
+                "line": "31 pts and 18 reb in a triple-double vs IND"
+              },
+              "next": {
+                "opp": "LAL",
+                "home": false,
+                "kickoff": "2026-11-03T03:00Z",
+                "network": "NBA League Pass"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "abbr": "West",
+      "name": "Western Conference",
+      "divisions": [
+        {
+          "name": "West Northwest",
+          "teams": [
+            {
+              "abbr": "OKC",
+              "city": "Oklahoma City",
+              "name": "Thunder",
+              "color": "#007AC1",
+              "w": 4,
+              "l": 1,
+              "t": 0,
+              "pf": 541,
+              "pa": 523,
+              "rank": 9,
+              "heat": "Warm",
+              "seed": 3,
+              "form": "4-1",
+              "story": "OKC is 4-1 but lost 120-96 at DAL, with Holmgren out 8-10 weeks and Williams and Wallace also hurt.",
+              "player": {
+                "name": "Ajay Mitchell",
+                "pos": "G",
+                "line": "29 pts at DAL; led team in 4 games in points or assists"
+              },
+              "next": {
+                "opp": "HOU",
+                "home": false,
+                "kickoff": "2026-11-01T00:30Z",
+                "network": "NBA TV"
+              }
+            },
+            {
+              "abbr": "POR",
+              "city": "Portland",
+              "name": "Trail Blazers",
+              "color": "#E03A3E",
+              "w": 3,
+              "l": 1,
+              "t": 0,
+              "pf": 491,
+              "pa": 456,
+              "rank": 6,
+              "heat": "Warm",
+              "seed": 4,
+              "form": "3-1",
+              "story": "Portland is 3-1 but lost 124-103 to MEM, and Ja Morant is out at least 4 weeks with a hamstring strain.",
+              "player": {
+                "name": "Deni Avdija",
+                "pos": "F",
+                "line": "7 assists vs MEM in the loss"
+              },
+              "next": {
+                "opp": "UTAH",
+                "home": false,
+                "kickoff": "2026-10-31T19:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "MIN",
+              "city": "Minnesota",
+              "name": "Timberwolves",
+              "color": "#236192",
+              "w": 4,
+              "l": 2,
+              "t": 0,
+              "pf": 729,
+              "pa": 640,
+              "rank": 3,
+              "heat": "Warm",
+              "seed": 5,
+              "form": "4-2",
+              "story": "MIN is 4-2 with the NBA's best margin, +14.8 per game, after beating LAC 127-101 without Edwards.",
+              "player": {
+                "name": "LaMelo Ball",
+                "pos": "G",
+                "line": "Season-high 24 pts vs LAC"
+              },
+              "next": {
+                "opp": "SA",
+                "home": false,
+                "kickoff": "2026-11-01T00:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "DEN",
+              "city": "Denver",
+              "name": "Nuggets",
+              "color": "#0E2240",
+              "w": 3,
+              "l": 2,
+              "t": 0,
+              "pf": 570,
+              "pa": 576,
+              "rank": 16,
+              "heat": "Warm",
+              "seed": 9,
+              "form": "3-2",
+              "story": "Nuggets are 3-2 and have won 2 straight, but their point differential is -6 after five games.",
+              "player": {
+                "name": "Jamal Murray",
+                "pos": "G",
+                "line": "39 pts in the 127-120 win at PHX"
+              },
+              "next": {
+                "opp": "POR",
+                "home": true,
+                "kickoff": "2026-11-03T02:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "UTAH",
+              "city": "Utah",
+              "name": "Jazz",
+              "color": "#3E2680",
+              "w": 1,
+              "l": 4,
+              "t": 0,
+              "pf": 562,
+              "pa": 601,
+              "rank": 25,
+              "heat": "Cold",
+              "seed": 14,
+              "form": "1-4",
+              "story": "Jazz are 1-4 and have lost 3 straight, the latest 117-111 in OT to SA; point differential is -39.",
+              "player": {
+                "name": "Keyonte George",
+                "pos": "G",
+                "line": "31 pts vs SA in the OT loss"
+              },
+              "next": {
+                "opp": "POR",
+                "home": true,
+                "kickoff": "2026-10-31T19:00Z",
+                "network": "NBA League Pass"
+              }
+            }
+          ]
+        },
+        {
+          "name": "West Pacific",
+          "teams": [
+            {
+              "abbr": "LAL",
+              "city": "Los Angeles",
+              "name": "Lakers",
+              "color": "#552583",
+              "w": 4,
+              "l": 2,
+              "t": 0,
+              "pf": 711,
+              "pa": 680,
+              "rank": 11,
+              "heat": "Warm",
+              "seed": 6,
+              "form": "4-2",
+              "story": "Lakers are 4-2, but lost 112-95 at GS after holding an early 25-point lead; it's an early sample.",
+              "player": {
+                "name": "Walker Kessler",
+                "pos": "C",
+                "line": "13 rebounds vs GS on Oct 30"
+              },
+              "next": {
+                "opp": "TOR",
+                "home": true,
+                "kickoff": "2026-11-02T02:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "GS",
+              "city": "Golden State",
+              "name": "Warriors",
+              "color": "#1D428A",
+              "w": 3,
+              "l": 3,
+              "t": 0,
+              "pf": 700,
+              "pa": 692,
+              "rank": 15,
+              "heat": "Warm",
+              "seed": 10,
+              "form": "3-3",
+              "story": "Warriors are 3-3 but have won 3 straight, the latest 112-95 over LAL after erasing a 25-point deficit.",
+              "player": {
+                "name": "Stephen Curry",
+                "pos": "G",
+                "line": "31 points and six assists vs LAL"
+              },
+              "next": {
+                "opp": "LAC",
+                "home": true,
+                "kickoff": "2026-11-02T01:30Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "PHX",
+              "city": "Phoenix",
+              "name": "Suns",
+              "color": "#E56020",
+              "w": 1,
+              "l": 3,
+              "t": 0,
+              "pf": 448,
+              "pa": 498,
+              "rank": 27,
+              "heat": "Cool",
+              "seed": 11,
+              "form": "1-3",
+              "story": "Suns are 1-3 with a -12.5 per-game margin; Brooks was ejected in a 127-120 loss to DEN.",
+              "player": {
+                "name": "Collin Gillespie",
+                "pos": "G",
+                "line": "10 assists vs DEN on Oct 30"
+              },
+              "next": {
+                "opp": "GS",
+                "home": false,
+                "kickoff": "2026-11-03T03:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "LAC",
+              "city": "LA",
+              "name": "Clippers",
+              "color": "#C8102E",
+              "w": 1,
+              "l": 4,
+              "t": 0,
+              "pf": 527,
+              "pa": 559,
+              "rank": 24,
+              "heat": "Cold",
+              "seed": 13,
+              "form": "1-4",
+              "story": "Clippers are 1-4 and have lost 4 straight, the latest a 127-101 loss at MIN.",
+              "player": {
+                "name": "Darius Garland",
+                "pos": "G",
+                "line": "24 points vs MIN on Oct 30"
+              },
+              "next": {
+                "opp": "GS",
+                "home": false,
+                "kickoff": "2026-11-02T01:30Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "SAC",
+              "city": "Sacramento",
+              "name": "Kings",
+              "color": "#5A2D81",
+              "w": 0,
+              "l": 5,
+              "t": 0,
+              "pf": 551,
+              "pa": 634,
+              "rank": 30,
+              "heat": "Cold",
+              "seed": 15,
+              "form": "0-5",
+              "story": "Kings are 0-5 with the NBA's worst point differential, -16.6 per game, after losing 132-120 at NO.",
+              "player": {
+                "name": "Domantas Sabonis",
+                "pos": "F",
+                "line": "15 rebounds vs NO on Oct 29"
+              },
+              "next": {
+                "opp": "MEM",
+                "home": false,
+                "kickoff": "2026-11-01T00:00Z",
+                "network": "NBA League Pass"
+              }
+            }
+          ]
+        },
+        {
+          "name": "West Southwest",
+          "teams": [
+            {
+              "abbr": "MEM",
+              "city": "Memphis",
+              "name": "Grizzlies",
+              "color": "#5D76A9",
+              "w": 5,
+              "l": 0,
+              "t": 0,
+              "pf": 591,
+              "pa": 531,
+              "rank": 1,
+              "heat": "Hot",
+              "seed": 1,
+              "form": "5-0",
+              "story": "Memphis is the NBA's only unbeaten team at 5-0, winning by 12 a game, though it is early.",
+              "player": {
+                "name": "Cameron Boozer",
+                "pos": "F",
+                "line": "12 assists vs POR in the latest win"
+              },
+              "next": {
+                "opp": "SAC",
+                "home": true,
+                "kickoff": "2026-11-01T00:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "HOU",
+              "city": "Houston",
+              "name": "Rockets",
+              "color": "#CE1141",
+              "w": 5,
+              "l": 1,
+              "t": 0,
+              "pf": 726,
+              "pa": 660,
+              "rank": 2,
+              "heat": "Hot",
+              "seed": 2,
+              "form": "5-1",
+              "story": "Houston is 5-1 with a +11 per-game margin; its first loss was 116-111 at DAL in the NBA Cup opener.",
+              "player": {
+                "name": "Kevin Durant",
+                "pos": "F",
+                "line": "28 points vs DAL in the Oct 30 loss"
+              },
+              "next": {
+                "opp": "OKC",
+                "home": true,
+                "kickoff": "2026-11-01T00:30Z",
+                "network": "NBA TV"
+              }
+            },
+            {
+              "abbr": "DAL",
+              "city": "Dallas",
+              "name": "Mavericks",
+              "color": "#00538C",
+              "w": 4,
+              "l": 2,
+              "t": 0,
+              "pf": 686,
+              "pa": 671,
+              "rank": 12,
+              "heat": "Warm",
+              "seed": 7,
+              "form": "4-2",
+              "story": "Dallas is 4-2 on a 3-game win streak, the latest a 116-111 win over HOU on Oct 30.",
+              "player": {
+                "name": "Kyrie Irving",
+                "pos": "G",
+                "line": "35 pts and 9 ast vs HOU on Oct 30"
+              },
+              "next": {
+                "opp": "SAC",
+                "home": true,
+                "kickoff": "2026-11-03T01:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "SA",
+              "city": "San Antonio",
+              "name": "Spurs",
+              "color": "#8A8D8F",
+              "w": 3,
+              "l": 2,
+              "t": 0,
+              "pf": 583,
+              "pa": 550,
+              "rank": 10,
+              "heat": "Warm",
+              "seed": 8,
+              "form": "3-2",
+              "story": "San Antonio has won 3 straight after losing its first 2, with a +6.6 per-game margin over 5 games.",
+              "player": {
+                "name": "Victor Wembanyama",
+                "pos": "F",
+                "line": "36 pts and 14 reb in OT win vs UTAH"
+              },
+              "next": {
+                "opp": "MIN",
+                "home": true,
+                "kickoff": "2026-11-01T00:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "NO",
+              "city": "New Orleans",
+              "name": "Pelicans",
+              "color": "#0C2340",
+              "w": 1,
+              "l": 4,
+              "t": 0,
+              "pf": 597,
+              "pa": 608,
+              "rank": 22,
+              "heat": "Cool",
+              "seed": 12,
+              "form": "1-4",
+              "story": "New Orleans is 1-4 and got its first win on Oct 29, 132-120 over SAC.",
+              "player": {
+                "name": "Jeremiah Fears",
+                "pos": "G",
+                "line": "22 pts, career-high 13 ast vs SAC"
+              },
+              "next": {
+                "opp": "ATL",
+                "home": true,
+                "kickoff": "2026-10-31T23:00Z",
+                "network": "NBA League Pass"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

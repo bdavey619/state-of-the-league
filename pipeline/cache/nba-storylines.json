@@ -1,0 +1,392 @@
+{
+  "PHI": {
+    "key": "401909280|401909897",
+    "result": {
+      "abbr": "PHI",
+      "story": "Philly is 5-1 with a +22 margin over six games, the latest a 98-93 win over NY; still a small sample.",
+      "player": {
+        "name": "Tyrese Maxey",
+        "pos": "G",
+        "line": "27 points vs NY in the 98-93 win"
+      },
+      "source": "claude"
+    }
+  },
+  "BOS": {
+    "key": "401909278|401909903",
+    "result": {
+      "abbr": "BOS",
+      "story": "Boston has won 4 straight, the latest 125-111 over CHI, and is 4-1 with a +46 differential in five games.",
+      "player": {
+        "name": "Payton Pritchard",
+        "pos": "G",
+        "line": "30 points vs CHI"
+      },
+      "source": "claude"
+    }
+  },
+  "TOR": {
+    "key": "401909281|401909906",
+    "result": {
+      "abbr": "TOR",
+      "story": "Toronto is 3-2 with a +53 differential, but fell 121-114 to ORL despite Barnes' 41 points.",
+      "player": {
+        "name": "Scottie Barnes",
+        "pos": "F",
+        "line": "41 points vs ORL, his first 40-point game"
+      },
+      "source": "claude"
+    }
+  },
+  "NY": {
+    "key": "401909280|401909910",
+    "result": {
+      "abbr": "NY",
+      "story": "New York is 2-4 after a 98-93 loss at PHI, though its point differential is only -4 through six games.",
+      "player": {
+        "name": "Karl-Anthony Towns",
+        "pos": "C",
+        "line": "12 rebounds vs PHI"
+      },
+      "source": "claude"
+    }
+  },
+  "BKN": {
+    "key": "401909279|401909904",
+    "result": {
+      "abbr": "BKN",
+      "story": "Brooklyn is 0-5 with a -55 differential; its closest loss was 125-124 at BOS on Oct 27.",
+      "player": {
+        "name": "Michael Porter Jr.",
+        "pos": "F",
+        "line": "12 rebounds in the 125-124 loss at BOS"
+      },
+      "source": "claude"
+    }
+  },
+  "DET": {
+    "key": "401909279|401909908",
+    "result": {
+      "abbr": "DET",
+      "story": "Detroit is 5-1 and first in the East, with a +48 margin over just six games.",
+      "player": {
+        "name": "Cade Cunningham",
+        "pos": "G",
+        "line": "20 pts in the 110-94 win over BKN"
+      },
+      "source": "claude"
+    }
+  },
+  "CLE": {
+    "key": "401909893|401909900",
+    "result": {
+      "abbr": "CLE",
+      "story": "Cleveland is 3-2 with a +5 point margin after five games, falling 114-111 at ATL last time out.",
+      "player": {
+        "name": "James Harden",
+        "pos": "G",
+        "line": "24 points vs ATL on Oct 29"
+      },
+      "source": "claude"
+    }
+  },
+  "IND": {
+    "key": "401909282|401909904",
+    "result": {
+      "abbr": "IND",
+      "story": "Indiana has lost three straight and sits 2-4, 11th in the East, after a 145-125 loss at MIA.",
+      "player": {
+        "name": "Tyrese Haliburton",
+        "pos": "G",
+        "line": "9 assists vs MIL on Oct 26"
+      },
+      "source": "claude"
+    }
+  },
+  "MIL": {
+    "key": "401909887|401909900",
+    "result": {
+      "abbr": "MIL",
+      "story": "Milwaukee is 1-4 with a -54 margin, including a 132-100 loss to HOU, in a five-game sample.",
+      "player": {
+        "name": "Tyler Herro",
+        "pos": "G",
+        "line": "23 points vs HOU on Oct 28"
+      },
+      "source": "claude"
+    }
+  },
+  "CHI": {
+    "key": "401909278|401909912",
+    "result": {
+      "abbr": "CHI",
+      "story": "Chicago has lost four straight and is 1-5 with a -95 margin, last falling 125-111 at BOS.",
+      "player": {
+        "name": "Norman Powell",
+        "pos": "G",
+        "line": "30 points vs NY on Oct 28"
+      },
+      "source": "claude"
+    }
+  },
+  "ATL": {
+    "key": "401909893|401909898",
+    "result": {
+      "abbr": "ATL",
+      "story": "Hawks are 3-3 and +28 overall, helped by a 128-81 win at CHA, and beat CLE 114-111 to snap a skid.",
+      "player": {
+        "name": "Onyeka Okongwu",
+        "pos": "F",
+        "line": "Season-high 29 pts and 12 reb vs CLE"
+      },
+      "source": "claude"
+    }
+  },
+  "WSH": {
+    "key": "401909277|401909911",
+    "result": {
+      "abbr": "WSH",
+      "story": "Wizards are 3-3 with a +5 differential after a 95-79 win over CHA; it's a small sample so far.",
+      "player": {
+        "name": "Trae Young",
+        "pos": "G",
+        "line": "21 pts, 9 ast and 7 reb vs CHA"
+      },
+      "source": "claude"
+    }
+  },
+  "CHA": {
+    "key": "401909277|401909897",
+    "result": {
+      "abbr": "CHA",
+      "story": "Hornets are 3-3 despite a -52 differential, and have lost 2 straight, most recently 95-79 at WSH.",
+      "player": {
+        "name": "Brandon Miller",
+        "pos": "F",
+        "line": "19 pts vs WSH on Oct 30"
+      },
+      "source": "claude"
+    }
+  },
+  "ORL": {
+    "key": "401909281|401909903",
+    "result": {
+      "abbr": "ORL",
+      "story": "Magic are 2-3 and -43 overall; they lost 129-99 at TOR, then beat TOR 121-114 in the rematch.",
+      "player": {
+        "name": "Franz Wagner",
+        "pos": "F",
+        "line": "26 pts and 11 ast vs TOR"
+      },
+      "source": "claude"
+    }
+  },
+  "MIA": {
+    "key": "401909282|401909921",
+    "result": {
+      "abbr": "MIA",
+      "story": "Heat are 2-4 with a -19 differential but have won 2 straight, including 145-125 over IND.",
+      "player": {
+        "name": "Giannis Antetokounmpo",
+        "pos": "F",
+        "line": "31 pts and 18 reb in a triple-double vs IND"
+      },
+      "source": "claude"
+    }
+  },
+  "OKC": {
+    "key": "401909891|401909902",
+    "result": {
+      "abbr": "OKC",
+      "story": "OKC is 4-1 but lost 120-96 at DAL, with Holmgren out 8-10 weeks and Williams and Wallace also hurt.",
+      "player": {
+        "name": "Ajay Mitchell",
+        "pos": "G",
+        "line": "29 pts at DAL; led team in 4 games in points or assists"
+      },
+      "source": "claude"
+    }
+  },
+  "POR": {
+    "key": "401909895|401909896",
+    "result": {
+      "abbr": "POR",
+      "story": "Portland is 3-1 but lost 124-103 to MEM, and Ja Morant is out at least 4 weeks with a hamstring strain.",
+      "player": {
+        "name": "Deni Avdija",
+        "pos": "F",
+        "line": "7 assists vs MEM in the loss"
+      },
+      "source": "claude"
+    }
+  },
+  "MIN": {
+    "key": "401909284|401909901",
+    "result": {
+      "abbr": "MIN",
+      "story": "MIN is 4-2 with the NBA's best margin, +14.8 per game, after beating LAC 127-101 without Edwards.",
+      "player": {
+        "name": "LaMelo Ball",
+        "pos": "G",
+        "line": "Season-high 24 pts vs LAC"
+      },
+      "source": "claude"
+    }
+  },
+  "DEN": {
+    "key": "401909286|401909918",
+    "result": {
+      "abbr": "DEN",
+      "story": "Nuggets are 3-2 and have won 2 straight, but their point differential is -6 after five games.",
+      "player": {
+        "name": "Jamal Murray",
+        "pos": "G",
+        "line": "39 pts in the 127-120 win at PHX"
+      },
+      "source": "claude"
+    }
+  },
+  "UTAH": {
+    "key": "401909890|401909896",
+    "result": {
+      "abbr": "UTAH",
+      "story": "Jazz are 1-4 and have lost 3 straight, the latest 117-111 in OT to SA; point differential is -39.",
+      "player": {
+        "name": "Keyonte George",
+        "pos": "G",
+        "line": "31 pts vs SA in the OT loss"
+      },
+      "source": "claude"
+    }
+  },
+  "LAL": {
+    "key": "401909285|401909906",
+    "result": {
+      "abbr": "LAL",
+      "story": "Lakers are 4-2, but lost 112-95 at GS after holding an early 25-point lead; it's an early sample.",
+      "player": {
+        "name": "Walker Kessler",
+        "pos": "C",
+        "line": "13 rebounds vs GS on Oct 30"
+      },
+      "source": "claude"
+    }
+  },
+  "GS": {
+    "key": "401909285|401909905",
+    "result": {
+      "abbr": "GS",
+      "story": "Warriors are 3-3 but have won 3 straight, the latest 112-95 over LAL after erasing a 25-point deficit.",
+      "player": {
+        "name": "Stephen Curry",
+        "pos": "G",
+        "line": "31 points and six assists vs LAL"
+      },
+      "source": "claude"
+    }
+  },
+  "PHX": {
+    "key": "401909286|401909919",
+    "result": {
+      "abbr": "PHX",
+      "story": "Suns are 1-3 with a -12.5 per-game margin; Brooks was ejected in a 127-120 loss to DEN.",
+      "player": {
+        "name": "Collin Gillespie",
+        "pos": "G",
+        "line": "10 assists vs DEN on Oct 30"
+      },
+      "source": "claude"
+    }
+  },
+  "LAC": {
+    "key": "401909284|401909905",
+    "result": {
+      "abbr": "LAC",
+      "story": "Clippers are 1-4 and have lost 4 straight, the latest a 127-101 loss at MIN.",
+      "player": {
+        "name": "Darius Garland",
+        "pos": "G",
+        "line": "24 points vs MIN on Oct 30"
+      },
+      "source": "claude"
+    }
+  },
+  "SAC": {
+    "key": "401909894|401909899",
+    "result": {
+      "abbr": "SAC",
+      "story": "Kings are 0-5 with the NBA's worst point differential, -16.6 per game, after losing 132-120 at NO.",
+      "player": {
+        "name": "Domantas Sabonis",
+        "pos": "F",
+        "line": "15 rebounds vs NO on Oct 29"
+      },
+      "source": "claude"
+    }
+  },
+  "MEM": {
+    "key": "401909895|401909899",
+    "result": {
+      "abbr": "MEM",
+      "story": "Memphis is the NBA's only unbeaten team at 5-0, winning by 12 a game, though it is early.",
+      "player": {
+        "name": "Cameron Boozer",
+        "pos": "F",
+        "line": "12 assists vs POR in the latest win"
+      },
+      "source": "claude"
+    }
+  },
+  "HOU": {
+    "key": "401909283|401909902",
+    "result": {
+      "abbr": "HOU",
+      "story": "Houston is 5-1 with a +11 per-game margin; its first loss was 116-111 at DAL in the NBA Cup opener.",
+      "player": {
+        "name": "Kevin Durant",
+        "pos": "F",
+        "line": "28 points vs DAL in the Oct 30 loss"
+      },
+      "source": "claude"
+    }
+  },
+  "DAL": {
+    "key": "401909283|401909913",
+    "result": {
+      "abbr": "DAL",
+      "story": "Dallas is 4-2 on a 3-game win streak, the latest a 116-111 win over HOU on Oct 30.",
+      "player": {
+        "name": "Kyrie Irving",
+        "pos": "G",
+        "line": "35 pts and 9 ast vs HOU on Oct 30"
+      },
+      "source": "claude"
+    }
+  },
+  "SA": {
+    "key": "401909890|401909901",
+    "result": {
+      "abbr": "SA",
+      "story": "San Antonio has won 3 straight after losing its first 2, with a +6.6 per-game margin over 5 games.",
+      "player": {
+        "name": "Victor Wembanyama",
+        "pos": "F",
+        "line": "36 pts and 14 reb in OT win vs UTAH"
+      },
+      "source": "claude"
+    }
+  },
+  "NO": {
+    "key": "401909894|401909898",
+    "result": {
+      "abbr": "NO",
+      "story": "New Orleans is 1-4 and got its first win on Oct 29, 132-120 over SAC.",
+      "player": {
+        "name": "Jeremiah Fears",
+        "pos": "G",
+        "line": "22 pts, career-high 13 ast vs SAC"
+      },
+      "source": "claude"
+    }
+  }
+}
