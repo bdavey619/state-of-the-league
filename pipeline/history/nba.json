@@ -1,0 +1,395 @@
+{
+  "snapshot": {
+    "PHI": {
+      "w": 5,
+      "l": 1,
+      "t": 0,
+      "rank": 7,
+      "heat": "Warm",
+      "place": 1,
+      "division": "East Atlantic",
+      "streak": "W2",
+      "pct": 0.8333333333333334,
+      "seed": 2
+    },
+    "BOS": {
+      "w": 4,
+      "l": 1,
+      "t": 0,
+      "rank": 4,
+      "heat": "Hot",
+      "place": 2,
+      "division": "East Atlantic",
+      "streak": "W4",
+      "pct": 0.8,
+      "seed": 3
+    },
+    "TOR": {
+      "w": 3,
+      "l": 2,
+      "t": 0,
+      "rank": 8,
+      "heat": "Steady",
+      "place": 3,
+      "division": "East Atlantic",
+      "streak": "L1",
+      "pct": 0.6,
+      "seed": 4
+    },
+    "NY": {
+      "w": 2,
+      "l": 4,
+      "t": 0,
+      "rank": 18,
+      "heat": "Steady",
+      "place": 4,
+      "division": "East Atlantic",
+      "streak": "L1",
+      "pct": 0.3333333333333333,
+      "seed": 10
+    },
+    "BKN": {
+      "w": 0,
+      "l": 5,
+      "t": 0,
+      "rank": 28,
+      "heat": "Cold",
+      "place": 5,
+      "division": "East Atlantic",
+      "streak": "L5",
+      "pct": 0,
+      "seed": 15
+    },
+    "DET": {
+      "w": 5,
+      "l": 1,
+      "t": 0,
+      "rank": 5,
+      "heat": "Hot",
+      "place": 1,
+      "division": "East Central",
+      "streak": "W2",
+      "pct": 0.8333333333333334,
+      "seed": 1
+    },
+    "CLE": {
+      "w": 3,
+      "l": 2,
+      "t": 0,
+      "rank": 13,
+      "heat": "Steady",
+      "place": 2,
+      "division": "East Central",
+      "streak": "L1",
+      "pct": 0.6,
+      "seed": 5
+    },
+    "IND": {
+      "w": 2,
+      "l": 4,
+      "t": 0,
+      "rank": 20,
+      "heat": "Cool",
+      "place": 3,
+      "division": "East Central",
+      "streak": "L3",
+      "pct": 0.3333333333333333,
+      "seed": 11
+    },
+    "MIL": {
+      "w": 1,
+      "l": 4,
+      "t": 0,
+      "rank": 26,
+      "heat": "Cold",
+      "place": 4,
+      "division": "East Central",
+      "streak": "L1",
+      "pct": 0.2,
+      "seed": 13
+    },
+    "CHI": {
+      "w": 1,
+      "l": 5,
+      "t": 0,
+      "rank": 29,
+      "heat": "Cold",
+      "place": 5,
+      "division": "East Central",
+      "streak": "L4",
+      "pct": 0.16666666666666666,
+      "seed": 14
+    },
+    "ATL": {
+      "w": 3,
+      "l": 3,
+      "t": 0,
+      "rank": 14,
+      "heat": "Steady",
+      "place": 1,
+      "division": "East Southeast",
+      "streak": "W1",
+      "pct": 0.5,
+      "seed": 6
+    },
+    "WSH": {
+      "w": 3,
+      "l": 3,
+      "t": 0,
+      "rank": 17,
+      "heat": "Steady",
+      "place": 2,
+      "division": "East Southeast",
+      "streak": "W1",
+      "pct": 0.5,
+      "seed": 7
+    },
+    "CHA": {
+      "w": 3,
+      "l": 3,
+      "t": 0,
+      "rank": 21,
+      "heat": "Cool",
+      "place": 3,
+      "division": "East Southeast",
+      "streak": "L2",
+      "pct": 0.5,
+      "seed": 8
+    },
+    "ORL": {
+      "w": 2,
+      "l": 3,
+      "t": 0,
+      "rank": 23,
+      "heat": "Steady",
+      "place": 4,
+      "division": "East Southeast",
+      "streak": "W1",
+      "pct": 0.4,
+      "seed": 9
+    },
+    "MIA": {
+      "w": 2,
+      "l": 4,
+      "t": 0,
+      "rank": 19,
+      "heat": "Steady",
+      "place": 5,
+      "division": "East Southeast",
+      "streak": "W2",
+      "pct": 0.3333333333333333,
+      "seed": 12
+    },
+    "OKC": {
+      "w": 4,
+      "l": 1,
+      "t": 0,
+      "rank": 9,
+      "heat": "Warm",
+      "place": 1,
+      "division": "West Northwest",
+      "streak": "L1",
+      "pct": 0.8,
+      "seed": 3
+    },
+    "POR": {
+      "w": 3,
+      "l": 1,
+      "t": 0,
+      "rank": 6,
+      "heat": "Warm",
+      "place": 2,
+      "division": "West Northwest",
+      "streak": "L1",
+      "pct": 0.75,
+      "seed": 4
+    },
+    "MIN": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 3,
+      "heat": "Warm",
+      "place": 3,
+      "division": "West Northwest",
+      "streak": "W1",
+      "pct": 0.6666666666666666,
+      "seed": 5
+    },
+    "DEN": {
+      "w": 3,
+      "l": 2,
+      "t": 0,
+      "rank": 16,
+      "heat": "Warm",
+      "place": 4,
+      "division": "West Northwest",
+      "streak": "W2",
+      "pct": 0.6,
+      "seed": 9
+    },
+    "UTAH": {
+      "w": 1,
+      "l": 4,
+      "t": 0,
+      "rank": 25,
+      "heat": "Cold",
+      "place": 5,
+      "division": "West Northwest",
+      "streak": "L3",
+      "pct": 0.2,
+      "seed": 14
+    },
+    "LAL": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 11,
+      "heat": "Warm",
+      "place": 1,
+      "division": "West Pacific",
+      "streak": "L1",
+      "pct": 0.6666666666666666,
+      "seed": 6
+    },
+    "GS": {
+      "w": 3,
+      "l": 3,
+      "t": 0,
+      "rank": 15,
+      "heat": "Warm",
+      "place": 2,
+      "division": "West Pacific",
+      "streak": "W3",
+      "pct": 0.5,
+      "seed": 10
+    },
+    "PHX": {
+      "w": 1,
+      "l": 3,
+      "t": 0,
+      "rank": 27,
+      "heat": "Cool",
+      "place": 3,
+      "division": "West Pacific",
+      "streak": "L2",
+      "pct": 0.25,
+      "seed": 11
+    },
+    "LAC": {
+      "w": 1,
+      "l": 4,
+      "t": 0,
+      "rank": 24,
+      "heat": "Cold",
+      "place": 4,
+      "division": "West Pacific",
+      "streak": "L4",
+      "pct": 0.2,
+      "seed": 13
+    },
+    "SAC": {
+      "w": 0,
+      "l": 5,
+      "t": 0,
+      "rank": 30,
+      "heat": "Cold",
+      "place": 5,
+      "division": "West Pacific",
+      "streak": "L5",
+      "pct": 0,
+      "seed": 15
+    },
+    "MEM": {
+      "w": 5,
+      "l": 0,
+      "t": 0,
+      "rank": 1,
+      "heat": "Hot",
+      "place": 1,
+      "division": "West Southwest",
+      "streak": "W5",
+      "pct": 1,
+      "seed": 1
+    },
+    "HOU": {
+      "w": 5,
+      "l": 1,
+      "t": 0,
+      "rank": 2,
+      "heat": "Hot",
+      "place": 2,
+      "division": "West Southwest",
+      "streak": "L1",
+      "pct": 0.8333333333333334,
+      "seed": 2
+    },
+    "DAL": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 12,
+      "heat": "Warm",
+      "place": 3,
+      "division": "West Southwest",
+      "streak": "W3",
+      "pct": 0.6666666666666666,
+      "seed": 7
+    },
+    "SA": {
+      "w": 3,
+      "l": 2,
+      "t": 0,
+      "rank": 10,
+      "heat": "Warm",
+      "place": 4,
+      "division": "West Southwest",
+      "streak": "W3",
+      "pct": 0.6,
+      "seed": 8
+    },
+    "NO": {
+      "w": 1,
+      "l": 4,
+      "t": 0,
+      "rank": 22,
+      "heat": "Cool",
+      "place": 5,
+      "division": "West Southwest",
+      "streak": "W1",
+      "pct": 0.2,
+      "seed": 12
+    }
+  },
+  "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
+  "events": [],
+  "recap": {
+    "key": "wk-2026-10-26",
+    "label": "Week of Oct 26",
+    "at": "2026-10-31T17:21:56.208Z",
+    "bullets": [
+      {
+        "text": "The Grizzlies are the only unbeaten team at 5-0 and sit atop the power rankings, ahead of the Rockets and Timberwolves.",
+        "teams": [
+          "MEM",
+          "HOU",
+          "MIN"
+        ]
+      },
+      {
+        "text": "The Nets and Kings are both 0-5, and the Kings have the league's worst point differential at -16.6 a game.",
+        "teams": [
+          "BKN",
+          "SAC"
+        ]
+      },
+      {
+        "text": "The Thunder lead the Northwest at 4-1, but Chet Holmgren is out 8-10 weeks and Jalen Williams and Cason Wallace are also hurt.",
+        "teams": [
+          "OKC"
+        ]
+      }
+    ],
+    "source": "claude"
+  }
+}

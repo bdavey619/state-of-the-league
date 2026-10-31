@@ -7,9 +7,37 @@
   "kicker": "2026-27 · through Fri, Oct 30",
   "throughLabel": "through Fri, Oct 30",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
-  "updatedAt": "2026-10-31T17:09:39.079Z",
+  "updatedAt": "2026-10-31T17:21:56.208Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
+  "changes": [],
+  "recap": {
+    "label": "Week of Oct 26",
+    "at": "2026-10-31T17:21:56.208Z",
+    "bullets": [
+      {
+        "text": "The Grizzlies are the only unbeaten team at 5-0 and sit atop the power rankings, ahead of the Rockets and Timberwolves.",
+        "teams": [
+          "MEM",
+          "HOU",
+          "MIN"
+        ]
+      },
+      {
+        "text": "The Nets and Kings are both 0-5, and the Kings have the league's worst point differential at -16.6 a game.",
+        "teams": [
+          "BKN",
+          "SAC"
+        ]
+      },
+      {
+        "text": "The Thunder lead the Northwest at 4-1, but Chet Holmgren is out 8-10 weeks and Jalen Williams and Cason Wallace are also hurt.",
+        "teams": [
+          "OKC"
+        ]
+      }
+    ]
+  },
   "conferences": [
     {
       "abbr": "East",

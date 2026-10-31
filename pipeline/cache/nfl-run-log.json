@@ -1,6 +1,8 @@
 {
-  "at": "2026-10-31T17:09:37.356Z",
+  "at": "2026-10-31T17:21:48.896Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 32,
+  "recap": "claude",
+  "newChanges": 0,
   "issues": []
 }

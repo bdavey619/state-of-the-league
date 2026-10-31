@@ -7,9 +7,37 @@
   "kicker": "Week 8 · through Thu, Oct 29",
   "throughLabel": "through Thu, Oct 29",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
-  "updatedAt": "2026-10-31T17:09:37.356Z",
+  "updatedAt": "2026-10-31T17:21:48.896Z",
   "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
   "aiStorylines": true,
+  "changes": [],
+  "recap": {
+    "label": "Week 7 recap",
+    "at": "2026-10-31T17:21:48.896Z",
+    "bullets": [
+      {
+        "text": "The Vikings are the NFL's only unbeaten team at 6-0, and the 4-2 Lions are the next team to face them.",
+        "teams": [
+          "MIN",
+          "DET"
+        ]
+      },
+      {
+        "text": "The Browns and Broncos are both 5-2, but their point differentials of -13 and +3 suggest very thin margins.",
+        "teams": [
+          "CLE",
+          "DEN"
+        ]
+      },
+      {
+        "text": "The Eagles have lost five straight to fall to 2-5, while the Chargers are the NFL's only winless team at 0-6.",
+        "teams": [
+          "PHI",
+          "LAC"
+        ]
+      }
+    ]
+  },
   "conferences": [
     {
       "abbr": "AFC",

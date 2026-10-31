@@ -1,0 +1,419 @@
+{
+  "snapshot": {
+    "BUF": {
+      "w": 5,
+      "l": 1,
+      "t": 0,
+      "rank": 1,
+      "heat": "Warm",
+      "place": 1,
+      "division": "AFC East",
+      "streak": "W2",
+      "pct": 0.8333333333333334,
+      "seed": 2
+    },
+    "NE": {
+      "w": 4,
+      "l": 3,
+      "t": 0,
+      "rank": 11,
+      "heat": "Warm",
+      "place": 2,
+      "division": "AFC East",
+      "streak": "L1",
+      "pct": 0.5714285714285714,
+      "seed": 8
+    },
+    "NYJ": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 29,
+      "heat": "Cool",
+      "place": 3,
+      "division": "AFC East",
+      "streak": "L2",
+      "pct": 0.2857142857142857,
+      "seed": 12
+    },
+    "MIA": {
+      "w": 1,
+      "l": 5,
+      "t": 0,
+      "rank": 30,
+      "heat": "Steady",
+      "place": 4,
+      "division": "AFC East",
+      "streak": "W1",
+      "pct": 0.16666666666666666,
+      "seed": 14
+    },
+    "PIT": {
+      "w": 5,
+      "l": 2,
+      "t": 0,
+      "rank": 16,
+      "heat": "Hot",
+      "place": 1,
+      "division": "AFC North",
+      "streak": "W3",
+      "pct": 0.7142857142857143,
+      "seed": 3
+    },
+    "CLE": {
+      "w": 5,
+      "l": 2,
+      "t": 0,
+      "rank": 15,
+      "heat": "Warm",
+      "place": 2,
+      "division": "AFC North",
+      "streak": "W2",
+      "pct": 0.7142857142857143,
+      "seed": 5
+    },
+    "CIN": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 8,
+      "heat": "Hot",
+      "place": 3,
+      "division": "AFC North",
+      "streak": "W2",
+      "pct": 0.6666666666666666,
+      "seed": 7
+    },
+    "BAL": {
+      "w": 4,
+      "l": 3,
+      "t": 0,
+      "rank": 13,
+      "heat": "Cool",
+      "place": 4,
+      "division": "AFC North",
+      "streak": "L2",
+      "pct": 0.5714285714285714,
+      "seed": 9
+    },
+    "JAX": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 7,
+      "heat": "Steady",
+      "place": 1,
+      "division": "AFC South",
+      "streak": "L1",
+      "pct": 0.6666666666666666,
+      "seed": 6
+    },
+    "HOU": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 20,
+      "heat": "Steady",
+      "place": 2,
+      "division": "AFC South",
+      "streak": "L1",
+      "pct": 0.2857142857142857,
+      "seed": 11
+    },
+    "IND": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 25,
+      "heat": "Cold",
+      "place": 3,
+      "division": "AFC South",
+      "streak": "L3",
+      "pct": 0.2857142857142857,
+      "seed": 13
+    },
+    "TEN": {
+      "w": 1,
+      "l": 6,
+      "t": 0,
+      "rank": 31,
+      "heat": "Cool",
+      "place": 4,
+      "division": "AFC South",
+      "streak": "L1",
+      "pct": 0.14285714285714285,
+      "seed": 15
+    },
+    "KC": {
+      "w": 5,
+      "l": 1,
+      "t": 0,
+      "rank": 4,
+      "heat": "Steady",
+      "place": 1,
+      "division": "AFC West",
+      "streak": "L1",
+      "pct": 0.8333333333333334,
+      "seed": 1
+    },
+    "DEN": {
+      "w": 5,
+      "l": 2,
+      "t": 0,
+      "rank": 9,
+      "heat": "Hot",
+      "place": 2,
+      "division": "AFC West",
+      "streak": "W3",
+      "pct": 0.7142857142857143,
+      "seed": 4
+    },
+    "LV": {
+      "w": 3,
+      "l": 4,
+      "t": 0,
+      "rank": 22,
+      "heat": "Cold",
+      "place": 3,
+      "division": "AFC West",
+      "streak": "L4",
+      "pct": 0.42857142857142855,
+      "seed": 10
+    },
+    "LAC": {
+      "w": 0,
+      "l": 6,
+      "t": 0,
+      "rank": 32,
+      "heat": "Cold",
+      "place": 4,
+      "division": "AFC West",
+      "streak": "L6",
+      "pct": 0,
+      "seed": 16
+    },
+    "NYG": {
+      "w": 4,
+      "l": 2,
+      "t": 1,
+      "rank": 18,
+      "heat": "Steady",
+      "place": 1,
+      "division": "NFC East",
+      "streak": "W1",
+      "pct": 0.6428571428571429,
+      "seed": 5
+    },
+    "DAL": {
+      "w": 3,
+      "l": 4,
+      "t": 0,
+      "rank": 21,
+      "heat": "Steady",
+      "place": 2,
+      "division": "NFC East",
+      "streak": "W1",
+      "pct": 0.42857142857142855,
+      "seed": 9
+    },
+    "PHI": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 24,
+      "heat": "Cold",
+      "place": 3,
+      "division": "NFC East",
+      "streak": "L5",
+      "pct": 0.2857142857142857,
+      "seed": 14
+    },
+    "WSH": {
+      "w": 1,
+      "l": 4,
+      "t": 1,
+      "rank": 28,
+      "heat": "Cool",
+      "place": 4,
+      "division": "NFC East",
+      "streak": "L1",
+      "pct": 0.25,
+      "seed": 16
+    },
+    "MIN": {
+      "w": 6,
+      "l": 0,
+      "t": 0,
+      "rank": 3,
+      "heat": "Warm",
+      "place": 1,
+      "division": "NFC North",
+      "streak": "W6",
+      "pct": 1,
+      "seed": 1
+    },
+    "CHI": {
+      "w": 5,
+      "l": 2,
+      "t": 0,
+      "rank": 6,
+      "heat": "Warm",
+      "place": 2,
+      "division": "NFC North",
+      "streak": "W2",
+      "pct": 0.7142857142857143,
+      "seed": 3
+    },
+    "DET": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 10,
+      "heat": "Warm",
+      "place": 3,
+      "division": "NFC North",
+      "streak": "W2",
+      "pct": 0.6666666666666666,
+      "seed": 4
+    },
+    "GB": {
+      "w": 5,
+      "l": 3,
+      "t": 0,
+      "rank": 14,
+      "heat": "Warm",
+      "place": 4,
+      "division": "NFC North",
+      "streak": "W1",
+      "pct": 0.625,
+      "seed": 6
+    },
+    "ATL": {
+      "w": 3,
+      "l": 4,
+      "t": 0,
+      "rank": 17,
+      "heat": "Steady",
+      "place": 1,
+      "division": "NFC South",
+      "streak": "W1",
+      "pct": 0.42857142857142855,
+      "seed": 10
+    },
+    "CAR": {
+      "w": 3,
+      "l": 4,
+      "t": 0,
+      "rank": 19,
+      "heat": "Cool",
+      "place": 2,
+      "division": "NFC South",
+      "streak": "L2",
+      "pct": 0.42857142857142855,
+      "seed": 11
+    },
+    "TB": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 23,
+      "heat": "Warm",
+      "place": 3,
+      "division": "NFC South",
+      "streak": "W1",
+      "pct": 0.2857142857142857,
+      "seed": 12
+    },
+    "NO": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 27,
+      "heat": "Cool",
+      "place": 4,
+      "division": "NFC South",
+      "streak": "L1",
+      "pct": 0.2857142857142857,
+      "seed": 13
+    },
+    "SF": {
+      "w": 6,
+      "l": 1,
+      "t": 0,
+      "rank": 2,
+      "heat": "Steady",
+      "place": 1,
+      "division": "NFC West",
+      "streak": "L1",
+      "pct": 0.8571428571428571,
+      "seed": 2
+    },
+    "SEA": {
+      "w": 4,
+      "l": 3,
+      "t": 0,
+      "rank": 5,
+      "heat": "Steady",
+      "place": 2,
+      "division": "NFC West",
+      "streak": "W1",
+      "pct": 0.5714285714285714,
+      "seed": 7
+    },
+    "LAR": {
+      "w": 3,
+      "l": 4,
+      "t": 0,
+      "rank": 12,
+      "heat": "Steady",
+      "place": 3,
+      "division": "NFC West",
+      "streak": "W1",
+      "pct": 0.42857142857142855,
+      "seed": 8
+    },
+    "ARI": {
+      "w": 2,
+      "l": 5,
+      "t": 0,
+      "rank": 26,
+      "heat": "Cool",
+      "place": 4,
+      "division": "NFC West",
+      "streak": "L1",
+      "pct": 0.2857142857142857,
+      "seed": 15
+    }
+  },
+  "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
+  "events": [],
+  "recap": {
+    "key": "wk-7",
+    "label": "Week 7 recap",
+    "at": "2026-10-31T17:21:48.896Z",
+    "bullets": [
+      {
+        "text": "The Vikings are the NFL's only unbeaten team at 6-0, and the 4-2 Lions are the next team to face them.",
+        "teams": [
+          "MIN",
+          "DET"
+        ]
+      },
+      {
+        "text": "The Browns and Broncos are both 5-2, but their point differentials of -13 and +3 suggest very thin margins.",
+        "teams": [
+          "CLE",
+          "DEN"
+        ]
+      },
+      {
+        "text": "The Eagles have lost five straight to fall to 2-5, while the Chargers are the NFL's only winless team at 0-6.",
+        "teams": [
+          "PHI",
+          "LAC"
+        ]
+      }
+    ],
+    "source": "claude"
+  }
+}
