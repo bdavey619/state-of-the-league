@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Glance from './components/Glance.jsx';
 import Conference from './components/Conference.jsx';
+import MobileList from './components/MobileList.jsx';
 import { updatedLabel } from './format.js';
 
 export default function App() {
@@ -44,11 +45,16 @@ export default function App() {
               <h1>The state of the NFL</h1>
             </div>
 
-            <Glance conferences={data.conferences} />
+            <div className="desktop-only">
+              <Glance conferences={data.conferences} />
+              {data.conferences.map((c) => (
+                <Conference key={c.abbr} conf={c} />
+              ))}
+            </div>
 
-            {data.conferences.map((c) => (
-              <Conference key={c.abbr} conf={c} />
-            ))}
+            <div className="mobile-only">
+              <MobileList conferences={data.conferences} />
+            </div>
 
             <footer className="footer">
               <p>

@@ -21,13 +21,13 @@ function shortTime(d) {
   return TIME.format(d).replace(/\s?(AM|PM)$/, (_, p) => p[0].toLowerCase());
 }
 
-// Kickoff label in the viewer's own time zone: "Sun 10:00a" within a week, else "Nov 8 · 10:00a".
+// Kickoff label in the viewer's own time zone: "Sun 10:00a" within a week, else "Nov 8, 10:00a".
 export function kickoffLabel(iso, now = new Date()) {
   if (!iso) return '';
   const d = new Date(iso);
   const days = (d - now) / 86400000;
   if (days > -1 && days < 6) return `${DAY.format(d)} ${shortTime(d)}`;
-  return `${DATE.format(d)} · ${shortTime(d)}`;
+  return `${DATE.format(d)}, ${shortTime(d)}`;
 }
 
 export function nextLabel(next) {
