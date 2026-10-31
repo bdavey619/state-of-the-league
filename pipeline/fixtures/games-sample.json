@@ -1,0 +1,632 @@
+[
+ {
+  "id": "70",
+  "week": 7,
+  "date": "2026-10-23T00:15Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "CHI",
+   "espnId": "CHI",
+   "score": 30,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "CHI QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "NE",
+   "espnId": "NE",
+   "score": 24,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "NE RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "71",
+  "week": 7,
+  "date": "2026-10-25T13:30Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "NO",
+   "espnId": "NO",
+   "score": 10,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "NO QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "PIT",
+   "espnId": "PIT",
+   "score": 16,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "PIT RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "72",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "HOU",
+   "espnId": "HOU",
+   "score": 21,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "HOU QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "NYG",
+   "espnId": "NYG",
+   "score": 27,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "NYG RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "73",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "ATL",
+   "espnId": "ATL",
+   "score": 29,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "ATL QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "SF",
+   "espnId": "SF",
+   "score": 20,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "SF RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "74",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "CAR",
+   "espnId": "CAR",
+   "score": 13,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "CAR QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "TB",
+   "espnId": "TB",
+   "score": 43,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "TB RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "75",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "BAL",
+   "espnId": "BAL",
+   "score": 13,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "BAL QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "CIN",
+   "espnId": "CIN",
+   "score": 35,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "CIN RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "76",
+  "week": 7,
+  "date": "2026-10-25T20:25Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "DET",
+   "espnId": "DET",
+   "score": 20,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "DET QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "GB",
+   "espnId": "GB",
+   "score": 17,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "GB RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "77",
+  "week": 7,
+  "date": "2026-10-25T20:05Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "LV",
+   "espnId": "LV",
+   "score": 21,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "LV QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "LAR",
+   "espnId": "LAR",
+   "score": 35,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "LAR RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "78",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "NYJ",
+   "espnId": "NYJ",
+   "score": 25,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "NYJ QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "MIA",
+   "espnId": "MIA",
+   "score": 28,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "MIA RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "79",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "TEN",
+   "espnId": "TEN",
+   "score": 24,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "TEN QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "CLE",
+   "espnId": "CLE",
+   "score": 27,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "CLE RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "710",
+  "week": 7,
+  "date": "2026-10-25T17:00Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "MIN",
+   "espnId": "MIN",
+   "score": 16,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "MIN QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "IND",
+   "espnId": "IND",
+   "score": 10,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "IND RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "711",
+  "week": 7,
+  "date": "2026-10-25T20:05Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "ARI",
+   "espnId": "ARI",
+   "score": 16,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "ARI QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "DEN",
+   "espnId": "DEN",
+   "score": 30,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "DEN RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "712",
+  "week": 7,
+  "date": "2026-10-26T00:20Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "SEA",
+   "espnId": "SEA",
+   "score": 20,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "SEA QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "KC",
+   "espnId": "KC",
+   "score": 3,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "KC RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "713",
+  "week": 7,
+  "date": "2026-10-27T00:15Z",
+  "completed": true,
+  "network": "CBS",
+  "home": {
+   "abbr": "PHI",
+   "espnId": "PHI",
+   "score": 21,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "PHI QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "DAL",
+   "espnId": "DAL",
+   "score": 38,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "DAL RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "80",
+  "week": 8,
+  "date": "2026-10-30T00:15Z",
+  "completed": true,
+  "network": "Prime Video",
+  "home": {
+   "abbr": "GB",
+   "espnId": "GB",
+   "score": 24,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "GB QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "CAR",
+   "espnId": "CAR",
+   "score": 20,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "CAR RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "81",
+  "week": 8,
+  "date": "2026-11-01T18:00Z",
+  "completed": false,
+  "network": "CBS",
+  "home": {
+   "abbr": "BUF",
+   "espnId": "BUF",
+   "score": null,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "BUF QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "BAL",
+   "espnId": "BAL",
+   "score": null,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "BAL RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "82",
+  "week": 8,
+  "date": "2026-11-01T18:00Z",
+  "completed": false,
+  "network": "FOX",
+  "home": {
+   "abbr": "DET",
+   "espnId": "DET",
+   "score": null,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "DET QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "MIN",
+   "espnId": "MIN",
+   "score": null,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "MIN RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ },
+ {
+  "id": "83",
+  "week": 8,
+  "date": "2026-11-03T01:15Z",
+  "completed": false,
+  "network": "ESPN",
+  "home": {
+   "abbr": "SEA",
+   "espnId": "SEA",
+   "score": null,
+   "leaders": [
+    {
+     "kind": "passing",
+     "name": "SEA QB",
+     "pos": "QB",
+     "yards": 250,
+     "line": "20/30, 250 YDS"
+    }
+   ]
+  },
+  "away": {
+   "abbr": "CHI",
+   "espnId": "CHI",
+   "score": null,
+   "leaders": [
+    {
+     "kind": "rushing",
+     "name": "CHI RB",
+     "pos": "RB",
+     "yards": 90,
+     "line": "18 CAR, 90 YDS"
+    }
+   ]
+  }
+ }
+]

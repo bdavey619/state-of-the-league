@@ -1,0 +1,10 @@
+{
+  "week": 8,
+  "source": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
+  "ranks": {
+    "BUF": 1, "SF": 2, "MIN": 3, "KC": 4, "SEA": 5, "CHI": 6, "JAX": 7, "CIN": 8,
+    "DEN": 9, "DET": 10, "NE": 11, "LAR": 12, "BAL": 13, "GB": 14, "CLE": 15, "PIT": 16,
+    "ATL": 17, "NYG": 18, "CAR": 19, "HOU": 20, "DAL": 21, "LV": 22, "TB": 23, "PHI": 24,
+    "IND": 25, "ARI": 26, "NO": 27, "WSH": 28, "NYJ": 29, "MIA": 30, "TEN": 31, "LAC": 32
+  }
+}

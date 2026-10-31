@@ -1,0 +1,33 @@
+{
+  "id": "401773001",
+  "date": "2026-10-26T00:20Z",
+  "week": { "number": 7 },
+  "competitions": [
+    {
+      "id": "401773001",
+      "date": "2026-10-26T00:20Z",
+      "status": { "type": { "completed": true, "state": "post", "shortDetail": "Final" } },
+      "broadcasts": [{ "market": "national", "names": ["NBC"] }],
+      "competitors": [
+        {
+          "homeAway": "home", "winner": true, "score": "20",
+          "team": { "id": "26", "abbreviation": "SEA", "displayName": "Seattle Seahawks" },
+          "leaders": [
+            { "name": "receivingYards", "leaders": [
+              { "displayValue": "9 REC, 150 YDS, 1 TD", "value": 150,
+                "athlete": { "displayName": "Jaxon Smith-Njigba", "position": { "abbreviation": "WR" } } } ] }
+          ]
+        },
+        {
+          "homeAway": "away", "winner": false, "score": "3",
+          "team": { "id": "12", "abbreviation": "KC", "displayName": "Kansas City Chiefs" }
+        }
+      ],
+      "leaders": [
+        { "name": "passingLeader", "leaders": [
+          { "displayValue": "19/34, 168 YDS, 1 INT", "value": 168, "team": { "id": "12" },
+            "athlete": { "displayName": "Patrick Mahomes", "position": { "abbreviation": "QB" } } } ] }
+      ]
+    }
+  ]
+}
