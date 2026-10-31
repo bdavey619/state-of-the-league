@@ -1,5 +1,5 @@
 node_modules
 dist
-pipeline/cache/nfl-games.json
+pipeline/cache/*-games.json
 .DS_Store
 .env

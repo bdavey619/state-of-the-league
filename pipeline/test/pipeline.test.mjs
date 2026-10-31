@@ -24,7 +24,7 @@ test('parseEvent reads an ESPN scoreboard event, including competition-level lea
   assert.equal(e.home.score, 20);
   assert.equal(e.away.score, 3);
   assert.equal(e.home.leaders[0].name, 'Jaxon Smith-Njigba');
-  assert.equal(e.home.leaders[0].yards, 150);
+  assert.equal(e.home.leaders[0].value, 150);
   assert.equal(e.away.leaders[0].name, 'Patrick Mahomes');
   assert.equal(e.away.leaders[0].kind, 'passing');
 });

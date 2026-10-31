@@ -6,8 +6,10 @@ on:
   schedule:
     # Every day at 6:17am Pacific (13:17 UTC; 14:17 UTC once DST ends — close enough).
     - cron: '17 13 * * *'
-    # Late Sunday and Monday nights, after the last games finish.
+    # Late Sunday and Monday nights, after the last NFL games finish.
     - cron: '47 6 * * 1,2'
+    # Mid-afternoon Pacific, to pick up the day's NBA schedule changes.
+    - cron: '23 21 * * *'
   workflow_dispatch:
     inputs:
       force_stories:
@@ -48,12 +50,25 @@ jobs:
             npm run data:nfl
           fi
 
+      - name: Refresh NBA data
+        if: github.event_name != 'push'
+        continue-on-error: true   # a bad NBA run never blocks the NFL update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+        run: |
+          if [ "${{ inputs.force_stories }}" = "true" ]; then
+            npm run data:nba -- --force-stories
+          else
+            npm run data:nba
+          fi
+
       - name: Commit refreshed data
         if: github.event_name != 'push'
         run: |
           git config user.name "state-of-the-league bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/data pipeline/cache/nfl-storylines.json pipeline/cache/nfl-run-log.json
+          git add public/data pipeline/cache/*-storylines.json pipeline/cache/*-run-log.json
           git diff --cached --quiet || git commit -m "Update NFL data"
           git push
 

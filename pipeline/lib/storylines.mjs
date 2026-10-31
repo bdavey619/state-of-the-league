@@ -3,40 +3,48 @@
 // sentence if it fails. (Lesson from the MLB brief: never let the model add facts.)
 
 import { signed } from './model.mjs';
+import { NFL } from './leagues.mjs';
 
 const MODEL = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
-const ORD = ['', '1st', '2nd', '3rd', '4th'];
+const ORD = ['', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th', '13th', '14th', '15th'];
 
 const rec = (t) => `${t.w}-${t.l}${t.t ? '-' + t.t : ''}`;
 const fmtGame = (g) => g.result === 'BYE'
   ? `Wk${g.week} bye`
   : `Wk${g.week} ${g.result} ${g.for}-${g.against} ${g.home ? 'vs' : 'at'} ${g.opp}`;
 
-export function factPacket(t, { notes = [], news = [], now = new Date() } = {}) {
+function formText(t, league) {
+  if (league.form === 'games') {
+    const list = (t.lastN || []).slice(-5)
+      .map((g) => `${g.tag} ${g.result} ${Math.max(g.for, g.against)}-${Math.min(g.for, g.against)} ${g.home ? 'vs' : 'at'} ${g.opp}`);
+    return `Last ${t.lastN?.length || 0} games: ${t.lastNRecord || '0-0'}. Most recent: ${list.join('; ') || 'none'}.`;
+  }
+  return `Last three weeks: ${(t.last3 || []).map(fmtGame).join('; ') || 'none'}.`;
+}
+
+function playerText(p, league) {
+  if (league.key === 'nba') {
+    return `- ${p.name} (${p.pos || '?'}): led the team in ${p.kinds.join('/')} in ${p.games} of the team's games. Latest: ${p.lastLine}`;
+  }
+  return `- ${p.name} (${p.pos || '?'}): led the team in ${p.kinds.join('/')} in ${p.games} games, ${p.total} yards in those games. Latest: ${p.lastLine}`;
+}
+
+export function factPacket(t, { notes = [], news = [], now = new Date(), league = NFL } = {}) {
   const recentNews = news
     .filter((n) => !n.published || now - new Date(n.published) < 10 * 86400000)
     .slice(0, 4)
     .map((n) => `- ${n.headline}${n.description ? ': ' + n.description : ''}`);
-  const players = t.leaderList.map((p) =>
-    `- ${p.name} (${p.pos || '?'}): led the team in ${p.kinds.join('/')} in ${p.games} games, ${p.yards} yards in those games. Latest: ${p.lastLine}`);
+  const seed = league.key === 'nba' ? ` ${ORD[t.seed] || t.seed} in the ${t.conf}.` : '';
   return [
     `TEAM ${t.abbr} — ${t.city} ${t.name}`,
-    `Record ${rec(t)}, ${ORD[t.place] || t.place} in ${t.conf} ${t.div}. Points ${t.pf}-${t.pa} (differential ${signed(t.pd)}). Streak ${t.streak || 'none'}. Power rank ${t.rank} of 32. Form: ${t.heat}.`,
-    `Last three weeks: ${t.last3.map(fmtGame).join('; ') || 'none'}.`,
+    `Record ${rec(t)}, ${ORD[t.place] || t.place} in ${t.conf} ${t.div}.${seed} Points ${t.pf}-${t.pa} (differential ${signed(t.pd)}${league.key === 'nba' ? `, ${signed(t.pdpg)} per game` : ''}). Streak ${t.streak || 'none'}. Power rank ${t.rank} of ${league.teamCount}. Form: ${t.heat}.`,
+    formText(t, league),
     ...notes.map((n) => `Note: ${n}`),
     t.next ? `Next: ${t.next.home ? 'vs' : 'at'} ${t.next.opp}.` : 'Next: season over.',
     recentNews.length ? `Recent ESPN headlines:\n${recentNews.join('\n')}` : 'Recent ESPN headlines: none.',
-    `Player candidates (choose exactly one):\n${players.join('\n') || '- none'}`,
+    `Player candidates (choose exactly one):\n${t.leaderList.map((p) => playerText(p, league)).join('\n') || '- none'}`,
   ].join('\n');
 }
-
-const SYSTEM = `You write one-line team summaries for a phone-first NFL dashboard.
-For each team you get a fact packet. Return JSON only: an array of
-{"abbr": string, "story": string, "player": {"name": string, "pos": string, "line": string}}.
-Rules:
-- story: one plain sentence, at most 110 characters, about where this team's season stands right now. Prefer what is most telling (an injury or firing from the headlines, a streak, a record that doesn't match the point differential, a notable recent result).
-- player: pick exactly one name from "Player candidates". line: at most 55 characters on why to watch them, e.g. "150 yds and a TD vs KC".
-- Use ONLY facts in the packet. Every number you write must appear in the packet. Do not guess injuries, trades, coaches or anything not stated. No hype words, no exclamation marks.`;
 
 function extractNumbers(s) {
   return (String(s).replace(/(\d),(?=\d{3}\b)/g, '$1').match(/\d+(?:\.\d+)?/g) || []).map(Number);
@@ -55,7 +63,7 @@ export function validate(item, team, packet) {
   return errs;
 }
 
-export function fallback(team, notes = []) {
+export function fallback(team, notes = [], league = NFL) {
   const last = team.games.at(-1);
   let story;
   if (notes.some((n) => n.startsWith('The only unbeaten'))) story = `The last unbeaten team at ${rec(team)}.`;
@@ -71,15 +79,19 @@ export function fallback(team, notes = []) {
   return {
     abbr: team.abbr,
     story,
-    player: p ? { name: p.name, pos: p.pos, line: `Team's ${p.kinds[0]} leader: ${p.yards} yds` } : { name: '', pos: '', line: '' },
+    player: p ? {
+      name: p.name,
+      pos: p.pos,
+      line: league.key === 'nba' ? `Led the team in ${p.kinds[0]} in ${p.games} games` : `Team's ${p.kinds[0]} leader: ${p.total} yds`,
+    } : { name: '', pos: '', line: '' },
     source: 'template',
   };
 }
 
-async function callClaude(packets, feedback) {
+async function callClaude(packets, feedback, system) {
   for (let attempt = 0; ; attempt++) {
     try {
-      return await callClaudeOnce(packets, feedback);
+      return await callClaudeOnce(packets, feedback, system);
     } catch (e) {
       if (attempt >= 3 || !e.retryable) throw e;
       await new Promise((r) => setTimeout(r, 4000 * 2 ** attempt));
@@ -87,7 +99,7 @@ async function callClaude(packets, feedback) {
   }
 }
 
-async function callClaudeOnce(packets, feedback) {
+async function callClaudeOnce(packets, feedback, system) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -98,7 +110,7 @@ async function callClaudeOnce(packets, feedback) {
     body: JSON.stringify({
       model: MODEL,
       max_tokens: 2500,
-      system: SYSTEM,
+      system,
       messages: [{
         role: 'user',
         content: packets.join('\n\n---\n\n') + (feedback ? `\n\nYour previous answer had problems; fix them:\n${feedback}` : ''),
@@ -121,15 +133,15 @@ async function callClaudeOnce(packets, feedback) {
 }
 
 // Writes storylines for a group of teams (one division per call). Returns abbr → result.
-export async function writeStorylines(group, ctx, { useAI = true, log = console.log, issues = [] } = {}) {
-  const packets = group.map((t) => factPacket(t, { notes: ctx.notes[t.abbr], news: ctx.news[t.abbr] }));
+export async function writeStorylines(group, ctx, { useAI = true, log = console.log, issues = [], league = NFL } = {}) {
+  const packets = group.map((t) => factPacket(t, { notes: ctx.notes[t.abbr], news: ctx.news[t.abbr], league }));
   const out = {};
   if (useAI && process.env.ANTHROPIC_API_KEY) {
     let feedback = '';
     for (let attempt = 0; attempt < 2; attempt++) {
       let items = [];
       try {
-        items = await callClaude(packets, feedback);
+        items = await callClaude(packets, feedback, league.system);
       } catch (e) {
         log(`  Claude call failed: ${e.message}`);
         issues.push({ teams: group.map((t) => t.abbr), error: e.message });
@@ -152,7 +164,7 @@ export async function writeStorylines(group, ctx, { useAI = true, log = console.
       issues.push({ attempt: attempt + 1, problems });
     }
   }
-  for (const t of group) if (!out[t.abbr]) out[t.abbr] = fallback(t, ctx.notes[t.abbr]);
+  for (const t of group) if (!out[t.abbr]) out[t.abbr] = fallback(t, ctx.notes[t.abbr], league);
   return out;
 }
 

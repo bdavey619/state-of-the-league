@@ -1,7 +1,8 @@
 # State of the League
 
-A phone-first, one-page read on every NFL team: standings or power rankings at a glance, then one
-line per team with its storyline, a player to watch, and its next game. NBA comes next.
+A phone-first, one-page read on every NFL and NBA team: standings or power rankings at a glance,
+then tap a division to see its teams, each with a storyline, a player to watch, and its next game.
+`#nfl` and `#nba` in the address pick the league.
 
 ## How it works
 
@@ -23,7 +24,17 @@ Claude (storylines) ──────────┘        └─ pipeline/cac
   leaders) and writes one sentence plus one player. Every answer is checked: the player must be one of
   the listed leaders and every number must appear in the facts. Failures get one retry, then a template
   sentence. Storylines are cached and only rewritten when a team's latest result or next game changes.
-- **Division order** uses win percentage, then point differential (not the NFL's full tiebreakers).
+- **Division order and NBA conference seeds** use win percentage, then point differential (not the
+  leagues' full tiebreakers).
+
+### NBA differences
+
+- Games come from ESPN's scoreboard one day at a time, opening night through a week ahead.
+- Hot/cold reads the last 10 games instead of the last three weeks; detail shows the conference seed
+  and last-10 record.
+- Power rank is computed (point differential per game 50%, record 30%, last 10 20%) unless
+  `pipeline/overrides/nba-power.json` has `"validThrough": "YYYY-MM-DD"` on or after today.
+- Storylines refresh whenever a team plays, so most NBA teams get a new one every couple of days.
 
 ## Run it
 
@@ -33,7 +44,9 @@ npm run dev                 # site at localhost:5173, using public/data/nfl.json
 npm test                    # pipeline unit tests (no network)
 
 npm run data:nfl:dry        # fetch ESPN, template storylines (no API key needed)
+npm run data:nba:dry
 ANTHROPIC_API_KEY=... npm run data:nfl     # fetch ESPN + Claude storylines
+ANTHROPIC_API_KEY=... npm run data:nba
 npm run data:nfl -- --force-stories        # rewrite every storyline
 ```
 

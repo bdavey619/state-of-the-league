@@ -31,7 +31,7 @@ export function kickoffLabel(iso, now = new Date()) {
 }
 
 export function nextLabel(next) {
-  if (!next) return { opp: 'Season over', when: '' };
+  if (!next) return { opp: '—', when: '' };
   return { opp: `${next.home ? 'vs' : 'at'} ${next.opp}`, when: kickoffLabel(next.kickoff) };
 }
 

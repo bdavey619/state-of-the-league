@@ -49,7 +49,11 @@ const DivisionDetail = forwardRef(function DivisionDetail({ division, openTeam, 
                       <span className="player-line"> · {t.player?.line}</span>
                     </span>
                   </div>
-                  <div className="mono m-meta">Power rank #{t.rank}</div>
+                  <div className="mono m-meta">
+                    {t.seed ? `${ordinal(t.seed)} in the ${division.name.split(' ')[0]} · ` : ''}
+                    {t.form ? `Last ${t.form.split('-').reduce((a, b) => +a + +b, 0)}: ${t.form} · ` : ''}
+                    Power rank #{t.rank}
+                  </div>
                 </div>
               )}
             </div>
@@ -59,5 +63,11 @@ const DivisionDetail = forwardRef(function DivisionDetail({ division, openTeam, 
     </section>
   );
 });
+
+function ordinal(n) {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
 
 export default DivisionDetail;

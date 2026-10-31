@@ -43,8 +43,48 @@ export const NFL_TEAMS = {
 };
 
 // ESPN occasionally changes abbreviations (e.g. WAS vs WSH). Normalize here.
-const ALIASES = { WAS: 'WSH', JAC: 'JAX', LA: 'LAR', OAK: 'LV', SD: 'LAC' };
-export function normAbbr(a) {
+const NFL_ALIASES = { WAS: 'WSH', JAC: 'JAX', LA: 'LAR', OAK: 'LV', SD: 'LAC' };
+export function normNfl(a) {
   const up = String(a || '').toUpperCase();
-  return ALIASES[up] || up;
+  return NFL_ALIASES[up] || up;
+}
+export const normAbbr = normNfl;
+
+// NBA, keyed by ESPN abbreviations (GS, NY, NO, SA, UTAH, WSH, BKN, PHX).
+export const NBA_TEAMS = {
+  BOS: { city: 'Boston', name: 'Celtics', conf: 'East', div: 'Atlantic', color: '#007A33' },
+  BKN: { city: 'Brooklyn', name: 'Nets', conf: 'East', div: 'Atlantic', color: '#000000' },
+  NY: { city: 'New York', name: 'Knicks', conf: 'East', div: 'Atlantic', color: '#F58426' },
+  PHI: { city: 'Philadelphia', name: '76ers', conf: 'East', div: 'Atlantic', color: '#006BB6' },
+  TOR: { city: 'Toronto', name: 'Raptors', conf: 'East', div: 'Atlantic', color: '#CE1141' },
+  CHI: { city: 'Chicago', name: 'Bulls', conf: 'East', div: 'Central', color: '#CE1141' },
+  CLE: { city: 'Cleveland', name: 'Cavaliers', conf: 'East', div: 'Central', color: '#860038' },
+  DET: { city: 'Detroit', name: 'Pistons', conf: 'East', div: 'Central', color: '#C8102E' },
+  IND: { city: 'Indiana', name: 'Pacers', conf: 'East', div: 'Central', color: '#FDBB30' },
+  MIL: { city: 'Milwaukee', name: 'Bucks', conf: 'East', div: 'Central', color: '#00471B' },
+  ATL: { city: 'Atlanta', name: 'Hawks', conf: 'East', div: 'Southeast', color: '#E03A3E' },
+  CHA: { city: 'Charlotte', name: 'Hornets', conf: 'East', div: 'Southeast', color: '#00788C' },
+  MIA: { city: 'Miami', name: 'Heat', conf: 'East', div: 'Southeast', color: '#98002E' },
+  ORL: { city: 'Orlando', name: 'Magic', conf: 'East', div: 'Southeast', color: '#0077C0' },
+  WSH: { city: 'Washington', name: 'Wizards', conf: 'East', div: 'Southeast', color: '#002B5C' },
+  DEN: { city: 'Denver', name: 'Nuggets', conf: 'West', div: 'Northwest', color: '#0E2240' },
+  MIN: { city: 'Minnesota', name: 'Timberwolves', conf: 'West', div: 'Northwest', color: '#236192' },
+  OKC: { city: 'Oklahoma City', name: 'Thunder', conf: 'West', div: 'Northwest', color: '#007AC1' },
+  POR: { city: 'Portland', name: 'Trail Blazers', conf: 'West', div: 'Northwest', color: '#E03A3E' },
+  UTAH: { city: 'Utah', name: 'Jazz', conf: 'West', div: 'Northwest', color: '#3E2680' },
+  GS: { city: 'Golden State', name: 'Warriors', conf: 'West', div: 'Pacific', color: '#1D428A' },
+  LAC: { city: 'LA', name: 'Clippers', conf: 'West', div: 'Pacific', color: '#C8102E' },
+  LAL: { city: 'Los Angeles', name: 'Lakers', conf: 'West', div: 'Pacific', color: '#552583' },
+  PHX: { city: 'Phoenix', name: 'Suns', conf: 'West', div: 'Pacific', color: '#E56020' },
+  SAC: { city: 'Sacramento', name: 'Kings', conf: 'West', div: 'Pacific', color: '#5A2D81' },
+  DAL: { city: 'Dallas', name: 'Mavericks', conf: 'West', div: 'Southwest', color: '#00538C' },
+  HOU: { city: 'Houston', name: 'Rockets', conf: 'West', div: 'Southwest', color: '#CE1141' },
+  MEM: { city: 'Memphis', name: 'Grizzlies', conf: 'West', div: 'Southwest', color: '#5D76A9' },
+  NO: { city: 'New Orleans', name: 'Pelicans', conf: 'West', div: 'Southwest', color: '#0C2340' },
+  SA: { city: 'San Antonio', name: 'Spurs', conf: 'West', div: 'Southwest', color: '#8A8D8F' },
+};
+const NBA_ALIASES = { GSW: 'GS', NYK: 'NY', NOP: 'NO', SAS: 'SA', UTA: 'UTAH', WAS: 'WSH', PHO: 'PHX', BRK: 'BKN', BRO: 'BKN', NJ: 'BKN' };
+export function normNba(a) {
+  const up = String(a || '').toUpperCase();
+  return NBA_ALIASES[up] || up;
 }

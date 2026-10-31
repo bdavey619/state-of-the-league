@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "data:nfl": "node pipeline/build-nfl.mjs",
-    "data:nfl:dry": "node pipeline/build-nfl.mjs --no-ai",
+    "data:nfl": "node pipeline/build.mjs --league=nfl",
+    "data:nfl:dry": "node pipeline/build.mjs --league=nfl --no-ai",
+    "data:nba": "node pipeline/build.mjs --league=nba",
+    "data:nba:dry": "node pipeline/build.mjs --league=nba --no-ai",
     "test": "node --test pipeline/test/*.test.mjs"
   },
   "dependencies": {

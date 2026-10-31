@@ -1,0 +1,30 @@
+{
+  "id": "401810050",
+  "date": "2026-10-29T02:30Z",
+  "season": { "year": 2027, "type": 2 },
+  "competitions": [
+    {
+      "id": "401810050",
+      "date": "2026-10-29T02:30Z",
+      "status": { "type": { "completed": true, "state": "post" } },
+      "broadcasts": [{ "names": ["ESPN"] }],
+      "competitors": [
+        {
+          "homeAway": "home", "score": "118",
+          "team": { "id": "9", "abbreviation": "GS" },
+          "leaders": [
+            { "name": "points", "leaders": [{ "displayValue": "34", "value": 34, "athlete": { "displayName": "Stephen Curry", "position": { "abbreviation": "G" } } }] },
+            { "name": "rebounds", "leaders": [{ "displayValue": "11", "value": 11, "athlete": { "displayName": "Draymond Green", "position": { "abbreviation": "F" } } }] }
+          ]
+        },
+        {
+          "homeAway": "away", "score": "109",
+          "team": { "id": "16", "abbreviation": "UTA" },
+          "leaders": [
+            { "name": "points", "leaders": [{ "displayValue": "27", "value": 27, "athlete": { "displayName": "Lauri Markkanen", "position": { "abbreviation": "F" } } }] }
+          ]
+        }
+      ]
+    }
+  ]
+}
