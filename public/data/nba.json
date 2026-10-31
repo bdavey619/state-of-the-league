@@ -7,7 +7,7 @@
   "kicker": "2026-27 · through Fri, Oct 30",
   "throughLabel": "through Fri, Oct 30",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
-  "updatedAt": "2026-10-31T17:01:25.184Z",
+  "updatedAt": "2026-10-31T17:06:09.207Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "conferences": [
@@ -32,11 +32,11 @@
               "heat": "Warm",
               "seed": 2,
               "form": "5-1",
-              "story": "Philly is 5-1 with a +22 margin over six games, the latest a 98-93 win over NY; still a small sample.",
+              "story": "The 76ers are 5-1 and beat NY 98-93 on Oct 30, though it's only six games into the season.",
               "player": {
                 "name": "Tyrese Maxey",
                 "pos": "G",
-                "line": "27 points vs NY in the 98-93 win"
+                "line": "27 pts vs NY in the 98-93 win"
               },
               "next": {
                 "opp": "CHA",
@@ -59,11 +59,11 @@
               "heat": "Hot",
               "seed": 3,
               "form": "4-1",
-              "story": "Boston has won 4 straight, the latest 125-111 over CHI, and is 4-1 with a +46 differential in five games.",
+              "story": "The Celtics have won 4 straight and beat CHI 125-111 on Oct 30, but it's only five games.",
               "player": {
                 "name": "Payton Pritchard",
                 "pos": "G",
-                "line": "30 points vs CHI"
+                "line": "30 points vs CHI on Oct 30"
               },
               "next": {
                 "opp": "ORL",
@@ -86,7 +86,7 @@
               "heat": "Steady",
               "seed": 4,
               "form": "3-2",
-              "story": "Toronto is 3-2 with a +53 differential, but fell 121-114 to ORL despite Barnes' 41 points.",
+              "story": "The Raptors are 3-2 with a +53 differential, a small sample, and lost 121-114 to ORL on Oct 30.",
               "player": {
                 "name": "Scottie Barnes",
                 "pos": "F",
@@ -113,11 +113,11 @@
               "heat": "Steady",
               "seed": 10,
               "form": "2-4",
-              "story": "New York is 2-4 after a 98-93 loss at PHI, though its point differential is only -4 through six games.",
+              "story": "The Knicks are 2-4 after losing 98-93 at PHI, and the offense has been inconsistent early.",
               "player": {
                 "name": "Karl-Anthony Towns",
                 "pos": "C",
-                "line": "12 rebounds vs PHI"
+                "line": "12 rebounds vs PHI on Oct 30"
               },
               "next": {
                 "opp": "BKN",
@@ -140,11 +140,11 @@
               "heat": "Cold",
               "seed": 15,
               "form": "0-5",
-              "story": "Brooklyn is 0-5 with a -55 differential; its closest loss was 125-124 at BOS on Oct 27.",
+              "story": "The Nets are 0-5 with a -55 point differential, and lost 110-94 to DET on Oct 30.",
               "player": {
                 "name": "Michael Porter Jr.",
                 "pos": "F",
-                "line": "12 rebounds in the 125-124 loss at BOS"
+                "line": "12 rebounds vs BOS in a 125-124 loss"
               },
               "next": {
                 "opp": "IND",
@@ -172,11 +172,11 @@
               "heat": "Hot",
               "seed": 1,
               "form": "5-1",
-              "story": "Detroit is 5-1 and first in the East, with a +48 margin over just six games.",
+              "story": "Beat BKN 110-94 last time out; +48 on the season.",
               "player": {
                 "name": "Cade Cunningham",
                 "pos": "G",
-                "line": "20 pts in the 110-94 win over BKN"
+                "line": "Led the team in assists in 7 games"
               },
               "next": {
                 "opp": "CHA",
@@ -199,11 +199,11 @@
               "heat": "Steady",
               "seed": 5,
               "form": "3-2",
-              "story": "Cleveland is 3-2 with a +5 point margin after five games, falling 114-111 at ATL last time out.",
+              "story": "Lost to ATL 114-111 last time out; +5 on the season.",
               "player": {
-                "name": "James Harden",
+                "name": "Donovan Mitchell",
                 "pos": "G",
-                "line": "24 points vs ATL on Oct 29"
+                "line": "Led the team in points in 5 games"
               },
               "next": {
                 "opp": "MIL",
@@ -226,11 +226,11 @@
               "heat": "Cool",
               "seed": 11,
               "form": "2-4",
-              "story": "Indiana has lost three straight and sits 2-4, 11th in the East, after a 145-125 loss at MIA.",
+              "story": "Lost 3 straight; -19 on the season.",
               "player": {
-                "name": "Tyrese Haliburton",
-                "pos": "G",
-                "line": "9 assists vs MIL on Oct 26"
+                "name": "Pascal Siakam",
+                "pos": "F",
+                "line": "Led the team in points in 6 games"
               },
               "next": {
                 "opp": "BKN",
@@ -253,11 +253,11 @@
               "heat": "Cold",
               "seed": 13,
               "form": "1-4",
-              "story": "Milwaukee is 1-4 with a -54 margin, including a 132-100 loss to HOU, in a five-game sample.",
+              "story": "Lost to HOU 132-100 last time out; -54 on the season.",
               "player": {
                 "name": "Tyler Herro",
                 "pos": "G",
-                "line": "23 points vs HOU on Oct 28"
+                "line": "Led the team in points in 6 games"
               },
               "next": {
                 "opp": "CLE",
@@ -280,11 +280,11 @@
               "heat": "Cold",
               "seed": 14,
               "form": "1-5",
-              "story": "Chicago has lost four straight and is 1-5 with a -95 margin, last falling 125-111 at BOS.",
+              "story": "Lost 4 straight; -95 on the season.",
               "player": {
-                "name": "Norman Powell",
+                "name": "Josh Giddey",
                 "pos": "G",
-                "line": "30 points vs NY on Oct 28"
+                "line": "Led the team in assists in 6 games"
               },
               "next": {
                 "opp": "PHI",
@@ -312,7 +312,7 @@
               "heat": "Steady",
               "seed": 6,
               "form": "3-3",
-              "story": "Hawks are 3-3 and +28 overall, helped by a 128-81 win at CHA, and beat CLE 114-111 to snap a skid.",
+              "story": "The Hawks are 3-3 and beat CLE 114-111 to snap a skid; a 128-81 win at CHA props up the +28 margin.",
               "player": {
                 "name": "Onyeka Okongwu",
                 "pos": "F",
@@ -339,7 +339,7 @@
               "heat": "Steady",
               "seed": 7,
               "form": "3-3",
-              "story": "Wizards are 3-3 with a +5 differential after a 95-79 win over CHA; it's a small sample so far.",
+              "story": "The Wizards are 3-3 with a +5 point differential after routing CHA 95-79 on Friday.",
               "player": {
                 "name": "Trae Young",
                 "pos": "G",
@@ -366,11 +366,11 @@
               "heat": "Cool",
               "seed": 8,
               "form": "3-3",
-              "story": "Hornets are 3-3 despite a -52 differential, and have lost 2 straight, most recently 95-79 at WSH.",
+              "story": "The Hornets are 3-3 despite a -52 point differential, and they have lost their last two games.",
               "player": {
                 "name": "Brandon Miller",
                 "pos": "F",
-                "line": "19 pts vs WSH on Oct 30"
+                "line": "19 pts vs WSH; top scorer or rebounder in 5 games"
               },
               "next": {
                 "opp": "PHI",
@@ -393,11 +393,11 @@
               "heat": "Steady",
               "seed": 9,
               "form": "2-3",
-              "story": "Magic are 2-3 and -43 overall; they lost 129-99 at TOR, then beat TOR 121-114 in the rematch.",
+              "story": "The Magic are 2-3 with a -43 point differential, but beat TOR 121-114 Friday behind Bane and Wagner.",
               "player": {
                 "name": "Franz Wagner",
                 "pos": "F",
-                "line": "26 pts and 11 ast vs TOR"
+                "line": "26 pts and 11 ast vs TOR, both season highs"
               },
               "next": {
                 "opp": "BOS",
@@ -420,11 +420,11 @@
               "heat": "Steady",
               "seed": 12,
               "form": "2-4",
-              "story": "Heat are 2-4 with a -19 differential but have won 2 straight, including 145-125 over IND.",
+              "story": "The Heat are 2-4 but have won two straight, 129-117 at ATL and 145-125 over IND.",
               "player": {
                 "name": "Giannis Antetokounmpo",
                 "pos": "F",
-                "line": "31 pts and 18 reb in a triple-double vs IND"
+                "line": "31 pts, 18 reb and a triple-double vs IND"
               },
               "next": {
                 "opp": "LAL",
@@ -458,11 +458,11 @@
               "heat": "Warm",
               "seed": 3,
               "form": "4-1",
-              "story": "OKC is 4-1 but lost 120-96 at DAL, with Holmgren out 8-10 weeks and Williams and Wallace also hurt.",
+              "story": "The Thunder are 4-1, but Chet Holmgren is out 8-10 weeks and Jalen Williams and Cason Wallace are also hurt.",
               "player": {
                 "name": "Ajay Mitchell",
                 "pos": "G",
-                "line": "29 pts at DAL; led team in 4 games in points or assists"
+                "line": "29 points vs DAL on Oct 28"
               },
               "next": {
                 "opp": "HOU",
@@ -485,11 +485,11 @@
               "heat": "Warm",
               "seed": 4,
               "form": "3-1",
-              "story": "Portland is 3-1 but lost 124-103 to MEM, and Ja Morant is out at least 4 weeks with a hamstring strain.",
+              "story": "The Trail Blazers are 3-1, but Ja Morant is out at least 4 weeks with a hamstring strain.",
               "player": {
                 "name": "Deni Avdija",
                 "pos": "F",
-                "line": "7 assists vs MEM in the loss"
+                "line": "7 assists vs MEM on Oct 29"
               },
               "next": {
                 "opp": "UTAH",
@@ -512,11 +512,11 @@
               "heat": "Warm",
               "seed": 5,
               "form": "4-2",
-              "story": "MIN is 4-2 with the NBA's best margin, +14.8 per game, after beating LAC 127-101 without Edwards.",
+              "story": "The Timberwolves are 4-2 with the NBA's best margin, +14.8 a game, though it's only six games.",
               "player": {
                 "name": "LaMelo Ball",
                 "pos": "G",
-                "line": "Season-high 24 pts vs LAC"
+                "line": "Season-high 24 pts vs LAC without Edwards"
               },
               "next": {
                 "opp": "SA",
@@ -539,11 +539,11 @@
               "heat": "Warm",
               "seed": 9,
               "form": "3-2",
-              "story": "Nuggets are 3-2 and have won 2 straight, but their point differential is -6 after five games.",
+              "story": "The Nuggets have won two straight, including 127-120 at PHX, but are 3-2 with a -6 point differential.",
               "player": {
                 "name": "Jamal Murray",
                 "pos": "G",
-                "line": "39 pts in the 127-120 win at PHX"
+                "line": "39 points vs PHX on Oct 30"
               },
               "next": {
                 "opp": "POR",
@@ -566,11 +566,11 @@
               "heat": "Cold",
               "seed": 14,
               "form": "1-4",
-              "story": "Jazz are 1-4 and have lost 3 straight, the latest 117-111 in OT to SA; point differential is -39.",
+              "story": "The Jazz are 1-4 on a three-game skid, the latest a 117-111 overtime loss to SA.",
               "player": {
                 "name": "Keyonte George",
                 "pos": "G",
-                "line": "31 pts vs SA in the OT loss"
+                "line": "31 points vs SA on Oct 28"
               },
               "next": {
                 "opp": "POR",
@@ -598,11 +598,11 @@
               "heat": "Warm",
               "seed": 6,
               "form": "4-2",
-              "story": "Lakers are 4-2, but lost 112-95 at GS after holding an early 25-point lead; it's an early sample.",
+              "story": "The Lakers are 4-2 but just lost 112-95 at GS after an early 25-point lead; it is only six games.",
               "player": {
-                "name": "Walker Kessler",
-                "pos": "C",
-                "line": "13 rebounds vs GS on Oct 30"
+                "name": "Luka Doncic",
+                "pos": "G",
+                "line": "5 assists in the 112-95 loss at GS on Oct 30"
               },
               "next": {
                 "opp": "TOR",
@@ -625,11 +625,11 @@
               "heat": "Warm",
               "seed": 10,
               "form": "3-3",
-              "story": "Warriors are 3-3 but have won 3 straight, the latest 112-95 over LAL after erasing a 25-point deficit.",
+              "story": "The Warriors are 3-3 but have won 3 straight, the latest 112-95 over LAL after trailing by 25.",
               "player": {
                 "name": "Stephen Curry",
                 "pos": "G",
-                "line": "31 points and six assists vs LAL"
+                "line": "31 points and 6 assists vs LAL"
               },
               "next": {
                 "opp": "LAC",
@@ -652,11 +652,11 @@
               "heat": "Cool",
               "seed": 11,
               "form": "1-3",
-              "story": "Suns are 1-3 with a -12.5 per-game margin; Brooks was ejected in a 127-120 loss to DEN.",
+              "story": "The Suns are 1-3 after four games, with Brooks ejected in a 127-120 loss to DEN.",
               "player": {
-                "name": "Collin Gillespie",
-                "pos": "G",
-                "line": "10 assists vs DEN on Oct 30"
+                "name": "Miles Bridges",
+                "pos": "F",
+                "line": "10 rebounds in the 127-120 loss to DEN"
               },
               "next": {
                 "opp": "GS",
@@ -679,7 +679,7 @@
               "heat": "Cold",
               "seed": 13,
               "form": "1-4",
-              "story": "Clippers are 1-4 and have lost 4 straight, the latest a 127-101 loss at MIN.",
+              "story": "The Clippers have lost 4 straight to fall to 1-4, the latest a 127-101 loss at MIN.",
               "player": {
                 "name": "Darius Garland",
                 "pos": "G",
@@ -706,11 +706,11 @@
               "heat": "Cold",
               "seed": 15,
               "form": "0-5",
-              "story": "Kings are 0-5 with the NBA's worst point differential, -16.6 per game, after losing 132-120 at NO.",
+              "story": "The Kings are 0-5 with the NBA's worst point differential, -16.6 per game, though it is only five games.",
               "player": {
-                "name": "Domantas Sabonis",
-                "pos": "F",
-                "line": "15 rebounds vs NO on Oct 29"
+                "name": "Darius Acuff Jr.",
+                "pos": "G",
+                "line": "14 assists vs NO on Oct 29"
               },
               "next": {
                 "opp": "MEM",
@@ -738,7 +738,7 @@
               "heat": "Hot",
               "seed": 1,
               "form": "5-0",
-              "story": "Memphis is the NBA's only unbeaten team at 5-0, winning by 12 a game, though it is early.",
+              "story": "The Grizzlies are the NBA's only unbeaten team at 5-0 after beating POR 124-103, though it is a small sample.",
               "player": {
                 "name": "Cameron Boozer",
                 "pos": "F",
@@ -765,11 +765,11 @@
               "heat": "Hot",
               "seed": 2,
               "form": "5-1",
-              "story": "Houston is 5-1 with a +11 per-game margin; its first loss was 116-111 at DAL in the NBA Cup opener.",
+              "story": "The Rockets are 5-1 and +66 in point differential, but lost 116-111 at DAL for their first defeat.",
               "player": {
                 "name": "Kevin Durant",
                 "pos": "F",
-                "line": "28 points vs DAL in the Oct 30 loss"
+                "line": "28 points vs DAL in the loss"
               },
               "next": {
                 "opp": "OKC",
@@ -792,11 +792,11 @@
               "heat": "Warm",
               "seed": 7,
               "form": "4-2",
-              "story": "Dallas is 4-2 on a 3-game win streak, the latest a 116-111 win over HOU on Oct 30.",
+              "story": "The Mavericks are 4-2 and have won three straight, the latest 116-111 over HOU, which had been unbeaten.",
               "player": {
-                "name": "Kyrie Irving",
-                "pos": "G",
-                "line": "35 pts and 9 ast vs HOU on Oct 30"
+                "name": "Cooper Flagg",
+                "pos": "F",
+                "line": "33 points in the win over HOU"
               },
               "next": {
                 "opp": "SAC",
@@ -819,11 +819,11 @@
               "heat": "Warm",
               "seed": 8,
               "form": "3-2",
-              "story": "San Antonio has won 3 straight after losing its first 2, with a +6.6 per-game margin over 5 games.",
+              "story": "The Spurs are 3-2 and have won three straight, the latest 117-111 in overtime at UTAH.",
               "player": {
                 "name": "Victor Wembanyama",
                 "pos": "F",
-                "line": "36 pts and 14 reb in OT win vs UTAH"
+                "line": "36 points and 14 rebounds at UTAH in overtime"
               },
               "next": {
                 "opp": "MIN",
@@ -846,11 +846,11 @@
               "heat": "Cool",
               "seed": 12,
               "form": "1-4",
-              "story": "New Orleans is 1-4 and got its first win on Oct 29, 132-120 over SAC.",
+              "story": "The Pelicans are 1-4, but they ended a 4-game skid by beating SAC 132-120.",
               "player": {
                 "name": "Jeremiah Fears",
                 "pos": "G",
-                "line": "22 pts, career-high 13 ast vs SAC"
+                "line": "22 points and 13 assists vs SAC"
               },
               "next": {
                 "opp": "ATL",

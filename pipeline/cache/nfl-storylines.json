@@ -3,11 +3,11 @@
     "key": "401873005|401873026",
     "result": {
       "abbr": "BUF",
-      "story": "Bills are 5-1 and lead the NFL with 197 points scored, but the point differential is only +26.",
+      "story": "The Bills are 5-1 with the NFL's most points (197), but their defense ranks among the worst in key areas.",
       "player": {
-        "name": "James Cook III",
-        "pos": "RB",
-        "line": "22 carries, 95 yds and a TD vs LV in Wk 6"
+        "name": "Josh Allen",
+        "pos": "QB",
+        "line": "121 yds and a TD in the win at LAR"
       },
       "source": "claude"
     }
@@ -16,11 +16,11 @@
     "key": "401873010|401873034",
     "result": {
       "abbr": "NE",
-      "story": "Patriots are 4-3 after a 24-30 loss at Chicago, and A.J. Brown is questionable for Sunday at Miami.",
+      "story": "The Patriots are 4-3 after losing 30-24 at CHI, and A.J. Brown is questionable for the game at MIA.",
       "player": {
         "name": "Drake Maye",
         "pos": "QB",
-        "line": "24/31, 321 yds, 2 TD, 1 INT vs CHI"
+        "line": "321 yds, 2 TD and 1 INT at CHI"
       },
       "source": "claude"
     }
@@ -29,11 +29,11 @@
     "key": "401873015|401873029",
     "result": {
       "abbr": "NYJ",
-      "story": "Jets are 2-5 and have lost two straight, but sources say Garrett Wilson is not expected to be traded.",
+      "story": "The Jets are 2-5 and have lost two straight, and Garrett Wilson is not expected to be traded, sources say.",
       "player": {
-        "name": "Geno Smith",
-        "pos": "QB",
-        "line": "23/30, 287 yds, 3 TD, 1 INT vs MIA"
+        "name": "Garrett Wilson",
+        "pos": "WR",
+        "line": "7 catches, 104 yds and a TD vs CLE"
       },
       "source": "claude"
     }
@@ -42,11 +42,11 @@
     "key": "401873015|401873034",
     "result": {
       "abbr": "MIA",
-      "story": "Dolphins are 1-5 with a -59 point differential, though they won 28-25 at the Jets in Week 7.",
+      "story": "The Dolphins are 1-5 with a -59 point differential, but they beat NYJ 28-25 in their last game.",
       "player": {
         "name": "Ollie Gordon II",
         "pos": "RB",
-        "line": "18 carries, 88 yds and a TD vs CIN in Wk 5"
+        "line": "88 yds and a TD vs CIN"
       },
       "source": "claude"
     }
@@ -55,11 +55,11 @@
     "key": "401873011|401873027",
     "result": {
       "abbr": "PIT",
-      "story": "Steelers lead the AFC North at 5-2 with 3 straight wins, though the point differential is only +15.",
+      "story": "The Steelers are 5-2 and lead the AFC North on a three-game win streak, most recently beating NO 16-10.",
       "player": {
         "name": "Jaylen Warren",
         "pos": "RB",
-        "line": "101 rushing yds on 18 carries vs NO"
+        "line": "101 yds on 18 carries vs NO in Wk 7"
       },
       "source": "claude"
     }
@@ -68,11 +68,11 @@
     "key": "401873013|401873027",
     "result": {
       "abbr": "CLE",
-      "story": "Browns are 5-2 despite a -13 point differential, and they visit first-place Pittsburgh next.",
+      "story": "The Browns are 5-2 despite a -13 point differential, and they just beat TEN 27-24.",
       "player": {
-        "name": "Deshaun Watson",
-        "pos": "QB",
-        "line": "308 passing yds in the 27-24 win at TEN"
+        "name": "KC Concepcion",
+        "pos": "WR",
+        "line": "8 catches for 129 yds vs TEN in Wk 7"
       },
       "source": "claude"
     }
@@ -81,11 +81,11 @@
     "key": "401873012|401873031",
     "result": {
       "abbr": "CIN",
-      "story": "Bengals are 4-2 with a +41 point differential and just beat Baltimore 35-13.",
+      "story": "The Bengals are 4-2 with a +41 point differential after a 35-13 win at BAL.",
       "player": {
         "name": "Tee Higgins",
         "pos": "WR",
-        "line": "6 REC, 148 YDS and a TD vs BAL"
+        "line": "148 yds and a TD at BAL in Wk 7"
       },
       "source": "claude"
     }
@@ -94,11 +94,11 @@
     "key": "401873012|401873026",
     "result": {
       "abbr": "BAL",
-      "story": "Ravens have dropped 2 straight at 4-3, with Lamar Jackson expected back this week from an ankle injury.",
+      "story": "The Ravens have lost two straight, most recently 35-13 to CIN, and expect Lamar Jackson back this week.",
       "player": {
         "name": "Lamar Jackson",
         "pos": "QB",
-        "line": "Expected back from an ankle injury at Buffalo"
+        "line": "Expected back at BUF after an ankle injury"
       },
       "source": "claude"
     }
@@ -107,11 +107,11 @@
     "key": "401872996|401873028",
     "result": {
       "abbr": "JAX",
-      "story": "Jacksonville is 4-2 and leads the AFC South with a +50 point differential, despite a 31-34 loss to HOU.",
+      "story": "The Jaguars are 4-2 and lead the AFC South, but they lost 34-31 to HOU in their last game.",
       "player": {
         "name": "Parker Washington",
         "pos": "WR",
-        "line": "6 catches, 124 yds and 2 TD vs PHI in Wk 5"
+        "line": "124 yds and 2 TD on 6 catches vs PHI"
       },
       "source": "claude"
     }
@@ -120,11 +120,11 @@
     "key": "401873016|401873046",
     "result": {
       "abbr": "HOU",
-      "story": "Houston is 2-5 but has only a -5 point differential, after a 21-27 loss to NYG in its last game.",
+      "story": "The Texans are 2-5 but have been outscored by only 5 points, and they lost 27-21 to NYG last time out.",
       "player": {
         "name": "C.J. Stroud",
         "pos": "QB",
-        "line": "24/34, 312 yds and 3 TD vs JAX in Wk 6"
+        "line": "312 yds and 3 TD in the 34-31 win at JAX"
       },
       "source": "claude"
     }
@@ -133,11 +133,11 @@
     "key": "401873014|401873028",
     "result": {
       "abbr": "IND",
-      "story": "Indianapolis has lost three straight to fall to 2-5, and is open to trading RB Jonathan Taylor, per ESPN.",
+      "story": "The Colts have lost three straight to fall to 2-5 and are reportedly open to trading RB Jonathan Taylor.",
       "player": {
         "name": "Jonathan Taylor",
         "pos": "RB",
-        "line": "18 carries, 95 yds and a TD vs MIN in Wk 7"
+        "line": "95 yds and a TD vs MIN amid trade talk"
       },
       "source": "claude"
     }
@@ -146,11 +146,11 @@
     "key": "401873013|401873031",
     "result": {
       "abbr": "TEN",
-      "story": "Tennessee is 1-6 with a -48 point differential, and has traded Jeffery Simmons to the Chicago Bears.",
+      "story": "The Titans are 1-6 after trading Jeffery Simmons to the Bears and losing 27-24 to CLE.",
       "player": {
         "name": "Tony Pollard",
         "pos": "RB",
-        "line": "25 carries, 129 yds and 3 TD vs CLE in Wk 7"
+        "line": "129 yds and 3 TD vs CLE"
       },
       "source": "claude"
     }
@@ -159,11 +159,11 @@
     "key": "401873022|401873033",
     "result": {
       "abbr": "KC",
-      "story": "Chiefs are 5-1 atop the AFC West but lost 3-20 at SEA; Rashee Rice is expected back at DEN.",
+      "story": "The Chiefs are 5-1 but lost 20-3 at SEA last time out, and Rashee Rice is expected back at DEN.",
       "player": {
         "name": "Rashee Rice",
         "pos": "WR",
-        "line": "Expected back from a hamstring injury at DEN"
+        "line": "Expected back from hamstring injury vs DEN"
       },
       "source": "claude"
     }
@@ -172,11 +172,11 @@
     "key": "401873019|401873033",
     "result": {
       "abbr": "DEN",
-      "story": "Broncos are 5-2 and have won three straight, but their point differential is only +3.",
+      "story": "The Broncos are 5-2 on a three-game win streak, though their point differential is only +3.",
       "player": {
         "name": "Bo Nix",
         "pos": "QB",
-        "line": "7 carries, 73 yds and a TD vs ARI in Wk 7"
+        "line": "7 carries, 73 yds and a TD vs ARI"
       },
       "source": "claude"
     }
@@ -185,11 +185,11 @@
     "key": "401873021|401873029",
     "result": {
       "abbr": "LV",
-      "story": "Raiders are 3-4 and have lost four straight, most recently 21-35 vs LAR.",
+      "story": "The Raiders are 3-4 and have lost four straight, most recently 35-21 to LAR.",
       "player": {
-        "name": "Kirk Cousins",
-        "pos": "QB",
-        "line": "295 yds and 2 TD vs LAR in Wk 7"
+        "name": "Tre Tucker",
+        "pos": "WR",
+        "line": "5 catches, 103 yds and a TD vs LAR"
       },
       "source": "claude"
     }
@@ -198,11 +198,11 @@
     "key": "401873006|401873032",
     "result": {
       "abbr": "LAC",
-      "story": "Chargers are 0-6, the NFL's only winless team, and have scored a league-low 90 points.",
+      "story": "The Chargers are the NFL's only winless team at 0-6 and have scored a league-low 90 points.",
       "player": {
         "name": "Justin Herbert",
         "pos": "QB",
-        "line": "19/31, 189 yds, 1 TD, 2 INT vs SEA in Wk 4"
+        "line": "189 yds, 1 TD and 2 INT vs SEA in Wk 4"
       },
       "source": "claude"
     }
@@ -211,11 +211,11 @@
     "key": "401873016|401873044",
     "result": {
       "abbr": "NYG",
-      "story": "Giants lead the NFC East at 4-2-1 with just a +2 point differential after a 27-21 win at HOU.",
+      "story": "The Giants are 4-2-1 and lead the NFC East with a +2 point differential after beating HOU 27-21.",
       "player": {
-        "name": "Cam Skattebo",
-        "pos": "RB",
-        "line": "124 yds and a TD on 17 carries at HOU"
+        "name": "Malik Nabers",
+        "pos": "WR",
+        "line": "7 catches for 111 yds at HOU in Week 7"
       },
       "source": "claude"
     }
@@ -224,11 +224,11 @@
     "key": "401873009|401873024",
     "result": {
       "abbr": "DAL",
-      "story": "Cowboys snapped a two-game skid with a 38-21 win at PHI but sit 3-4, second in the NFC East.",
+      "story": "The Cowboys are 3-4 but beat PHI 38-21 last week to move up to second in the NFC East.",
       "player": {
         "name": "Javonte Williams",
         "pos": "RB",
-        "line": "155 yds and a TD on 25 carries at PHI"
+        "line": "155 rushing yds and a TD at PHI"
       },
       "source": "claude"
     }
@@ -237,11 +237,11 @@
     "key": "401873009|401873035",
     "result": {
       "abbr": "PHI",
-      "story": "Eagles are 2-5 on a five-game losing streak, with a -48 point differential.",
+      "story": "The Eagles have lost five straight and sit at 2-5 after losing 38-21 to DAL.",
       "player": {
         "name": "Saquon Barkley",
         "pos": "RB",
-        "line": "No injury designation for the Wk 8 game at WSH"
+        "line": "Carries no injury designation into the WSH game"
       },
       "source": "claude"
     }
@@ -250,11 +250,11 @@
     "key": "401873008|401873035",
     "result": {
       "abbr": "WSH",
-      "story": "Commanders are 1-4-1 and lost DT Daron Payne to a season-ending foot injury, per a source.",
+      "story": "The Commanders are 1-4-1 and a source says DT Daron Payne suffered a season-ending foot injury.",
       "player": {
         "name": "Jayden Daniels",
         "pos": "QB",
-        "line": "29/40, 300 yds and 2 TD vs SF in Wk 6"
+        "line": "300 yds and 2 TD at SF in Week 6"
       },
       "source": "claude"
     }
@@ -263,11 +263,11 @@
     "key": "401873014|401873030",
     "result": {
       "abbr": "MIN",
-      "story": "Minnesota is the NFL's only unbeaten team at 6-0 and has allowed the fewest points, 74.",
+      "story": "The Vikings are 6-0, the NFL's only unbeaten team, and have allowed a league-low 74 points.",
       "player": {
         "name": "Kyler Murray",
         "pos": "QB",
-        "line": "150 yds and a TD vs IND in Week 7"
+        "line": "150 yds and a TD vs IND in the latest win"
       },
       "source": "claude"
     }
@@ -276,11 +276,11 @@
     "key": "401873010|401873036",
     "result": {
       "abbr": "CHI",
-      "story": "Chicago is 5-2 on a two-game win streak, following a 7-31 loss at Green Bay in Week 5.",
+      "story": "The Bears are 5-2 and have won two straight, beating NE 30-24 last after a 31-7 loss at GB.",
       "player": {
         "name": "Luther Burden III",
         "pos": "WR",
-        "line": "130 yds and a TD on 4 catches vs NE"
+        "line": "130 yds and a TD vs NE"
       },
       "source": "claude"
     }
@@ -289,11 +289,11 @@
     "key": "401873020|401873030",
     "result": {
       "abbr": "DET",
-      "story": "Detroit is 4-2 with two straight wins and faces unbeaten Minnesota next.",
+      "story": "The Lions are 4-2 with two straight wins, the latest 20-17 over GB, and face MIN next.",
       "player": {
         "name": "Amon-Ra St. Brown",
         "pos": "WR",
-        "line": "9 catches for 153 yds vs GB in Week 7"
+        "line": "9 catches for 153 yds vs GB"
       },
       "source": "claude"
     }
@@ -302,7 +302,7 @@
     "key": "401873023|401873049",
     "result": {
       "abbr": "GB",
-      "story": "Green Bay is 5-3 after beating Carolina 27-19; Micah Parsons is targeting a return for the Rams game.",
+      "story": "The Packers are 5-3 after beating CAR 27-19, and Micah Parsons is targeting a return vs. the Rams.",
       "player": {
         "name": "Jordan Love",
         "pos": "QB",
@@ -315,11 +315,11 @@
     "key": "401873017|401873025",
     "result": {
       "abbr": "ATL",
-      "story": "Atlanta leads the NFC South at 3-4 with a -2 point differential after beating SF 29-20 in Week 7.",
+      "story": "The Falcons are 3-4 and atop the NFC South after beating SF 29-20 in Week 7.",
       "player": {
-        "name": "Michael Penix Jr.",
-        "pos": "QB",
-        "line": "240 yds and a TD vs BAL; ESPN sees a possible QB1"
+        "name": "Bijan Robinson",
+        "pos": "RB",
+        "line": "Led the team in rushing/receiving in 6 games"
       },
       "source": "claude"
     }
@@ -328,11 +328,11 @@
     "key": "401873023|401873041",
     "result": {
       "abbr": "CAR",
-      "story": "Carolina has lost two straight at 3-4 and swapped defensive coordinators, Ejiro Evero out for Todd Wash.",
+      "story": "The Panthers have lost two straight, most recently 27-19 at GB, and are switching to coordinator Todd Wash.",
       "player": {
         "name": "Chuba Hubbard",
         "pos": "RB",
-        "line": "81 yds and a TD on 22 carries vs GB"
+        "line": "81 yds and a TD vs GB"
       },
       "source": "claude"
     }
@@ -341,11 +341,11 @@
     "key": "401873018|401873025",
     "result": {
       "abbr": "TB",
-      "story": "Tampa Bay is 2-5 but has a +11 point differential after a 43-13 win at CAR in Week 7.",
+      "story": "The Buccaneers are 2-5 but have a +11 point differential after beating CAR 43-13 in Week 7.",
       "player": {
         "name": "Bucky Irving",
         "pos": "RB",
-        "line": "106 yds and 2 TD vs CAR in Wk 7"
+        "line": "106 yds and 2 TD vs CAR"
       },
       "source": "claude"
     }
@@ -354,11 +354,11 @@
     "key": "401873011|401873039",
     "result": {
       "abbr": "NO",
-      "story": "New Orleans is 2-5 with a -32 point differential and is searching for answers during its bye week.",
+      "story": "The Saints are 2-5 with a -32 point differential and lost 16-10 to PIT before their bye week.",
       "player": {
         "name": "Tyler Shough",
         "pos": "QB",
-        "line": "30/38, 278 yds, 1 TD vs PIT in Wk 7"
+        "line": "30/38 for 278 yds vs PIT"
       },
       "source": "claude"
     }
@@ -367,11 +367,11 @@
     "key": "401873017|401873047",
     "result": {
       "abbr": "SF",
-      "story": "The 49ers sit 6-1 atop the NFC West but lost 20-29 at Atlanta in Week 7.",
+      "story": "The 49ers lead the NFC West at 6-1 despite losing 29-20 at ATL last week.",
       "player": {
-        "name": "George Kittle",
-        "pos": "TE",
-        "line": "8 catches for 88 yds vs ATL in Week 7"
+        "name": "Brock Purdy",
+        "pos": "QB",
+        "line": "Led passing in 5 games; 288 yds vs ATL in Wk 7"
       },
       "source": "claude"
     }
@@ -380,11 +380,11 @@
     "key": "401873022|401873036",
     "result": {
       "abbr": "SEA",
-      "story": "The Seahawks are 4-3 after a 20-3 win over KC and have a +43 point differential.",
+      "story": "The Seahawks beat KC 20-3 to reach 4-3, and Quenton Nelson's arrival cost Anthony Bradford his starting job.",
       "player": {
         "name": "Jaxon Smith-Njigba",
         "pos": "WR",
-        "line": "9 catches, 150 yds and a TD vs KC"
+        "line": "9 REC, 150 YDS and a TD vs KC"
       },
       "source": "claude"
     }
@@ -393,7 +393,7 @@
     "key": "401873021|401873032",
     "result": {
       "abbr": "LAR",
-      "story": "The Rams are 3-4 in third place, coming off a 35-21 win at LV after 34-37 and 16-18 losses.",
+      "story": "The Rams are 3-4 after beating LV 35-21, having lost 18-16 to ARI and 37-34 to BUF before that.",
       "player": {
         "name": "Kyren Williams",
         "pos": "RB",
@@ -406,11 +406,11 @@
     "key": "401873019|401873024",
     "result": {
       "abbr": "ARI",
-      "story": "The Cardinals are 2-5 and have allowed the most points in the NFL, 208.",
+      "story": "The Cardinals are 2-5 and have allowed an NFL-high 208 points, with Jeremiyah Love expected back at DAL.",
       "player": {
-        "name": "Trey McBride",
-        "pos": "TE",
-        "line": "10 catches, 111 yds and a TD vs DEN"
+        "name": "Jeremiyah Love",
+        "pos": "RB",
+        "line": "Expected back at DAL; 63 yds vs NYG in Wk 4"
       },
       "source": "claude"
     }
