@@ -68,65 +68,65 @@
     "key": "401909279|401909908",
     "result": {
       "abbr": "DET",
-      "story": "Beat BKN 110-94 last time out; +48 on the season.",
+      "story": "The Pistons are 5-1 and lead the East with a +48 point differential, but it is still early.",
       "player": {
         "name": "Cade Cunningham",
         "pos": "G",
-        "line": "Led the team in assists in 7 games"
+        "line": "20 pts vs BKN; led team in pts/ast in 6 games"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "CLE": {
     "key": "401909893|401909900",
     "result": {
       "abbr": "CLE",
-      "story": "Lost to ATL 114-111 last time out; +5 on the season.",
+      "story": "The Cavaliers are 3-2 with only a +5 point differential, and lost 114-111 at ATL in their latest game.",
       "player": {
-        "name": "Donovan Mitchell",
+        "name": "James Harden",
         "pos": "G",
-        "line": "Led the team in points in 5 games"
+        "line": "24 pts vs ATL; led team in pts/ast in 4 games"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "IND": {
     "key": "401909282|401909904",
     "result": {
       "abbr": "IND",
-      "story": "Lost 3 straight; -19 on the season.",
+      "story": "The Pacers are 2-4 on a 3-game skid, most recently losing 145-125 at MIA while short-handed.",
       "player": {
         "name": "Pascal Siakam",
         "pos": "F",
-        "line": "Led the team in points in 6 games"
+        "line": "11 reb vs PHI; led team in pts/reb in 5 games"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "MIL": {
     "key": "401909887|401909900",
     "result": {
       "abbr": "MIL",
-      "story": "Lost to HOU 132-100 last time out; -54 on the season.",
+      "story": "The Bucks are 1-4 with a -54 point differential, including a 132-100 loss to HOU on Oct 28.",
       "player": {
         "name": "Tyler Herro",
         "pos": "G",
-        "line": "Led the team in points in 6 games"
+        "line": "23 pts vs HOU; led team in pts/ast in 4 games"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "CHI": {
     "key": "401909278|401909912",
     "result": {
       "abbr": "CHI",
-      "story": "Lost 4 straight; -95 on the season.",
+      "story": "The Bulls are 1-5 on a 4-game losing streak, most recently falling 125-111 at BOS in the NBA Cup opener.",
       "player": {
-        "name": "Josh Giddey",
-        "pos": "G",
-        "line": "Led the team in assists in 6 games"
+        "name": "Caleb Wilson",
+        "pos": "F",
+        "line": "23 pts vs BOS; led team in pts/reb in 2 games"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "ATL": {

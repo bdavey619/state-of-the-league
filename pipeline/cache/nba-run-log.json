@@ -1,23 +1,6 @@
 {
-  "at": "2026-10-31T17:06:09.207Z",
+  "at": "2026-10-31T17:09:39.079Z",
   "model": "claude-sonnet-5-5",
-  "claudeStories": 25,
-  "issues": [
-    {
-      "teams": [
-        "DET",
-        "CLE",
-        "IND",
-        "MIL",
-        "CHI"
-      ],
-      "error": "Could not parse JSON (stop_reason max_tokens): [\n{\"abbr\":\"DET\",\"story\":\"The Pistons are 5-1 and top the East with a +8 point differential per game, though it is only 6 games.\",\"player\":{\"name\":\"Cade Cunningham\",\"pos\":\"G\",\"line\":\"20 points in the 1"
-    },
-    {
-      "attempt": 1,
-      "problems": [
-        "NO: numbers not in facts: 8"
-      ]
-    }
-  ]
+  "claudeStories": 30,
+  "issues": []
 }
