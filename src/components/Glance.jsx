@@ -1,9 +1,8 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { HEAT, record } from '../format.js';
 import Heat from './Heat.jsx';
 
-export default function Glance({ conferences }) {
-  const [view, setView] = useState('standings');
+export default function Glance({ conferences, view, setView }) {
 
   const divisions = useMemo(() => conferences.flatMap((c) => c.divisions), [conferences]);
   const power = useMemo(() => {
@@ -55,9 +54,10 @@ export default function Glance({ conferences }) {
                   <span className="team-cell">
                     <span className="swatch" style={{ background: t.color }} aria-hidden="true" />
                     <span className="name">{t.name}</span>
+                    <span className="abbr">{t.abbr}</span>
                   </span>
                   <span className="mono">{record(t)}</span>
-                  <span className="mono dim small">{t.division}</span>
+                  <span className="mono dim small division-cell">{t.division}</span>
                   <Heat label={t.heat} />
                 </div>
               ))}

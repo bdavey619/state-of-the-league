@@ -7,6 +7,7 @@ import { updatedLabel } from './format.js';
 export default function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [view, setView] = useState('standings');
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/nfl.json`, { cache: 'no-cache' })
@@ -45,15 +46,16 @@ export default function App() {
               <h1>The state of the NFL</h1>
             </div>
 
+            <Glance conferences={data.conferences} view={view} setView={setView} />
+
             <div className="desktop-only">
-              <Glance conferences={data.conferences} />
               {data.conferences.map((c) => (
                 <Conference key={c.abbr} conf={c} />
               ))}
             </div>
 
             <div className="mobile-only">
-              <MobileList conferences={data.conferences} />
+              <MobileList conferences={data.conferences} view={view} />
             </div>
 
             <footer className="footer">

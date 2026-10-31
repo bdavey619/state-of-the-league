@@ -3,8 +3,7 @@ import { nextLabel, record } from '../format.js';
 import Heat from './Heat.jsx';
 
 // Phone layout: one compact line per team; tap to open its storyline and player to watch.
-export default function MobileList({ conferences }) {
-  const [view, setView] = useState('standings');
+export default function MobileList({ conferences, view }) {
   const [open, setOpen] = useState(null);
 
   const groups = useMemo(() => {
@@ -16,14 +15,7 @@ export default function MobileList({ conferences }) {
 
   return (
     <section className="m-list" aria-label="Teams">
-      <div className="segmented m-toggle" role="group" aria-label="Sort teams">
-        <button type="button" aria-pressed={view === 'standings'} onClick={() => setView('standings')}>
-          Standings
-        </button>
-        <button type="button" aria-pressed={view === 'power'} onClick={() => setView('power')}>
-          Power rankings
-        </button>
-      </div>
+      <h2 className="m-title">Every team</h2>
 
       {groups.map((g) => (
         <div className="m-group" key={g.name}>
@@ -72,14 +64,7 @@ export default function MobileList({ conferences }) {
         </div>
       ))}
 
-      <div className="mono legend">
-        <span><span className="heat up">▲▲</span> Hot</span>
-        <span><span className="heat up">▲</span> Warm</span>
-        <span><span className="heat flat">–</span> Steady</span>
-        <span><span className="heat down">▼</span> Cool</span>
-        <span><span className="heat down">▼▼</span> Cold</span>
-        <span># power rank · tap a team for more</span>
-      </div>
+      <div className="mono legend">Tap a team for its storyline and player to watch</div>
     </section>
   );
 }
