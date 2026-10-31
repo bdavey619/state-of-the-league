@@ -3,52 +3,52 @@
     "key": "401873005|401873026",
     "result": {
       "abbr": "BUF",
-      "story": "5-1 despite a +26 point differential.",
+      "story": "Bills are 5-1 and lead the NFL with 197 points scored, but the point differential is only +26.",
       "player": {
         "name": "James Cook III",
         "pos": "RB",
-        "line": "459 rushing yds as team leader"
+        "line": "22 carries, 95 yds and a TD vs LV in Wk 6"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "NE": {
     "key": "401873010|401873034",
     "result": {
       "abbr": "NE",
-      "story": "Lost to CHI 24-30 last time out.",
+      "story": "Patriots are 4-3 after a 24-30 loss at Chicago, and A.J. Brown is questionable for Sunday at Miami.",
       "player": {
         "name": "Drake Maye",
         "pos": "QB",
-        "line": "1371 passing yds as team leader"
+        "line": "24/31, 321 yds, 2 TD, 1 INT vs CHI"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "NYJ": {
     "key": "401873015|401873029",
     "result": {
       "abbr": "NYJ",
-      "story": "Better than 2-5: they've outscored opponents by -13.",
+      "story": "Jets are 2-5 and have lost two straight, but sources say Garrett Wilson is not expected to be traded.",
       "player": {
         "name": "Geno Smith",
         "pos": "QB",
-        "line": "1504 passing yds as team leader"
+        "line": "23/30, 287 yds, 3 TD, 1 INT vs MIA"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "MIA": {
     "key": "401873015|401873034",
     "result": {
       "abbr": "MIA",
-      "story": "Beat NYJ 28-25 last time out.",
+      "story": "Dolphins are 1-5 with a -59 point differential, though they won 28-25 at the Jets in Week 7.",
       "player": {
-        "name": "Malik Willis",
-        "pos": "QB",
-        "line": "220 passing yds as team leader"
+        "name": "Ollie Gordon II",
+        "pos": "RB",
+        "line": "18 carries, 88 yds and a TD vs CIN in Wk 5"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "PIT": {
@@ -159,52 +159,52 @@
     "key": "401873022|401873033",
     "result": {
       "abbr": "KC",
-      "story": "Lost to SEA 3-20 last time out.",
+      "story": "Chiefs are 5-1 atop the AFC West but lost 3-20 at SEA; Rashee Rice is expected back at DEN.",
       "player": {
-        "name": "Patrick Mahomes",
-        "pos": "QB",
-        "line": "1084 passing yds as team leader"
+        "name": "Rashee Rice",
+        "pos": "WR",
+        "line": "Expected back from a hamstring injury at DEN"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "DEN": {
     "key": "401873019|401873033",
     "result": {
       "abbr": "DEN",
-      "story": "Won 3 straight; +3 on the season.",
+      "story": "Broncos are 5-2 and have won three straight, but their point differential is only +3.",
       "player": {
         "name": "Bo Nix",
         "pos": "QB",
-        "line": "484 passing yds as team leader"
+        "line": "7 carries, 73 yds and a TD vs ARI in Wk 7"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "LV": {
     "key": "401873021|401873029",
     "result": {
       "abbr": "LV",
-      "story": "Lost 4 straight; -14 on the season.",
+      "story": "Raiders are 3-4 and have lost four straight, most recently 21-35 vs LAR.",
       "player": {
         "name": "Kirk Cousins",
         "pos": "QB",
-        "line": "1226 passing yds as team leader"
+        "line": "295 yds and 2 TD vs LAR in Wk 7"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "LAC": {
     "key": "401873006|401873032",
     "result": {
       "abbr": "LAC",
-      "story": "The only winless team, now 0-6.",
+      "story": "Chargers are 0-6, the NFL's only winless team, and have scored a league-low 90 points.",
       "player": {
         "name": "Justin Herbert",
         "pos": "QB",
-        "line": "415 passing yds as team leader"
+        "line": "19/31, 189 yds, 1 TD, 2 INT vs SEA in Wk 4"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "NYG": {
@@ -263,52 +263,52 @@
     "key": "401873014|401873030",
     "result": {
       "abbr": "MIN",
-      "story": "The last unbeaten team at 6-0.",
+      "story": "Minnesota is the NFL's only unbeaten team at 6-0 and has allowed the fewest points, 74.",
       "player": {
         "name": "Kyler Murray",
         "pos": "QB",
-        "line": "626 passing yds as team leader"
+        "line": "150 yds and a TD vs IND in Week 7"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "CHI": {
     "key": "401873010|401873036",
     "result": {
       "abbr": "CHI",
-      "story": "Beat NE 30-24 last time out.",
+      "story": "Chicago is 5-2 on a two-game win streak, following a 7-31 loss at Green Bay in Week 5.",
       "player": {
-        "name": "D'Andre Swift",
-        "pos": "RB",
-        "line": "329 rushing yds as team leader"
+        "name": "Luther Burden III",
+        "pos": "WR",
+        "line": "130 yds and a TD on 4 catches vs NE"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "DET": {
     "key": "401873020|401873030",
     "result": {
       "abbr": "DET",
-      "story": "Beat GB 20-17 last time out.",
+      "story": "Detroit is 4-2 with two straight wins and faces unbeaten Minnesota next.",
       "player": {
-        "name": "Jared Goff",
-        "pos": "QB",
-        "line": "1042 passing yds as team leader"
+        "name": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "line": "9 catches for 153 yds vs GB in Week 7"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "GB": {
     "key": "401873023|401873049",
     "result": {
       "abbr": "GB",
-      "story": "Beat CAR 27-19 last time out.",
+      "story": "Green Bay is 5-3 after beating Carolina 27-19; Micah Parsons is targeting a return for the Rams game.",
       "player": {
         "name": "Jordan Love",
         "pos": "QB",
-        "line": "1827 passing yds as team leader"
+        "line": "288 yds, 3 TD and 1 INT vs CAR"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "ATL": {
