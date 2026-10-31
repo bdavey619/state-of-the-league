@@ -47,10 +47,10 @@ export function buildTeams(games, league = NFL) {
       team.pa += them.score;
       team.games.push({ id: g.id, week: g.week, date: g.date, opp: them.abbr, home, result, for: me.score, against: them.score });
       for (const l of me.leaders) {
-        const p = (team.leaders[l.name] ||= { name: l.name, pos: l.pos, kinds: new Set(), total: 0, games: 0, lastLine: '', lastDate: '' });
+        const p = (team.leaders[l.name] ||= { name: l.name, pos: l.pos, kinds: new Set(), total: 0, gameIds: new Set(), lastLine: '', lastDate: '' });
         p.kinds.add(l.kind);
         p.total += l.value || 0;
-        p.games += 1;
+        p.gameIds.add(g.id || g.date);
         if (String(g.date) >= p.lastDate) {
           p.lastLine = `${l.line} ${l.kind === 'points' || l.kind === 'rebounds' || l.kind === 'assists' ? l.kind + ' ' : ''}vs ${them.abbr} (${gameTag(g)})`;
           p.lastDate = String(g.date);
@@ -84,7 +84,7 @@ export function buildTeams(games, league = NFL) {
     team.streak = streak(team.games);
     team.expectedWins = pythag(team.pf, team.pa, gp, league.key === 'nba' ? 14 : 2.37);
     team.leaderList = Object.values(team.leaders)
-      .map((p) => ({ ...p, kinds: [...p.kinds], perGame: p.games ? Math.round((p.total / p.games) * 10) / 10 : 0 }))
+      .map(({ gameIds, ...p }) => ({ ...p, kinds: [...p.kinds], games: gameIds.size, perGame: gameIds.size ? Math.round((p.total / gameIds.size) * 10) / 10 : 0 }))
       .sort((a, b) => b.games - a.games || b.total - a.total)
       .slice(0, 5);
   }

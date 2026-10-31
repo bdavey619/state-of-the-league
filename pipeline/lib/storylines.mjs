@@ -109,7 +109,7 @@ async function callClaudeOnce(packets, feedback, system) {
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 2500,
+      max_tokens: 4000,
       system,
       messages: [{
         role: 'user',

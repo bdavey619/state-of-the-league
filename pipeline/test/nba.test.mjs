@@ -61,3 +61,12 @@ test('NBA fact packet and validation', () => {
   assert.match(validate({ ...ok, story: 'Won by 40.' }, gs, packet).join(), /numbers not in facts/);
   assert.match(fallback(gs, [], NBA).player.line, /Led the team in points/);
 });
+
+test('a player leading two categories in one game counts as one game', () => {
+  const ev = parseEvent(fixture, null, NBA.norm);
+  ev.home.leaders.push({ kind: 'assists', name: 'Stephen Curry', pos: 'G', value: 8, line: '8' });
+  const teams = buildTeams([ev], NBA);
+  const curry = teams.GS.leaderList.find((p) => p.name === 'Stephen Curry');
+  assert.equal(curry.games, 1);
+  assert.deepEqual(curry.kinds.sort(), ['assists', 'points']);
+});
