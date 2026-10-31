@@ -1,0 +1,418 @@
+{
+  "BUF": {
+    "key": "401873005|401873026",
+    "result": {
+      "abbr": "BUF",
+      "story": "5-1 despite a +26 point differential.",
+      "player": {
+        "name": "James Cook III",
+        "pos": "RB",
+        "line": "459 rushing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "NE": {
+    "key": "401873010|401873034",
+    "result": {
+      "abbr": "NE",
+      "story": "Lost to CHI 24-30 last time out.",
+      "player": {
+        "name": "Drake Maye",
+        "pos": "QB",
+        "line": "1371 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "NYJ": {
+    "key": "401873015|401873029",
+    "result": {
+      "abbr": "NYJ",
+      "story": "Better than 2-5: they've outscored opponents by -13.",
+      "player": {
+        "name": "Geno Smith",
+        "pos": "QB",
+        "line": "1504 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "MIA": {
+    "key": "401873015|401873034",
+    "result": {
+      "abbr": "MIA",
+      "story": "Beat NYJ 28-25 last time out.",
+      "player": {
+        "name": "Malik Willis",
+        "pos": "QB",
+        "line": "220 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "PIT": {
+    "key": "401873011|401873027",
+    "result": {
+      "abbr": "PIT",
+      "story": "Steelers lead the AFC North at 5-2 with 3 straight wins, though the point differential is only +15.",
+      "player": {
+        "name": "Jaylen Warren",
+        "pos": "RB",
+        "line": "101 rushing yds on 18 carries vs NO"
+      },
+      "source": "claude"
+    }
+  },
+  "CLE": {
+    "key": "401873013|401873027",
+    "result": {
+      "abbr": "CLE",
+      "story": "Browns are 5-2 despite a -13 point differential, and they visit first-place Pittsburgh next.",
+      "player": {
+        "name": "Deshaun Watson",
+        "pos": "QB",
+        "line": "308 passing yds in the 27-24 win at TEN"
+      },
+      "source": "claude"
+    }
+  },
+  "CIN": {
+    "key": "401873012|401873031",
+    "result": {
+      "abbr": "CIN",
+      "story": "Bengals are 4-2 with a +41 point differential and just beat Baltimore 35-13.",
+      "player": {
+        "name": "Tee Higgins",
+        "pos": "WR",
+        "line": "6 REC, 148 YDS and a TD vs BAL"
+      },
+      "source": "claude"
+    }
+  },
+  "BAL": {
+    "key": "401873012|401873026",
+    "result": {
+      "abbr": "BAL",
+      "story": "Ravens have dropped 2 straight at 4-3, with Lamar Jackson expected back this week from an ankle injury.",
+      "player": {
+        "name": "Lamar Jackson",
+        "pos": "QB",
+        "line": "Expected back from an ankle injury at Buffalo"
+      },
+      "source": "claude"
+    }
+  },
+  "JAX": {
+    "key": "401872996|401873028",
+    "result": {
+      "abbr": "JAX",
+      "story": "Jacksonville is 4-2 and leads the AFC South with a +50 point differential, despite a 31-34 loss to HOU.",
+      "player": {
+        "name": "Parker Washington",
+        "pos": "WR",
+        "line": "6 catches, 124 yds and 2 TD vs PHI in Wk 5"
+      },
+      "source": "claude"
+    }
+  },
+  "HOU": {
+    "key": "401873016|401873046",
+    "result": {
+      "abbr": "HOU",
+      "story": "Houston is 2-5 but has only a -5 point differential, after a 21-27 loss to NYG in its last game.",
+      "player": {
+        "name": "C.J. Stroud",
+        "pos": "QB",
+        "line": "24/34, 312 yds and 3 TD vs JAX in Wk 6"
+      },
+      "source": "claude"
+    }
+  },
+  "IND": {
+    "key": "401873014|401873028",
+    "result": {
+      "abbr": "IND",
+      "story": "Indianapolis has lost three straight to fall to 2-5, and is open to trading RB Jonathan Taylor, per ESPN.",
+      "player": {
+        "name": "Jonathan Taylor",
+        "pos": "RB",
+        "line": "18 carries, 95 yds and a TD vs MIN in Wk 7"
+      },
+      "source": "claude"
+    }
+  },
+  "TEN": {
+    "key": "401873013|401873031",
+    "result": {
+      "abbr": "TEN",
+      "story": "Tennessee is 1-6 with a -48 point differential, and has traded Jeffery Simmons to the Chicago Bears.",
+      "player": {
+        "name": "Tony Pollard",
+        "pos": "RB",
+        "line": "25 carries, 129 yds and 3 TD vs CLE in Wk 7"
+      },
+      "source": "claude"
+    }
+  },
+  "KC": {
+    "key": "401873022|401873033",
+    "result": {
+      "abbr": "KC",
+      "story": "Lost to SEA 3-20 last time out.",
+      "player": {
+        "name": "Patrick Mahomes",
+        "pos": "QB",
+        "line": "1084 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "DEN": {
+    "key": "401873019|401873033",
+    "result": {
+      "abbr": "DEN",
+      "story": "Won 3 straight; +3 on the season.",
+      "player": {
+        "name": "Bo Nix",
+        "pos": "QB",
+        "line": "484 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "LV": {
+    "key": "401873021|401873029",
+    "result": {
+      "abbr": "LV",
+      "story": "Lost 4 straight; -14 on the season.",
+      "player": {
+        "name": "Kirk Cousins",
+        "pos": "QB",
+        "line": "1226 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "LAC": {
+    "key": "401873006|401873032",
+    "result": {
+      "abbr": "LAC",
+      "story": "The only winless team, now 0-6.",
+      "player": {
+        "name": "Justin Herbert",
+        "pos": "QB",
+        "line": "415 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "NYG": {
+    "key": "401873016|401873044",
+    "result": {
+      "abbr": "NYG",
+      "story": "Giants lead the NFC East at 4-2-1 with just a +2 point differential after a 27-21 win at HOU.",
+      "player": {
+        "name": "Cam Skattebo",
+        "pos": "RB",
+        "line": "124 yds and a TD on 17 carries at HOU"
+      },
+      "source": "claude"
+    }
+  },
+  "DAL": {
+    "key": "401873009|401873024",
+    "result": {
+      "abbr": "DAL",
+      "story": "Cowboys snapped a two-game skid with a 38-21 win at PHI but sit 3-4, second in the NFC East.",
+      "player": {
+        "name": "Javonte Williams",
+        "pos": "RB",
+        "line": "155 yds and a TD on 25 carries at PHI"
+      },
+      "source": "claude"
+    }
+  },
+  "PHI": {
+    "key": "401873009|401873035",
+    "result": {
+      "abbr": "PHI",
+      "story": "Eagles are 2-5 on a five-game losing streak, with a -48 point differential.",
+      "player": {
+        "name": "Saquon Barkley",
+        "pos": "RB",
+        "line": "No injury designation for the Wk 8 game at WSH"
+      },
+      "source": "claude"
+    }
+  },
+  "WSH": {
+    "key": "401873008|401873035",
+    "result": {
+      "abbr": "WSH",
+      "story": "Commanders are 1-4-1 and lost DT Daron Payne to a season-ending foot injury, per a source.",
+      "player": {
+        "name": "Jayden Daniels",
+        "pos": "QB",
+        "line": "29/40, 300 yds and 2 TD vs SF in Wk 6"
+      },
+      "source": "claude"
+    }
+  },
+  "MIN": {
+    "key": "401873014|401873030",
+    "result": {
+      "abbr": "MIN",
+      "story": "The last unbeaten team at 6-0.",
+      "player": {
+        "name": "Kyler Murray",
+        "pos": "QB",
+        "line": "626 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "CHI": {
+    "key": "401873010|401873036",
+    "result": {
+      "abbr": "CHI",
+      "story": "Beat NE 30-24 last time out.",
+      "player": {
+        "name": "D'Andre Swift",
+        "pos": "RB",
+        "line": "329 rushing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "DET": {
+    "key": "401873020|401873030",
+    "result": {
+      "abbr": "DET",
+      "story": "Beat GB 20-17 last time out.",
+      "player": {
+        "name": "Jared Goff",
+        "pos": "QB",
+        "line": "1042 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "GB": {
+    "key": "401873023|401873049",
+    "result": {
+      "abbr": "GB",
+      "story": "Beat CAR 27-19 last time out.",
+      "player": {
+        "name": "Jordan Love",
+        "pos": "QB",
+        "line": "1827 passing yds as team leader"
+      },
+      "source": "template"
+    }
+  },
+  "ATL": {
+    "key": "401873017|401873025",
+    "result": {
+      "abbr": "ATL",
+      "story": "Atlanta leads the NFC South at 3-4 with a -2 point differential after beating SF 29-20 in Week 7.",
+      "player": {
+        "name": "Michael Penix Jr.",
+        "pos": "QB",
+        "line": "240 yds and a TD vs BAL; ESPN sees a possible QB1"
+      },
+      "source": "claude"
+    }
+  },
+  "CAR": {
+    "key": "401873023|401873041",
+    "result": {
+      "abbr": "CAR",
+      "story": "Carolina has lost two straight at 3-4 and swapped defensive coordinators, Ejiro Evero out for Todd Wash.",
+      "player": {
+        "name": "Chuba Hubbard",
+        "pos": "RB",
+        "line": "81 yds and a TD on 22 carries vs GB"
+      },
+      "source": "claude"
+    }
+  },
+  "TB": {
+    "key": "401873018|401873025",
+    "result": {
+      "abbr": "TB",
+      "story": "Tampa Bay is 2-5 but has a +11 point differential after a 43-13 win at CAR in Week 7.",
+      "player": {
+        "name": "Bucky Irving",
+        "pos": "RB",
+        "line": "106 yds and 2 TD vs CAR in Wk 7"
+      },
+      "source": "claude"
+    }
+  },
+  "NO": {
+    "key": "401873011|401873039",
+    "result": {
+      "abbr": "NO",
+      "story": "New Orleans is 2-5 with a -32 point differential and is searching for answers during its bye week.",
+      "player": {
+        "name": "Tyler Shough",
+        "pos": "QB",
+        "line": "30/38, 278 yds, 1 TD vs PIT in Wk 7"
+      },
+      "source": "claude"
+    }
+  },
+  "SF": {
+    "key": "401873017|401873047",
+    "result": {
+      "abbr": "SF",
+      "story": "The 49ers sit 6-1 atop the NFC West but lost 20-29 at Atlanta in Week 7.",
+      "player": {
+        "name": "George Kittle",
+        "pos": "TE",
+        "line": "8 catches for 88 yds vs ATL in Week 7"
+      },
+      "source": "claude"
+    }
+  },
+  "SEA": {
+    "key": "401873022|401873036",
+    "result": {
+      "abbr": "SEA",
+      "story": "The Seahawks are 4-3 after a 20-3 win over KC and have a +43 point differential.",
+      "player": {
+        "name": "Jaxon Smith-Njigba",
+        "pos": "WR",
+        "line": "9 catches, 150 yds and a TD vs KC"
+      },
+      "source": "claude"
+    }
+  },
+  "LAR": {
+    "key": "401873021|401873032",
+    "result": {
+      "abbr": "LAR",
+      "story": "The Rams are 3-4 in third place, coming off a 35-21 win at LV after 34-37 and 16-18 losses.",
+      "player": {
+        "name": "Kyren Williams",
+        "pos": "RB",
+        "line": "16 carries, 99 yds and a TD vs LV"
+      },
+      "source": "claude"
+    }
+  },
+  "ARI": {
+    "key": "401873019|401873024",
+    "result": {
+      "abbr": "ARI",
+      "story": "The Cardinals are 2-5 and have allowed the most points in the NFL, 208.",
+      "player": {
+        "name": "Trey McBride",
+        "pos": "TE",
+        "line": "10 catches, 111 yds and a TD vs DEN"
+      },
+      "source": "claude"
+    }
+  }
+}

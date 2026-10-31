@@ -3,10 +3,9 @@
   "season": 2026,
   "week": 8,
   "throughLabel": "through Thu, Oct 29",
-  "updatedAt": "2026-10-31T16:30:00Z",
+  "updatedAt": "2026-10-31T16:49:32.207Z",
   "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
-  "aiStorylines": false,
-  "seed": true,
+  "aiStorylines": true,
   "conferences": [
     {
       "abbr": "AFC",
@@ -29,32 +28,40 @@
               "heat": "Warm",
               "last3": [
                 {
+                  "week": 4,
+                  "result": "L",
+                  "for": 26,
+                  "against": 29,
+                  "opp": "NE",
+                  "home": true
+                },
+                {
                   "week": 5,
                   "result": "W",
                   "for": 37,
-                  "against": 34
+                  "against": 34,
+                  "opp": "LAR",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 33,
-                  "against": 30
-                },
-                {
-                  "week": 7,
-                  "result": "BYE"
+                  "against": 30,
+                  "opp": "LV",
+                  "home": false
                 }
               ],
-              "story": "Rested after back-to-back three-point wins; the AFC's front-runner.",
+              "story": "5-1 despite a +26 point differential.",
               "player": {
-                "name": "Josh Allen",
-                "pos": "QB",
-                "line": "MVP favorite at +165"
+                "name": "James Cook III",
+                "pos": "RB",
+                "line": "459 rushing yds as team leader"
               },
               "next": {
                 "opp": "BAL",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             },
@@ -75,31 +82,37 @@
                   "week": 5,
                   "result": "W",
                   "for": 45,
-                  "against": 17
+                  "against": 17,
+                  "opp": "LV",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 26,
-                  "against": 19
+                  "against": 19,
+                  "opp": "NYJ",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 24,
-                  "against": 30
+                  "against": 30,
+                  "opp": "CHI",
+                  "home": false
                 }
               ],
-              "story": "Lost a shootout in Chicago, but still scores like a playoff team.",
+              "story": "Lost to CHI 24-30 last time out.",
               "player": {
                 "name": "Drake Maye",
                 "pos": "QB",
-                "line": "5 total TDs vs. LV in Week 5"
+                "line": "1371 passing yds as team leader"
               },
               "next": {
                 "opp": "MIA",
                 "home": false,
-                "kickoff": "2026-11-01T21:25:00Z",
+                "kickoff": "2026-11-01T21:25Z",
                 "network": "CBS"
               }
             },
@@ -120,32 +133,38 @@
                   "week": 5,
                   "result": "W",
                   "for": 17,
-                  "against": 12
+                  "against": 12,
+                  "opp": "CLE",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 19,
-                  "against": 26
+                  "against": 26,
+                  "opp": "NE",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 25,
-                  "against": 28
+                  "against": 28,
+                  "opp": "MIA",
+                  "home": true
                 }
               ],
-              "story": "Two straight losses, including Miami's first win of the year.",
+              "story": "Better than 2-5: they've outscored opponents by -13.",
               "player": {
-                "name": "Garrett Wilson",
-                "pos": "WR",
-                "line": "104 yds vs. CLE in Week 5"
+                "name": "Geno Smith",
+                "pos": "QB",
+                "line": "1504 passing yds as team leader"
               },
               "next": {
                 "opp": "LV",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -165,7 +184,9 @@
                   "week": 5,
                   "result": "L",
                   "for": 24,
-                  "against": 31
+                  "against": 31,
+                  "opp": "CIN",
+                  "home": true
                 },
                 {
                   "week": 6,
@@ -175,19 +196,21 @@
                   "week": 7,
                   "result": "W",
                   "for": 28,
-                  "against": 25
+                  "against": 25,
+                  "opp": "NYJ",
+                  "home": false
                 }
               ],
-              "story": "Finally won, holding off a late Jets rally under new coach Jeff Hafley.",
+              "story": "Beat NYJ 28-25 last time out.",
               "player": {
                 "name": "Malik Willis",
                 "pos": "QB",
-                "line": "Sparked the first win"
+                "line": "220 passing yds as team leader"
               },
               "next": {
                 "opp": "NE",
                 "home": true,
-                "kickoff": "2026-11-01T21:25:00Z",
+                "kickoff": "2026-11-01T21:25Z",
                 "network": "CBS"
               }
             }
@@ -213,31 +236,37 @@
                   "week": 5,
                   "result": "W",
                   "for": 34,
-                  "against": 22
+                  "against": 22,
+                  "opp": "IND",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 26,
-                  "against": 19
+                  "against": 19,
+                  "opp": "TB",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 16,
-                  "against": 10
+                  "against": 10,
+                  "opp": "NO",
+                  "home": false
                 }
               ],
-              "story": "Three straight wins, the latest in Paris.",
+              "story": "Steelers lead the AFC North at 5-2 with 3 straight wins, though the point differential is only +15.",
               "player": {
-                "name": "Aaron Rodgers",
-                "pos": "QB",
-                "line": "Two late TDs to beat TB in OT"
+                "name": "Jaylen Warren",
+                "pos": "RB",
+                "line": "101 rushing yds on 18 carries vs NO"
               },
               "next": {
                 "opp": "CLE",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             },
@@ -258,31 +287,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 12,
-                  "against": 17
+                  "against": 17,
+                  "opp": "NYJ",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 13,
-                  "against": 10
+                  "against": 10,
+                  "opp": "BAL",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 27,
-                  "against": 24
+                  "against": 24,
+                  "opp": "TEN",
+                  "home": false
                 }
               ],
-              "story": "5-2 despite being outscored; the last two wins came by a field goal.",
+              "story": "Browns are 5-2 despite a -13 point differential, and they visit first-place Pittsburgh next.",
               "player": {
                 "name": "Deshaun Watson",
                 "pos": "QB",
-                "line": "Starter for the 5-2 Browns"
+                "line": "308 passing yds in the 27-24 win at TEN"
               },
               "next": {
                 "opp": "PIT",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             },
@@ -303,7 +338,9 @@
                   "week": 5,
                   "result": "W",
                   "for": 31,
-                  "against": 24
+                  "against": 24,
+                  "opp": "MIA",
+                  "home": false
                 },
                 {
                   "week": 6,
@@ -313,19 +350,21 @@
                   "week": 7,
                   "result": "W",
                   "for": 35,
-                  "against": 13
+                  "against": 13,
+                  "opp": "BAL",
+                  "home": false
                 }
               ],
-              "story": "Erased a 13-0 halftime hole to rout Baltimore 35-13.",
+              "story": "Bengals are 4-2 with a +41 point differential and just beat Baltimore 35-13.",
               "player": {
-                "name": "Joe Burrow",
-                "pos": "QB",
-                "line": "Third in MVP odds (+500)"
+                "name": "Tee Higgins",
+                "pos": "WR",
+                "line": "6 REC, 148 YDS and a TD vs BAL"
               },
               "next": {
                 "opp": "TEN",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             },
@@ -346,31 +385,37 @@
                   "week": 5,
                   "result": "W",
                   "for": 30,
-                  "against": 23
+                  "against": 23,
+                  "opp": "ATL",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 10,
-                  "against": 13
+                  "against": 13,
+                  "opp": "CLE",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 13,
-                  "against": 35
+                  "against": 35,
+                  "opp": "CIN",
+                  "home": true
                 }
               ],
-              "story": "Two straight losses; outscored 35-0 after halftime last week.",
+              "story": "Ravens have dropped 2 straight at 4-3, with Lamar Jackson expected back this week from an ankle injury.",
               "player": {
-                "name": "Zay Flowers",
-                "pos": "WR",
-                "line": "Four 40-yard catches, tied for the NFL lead"
+                "name": "Lamar Jackson",
+                "pos": "QB",
+                "line": "Expected back from an ankle injury at Buffalo"
               },
               "next": {
                 "opp": "BUF",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             }
@@ -393,32 +438,40 @@
               "heat": "Steady",
               "last3": [
                 {
+                  "week": 4,
+                  "result": "W",
+                  "for": 22,
+                  "against": 17,
+                  "opp": "CIN",
+                  "home": false
+                },
+                {
                   "week": 5,
                   "result": "W",
                   "for": 19,
-                  "against": 17
+                  "against": 17,
+                  "opp": "PHI",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 31,
-                  "against": 34
-                },
-                {
-                  "week": 7,
-                  "result": "BYE"
+                  "against": 34,
+                  "opp": "HOU",
+                  "home": true
                 }
               ],
-              "story": "Best point differential in the division, fresh off a bye.",
+              "story": "Jacksonville is 4-2 and leads the AFC South with a +50 point differential, despite a 31-34 loss to HOU.",
               "player": {
-                "name": "Trevor Lawrence",
-                "pos": "QB",
-                "line": "331 yds vs. PHI in London"
+                "name": "Parker Washington",
+                "pos": "WR",
+                "line": "6 catches, 124 yds and 2 TD vs PHI in Wk 5"
               },
               "next": {
                 "opp": "IND",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             },
@@ -439,31 +492,37 @@
                   "week": 5,
                   "result": "W",
                   "for": 26,
-                  "against": 3
+                  "against": 3,
+                  "opp": "TEN",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 34,
-                  "against": 31
+                  "against": 31,
+                  "opp": "JAX",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 21,
-                  "against": 27
+                  "against": 27,
+                  "opp": "NYG",
+                  "home": true
                 }
               ],
-              "story": "A two-game win streak ended in overtime against the Giants.",
+              "story": "Houston is 2-5 but has only a -5 point differential, after a 21-27 loss to NYG in its last game.",
               "player": {
                 "name": "C.J. Stroud",
                 "pos": "QB",
-                "line": "312 yds in the London win over JAX"
+                "line": "24/34, 312 yds and 3 TD vs JAX in Wk 6"
               },
               "next": {
                 "opp": "LAC",
                 "home": false,
-                "kickoff": "2026-11-08T21:05:00Z",
+                "kickoff": "2026-11-08T21:05Z",
                 "network": "CBS"
               }
             },
@@ -484,31 +543,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 22,
-                  "against": 34
+                  "against": 34,
+                  "opp": "PIT",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 20,
-                  "against": 26
+                  "against": 26,
+                  "opp": "TEN",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 10,
-                  "against": 16
+                  "against": 16,
+                  "opp": "MIN",
+                  "home": false
                 }
               ],
-              "story": "Three straight losses; GM Chris Ballard was fired Oct 19.",
+              "story": "Indianapolis has lost three straight to fall to 2-5, and is open to trading RB Jonathan Taylor, per ESPN.",
               "player": {
                 "name": "Jonathan Taylor",
                 "pos": "RB",
-                "line": "94 yds vs. TEN in Week 6"
+                "line": "18 carries, 95 yds and a TD vs MIN in Wk 7"
               },
               "next": {
                 "opp": "JAX",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             },
@@ -529,31 +594,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 3,
-                  "against": 26
+                  "against": 26,
+                  "opp": "HOU",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 26,
-                  "against": 20
+                  "against": 20,
+                  "opp": "IND",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 24,
-                  "against": 27
+                  "against": 27,
+                  "opp": "CLE",
+                  "home": true
                 }
               ],
-              "story": "Blew a 14-0 lead to Cleveland a week after their first win.",
+              "story": "Tennessee is 1-6 with a -48 point differential, and has traded Jeffery Simmons to the Chicago Bears.",
               "player": {
                 "name": "Tony Pollard",
                 "pos": "RB",
-                "line": "Two early TDs vs. CLE"
+                "line": "25 carries, 129 yds and 3 TD vs CLE in Wk 7"
               },
               "next": {
                 "opp": "CIN",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
+                "kickoff": "2026-11-01T18:00Z",
                 "network": "CBS"
               }
             }
@@ -583,25 +654,29 @@
                   "week": 6,
                   "result": "W",
                   "for": 22,
-                  "against": 6
+                  "against": 6,
+                  "opp": "LAC",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 3,
-                  "against": 20
+                  "against": 20,
+                  "opp": "SEA",
+                  "home": false
                 }
               ],
-              "story": "First loss was a 20-3 dud in Seattle.",
+              "story": "Lost to SEA 3-20 last time out.",
               "player": {
-                "name": "Kenneth Walker III",
-                "pos": "RB",
-                "line": "128 yds vs. LAC in Week 6"
+                "name": "Patrick Mahomes",
+                "pos": "QB",
+                "line": "1084 passing yds as team leader"
               },
               "next": {
                 "opp": "DEN",
                 "home": false,
-                "kickoff": "2026-11-01T21:25:00Z",
+                "kickoff": "2026-11-01T21:25Z",
                 "network": "CBS"
               }
             },
@@ -622,31 +697,37 @@
                   "week": 5,
                   "result": "W",
                   "for": 23,
-                  "against": 17
+                  "against": 17,
+                  "opp": "LAC",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 17,
-                  "against": 14
+                  "against": 14,
+                  "opp": "SEA",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 30,
-                  "against": 16
+                  "against": 16,
+                  "opp": "ARI",
+                  "home": false
                 }
               ],
-              "story": "Three straight wins, nearly all of them close.",
+              "story": "Won 3 straight; +3 on the season.",
               "player": {
                 "name": "Bo Nix",
                 "pos": "QB",
-                "line": "Has Denver on a three-game run"
+                "line": "484 passing yds as team leader"
               },
               "next": {
                 "opp": "KC",
                 "home": true,
-                "kickoff": "2026-11-01T21:25:00Z",
+                "kickoff": "2026-11-01T21:25Z",
                 "network": "CBS"
               }
             },
@@ -667,32 +748,38 @@
                   "week": 5,
                   "result": "L",
                   "for": 17,
-                  "against": 45
+                  "against": 45,
+                  "opp": "NE",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 30,
-                  "against": 33
+                  "against": 33,
+                  "opp": "BUF",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 21,
-                  "against": 35
+                  "against": 35,
+                  "opp": "LAR",
+                  "home": true
                 }
               ],
-              "story": "Three straight losses, with 113 points allowed in them.",
+              "story": "Lost 4 straight; -14 on the season.",
               "player": {
-                "name": "Brock Bowers",
-                "pos": "TE",
-                "line": "110 yds at NE in Week 5"
+                "name": "Kirk Cousins",
+                "pos": "QB",
+                "line": "1226 passing yds as team leader"
               },
               "next": {
                 "opp": "NYJ",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -706,36 +793,44 @@
               "pf": 90,
               "pa": 151,
               "rank": 32,
-              "heat": "Cool",
+              "heat": "Cold",
               "last3": [
+                {
+                  "week": 4,
+                  "result": "L",
+                  "for": 23,
+                  "against": 30,
+                  "opp": "SEA",
+                  "home": false
+                },
                 {
                   "week": 5,
                   "result": "L",
                   "for": 17,
-                  "against": 23
+                  "against": 23,
+                  "opp": "DEN",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 6,
-                  "against": 22
-                },
-                {
-                  "week": 7,
-                  "result": "BYE"
+                  "against": 22,
+                  "opp": "KC",
+                  "home": false
                 }
               ],
-              "story": "The NFL's only winless team and its lowest-scoring offense.",
+              "story": "The only winless team, now 0-6.",
               "player": {
                 "name": "Justin Herbert",
                 "pos": "QB",
-                "line": "Still looking for a first win"
+                "line": "415 passing yds as team leader"
               },
               "next": {
                 "opp": "LAR",
                 "home": false,
-                "kickoff": "2026-11-01T21:05:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T21:05Z",
+                "network": "Fox"
               }
             }
           ]
@@ -766,32 +861,38 @@
                   "week": 5,
                   "result": "T",
                   "for": 27,
-                  "against": 27
+                  "against": 27,
+                  "opp": "WSH",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 27,
-                  "against": 34
+                  "against": 34,
+                  "opp": "NO",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 27,
-                  "against": 21
+                  "against": 21,
+                  "opp": "HOU",
+                  "home": false
                 }
               ],
-              "story": "Lead a weak NFC East despite a +2 point differential.",
+              "story": "Giants lead the NFC East at 4-2-1 with just a +2 point differential after a 27-21 win at HOU.",
               "player": {
-                "name": "Malik Nabers",
-                "pos": "WR",
-                "line": "165 yds vs. NO in Week 6"
+                "name": "Cam Skattebo",
+                "pos": "RB",
+                "line": "124 yds and a TD on 17 carries at HOU"
               },
               "next": {
                 "opp": "PHI",
                 "home": false,
-                "kickoff": "2026-11-08T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -811,32 +912,38 @@
                   "week": 5,
                   "result": "L",
                   "for": 16,
-                  "against": 24
+                  "against": 24,
+                  "opp": "TB",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 13,
-                  "against": 23
+                  "against": 23,
+                  "opp": "GB",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 38,
-                  "against": 21
+                  "against": 21,
+                  "opp": "PHI",
+                  "home": false
                 }
               ],
-              "story": "Hung 38 on Philadelphia Monday to climb back into the race.",
+              "story": "Cowboys snapped a two-game skid with a 38-21 win at PHI but sit 3-4, second in the NFC East.",
               "player": {
-                "name": "George Pickens",
-                "pos": "WR",
-                "line": "130 yds vs. TB in Week 5"
+                "name": "Javonte Williams",
+                "pos": "RB",
+                "line": "155 yds and a TD on 25 carries at PHI"
               },
               "next": {
                 "opp": "ARI",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -856,31 +963,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 17,
-                  "against": 19
+                  "against": 19,
+                  "opp": "JAX",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 14,
-                  "against": 25
+                  "against": 25,
+                  "opp": "CAR",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 21,
-                  "against": 38
+                  "against": 38,
+                  "opp": "DAL",
+                  "home": true
                 }
               ],
-              "story": "Lost Jalen Hurts for the season to blood clots; three straight losses.",
+              "story": "Eagles are 2-5 on a five-game losing streak, with a -48 point differential.",
               "player": {
                 "name": "Saquon Barkley",
                 "pos": "RB",
-                "line": "Back from a hamstring injury"
+                "line": "No injury designation for the Wk 8 game at WSH"
               },
               "next": {
                 "opp": "WSH",
                 "home": false,
-                "kickoff": "2026-11-02T01:20:00Z",
+                "kickoff": "2026-11-02T01:20Z",
                 "network": "NBC"
               }
             },
@@ -898,32 +1011,40 @@
               "heat": "Cool",
               "last3": [
                 {
+                  "week": 4,
+                  "result": "L",
+                  "for": 13,
+                  "against": 30,
+                  "opp": "IND",
+                  "home": true
+                },
+                {
                   "week": 5,
                   "result": "T",
                   "for": 27,
-                  "against": 27
+                  "against": 27,
+                  "opp": "NYG",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 17,
-                  "against": 23
-                },
-                {
-                  "week": 7,
-                  "result": "BYE"
+                  "against": 23,
+                  "opp": "SF",
+                  "home": false
                 }
               ],
-              "story": "One win and a tie; hosts a reeling Eagles team Sunday night.",
+              "story": "Commanders are 1-4-1 and lost DT Daron Payne to a season-ending foot injury, per a source.",
               "player": {
                 "name": "Jayden Daniels",
                 "pos": "QB",
-                "line": "Scored twice in his Week 5 return"
+                "line": "29/40, 300 yds and 2 TD vs SF in Wk 6"
               },
               "next": {
                 "opp": "PHI",
                 "home": true,
-                "kickoff": "2026-11-02T01:20:00Z",
+                "kickoff": "2026-11-02T01:20Z",
                 "network": "NBC"
               }
             }
@@ -949,7 +1070,9 @@
                   "week": 5,
                   "result": "W",
                   "for": 23,
-                  "against": 13
+                  "against": 13,
+                  "opp": "NO",
+                  "home": false
                 },
                 {
                   "week": 6,
@@ -959,20 +1082,22 @@
                   "week": 7,
                   "result": "W",
                   "for": 16,
-                  "against": 10
+                  "against": 10,
+                  "opp": "IND",
+                  "home": true
                 }
               ],
-              "story": "The last unbeaten team, built on a league-best defense.",
+              "story": "The last unbeaten team at 6-0.",
               "player": {
-                "name": "Justin Jefferson",
-                "pos": "WR",
-                "line": "Starred in the win at New Orleans"
+                "name": "Kyler Murray",
+                "pos": "QB",
+                "line": "626 passing yds as team leader"
               },
               "next": {
                 "opp": "DET",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -992,31 +1117,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 7,
-                  "against": 31
+                  "against": 31,
+                  "opp": "GB",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 31,
-                  "against": 23
+                  "against": 23,
+                  "opp": "ATL",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 30,
-                  "against": 24
+                  "against": 24,
+                  "opp": "NE",
+                  "home": true
                 }
               ],
-              "story": "2-0 since Caleb Williams returned; a big riser in the rankings.",
+              "story": "Beat NE 30-24 last time out.",
               "player": {
-                "name": "Caleb Williams",
-                "pos": "QB",
-                "line": "Hit his first 12 passes in his return"
+                "name": "D'Andre Swift",
+                "pos": "RB",
+                "line": "329 rushing yds as team leader"
               },
               "next": {
                 "opp": "SEA",
                 "home": false,
-                "kickoff": "2026-11-03T01:15:00Z",
+                "kickoff": "2026-11-03T01:15Z",
                 "network": "ESPN"
               }
             },
@@ -1037,7 +1168,9 @@
                   "week": 5,
                   "result": "W",
                   "for": 45,
-                  "against": 21
+                  "against": 21,
+                  "opp": "ARI",
+                  "home": false
                 },
                 {
                   "week": 6,
@@ -1047,20 +1180,22 @@
                   "week": 7,
                   "result": "W",
                   "for": 20,
-                  "against": 17
+                  "against": 17,
+                  "opp": "GB",
+                  "home": true
                 }
               ],
-              "story": "Beat Green Bay on a last-play field goal.",
+              "story": "Beat GB 20-17 last time out.",
               "player": {
-                "name": "Amon-Ra St. Brown",
-                "pos": "WR",
-                "line": "Top target in the win over GB"
+                "name": "Jared Goff",
+                "pos": "QB",
+                "line": "1042 passing yds as team leader"
               },
               "next": {
                 "opp": "MIN",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -1080,32 +1215,38 @@
                   "week": 6,
                   "result": "W",
                   "for": 23,
-                  "against": 13
+                  "against": 13,
+                  "opp": "DAL",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 17,
-                  "against": 20
+                  "against": 20,
+                  "opp": "DET",
+                  "home": false
                 },
                 {
                   "week": 8,
                   "result": "W",
-                  "for": null,
-                  "against": null
+                  "for": 27,
+                  "against": 19,
+                  "opp": "CAR",
+                  "home": true
                 }
               ],
-              "story": "Bounced back from the Detroit loss by beating Carolina Thursday.",
+              "story": "Beat CAR 27-19 last time out.",
               "player": {
                 "name": "Jordan Love",
                 "pos": "QB",
-                "line": "367 yds vs. CHI in Week 5"
+                "line": "1827 passing yds as team leader"
               },
               "next": {
                 "opp": "NE",
                 "home": false,
-                "kickoff": "2026-11-08T21:25:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-08T21:25Z",
+                "network": "Fox"
               }
             }
           ]
@@ -1130,32 +1271,38 @@
                   "week": 5,
                   "result": "L",
                   "for": 23,
-                  "against": 30
+                  "against": 30,
+                  "opp": "BAL",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 23,
-                  "against": 31
+                  "against": 31,
+                  "opp": "CHI",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 29,
-                  "against": 20
+                  "against": 20,
+                  "opp": "SF",
+                  "home": true
                 }
               ],
-              "story": "Handed San Francisco its first loss, 29-20.",
+              "story": "Atlanta leads the NFC South at 3-4 with a -2 point differential after beating SF 29-20 in Week 7.",
               "player": {
-                "name": "Bijan Robinson",
-                "pos": "RB",
-                "line": "The engine of the offense"
+                "name": "Michael Penix Jr.",
+                "pos": "QB",
+                "line": "240 yds and a TD vs BAL; ESPN sees a possible QB1"
               },
               "next": {
                 "opp": "TB",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -1175,31 +1322,37 @@
                   "week": 6,
                   "result": "W",
                   "for": 25,
-                  "against": 14
+                  "against": 14,
+                  "opp": "PHI",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 13,
-                  "against": 43
+                  "against": 43,
+                  "opp": "TB",
+                  "home": true
                 },
                 {
                   "week": 8,
                   "result": "L",
-                  "for": null,
-                  "against": null
+                  "for": 19,
+                  "against": 27,
+                  "opp": "GB",
+                  "home": false
                 }
               ],
-              "story": "Routed by Tampa, then lost at Green Bay. Cooling fast.",
+              "story": "Carolina has lost two straight at 3-4 and swapped defensive coordinators, Ejiro Evero out for Todd Wash.",
               "player": {
-                "name": "Tetairoa McMillan",
-                "pos": "WR",
-                "line": "85 receiving yds per game"
+                "name": "Chuba Hubbard",
+                "pos": "RB",
+                "line": "81 yds and a TD on 22 carries vs GB"
               },
               "next": {
                 "opp": "DEN",
                 "home": true,
-                "kickoff": "2026-11-08T18:00:00Z",
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "CBS"
               }
             },
@@ -1220,32 +1373,38 @@
                   "week": 5,
                   "result": "W",
                   "for": 24,
-                  "against": 16
+                  "against": 16,
+                  "opp": "DAL",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 19,
-                  "against": 26
+                  "against": 26,
+                  "opp": "PIT",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 43,
-                  "against": 13
+                  "against": 13,
+                  "opp": "CAR",
+                  "home": false
                 }
               ],
-              "story": "Better than 2-5: they've outscored opponents on the year.",
+              "story": "Tampa Bay is 2-5 but has a +11 point differential after a 43-13 win at CAR in Week 7.",
               "player": {
                 "name": "Bucky Irving",
                 "pos": "RB",
-                "line": "Two TDs in the 43-13 rout of CAR"
+                "line": "106 yds and 2 TD vs CAR in Wk 7"
               },
               "next": {
                 "opp": "ATL",
                 "home": true,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -1265,31 +1424,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 13,
-                  "against": 23
+                  "against": 23,
+                  "opp": "MIN",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 34,
-                  "against": 27
+                  "against": 27,
+                  "opp": "NYG",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 10,
-                  "against": 16
+                  "against": 16,
+                  "opp": "PIT",
+                  "home": true
                 }
               ],
-              "story": "Lost to Pittsburgh in the NFL's first game in France.",
+              "story": "New Orleans is 2-5 with a -32 point differential and is searching for answers during its bye week.",
               "player": {
-                "name": "Alvin Kamara",
-                "pos": "RB",
-                "line": "Lead back for the Saints"
+                "name": "Tyler Shough",
+                "pos": "QB",
+                "line": "30/38, 278 yds, 1 TD vs PIT in Wk 7"
               },
               "next": {
                 "opp": "CLE",
                 "home": true,
-                "kickoff": "2026-11-08T18:00:00Z",
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "CBS"
               }
             }
@@ -1315,32 +1480,38 @@
                   "week": 5,
                   "result": "W",
                   "for": 32,
-                  "against": 29
+                  "against": 29,
+                  "opp": "SEA",
+                  "home": false
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 23,
-                  "against": 17
+                  "against": 17,
+                  "opp": "WSH",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 20,
-                  "against": 29
+                  "against": 29,
+                  "opp": "ATL",
+                  "home": false
                 }
               ],
-              "story": "First loss came at Atlanta; still No. 2 in the power rankings.",
+              "story": "The 49ers sit 6-1 atop the NFC West but lost 20-29 at Atlanta in Week 7.",
               "player": {
-                "name": "Brock Purdy",
-                "pos": "QB",
-                "line": "Second in MVP odds (+350)"
+                "name": "George Kittle",
+                "pos": "TE",
+                "line": "8 catches for 88 yds vs ATL in Week 7"
               },
               "next": {
                 "opp": "LV",
                 "home": true,
-                "kickoff": "2026-11-08T21:05:00Z",
-                "network": "CBS"
+                "kickoff": "2026-11-08T21:25Z",
+                "network": "Fox"
               }
             },
             {
@@ -1360,31 +1531,37 @@
                   "week": 5,
                   "result": "L",
                   "for": 29,
-                  "against": 32
+                  "against": 32,
+                  "opp": "SF",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 14,
-                  "against": 17
+                  "against": 17,
+                  "opp": "DEN",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 20,
-                  "against": 3
+                  "against": 3,
+                  "opp": "KC",
+                  "home": true
                 }
               ],
-              "story": "The defending champs held Kansas City to 3 points.",
+              "story": "The Seahawks are 4-3 after a 20-3 win over KC and have a +43 point differential.",
               "player": {
                 "name": "Jaxon Smith-Njigba",
                 "pos": "WR",
-                "line": "150 yds and a TD vs. KC"
+                "line": "9 catches, 150 yds and a TD vs KC"
               },
               "next": {
                 "opp": "CHI",
                 "home": true,
-                "kickoff": "2026-11-03T01:15:00Z",
+                "kickoff": "2026-11-03T01:15Z",
                 "network": "ESPN"
               }
             },
@@ -1405,32 +1582,38 @@
                   "week": 5,
                   "result": "L",
                   "for": 34,
-                  "against": 37
+                  "against": 37,
+                  "opp": "BUF",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "L",
                   "for": 16,
-                  "against": 18
+                  "against": 18,
+                  "opp": "ARI",
+                  "home": true
                 },
                 {
                   "week": 7,
                   "result": "W",
                   "for": 35,
-                  "against": 21
+                  "against": 21,
+                  "opp": "LV",
+                  "home": false
                 }
               ],
-              "story": "Snapped a two-game skid with a 35-21 win in Las Vegas.",
+              "story": "The Rams are 3-4 in third place, coming off a 35-21 win at LV after 34-37 and 16-18 losses.",
               "player": {
-                "name": "Matthew Stafford",
-                "pos": "QB",
-                "line": "Three TDs vs. LV"
+                "name": "Kyren Williams",
+                "pos": "RB",
+                "line": "16 carries, 99 yds and a TD vs LV"
               },
               "next": {
                 "opp": "LAC",
                 "home": true,
-                "kickoff": "2026-11-01T21:05:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T21:05Z",
+                "network": "Fox"
               }
             },
             {
@@ -1450,32 +1633,38 @@
                   "week": 5,
                   "result": "L",
                   "for": 21,
-                  "against": 45
+                  "against": 45,
+                  "opp": "DET",
+                  "home": true
                 },
                 {
                   "week": 6,
                   "result": "W",
                   "for": 18,
-                  "against": 16
+                  "against": 16,
+                  "opp": "LAR",
+                  "home": false
                 },
                 {
                   "week": 7,
                   "result": "L",
                   "for": 16,
-                  "against": 30
+                  "against": 30,
+                  "opp": "DEN",
+                  "home": true
                 }
               ],
-              "story": "Have allowed the most points in the league.",
+              "story": "The Cardinals are 2-5 and have allowed the most points in the NFL, 208.",
               "player": {
-                "name": "Jacoby Brissett",
-                "pos": "QB",
-                "line": "Starter for the 2-5 Cardinals"
+                "name": "Trey McBride",
+                "pos": "TE",
+                "line": "10 catches, 111 yds and a TD vs DEN"
               },
               "next": {
                 "opp": "DAL",
                 "home": false,
-                "kickoff": "2026-11-01T18:00:00Z",
-                "network": "FOX"
+                "kickoff": "2026-11-01T18:00Z",
+                "network": "Fox"
               }
             }
           ]
