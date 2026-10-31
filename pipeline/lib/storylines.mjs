@@ -39,7 +39,7 @@ Rules:
 - Use ONLY facts in the packet. Every number you write must appear in the packet. Do not guess injuries, trades, coaches or anything not stated. No hype words, no exclamation marks.`;
 
 function extractNumbers(s) {
-  return (String(s).match(/\d+(?:\.\d+)?/g) || []).map(Number);
+  return (String(s).replace(/(\d),(?=\d{3}\b)/g, '$1').match(/\d+(?:\.\d+)?/g) || []).map(Number);
 }
 
 export function validate(item, team, packet) {
@@ -61,20 +61,33 @@ export function fallback(team, notes = []) {
   if (notes.some((n) => n.startsWith('The only unbeaten'))) story = `The last unbeaten team at ${rec(team)}.`;
   else if (notes.some((n) => n.startsWith('The only winless'))) story = `The only winless team, now ${rec(team)}.`;
   else if (/^[WL][3-9]/.test(team.streak)) story = `${team.streak[0] === 'W' ? 'Won' : 'Lost'} ${team.streak.slice(1)} straight; ${signed(team.pd)} on the season.`;
-  else if (notes.some((n) => n.startsWith('Record is better'))) story = `${rec(team)} despite a ${signed(team.pd)} point differential.`;
-  else if (notes.some((n) => n.startsWith('Better than the record'))) story = `Better than ${rec(team)}: they've outscored opponents by ${team.pd}.`;
-  else if (last) story = `${last.result === 'W' ? 'Beat' : last.result === 'L' ? 'Lost to' : 'Tied'} ${last.opp} ${last.for}-${last.against} last time out.`;
+  else if (notes.some((n) => n.startsWith('Record is better'))) story = `${rec(team)}, though a ${signed(team.pd)} point differential says they've been fortunate.`;
+  else if (notes.some((n) => n.startsWith('Better than the record'))) story = team.pd > 0
+    ? `Better than ${rec(team)}: they've outscored opponents by ${team.pd}.`
+    : `${rec(team)}, but only ${signed(team.pd)} on points; close losses have hurt.`;
+  else if (last) story = `${last.result === 'W' ? 'Beat' : last.result === 'L' ? 'Lost to' : 'Tied'} ${last.opp} ${Math.max(last.for, last.against)}-${Math.min(last.for, last.against)} last time out; ${signed(team.pd)} on the season.`;
   else story = 'Season just getting started.';
   const p = team.leaderList[0];
   return {
     abbr: team.abbr,
     story,
-    player: p ? { name: p.name, pos: p.pos, line: `${p.yards} ${p.kinds[0]} yds as team leader` } : { name: '', pos: '', line: '' },
+    player: p ? { name: p.name, pos: p.pos, line: `Team's ${p.kinds[0]} leader: ${p.yards} yds` } : { name: '', pos: '', line: '' },
     source: 'template',
   };
 }
 
 async function callClaude(packets, feedback) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await callClaudeOnce(packets, feedback);
+    } catch (e) {
+      if (attempt >= 3 || !e.retryable) throw e;
+      await new Promise((r) => setTimeout(r, 4000 * 2 ** attempt));
+    }
+  }
+}
+
+async function callClaudeOnce(packets, feedback) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -84,7 +97,7 @@ async function callClaude(packets, feedback) {
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 1500,
+      max_tokens: 2500,
       system: SYSTEM,
       messages: [{
         role: 'user',
@@ -92,15 +105,23 @@ async function callClaude(packets, feedback) {
       }],
     }),
   });
-  if (!res.ok) throw new Error(`Anthropic API ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  if (!res.ok) {
+    const err = new Error(`Anthropic API ${res.status}: ${(await res.text()).slice(0, 300)}`);
+    err.retryable = res.status === 429 || res.status >= 500;
+    throw err;
+  }
   const json = await res.json();
   const text = (json.content || []).map((c) => c.text || '').join('');
   const body = text.slice(text.indexOf('['), text.lastIndexOf(']') + 1);
-  return JSON.parse(body);
+  try {
+    return JSON.parse(body);
+  } catch {
+    throw new Error(`Could not parse JSON (stop_reason ${json.stop_reason}): ${text.slice(0, 200)}`);
+  }
 }
 
 // Writes storylines for a group of teams (one division per call). Returns abbr → result.
-export async function writeStorylines(group, ctx, { useAI = true, log = console.log } = {}) {
+export async function writeStorylines(group, ctx, { useAI = true, log = console.log, issues = [] } = {}) {
   const packets = group.map((t) => factPacket(t, { notes: ctx.notes[t.abbr], news: ctx.news[t.abbr] }));
   const out = {};
   if (useAI && process.env.ANTHROPIC_API_KEY) {
@@ -111,6 +132,7 @@ export async function writeStorylines(group, ctx, { useAI = true, log = console.
         items = await callClaude(packets, feedback);
       } catch (e) {
         log(`  Claude call failed: ${e.message}`);
+        issues.push({ teams: group.map((t) => t.abbr), error: e.message });
         break;
       }
       const problems = [];
@@ -127,6 +149,7 @@ export async function writeStorylines(group, ctx, { useAI = true, log = console.
       if (!problems.length) break;
       feedback = problems.join('\n');
       log(`  retrying: ${feedback}`);
+      issues.push({ attempt: attempt + 1, problems });
     }
   }
   for (const t of group) if (!out[t.abbr]) out[t.abbr] = fallback(t, ctx.notes[t.abbr]);

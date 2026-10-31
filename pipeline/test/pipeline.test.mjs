@@ -90,3 +90,13 @@ test('storyline validation rejects invented numbers and players', () => {
   assert.equal(fb.player.name, 'Jaxon Smith-Njigba');
   assert.ok(fb.story.length > 10);
 });
+
+test('validation accepts numbers written with thousands separators', () => {
+  const teams = buildTeams([{ ...parseEvent(fixture) }]);
+  arrange(teams);
+  const sea = teams.SEA;
+  sea.rank = 5;
+  const packet = factPacket(sea, { notes: ['Most points scored in the NFL (1371).'] });
+  const item = { abbr: 'SEA', story: 'Has 1,371 points.', player: { name: 'Jaxon Smith-Njigba', pos: 'WR', line: '150 yds vs KC' } };
+  assert.deepEqual(validate(item, sea, packet), []);
+});

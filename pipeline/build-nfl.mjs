@@ -31,6 +31,7 @@ const paths = {
   games: resolve(ROOT, 'pipeline/cache/nfl-games.json'),
   stories: resolve(ROOT, args.cache || 'pipeline/cache/nfl-storylines.json'),
   power: resolve(ROOT, 'pipeline/overrides/nfl-power.json'),
+  runLog: resolve(ROOT, args.runlog || 'pipeline/cache/nfl-run-log.json'),
 };
 
 async function readJSON(p, fallback) {
@@ -69,6 +70,7 @@ async function main() {
   const useAI = !args['no-ai'];
   const news = {};
   let aiCount = 0;
+  const issues = [];
   for (const conf of conferences) {
     for (const div of conf.divisions) {
       const stale = div.teams.filter((t) => cache[t.abbr]?.key !== storyKey(t) || (useAI && cache[t.abbr]?.result?.source !== 'claude' && process.env.ANTHROPIC_API_KEY));
@@ -78,7 +80,7 @@ async function main() {
       }
       console.log(`storylines: ${div.name} (${stale.map((t) => t.abbr).join(', ')})`);
       // Send the whole division so Claude sees rivals in context, but only store stale ones.
-      const results = await writeStorylines(div.teams, { notes, news }, { useAI });
+      const results = await writeStorylines(div.teams, { notes, news }, { useAI, issues });
       for (const t of stale) cache[t.abbr] = { key: storyKey(t), result: results[t.abbr] };
     }
   }
@@ -115,6 +117,7 @@ async function main() {
   };
   out.aiStorylines = aiCount > 16;
   await writeJSON(paths.out, out);
+  await writeJSON(paths.runLog, { at: now.toISOString(), model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5', claudeStories: aiCount, issues });
   console.log(`wrote ${paths.out}: week ${out.week}, ${aiCount}/32 storylines from Claude, power: ${powerSource}`);
 }
 
