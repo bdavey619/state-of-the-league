@@ -1,13 +1,13 @@
 {
   "PHI": {
-    "key": "401909280|401909897",
+    "key": "401909897|401909912",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 5-1 and beat NY 98-93 on Oct 30, though it's only six games into the season.",
+      "story": "The 76ers are 6-1 on a +27 point differential, and beat CHA 109-104 without LeBron James and Joel Embiid.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "27 pts vs NY in the 98-93 win"
+        "line": "38 pts vs CHA with LeBron and Embiid both out"
       },
       "source": "claude"
     }
@@ -78,14 +78,14 @@
     }
   },
   "CLE": {
-    "key": "401909893|401909900",
+    "key": "401909900|401909907",
     "result": {
       "abbr": "CLE",
-      "story": "The Cavaliers are 3-2 with only a +5 point differential, and lost 114-111 at ATL in their latest game.",
+      "story": "The Cavaliers are 4-2 after beating MIL 136-111, with earlier wins by 4 and 2 points over BKN and MIN.",
       "player": {
-        "name": "James Harden",
-        "pos": "G",
-        "line": "24 pts vs ATL; led team in pts/ast in 4 games"
+        "name": "Evan Mobley",
+        "pos": "C",
+        "line": "27 points vs MIL on Oct 31"
       },
       "source": "claude"
     }
@@ -104,14 +104,14 @@
     }
   },
   "MIL": {
-    "key": "401909887|401909900",
+    "key": "401909900|401909915",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 1-4 with a -54 point differential, including a 132-100 loss to HOU on Oct 28.",
+      "story": "The Bucks are 1-5 with a -79 point differential after losing 136-111 to CLE; it is only 6 games.",
       "player": {
-        "name": "Tyler Herro",
-        "pos": "G",
-        "line": "23 pts vs HOU; led team in pts/ast in 4 games"
+        "name": "Kel'el Ware",
+        "pos": "C",
+        "line": "10 reb vs CLE, led in rebounds or points in 4 games"
       },
       "source": "claude"
     }
@@ -130,14 +130,14 @@
     }
   },
   "ATL": {
-    "key": "401909893|401909898",
+    "key": "401909898|401909909",
     "result": {
       "abbr": "ATL",
-      "story": "The Hawks are 3-3 and beat CLE 114-111 to snap a skid; a 128-81 win at CHA props up the +28 margin.",
+      "story": "The Hawks are 3-4 despite a +6 point differential, and lost 121-99 at NO in their latest game.",
       "player": {
-        "name": "Onyeka Okongwu",
+        "name": "Jalen Johnson",
         "pos": "F",
-        "line": "Season-high 29 pts and 12 reb vs CLE"
+        "line": "11 assists vs MIA; led the team in 5 games"
       },
       "source": "claude"
     }
@@ -156,14 +156,14 @@
     }
   },
   "CHA": {
-    "key": "401909277|401909897",
+    "key": "401909897|401909908",
     "result": {
       "abbr": "CHA",
-      "story": "The Hornets are 3-3 despite a -52 point differential, and they have lost their last two games.",
+      "story": "The Hornets are 3-4 and have lost 3 straight, with a -57 point differential through seven games.",
       "player": {
-        "name": "Brandon Miller",
-        "pos": "F",
-        "line": "19 pts vs WSH; top scorer or rebounder in 5 games"
+        "name": "Grayson Allen",
+        "pos": "G",
+        "line": "27 pts vs PHI in the 109-104 loss"
       },
       "source": "claude"
     }
@@ -195,14 +195,14 @@
     }
   },
   "OKC": {
-    "key": "401909891|401909902",
+    "key": "401909902|401909907",
     "result": {
       "abbr": "OKC",
-      "story": "The Thunder are 4-1, but Chet Holmgren is out 8-10 weeks and Jalen Williams and Cason Wallace are also hurt.",
+      "story": "The Thunder have lost two straight, most recently 119-98 at HOU, and Chet Holmgren is out two-plus months.",
       "player": {
-        "name": "Ajay Mitchell",
+        "name": "Shai Gilgeous-Alexander",
         "pos": "G",
-        "line": "29 points vs DAL on Oct 28"
+        "line": "26 pts vs HOU; led team in points in 3 games"
       },
       "source": "claude"
     }
@@ -221,14 +221,14 @@
     }
   },
   "MIN": {
-    "key": "401909284|401909901",
+    "key": "401909901|401909915",
     "result": {
       "abbr": "MIN",
-      "story": "The Timberwolves are 4-2 with the NBA's best margin, +14.8 a game, though it's only six games.",
+      "story": "The Timberwolves are 4-3 early despite a +79 point differential, after a 121-111 loss at SA.",
       "player": {
-        "name": "LaMelo Ball",
+        "name": "Anthony Edwards",
         "pos": "G",
-        "line": "Season-high 24 pts vs LAC without Edwards"
+        "line": "47 points vs CLE on Oct 26"
       },
       "source": "claude"
     }
@@ -312,40 +312,40 @@
     }
   },
   "SAC": {
-    "key": "401909894|401909899",
+    "key": "401909899|401909913",
     "result": {
       "abbr": "SAC",
-      "story": "The Kings are 0-5 with the NBA's worst point differential, -16.6 per game, though it is only five games.",
+      "story": "The Kings are 0-6 with the NBA's worst point differential per game at -19, after a 136-105 loss at MEM.",
       "player": {
         "name": "Darius Acuff Jr.",
         "pos": "G",
-        "line": "14 assists vs NO on Oct 29"
+        "line": "38 points vs MEM"
       },
       "source": "claude"
     }
   },
   "MEM": {
-    "key": "401909895|401909899",
+    "key": "401909899|401909914",
     "result": {
       "abbr": "MEM",
-      "story": "The Grizzlies are the NBA's only unbeaten team at 5-0 after beating POR 124-103, though it is a small sample.",
+      "story": "The Grizzlies are 6-0, the NBA's only unbeaten team, after beating SAC 136-105; sample is still small.",
       "player": {
         "name": "Cameron Boozer",
         "pos": "F",
-        "line": "12 assists vs POR in the latest win"
+        "line": "Rookie with 27 pts and 9 reb vs SAC"
       },
       "source": "claude"
     }
   },
   "HOU": {
-    "key": "401909283|401909902",
+    "key": "401909902|401909916",
     "result": {
       "abbr": "HOU",
-      "story": "The Rockets are 5-1 and +66 in point differential, but lost 116-111 at DAL for their first defeat.",
+      "story": "The Rockets are 6-1 and beat OKC 119-98 in their first game after a 116-111 loss at DAL.",
       "player": {
-        "name": "Kevin Durant",
+        "name": "Jabari Smith Jr.",
         "pos": "F",
-        "line": "28 points vs DAL in the loss"
+        "line": "30 pts and 9 reb vs OKC"
       },
       "source": "claude"
     }
@@ -364,27 +364,27 @@
     }
   },
   "SA": {
-    "key": "401909890|401909901",
+    "key": "401909901|401909917",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs are 3-2 and have won three straight, the latest 117-111 in overtime at UTAH.",
+      "story": "The Spurs are 4-2 and have won four straight, the latest 121-111 over MIN.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "36 points and 14 rebounds at UTAH in overtime"
+        "line": "43 pts, 7 reb and 6 blk vs MIN"
       },
       "source": "claude"
     }
   },
   "NO": {
-    "key": "401909894|401909898",
+    "key": "401909898|401909914",
     "result": {
       "abbr": "NO",
-      "story": "The Pelicans are 1-4, but they ended a 4-game skid by beating SAC 132-120.",
+      "story": "The Pelicans are 2-4 but have won two straight, the latest 121-99 over ATL, before facing unbeaten MEM.",
       "player": {
         "name": "Jeremiah Fears",
         "pos": "G",
-        "line": "22 points and 13 assists vs SAC"
+        "line": "20 pts and 7 ast vs ATL"
       },
       "source": "claude"
     }

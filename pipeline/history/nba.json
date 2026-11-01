@@ -1,22 +1,22 @@
 {
   "snapshot": {
     "PHI": {
-      "w": 5,
+      "w": 6,
       "l": 1,
       "t": 0,
-      "rank": 7,
+      "rank": 6,
       "heat": "Warm",
       "place": 1,
       "division": "East Atlantic",
-      "streak": "W2",
-      "pct": 0.8333333333333334,
-      "seed": 2
+      "streak": "W3",
+      "pct": 0.8571428571428571,
+      "seed": 1
     },
     "BOS": {
       "w": 4,
       "l": 1,
       "t": 0,
-      "rank": 5,
+      "rank": 4,
       "heat": "Hot",
       "place": 2,
       "division": "East Atlantic",
@@ -28,19 +28,19 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "rank": 8,
+      "rank": 9,
       "heat": "Steady",
       "place": 3,
       "division": "East Atlantic",
       "streak": "L1",
       "pct": 0.6,
-      "seed": 4
+      "seed": 5
     },
     "NY": {
       "w": 2,
       "l": 4,
       "t": 0,
-      "rank": 18,
+      "rank": 19,
       "heat": "Steady",
       "place": 4,
       "division": "East Atlantic",
@@ -64,31 +64,31 @@
       "w": 5,
       "l": 1,
       "t": 0,
-      "rank": 6,
+      "rank": 5,
       "heat": "Hot",
       "place": 1,
       "division": "East Central",
       "streak": "W2",
       "pct": 0.8333333333333334,
-      "seed": 1
+      "seed": 2
     },
     "CLE": {
-      "w": 3,
+      "w": 4,
       "l": 2,
       "t": 0,
-      "rank": 13,
-      "heat": "Steady",
+      "rank": 10,
+      "heat": "Warm",
       "place": 2,
       "division": "East Central",
-      "streak": "L1",
-      "pct": 0.6,
-      "seed": 5
+      "streak": "W1",
+      "pct": 0.6666666666666666,
+      "seed": 4
     },
     "IND": {
       "w": 2,
       "l": 4,
       "t": 0,
-      "rank": 20,
+      "rank": 21,
       "heat": "Cool",
       "place": 3,
       "division": "East Central",
@@ -98,14 +98,14 @@
     },
     "MIL": {
       "w": 1,
-      "l": 4,
+      "l": 5,
       "t": 0,
-      "rank": 25,
+      "rank": 27,
       "heat": "Cold",
       "place": 4,
       "division": "East Central",
-      "streak": "L1",
-      "pct": 0.2,
+      "streak": "L2",
+      "pct": 0.16666666666666666,
       "seed": 13
     },
     "CHI": {
@@ -120,11 +120,11 @@
       "pct": 0.16666666666666666,
       "seed": 14
     },
-    "ATL": {
+    "WSH": {
       "w": 3,
       "l": 3,
       "t": 0,
-      "rank": 14,
+      "rank": 16,
       "heat": "Steady",
       "place": 1,
       "division": "East Southeast",
@@ -132,28 +132,28 @@
       "pct": 0.5,
       "seed": 6
     },
-    "WSH": {
+    "ATL": {
       "w": 3,
-      "l": 3,
+      "l": 4,
       "t": 0,
-      "rank": 17,
-      "heat": "Steady",
+      "rank": 18,
+      "heat": "Cool",
       "place": 2,
       "division": "East Southeast",
-      "streak": "W1",
-      "pct": 0.5,
+      "streak": "L1",
+      "pct": 0.42857142857142855,
       "seed": 7
     },
     "CHA": {
       "w": 3,
-      "l": 3,
+      "l": 4,
       "t": 0,
-      "rank": 21,
+      "rank": 22,
       "heat": "Cool",
       "place": 3,
       "division": "East Southeast",
-      "streak": "L2",
-      "pct": 0.5,
+      "streak": "L3",
+      "pct": 0.42857142857142855,
       "seed": 8
     },
     "ORL": {
@@ -172,7 +172,7 @@
       "w": 2,
       "l": 4,
       "t": 0,
-      "rank": 19,
+      "rank": 20,
       "heat": "Steady",
       "place": 5,
       "division": "East Southeast",
@@ -184,7 +184,7 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "rank": 4,
+      "rank": 3,
       "heat": "Warm",
       "place": 1,
       "division": "West Northwest",
@@ -194,45 +194,45 @@
     },
     "OKC": {
       "w": 4,
-      "l": 1,
-      "t": 0,
-      "rank": 9,
-      "heat": "Warm",
-      "place": 2,
-      "division": "West Northwest",
-      "streak": "L1",
-      "pct": 0.8,
-      "seed": 4
-    },
-    "MIN": {
-      "w": 4,
       "l": 2,
       "t": 0,
-      "rank": 3,
-      "heat": "Warm",
-      "place": 3,
+      "rank": 13,
+      "heat": "Steady",
+      "place": 2,
       "division": "West Northwest",
-      "streak": "W1",
+      "streak": "L2",
       "pct": 0.6666666666666666,
-      "seed": 5
+      "seed": 7
     },
     "DEN": {
       "w": 3,
       "l": 2,
       "t": 0,
-      "rank": 16,
+      "rank": 15,
       "heat": "Warm",
-      "place": 4,
+      "place": 3,
       "division": "West Northwest",
       "streak": "W2",
       "pct": 0.6,
+      "seed": 8
+    },
+    "MIN": {
+      "w": 4,
+      "l": 3,
+      "t": 0,
+      "rank": 8,
+      "heat": "Steady",
+      "place": 4,
+      "division": "West Northwest",
+      "streak": "L1",
+      "pct": 0.5714285714285714,
       "seed": 9
     },
     "UTAH": {
       "w": 1,
       "l": 5,
       "t": 0,
-      "rank": 27,
+      "rank": 26,
       "heat": "Cold",
       "place": 5,
       "division": "West Northwest",
@@ -250,13 +250,13 @@
       "division": "West Pacific",
       "streak": "L1",
       "pct": 0.6666666666666666,
-      "seed": 6
+      "seed": 5
     },
     "GS": {
       "w": 3,
       "l": 3,
       "t": 0,
-      "rank": 15,
+      "rank": 14,
       "heat": "Warm",
       "place": 2,
       "division": "West Pacific",
@@ -268,13 +268,13 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "rank": 26,
+      "rank": 25,
       "heat": "Cool",
       "place": 3,
       "division": "West Pacific",
       "streak": "L2",
       "pct": 0.25,
-      "seed": 11
+      "seed": 12
     },
     "LAC": {
       "w": 1,
@@ -290,39 +290,51 @@
     },
     "SAC": {
       "w": 0,
-      "l": 5,
+      "l": 6,
       "t": 0,
       "rank": 30,
       "heat": "Cold",
       "place": 5,
       "division": "West Pacific",
-      "streak": "L5",
+      "streak": "L6",
       "pct": 0,
       "seed": 15
     },
     "MEM": {
-      "w": 5,
+      "w": 6,
       "l": 0,
       "t": 0,
       "rank": 1,
       "heat": "Hot",
       "place": 1,
       "division": "West Southwest",
-      "streak": "W5",
+      "streak": "W6",
       "pct": 1,
       "seed": 1
     },
     "HOU": {
-      "w": 5,
+      "w": 6,
       "l": 1,
       "t": 0,
       "rank": 2,
       "heat": "Hot",
       "place": 2,
       "division": "West Southwest",
-      "streak": "L1",
-      "pct": 0.8333333333333334,
+      "streak": "W1",
+      "pct": 0.8571428571428571,
       "seed": 2
+    },
+    "SA": {
+      "w": 4,
+      "l": 2,
+      "t": 0,
+      "rank": 7,
+      "heat": "Warm",
+      "place": 3,
+      "division": "West Southwest",
+      "streak": "W4",
+      "pct": 0.6666666666666666,
+      "seed": 4
     },
     "DAL": {
       "w": 4,
@@ -330,39 +342,49 @@
       "t": 0,
       "rank": 12,
       "heat": "Warm",
-      "place": 3,
-      "division": "West Southwest",
-      "streak": "W3",
-      "pct": 0.6666666666666666,
-      "seed": 7
-    },
-    "SA": {
-      "w": 3,
-      "l": 2,
-      "t": 0,
-      "rank": 10,
-      "heat": "Warm",
       "place": 4,
       "division": "West Southwest",
       "streak": "W3",
-      "pct": 0.6,
-      "seed": 8
+      "pct": 0.6666666666666666,
+      "seed": 6
     },
     "NO": {
-      "w": 1,
+      "w": 2,
       "l": 4,
       "t": 0,
-      "rank": 22,
-      "heat": "Cool",
+      "rank": 17,
+      "heat": "Steady",
       "place": 5,
       "division": "West Southwest",
-      "streak": "W1",
-      "pct": 0.2,
-      "seed": 12
+      "streak": "W2",
+      "pct": 0.3333333333333333,
+      "seed": 11
     }
   },
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
-  "events": [],
+  "events": [
+    {
+      "at": "2026-11-01T18:26:50.906Z",
+      "abbr": "WSH",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Wizards took over first place in the East Southeast."
+    },
+    {
+      "at": "2026-11-01T18:26:50.906Z",
+      "abbr": "MIN",
+      "kind": "rank",
+      "weight": 3,
+      "text": "The Timberwolves slid to No. 8 in the power rankings."
+    },
+    {
+      "at": "2026-11-01T18:26:50.906Z",
+      "abbr": "NO",
+      "kind": "rank",
+      "weight": 3,
+      "text": "The Pelicans climbed to No. 17 in the power rankings."
+    }
+  ],
   "recap": {
     "key": "wk-2026-10-26",
     "label": "Week of Oct 26",
