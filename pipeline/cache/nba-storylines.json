@@ -208,14 +208,14 @@
     }
   },
   "POR": {
-    "key": "401909895|401909896",
+    "key": "401909896|401909918",
     "result": {
       "abbr": "POR",
-      "story": "The Trail Blazers are 3-1, but Ja Morant is out at least 4 weeks with a hamstring strain.",
+      "story": "The Trail Blazers are 4-1, but guard Ja Morant is out at least 4 weeks with a hamstring strain.",
       "player": {
         "name": "Deni Avdija",
         "pos": "F",
-        "line": "7 assists vs MEM on Oct 29"
+        "line": "24 pts vs UTAH, a team stat leader in all 5 games"
       },
       "source": "claude"
     }
@@ -247,14 +247,14 @@
     }
   },
   "UTAH": {
-    "key": "401909890|401909896",
+    "key": "401909896|401909917",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 1-4 on a three-game skid, the latest a 117-111 overtime loss to SA.",
+      "story": "The Jazz are 1-5 and have lost 4 straight, the latest 112-90 to POR, with a -10.2 point margin per game.",
       "player": {
         "name": "Keyonte George",
         "pos": "G",
-        "line": "31 points vs SA on Oct 28"
+        "line": "31 pts vs SA; led team in points/assists in 5 games"
       },
       "source": "claude"
     }

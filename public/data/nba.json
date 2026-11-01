@@ -4,10 +4,10 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Fri, Oct 30",
-  "throughLabel": "through Fri, Oct 30",
+  "kicker": "2026-27 · through Sat, Oct 31",
+  "throughLabel": "through Sat, Oct 31",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
-  "updatedAt": "2026-10-31T17:21:56.208Z",
+  "updatedAt": "2026-11-01T00:11:51.798Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [],
@@ -83,7 +83,7 @@
               "t": 0,
               "pf": 604,
               "pa": 558,
-              "rank": 4,
+              "rank": 5,
               "heat": "Hot",
               "seed": 3,
               "form": "4-1",
@@ -196,7 +196,7 @@
               "t": 0,
               "pf": 659,
               "pa": 611,
-              "rank": 5,
+              "rank": 6,
               "heat": "Hot",
               "seed": 1,
               "form": "5-1",
@@ -277,7 +277,7 @@
               "t": 0,
               "pf": 567,
               "pa": 621,
-              "rank": 26,
+              "rank": 25,
               "heat": "Cold",
               "seed": 13,
               "form": "1-4",
@@ -473,6 +473,33 @@
           "name": "West Northwest",
           "teams": [
             {
+              "abbr": "POR",
+              "city": "Portland",
+              "name": "Trail Blazers",
+              "color": "#E03A3E",
+              "w": 4,
+              "l": 1,
+              "t": 0,
+              "pf": 603,
+              "pa": 546,
+              "rank": 4,
+              "heat": "Warm",
+              "seed": 3,
+              "form": "4-1",
+              "story": "The Trail Blazers are 4-1, but guard Ja Morant is out at least 4 weeks with a hamstring strain.",
+              "player": {
+                "name": "Deni Avdija",
+                "pos": "F",
+                "line": "24 pts vs UTAH, a team stat leader in all 5 games"
+              },
+              "next": {
+                "opp": "DEN",
+                "home": false,
+                "kickoff": "2026-11-03T02:00Z",
+                "network": "NBA League Pass"
+              }
+            },
+            {
               "abbr": "OKC",
               "city": "Oklahoma City",
               "name": "Thunder",
@@ -484,7 +511,7 @@
               "pa": 523,
               "rank": 9,
               "heat": "Warm",
-              "seed": 3,
+              "seed": 4,
               "form": "4-1",
               "story": "The Thunder are 4-1, but Chet Holmgren is out 8-10 weeks and Jalen Williams and Cason Wallace are also hurt.",
               "player": {
@@ -497,33 +524,6 @@
                 "home": false,
                 "kickoff": "2026-11-01T00:30Z",
                 "network": "NBA TV"
-              }
-            },
-            {
-              "abbr": "POR",
-              "city": "Portland",
-              "name": "Trail Blazers",
-              "color": "#E03A3E",
-              "w": 3,
-              "l": 1,
-              "t": 0,
-              "pf": 491,
-              "pa": 456,
-              "rank": 6,
-              "heat": "Warm",
-              "seed": 4,
-              "form": "3-1",
-              "story": "The Trail Blazers are 3-1, but Ja Morant is out at least 4 weeks with a hamstring strain.",
-              "player": {
-                "name": "Deni Avdija",
-                "pos": "F",
-                "line": "7 assists vs MEM on Oct 29"
-              },
-              "next": {
-                "opp": "UTAH",
-                "home": false,
-                "kickoff": "2026-10-31T19:00Z",
-                "network": "NBA League Pass"
               }
             },
             {
@@ -586,24 +586,24 @@
               "name": "Jazz",
               "color": "#3E2680",
               "w": 1,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 562,
-              "pa": 601,
-              "rank": 25,
+              "pf": 652,
+              "pa": 713,
+              "rank": 27,
               "heat": "Cold",
               "seed": 14,
-              "form": "1-4",
-              "story": "The Jazz are 1-4 on a three-game skid, the latest a 117-111 overtime loss to SA.",
+              "form": "1-5",
+              "story": "The Jazz are 1-5 and have lost 4 straight, the latest 112-90 to POR, with a -10.2 point margin per game.",
               "player": {
                 "name": "Keyonte George",
                 "pos": "G",
-                "line": "31 points vs SA on Oct 28"
+                "line": "31 pts vs SA; led team in points/assists in 5 games"
               },
               "next": {
-                "opp": "POR",
-                "home": true,
-                "kickoff": "2026-10-31T19:00Z",
+                "opp": "SA",
+                "home": false,
+                "kickoff": "2026-11-03T01:30Z",
                 "network": "NBA League Pass"
               }
             }
@@ -676,7 +676,7 @@
               "t": 0,
               "pf": 448,
               "pa": 498,
-              "rank": 27,
+              "rank": 26,
               "heat": "Cool",
               "seed": 11,
               "form": "1-3",
