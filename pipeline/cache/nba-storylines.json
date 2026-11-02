@@ -13,14 +13,14 @@
     }
   },
   "BOS": {
-    "key": "401909278|401909903",
+    "key": "401909903|401909916",
     "result": {
       "abbr": "BOS",
-      "story": "The Celtics have won 4 straight and beat CHI 125-111 on Oct 30, but it's only five games.",
+      "story": "The Celtics have won 5 straight and are 5-1 with a +57 point differential, though it is still early.",
       "player": {
-        "name": "Payton Pritchard",
-        "pos": "G",
-        "line": "30 points vs CHI on Oct 30"
+        "name": "Jayson Tatum",
+        "pos": "F",
+        "line": "32 points at ORL, 15 from the free-throw line"
       },
       "source": "claude"
     }
@@ -52,14 +52,14 @@
     }
   },
   "BKN": {
-    "key": "401909279|401909904",
+    "key": "401909904|401909910",
     "result": {
       "abbr": "BKN",
-      "story": "The Nets are 0-5 with a -55 point differential, and lost 110-94 to DET on Oct 30.",
+      "story": "The Nets are 1-5 with a -47 point differential, their lone win a 98-90 victory at IND.",
       "player": {
         "name": "Michael Porter Jr.",
         "pos": "F",
-        "line": "12 rebounds vs BOS in a 125-124 loss"
+        "line": "23 points at IND in the Nets' only win"
       },
       "source": "claude"
     }
@@ -91,14 +91,14 @@
     }
   },
   "IND": {
-    "key": "401909282|401909904",
+    "key": "401909904|401909909",
     "result": {
       "abbr": "IND",
-      "story": "The Pacers are 2-4 on a 3-game skid, most recently losing 145-125 at MIA while short-handed.",
+      "story": "The Pacers are 2-5 and have lost four straight, most recently 98-90 to BKN, whom they beat 136-109 earlier.",
       "player": {
-        "name": "Pascal Siakam",
-        "pos": "F",
-        "line": "11 reb vs PHI; led team in pts/reb in 5 games"
+        "name": "Andrew Nembhard",
+        "pos": "G",
+        "line": "23 pts vs BKN on Nov 1; team leader in 3 games"
       },
       "source": "claude"
     }
@@ -169,14 +169,14 @@
     }
   },
   "ORL": {
-    "key": "401909281|401909903",
+    "key": "401909903|401909911",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic are 2-3 with a -43 point differential, but beat TOR 121-114 Friday behind Bane and Wagner.",
+      "story": "The Magic are 2-4 with a -54 point differential after a 108-97 loss to BOS, still a small sample.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "26 pts and 11 ast vs TOR, both season highs"
+        "line": "26 pts and 11 ast vs TOR, 12 ast vs BOS"
       },
       "source": "claude"
     }

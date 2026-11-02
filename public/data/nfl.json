@@ -4,13 +4,112 @@
   "seasonLabel": "2026",
   "week": 8,
   "badge": "WK 8",
-  "kicker": "Week 8 · through Thu, Oct 29",
-  "throughLabel": "through Thu, Oct 29",
+  "kicker": "Week 8 · through Sun, Nov 1",
+  "throughLabel": "through Sun, Nov 1",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
-  "updatedAt": "2026-11-01T18:26:48.790Z",
+  "updatedAt": "2026-11-02T00:52:19.832Z",
   "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
   "aiStorylines": true,
-  "changes": [],
+  "changes": [
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "MIN",
+      "kind": "unbeaten-ended",
+      "weight": 6,
+      "text": "The Vikings are no longer unbeaten."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "DEN",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Broncos took over first place in the AFC West."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "CAR",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Panthers took over first place in the NFC South."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "BUF",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Bills are now running hot."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "NYJ",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Jets have gone cold."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "NYJ",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Jets have lost 3 straight."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "BAL",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Ravens have gone cold."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "BAL",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Ravens have lost 3 straight."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "LV",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Raiders have warmed up after a rough stretch."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "LAC",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Chargers have lost 7 straight."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "TB",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Buccaneers are now running hot."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "BUF",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bills have won 3 straight."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "CIN",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bengals have won 3 straight."
+    },
+    {
+      "at": "2026-11-02T00:52:19.832Z",
+      "abbr": "DET",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Lions have won 3 straight."
+    }
+  ],
   "recap": {
     "label": "Week 7 recap",
     "at": "2026-10-31T17:21:48.896Z",
@@ -51,30 +150,14 @@
               "city": "Buffalo",
               "name": "Bills",
               "color": "#00338D",
-              "w": 5,
+              "w": 6,
               "l": 1,
               "t": 0,
-              "pf": 197,
-              "pa": 171,
+              "pf": 233,
+              "pa": 181,
               "rank": 1,
-              "heat": "Warm",
+              "heat": "Hot",
               "last3": [
-                {
-                  "week": 4,
-                  "result": "L",
-                  "for": 26,
-                  "against": 29,
-                  "opp": "NE",
-                  "home": true
-                },
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 37,
-                  "against": 34,
-                  "opp": "LAR",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -82,19 +165,31 @@
                   "against": 30,
                   "opp": "LV",
                   "home": false
+                },
+                {
+                  "week": 7,
+                  "result": "BYE"
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 36,
+                  "against": 10,
+                  "opp": "BAL",
+                  "home": true
                 }
               ],
-              "story": "The Bills are 5-1 with the NFL's most points (197), but their defense ranks among the worst in key areas.",
+              "story": "The Bills are 6-1 and have won three straight, the latest a 36-10 win over BAL.",
               "player": {
                 "name": "Josh Allen",
                 "pos": "QB",
-                "line": "121 yds and a TD in the win at LAR"
+                "line": "289 yds, 2 TD passes and a rushing TD vs BAL"
               },
               "next": {
-                "opp": "BAL",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
+                "opp": "MIN",
+                "home": false,
+                "kickoff": "2026-11-10T01:15Z",
+                "network": "ESPN"
               }
             },
             {
@@ -102,22 +197,14 @@
               "city": "New England",
               "name": "Patriots",
               "color": "#002244",
-              "w": 4,
+              "w": 5,
               "l": 3,
               "t": 0,
-              "pf": 160,
-              "pa": 143,
+              "pf": 184,
+              "pa": 162,
               "rank": 11,
               "heat": "Warm",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 45,
-                  "against": 17,
-                  "opp": "LV",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -133,19 +220,27 @@
                   "against": 30,
                   "opp": "CHI",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 24,
+                  "against": 19,
+                  "opp": "MIA",
+                  "home": false
                 }
               ],
-              "story": "The Patriots are 4-3 after losing 30-24 at CHI, and A.J. Brown is questionable for the game at MIA.",
+              "story": "The Patriots are 5-3 and second in the AFC East after beating MIA 24-19 on the road.",
               "player": {
                 "name": "Drake Maye",
                 "pos": "QB",
-                "line": "321 yds, 2 TD and 1 INT at CHI"
+                "line": "321 yds and 2 TD vs CHI in Week 7"
               },
               "next": {
-                "opp": "MIA",
-                "home": false,
-                "kickoff": "2026-11-01T21:25Z",
-                "network": "CBS"
+                "opp": "GB",
+                "home": true,
+                "kickoff": "2026-11-08T21:25Z",
+                "network": "Fox"
               }
             },
             {
@@ -154,21 +249,13 @@
               "name": "Jets",
               "color": "#125740",
               "w": 2,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 137,
-              "pa": 150,
+              "pf": 170,
+              "pa": 188,
               "rank": 29,
-              "heat": "Cool",
+              "heat": "Cold",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 17,
-                  "against": 12,
-                  "opp": "CLE",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -184,19 +271,27 @@
                   "against": 28,
                   "opp": "MIA",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 33,
+                  "against": 38,
+                  "opp": "LV",
+                  "home": true
                 }
               ],
-              "story": "The Jets are 2-5 and have lost two straight, and Garrett Wilson is not expected to be traded, sources say.",
+              "story": "The Jets are 2-6 and have lost three straight, the latest a 38-33 loss to LV.",
               "player": {
-                "name": "Garrett Wilson",
-                "pos": "WR",
-                "line": "7 catches, 104 yds and a TD vs CLE"
+                "name": "Braelon Allen",
+                "pos": "RB",
+                "line": "21 carries, 147 yds and a TD vs LV"
               },
               "next": {
-                "opp": "LV",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "Fox"
+                "opp": "KC",
+                "home": false,
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "CBS"
               }
             },
             {
@@ -205,21 +300,13 @@
               "name": "Dolphins",
               "color": "#008E97",
               "w": 1,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 98,
-              "pa": 157,
+              "pf": 117,
+              "pa": 181,
               "rank": 30,
               "heat": "Steady",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 24,
-                  "against": 31,
-                  "opp": "CIN",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "BYE"
@@ -231,19 +318,27 @@
                   "against": 25,
                   "opp": "NYJ",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 19,
+                  "against": 24,
+                  "opp": "NE",
+                  "home": true
                 }
               ],
-              "story": "The Dolphins are 1-5 with a -59 point differential, but they beat NYJ 28-25 in their last game.",
+              "story": "The Dolphins are 1-6 with a -64 point differential, after losing 24-19 to NE last week.",
               "player": {
-                "name": "Ollie Gordon II",
-                "pos": "RB",
-                "line": "88 yds and a TD vs CIN"
+                "name": "Malik Willis",
+                "pos": "QB",
+                "line": "211 yds, 2 TD and an INT vs NE"
               },
               "next": {
-                "opp": "NE",
+                "opp": "DET",
                 "home": true,
-                "kickoff": "2026-11-01T21:25Z",
-                "network": "CBS"
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "Fox"
               }
             }
           ]
@@ -256,22 +351,14 @@
               "city": "Pittsburgh",
               "name": "Steelers",
               "color": "#FFB612",
-              "w": 5,
+              "w": 6,
               "l": 2,
               "t": 0,
-              "pf": 153,
-              "pa": 138,
+              "pf": 180,
+              "pa": 144,
               "rank": 16,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 34,
-                  "against": 22,
-                  "opp": "IND",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -287,19 +374,74 @@
                   "against": 10,
                   "opp": "NO",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 27,
+                  "against": 6,
+                  "opp": "CLE",
+                  "home": true
                 }
               ],
-              "story": "The Steelers are 5-2 and lead the AFC North on a three-game win streak, most recently beating NO 16-10.",
+              "story": "The Steelers are 6-2 and lead the AFC North, winning 4 straight after beating CLE 27-6.",
               "player": {
                 "name": "Jaylen Warren",
                 "pos": "RB",
-                "line": "101 yds on 18 carries vs NO in Wk 7"
+                "line": "143 yds and a TD vs CLE"
               },
               "next": {
-                "opp": "CLE",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
+                "opp": "CIN",
+                "home": false,
+                "kickoff": "2026-11-16T01:20Z",
+                "network": "NBC"
+              }
+            },
+            {
+              "abbr": "CIN",
+              "city": "Cincinnati",
+              "name": "Bengals",
+              "color": "#FB4F14",
+              "w": 5,
+              "l": 2,
+              "t": 0,
+              "pf": 206,
+              "pa": 158,
+              "rank": 8,
+              "heat": "Hot",
+              "last3": [
+                {
+                  "week": 6,
+                  "result": "BYE"
+                },
+                {
+                  "week": 7,
+                  "result": "W",
+                  "for": 35,
+                  "against": 13,
+                  "opp": "BAL",
+                  "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 43,
+                  "against": 36,
+                  "opp": "TEN",
+                  "home": true
+                }
+              ],
+              "story": "The Bengals are 5-2 and have won 3 straight, beating TEN 43-36 after a 35-13 win at BAL.",
+              "player": {
+                "name": "Tee Higgins",
+                "pos": "WR",
+                "line": "155 yds and 2 TD vs TEN"
+              },
+              "next": {
+                "opp": "ATL",
+                "home": false,
+                "kickoff": "2026-11-08T14:30Z",
+                "network": "NFL Net"
               }
             },
             {
@@ -308,21 +450,13 @@
               "name": "Browns",
               "color": "#FF3C00",
               "w": 5,
-              "l": 2,
+              "l": 3,
               "t": 0,
-              "pf": 133,
-              "pa": 146,
+              "pf": 139,
+              "pa": 173,
               "rank": 15,
-              "heat": "Warm",
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 12,
-                  "against": 17,
-                  "opp": "NYJ",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -338,65 +472,26 @@
                   "against": 24,
                   "opp": "TEN",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 6,
+                  "against": 27,
+                  "opp": "PIT",
+                  "home": false
                 }
               ],
-              "story": "The Browns are 5-2 despite a -13 point differential, and they just beat TEN 27-24.",
+              "story": "The Browns are 5-3 despite a -34 point differential, and lost 27-6 at PIT last week.",
               "player": {
-                "name": "KC Concepcion",
-                "pos": "WR",
-                "line": "8 catches for 129 yds vs TEN in Wk 7"
+                "name": "Harold Fannin Jr.",
+                "pos": "TE",
+                "line": "10 catches for 154 yds vs PIT"
               },
               "next": {
-                "opp": "PIT",
+                "opp": "NO",
                 "home": false,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
-              }
-            },
-            {
-              "abbr": "CIN",
-              "city": "Cincinnati",
-              "name": "Bengals",
-              "color": "#FB4F14",
-              "w": 4,
-              "l": 2,
-              "t": 0,
-              "pf": 163,
-              "pa": 122,
-              "rank": 8,
-              "heat": "Hot",
-              "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 31,
-                  "against": 24,
-                  "opp": "MIA",
-                  "home": false
-                },
-                {
-                  "week": 6,
-                  "result": "BYE"
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 35,
-                  "against": 13,
-                  "opp": "BAL",
-                  "home": false
-                }
-              ],
-              "story": "The Bengals are 4-2 with a +41 point differential after a 35-13 win at BAL.",
-              "player": {
-                "name": "Tee Higgins",
-                "pos": "WR",
-                "line": "148 yds and a TD at BAL in Wk 7"
-              },
-              "next": {
-                "opp": "TEN",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "CBS"
               }
             },
@@ -406,21 +501,13 @@
               "name": "Ravens",
               "color": "#241773",
               "w": 4,
-              "l": 3,
+              "l": 4,
               "t": 0,
-              "pf": 169,
-              "pa": 167,
+              "pf": 179,
+              "pa": 203,
               "rank": 13,
-              "heat": "Cool",
+              "heat": "Cold",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 30,
-                  "against": 23,
-                  "opp": "ATL",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -436,19 +523,27 @@
                   "against": 35,
                   "opp": "CIN",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 10,
+                  "against": 36,
+                  "opp": "BUF",
+                  "home": false
                 }
               ],
-              "story": "The Ravens have lost two straight, most recently 35-13 to CIN, and expect Lamar Jackson back this week.",
+              "story": "The Ravens are 4-4 and lost 36-10 at BUF, where QBs Lamar Jackson and Tyler Huntley both left hurt.",
               "player": {
-                "name": "Lamar Jackson",
-                "pos": "QB",
-                "line": "Expected back at BUF after an ankle injury"
+                "name": "Derrick Henry",
+                "pos": "RB",
+                "line": "Has led Baltimore in rushing in 6 games"
               },
               "next": {
-                "opp": "BUF",
-                "home": false,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
+                "opp": "JAX",
+                "home": true,
+                "kickoff": "2026-11-06T01:15Z",
+                "network": "Prime Video"
               }
             }
           ]
@@ -461,30 +556,14 @@
               "city": "Jacksonville",
               "name": "Jaguars",
               "color": "#006778",
-              "w": 4,
+              "w": 5,
               "l": 2,
               "t": 0,
-              "pf": 154,
-              "pa": 104,
+              "pf": 196,
+              "pa": 111,
               "rank": 7,
-              "heat": "Steady",
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 4,
-                  "result": "W",
-                  "for": 22,
-                  "against": 17,
-                  "opp": "CIN",
-                  "home": false
-                },
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 19,
-                  "against": 17,
-                  "opp": "PHI",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -492,19 +571,31 @@
                   "against": 34,
                   "opp": "HOU",
                   "home": true
+                },
+                {
+                  "week": 7,
+                  "result": "BYE"
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 42,
+                  "against": 7,
+                  "opp": "IND",
+                  "home": true
                 }
               ],
-              "story": "The Jaguars are 4-2 and lead the AFC South, but they lost 34-31 to HOU in their last game.",
+              "story": "The Jaguars lead the AFC South at 5-2 after beating IND 42-7, with a +85 point differential.",
               "player": {
-                "name": "Parker Washington",
-                "pos": "WR",
-                "line": "124 yds and 2 TD on 6 catches vs PHI"
+                "name": "Trevor Lawrence",
+                "pos": "QB",
+                "line": "210 yds and 3 TD vs IND in Week 8"
               },
               "next": {
-                "opp": "IND",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
+                "opp": "BAL",
+                "home": false,
+                "kickoff": "2026-11-06T01:15Z",
+                "network": "Prime Video"
               }
             },
             {
@@ -564,21 +655,13 @@
               "name": "Colts",
               "color": "#002C5F",
               "w": 2,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 154,
-              "pa": 180,
+              "pf": 161,
+              "pa": 222,
               "rank": 25,
               "heat": "Cold",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 22,
-                  "against": 34,
-                  "opp": "PIT",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -594,19 +677,27 @@
                   "against": 16,
                   "opp": "MIN",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 7,
+                  "against": 42,
+                  "opp": "JAX",
+                  "home": false
                 }
               ],
-              "story": "The Colts have lost three straight to fall to 2-5 and are reportedly open to trading RB Jonathan Taylor.",
+              "story": "The Colts have lost four straight, most recently 42-7 at JAX, and sit at 2-6 with a -61 point differential.",
               "player": {
                 "name": "Jonathan Taylor",
                 "pos": "RB",
-                "line": "95 yds and a TD vs MIN amid trade talk"
+                "line": "95 yds and a TD vs MIN in Week 7"
               },
               "next": {
-                "opp": "JAX",
-                "home": false,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
+                "opp": "DAL",
+                "home": true,
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -615,21 +706,13 @@
               "name": "Titans",
               "color": "#4B92DB",
               "w": 1,
-              "l": 6,
+              "l": 7,
               "t": 0,
-              "pf": 108,
-              "pa": 156,
+              "pf": 144,
+              "pa": 199,
               "rank": 31,
               "heat": "Cool",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 3,
-                  "against": 26,
-                  "opp": "HOU",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -645,19 +728,27 @@
                   "against": 27,
                   "opp": "CLE",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 36,
+                  "against": 43,
+                  "opp": "CIN",
+                  "home": false
                 }
               ],
-              "story": "The Titans are 1-6 after trading Jeffery Simmons to the Bears and losing 27-24 to CLE.",
+              "story": "The Titans are 1-7 and have lost two straight, most recently 43-36 at CIN.",
               "player": {
                 "name": "Tony Pollard",
                 "pos": "RB",
-                "line": "129 yds and 3 TD vs CLE"
+                "line": "117 yds and 2 TD vs CIN"
               },
               "next": {
-                "opp": "CIN",
-                "home": false,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "CBS"
+                "opp": "JAX",
+                "home": true,
+                "kickoff": "2026-11-15T18:00Z",
+                "network": "Fox"
               }
             }
           ]
@@ -666,73 +757,18 @@
           "name": "AFC West",
           "teams": [
             {
-              "abbr": "KC",
-              "city": "Kansas City",
-              "name": "Chiefs",
-              "color": "#E31837",
-              "w": 5,
-              "l": 1,
-              "t": 0,
-              "pf": 143,
-              "pa": 103,
-              "rank": 4,
-              "heat": "Steady",
-              "last3": [
-                {
-                  "week": 5,
-                  "result": "BYE"
-                },
-                {
-                  "week": 6,
-                  "result": "W",
-                  "for": 22,
-                  "against": 6,
-                  "opp": "LAC",
-                  "home": true
-                },
-                {
-                  "week": 7,
-                  "result": "L",
-                  "for": 3,
-                  "against": 20,
-                  "opp": "SEA",
-                  "home": false
-                }
-              ],
-              "story": "The Chiefs are 5-1 but lost 20-3 at SEA last time out, and Rashee Rice is expected back at DEN.",
-              "player": {
-                "name": "Rashee Rice",
-                "pos": "WR",
-                "line": "Expected back from hamstring injury vs DEN"
-              },
-              "next": {
-                "opp": "DEN",
-                "home": false,
-                "kickoff": "2026-11-01T21:25Z",
-                "network": "CBS"
-              }
-            },
-            {
               "abbr": "DEN",
               "city": "Denver",
               "name": "Broncos",
               "color": "#FB4F14",
-              "w": 5,
+              "w": 6,
               "l": 2,
               "t": 0,
-              "pf": 144,
-              "pa": 141,
+              "pf": 172,
+              "pa": 165,
               "rank": 9,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 23,
-                  "against": 17,
-                  "opp": "LAC",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -748,18 +784,77 @@
                   "against": 16,
                   "opp": "ARI",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 28,
+                  "against": 24,
+                  "opp": "KC",
+                  "home": true
                 }
               ],
-              "story": "The Broncos are 5-2 on a three-game win streak, though their point differential is only +3.",
+              "story": "The Broncos are 6-2 and have won 4 straight, but their point differential is only +7.",
               "player": {
                 "name": "Bo Nix",
                 "pos": "QB",
                 "line": "7 carries, 73 yds and a TD vs ARI"
               },
               "next": {
-                "opp": "KC",
+                "opp": "CAR",
+                "home": false,
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "CBS"
+              }
+            },
+            {
+              "abbr": "KC",
+              "city": "Kansas City",
+              "name": "Chiefs",
+              "color": "#E31837",
+              "w": 5,
+              "l": 2,
+              "t": 0,
+              "pf": 167,
+              "pa": 131,
+              "rank": 4,
+              "heat": "Cool",
+              "last3": [
+                {
+                  "week": 6,
+                  "result": "W",
+                  "for": 22,
+                  "against": 6,
+                  "opp": "LAC",
+                  "home": true
+                },
+                {
+                  "week": 7,
+                  "result": "L",
+                  "for": 3,
+                  "against": 20,
+                  "opp": "SEA",
+                  "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 24,
+                  "against": 28,
+                  "opp": "DEN",
+                  "home": false
+                }
+              ],
+              "story": "The Chiefs have lost 2 straight, most recently 28-24 at DEN, despite a +36 point differential.",
+              "player": {
+                "name": "Patrick Mahomes",
+                "pos": "QB",
+                "line": "30/41, 321 yds and 3 TD vs DEN"
+              },
+              "next": {
+                "opp": "NYJ",
                 "home": true,
-                "kickoff": "2026-11-01T21:25Z",
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "CBS"
               }
             },
@@ -768,22 +863,14 @@
               "city": "Las Vegas",
               "name": "Raiders",
               "color": "#A5ACAF",
-              "w": 3,
+              "w": 4,
               "l": 4,
               "t": 0,
-              "pf": 183,
-              "pa": 197,
+              "pf": 221,
+              "pa": 230,
               "rank": 22,
-              "heat": "Cold",
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 17,
-                  "against": 45,
-                  "opp": "NE",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -799,18 +886,26 @@
                   "against": 35,
                   "opp": "LAR",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 38,
+                  "against": 33,
+                  "opp": "NYJ",
+                  "home": false
                 }
               ],
-              "story": "The Raiders are 3-4 and have lost four straight, most recently 35-21 to LAR.",
+              "story": "The Raiders are 4-4 after a 38-33 win at NYJ that snapped a 4-game skid.",
               "player": {
-                "name": "Tre Tucker",
-                "pos": "WR",
-                "line": "5 catches, 103 yds and a TD vs LAR"
+                "name": "Kirk Cousins",
+                "pos": "QB",
+                "line": "Led the 38-33 comeback at NYJ with a 1-yd TD run"
               },
               "next": {
-                "opp": "NYJ",
+                "opp": "SF",
                 "home": false,
-                "kickoff": "2026-11-01T18:00Z",
+                "kickoff": "2026-11-08T21:25Z",
                 "network": "Fox"
               }
             },
@@ -820,29 +915,13 @@
               "name": "Chargers",
               "color": "#0080C6",
               "w": 0,
-              "l": 6,
+              "l": 7,
               "t": 0,
-              "pf": 90,
-              "pa": 151,
+              "pf": 99,
+              "pa": 175,
               "rank": 32,
               "heat": "Cold",
               "last3": [
-                {
-                  "week": 4,
-                  "result": "L",
-                  "for": 23,
-                  "against": 30,
-                  "opp": "SEA",
-                  "home": false
-                },
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 17,
-                  "against": 23,
-                  "opp": "DEN",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -850,19 +929,31 @@
                   "against": 22,
                   "opp": "KC",
                   "home": false
+                },
+                {
+                  "week": 7,
+                  "result": "BYE"
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 9,
+                  "against": 24,
+                  "opp": "LAR",
+                  "home": false
                 }
               ],
-              "story": "The Chargers are the NFL's only winless team at 0-6 and have scored a league-low 90 points.",
+              "story": "The Chargers are 0-7, the only winless team in the NFL, after losing 24-9 at LAR.",
               "player": {
                 "name": "Justin Herbert",
                 "pos": "QB",
-                "line": "189 yds, 1 TD and 2 INT vs SEA in Wk 4"
+                "line": "257 yds and 2 INT in the 24-9 loss at LAR"
               },
               "next": {
-                "opp": "LAR",
-                "home": false,
-                "kickoff": "2026-11-01T21:05Z",
-                "network": "Fox"
+                "opp": "HOU",
+                "home": true,
+                "kickoff": "2026-11-08T21:05Z",
+                "network": "CBS"
               }
             }
           ]
@@ -933,21 +1024,13 @@
               "name": "Cowboys",
               "color": "#003594",
               "w": 3,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 189,
-              "pa": 180,
+              "pf": 219,
+              "pa": 213,
               "rank": 21,
               "heat": "Steady",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 16,
-                  "against": 24,
-                  "opp": "TB",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -963,18 +1046,26 @@
                   "against": 21,
                   "opp": "PHI",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 30,
+                  "against": 33,
+                  "opp": "ARI",
+                  "home": true
                 }
               ],
-              "story": "The Cowboys are 3-4 but beat PHI 38-21 last week to move up to second in the NFC East.",
+              "story": "The Cowboys are 3-5 despite a +6 point differential, having just lost 33-30 to ARI in overtime.",
               "player": {
                 "name": "Javonte Williams",
                 "pos": "RB",
-                "line": "155 rushing yds and a TD at PHI"
+                "line": "155 rushing yds and a TD vs PHI in Week 7"
               },
               "next": {
-                "opp": "ARI",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
+                "opp": "IND",
+                "home": false,
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "Fox"
               }
             },
@@ -1091,21 +1182,13 @@
               "name": "Vikings",
               "color": "#4F2683",
               "w": 6,
-              "l": 0,
+              "l": 1,
               "t": 0,
-              "pf": 125,
-              "pa": 74,
+              "pf": 140,
+              "pa": 93,
               "rank": 3,
-              "heat": "Warm",
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 23,
-                  "against": 13,
-                  "opp": "NO",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "BYE"
@@ -1117,19 +1200,27 @@
                   "against": 10,
                   "opp": "IND",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 15,
+                  "against": 19,
+                  "opp": "DET",
+                  "home": false
                 }
               ],
-              "story": "The Vikings are 6-0, the NFL's only unbeaten team, and have allowed a league-low 74 points.",
+              "story": "The Vikings are 6-1 with the NFL's fewest points allowed (93), but lost 19-15 at DET on Sunday.",
               "player": {
                 "name": "Kyler Murray",
                 "pos": "QB",
-                "line": "150 yds and a TD vs IND in the latest win"
+                "line": "210 yds, 2 TD and an INT at DET"
               },
               "next": {
-                "opp": "DET",
-                "home": false,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "Fox"
+                "opp": "BUF",
+                "home": true,
+                "kickoff": "2026-11-10T01:15Z",
+                "network": "ESPN"
               }
             },
             {
@@ -1188,22 +1279,14 @@
               "city": "Detroit",
               "name": "Lions",
               "color": "#0076B6",
-              "w": 4,
+              "w": 5,
               "l": 2,
               "t": 0,
-              "pf": 184,
-              "pa": 165,
+              "pf": 203,
+              "pa": 180,
               "rank": 10,
               "heat": "Warm",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 45,
-                  "against": 21,
-                  "opp": "ARI",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "BYE"
@@ -1215,18 +1298,26 @@
                   "against": 17,
                   "opp": "GB",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 19,
+                  "against": 15,
+                  "opp": "MIN",
+                  "home": true
                 }
               ],
-              "story": "The Lions are 4-2 with two straight wins, the latest 20-17 over GB, and face MIN next.",
+              "story": "The Lions beat MIN 19-15 for a third straight win, but LB Jack Campbell was carted off.",
               "player": {
-                "name": "Amon-Ra St. Brown",
-                "pos": "WR",
-                "line": "9 catches for 153 yds vs GB"
+                "name": "Jahmyr Gibbs",
+                "pos": "RB",
+                "line": "153 rushing yds and a TD vs MIN"
               },
               "next": {
-                "opp": "MIN",
-                "home": true,
-                "kickoff": "2026-11-01T18:00Z",
+                "opp": "MIA",
+                "home": false,
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "Fox"
               }
             },
@@ -1287,57 +1378,6 @@
           "name": "NFC South",
           "teams": [
             {
-              "abbr": "ATL",
-              "city": "Atlanta",
-              "name": "Falcons",
-              "color": "#A71930",
-              "w": 3,
-              "l": 4,
-              "t": 0,
-              "pf": 171,
-              "pa": 173,
-              "rank": 17,
-              "heat": "Steady",
-              "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 23,
-                  "against": 30,
-                  "opp": "BAL",
-                  "home": true
-                },
-                {
-                  "week": 6,
-                  "result": "L",
-                  "for": 23,
-                  "against": 31,
-                  "opp": "CHI",
-                  "home": true
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 29,
-                  "against": 20,
-                  "opp": "SF",
-                  "home": true
-                }
-              ],
-              "story": "The Falcons are 3-4 and atop the NFC South after beating SF 29-20 in Week 7.",
-              "player": {
-                "name": "Bijan Robinson",
-                "pos": "RB",
-                "line": "Led the team in rushing/receiving in 6 games"
-              },
-              "next": {
-                "opp": "TB",
-                "home": false,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "Fox"
-              }
-            },
-            {
               "abbr": "CAR",
               "city": "Carolina",
               "name": "Panthers",
@@ -1393,22 +1433,14 @@
               "city": "Tampa Bay",
               "name": "Buccaneers",
               "color": "#D50A0A",
-              "w": 2,
+              "w": 3,
               "l": 5,
               "t": 0,
-              "pf": 162,
+              "pf": 178,
               "pa": 151,
               "rank": 23,
-              "heat": "Warm",
+              "heat": "Hot",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "W",
-                  "for": 24,
-                  "against": 16,
-                  "opp": "DAL",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -1424,19 +1456,78 @@
                   "against": 13,
                   "opp": "CAR",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 16,
+                  "against": 0,
+                  "opp": "ATL",
+                  "home": true
                 }
               ],
-              "story": "The Buccaneers are 2-5 but have a +11 point differential after beating CAR 43-13 in Week 7.",
+              "story": "The Buccaneers are 3-5 but sit at +27 in point differential after beating ATL 16-0 and CAR 43-13.",
               "player": {
                 "name": "Bucky Irving",
                 "pos": "RB",
-                "line": "106 yds and 2 TD vs CAR"
+                "line": "27 carries, 170 yds and a TD vs ATL"
               },
               "next": {
-                "opp": "ATL",
+                "opp": "CHI",
+                "home": false,
+                "kickoff": "2026-11-09T01:20Z",
+                "network": "NBC"
+              }
+            },
+            {
+              "abbr": "ATL",
+              "city": "Atlanta",
+              "name": "Falcons",
+              "color": "#A71930",
+              "w": 3,
+              "l": 5,
+              "t": 0,
+              "pf": 171,
+              "pa": 189,
+              "rank": 17,
+              "heat": "Cool",
+              "last3": [
+                {
+                  "week": 6,
+                  "result": "L",
+                  "for": 23,
+                  "against": 31,
+                  "opp": "CHI",
+                  "home": true
+                },
+                {
+                  "week": 7,
+                  "result": "W",
+                  "for": 29,
+                  "against": 20,
+                  "opp": "SF",
+                  "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 0,
+                  "against": 16,
+                  "opp": "TB",
+                  "home": false
+                }
+              ],
+              "story": "The Falcons are 3-5 after a 16-0 loss at TB in which they were shut out and threw 4 interceptions.",
+              "player": {
+                "name": "Bijan Robinson",
+                "pos": "RB",
+                "line": "Team's top rusher/receiver in 5 games, 645 yards"
+              },
+              "next": {
+                "opp": "CIN",
                 "home": true,
-                "kickoff": "2026-11-01T18:00Z",
-                "network": "Fox"
+                "kickoff": "2026-11-08T14:30Z",
+                "network": "NFL Net"
               }
             },
             {
@@ -1602,22 +1693,14 @@
               "city": "Los Angeles",
               "name": "Rams",
               "color": "#003594",
-              "w": 3,
+              "w": 4,
               "l": 4,
               "t": 0,
-              "pf": 170,
-              "pa": 159,
+              "pf": 194,
+              "pa": 168,
               "rank": 12,
-              "heat": "Steady",
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 34,
-                  "against": 37,
-                  "opp": "BUF",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -1633,18 +1716,26 @@
                   "against": 21,
                   "opp": "LV",
                   "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 24,
+                  "against": 9,
+                  "opp": "LAC",
+                  "home": true
                 }
               ],
-              "story": "The Rams are 3-4 after beating LV 35-21, having lost 18-16 to ARI and 37-34 to BUF before that.",
+              "story": "The Rams are 4-4 but have won two straight, beating LV 35-21 and LAC 24-9.",
               "player": {
-                "name": "Kyren Williams",
+                "name": "Blake Corum",
                 "pos": "RB",
-                "line": "16 carries, 99 yds and a TD vs LV"
+                "line": "73 yds and a TD on 11 carries vs LAC"
               },
               "next": {
-                "opp": "LAC",
-                "home": true,
-                "kickoff": "2026-11-01T21:05Z",
+                "opp": "WSH",
+                "home": false,
+                "kickoff": "2026-11-08T18:00Z",
                 "network": "Fox"
               }
             },
@@ -1653,22 +1744,14 @@
               "city": "Arizona",
               "name": "Cardinals",
               "color": "#97233F",
-              "w": 2,
+              "w": 3,
               "l": 5,
               "t": 0,
-              "pf": 142,
-              "pa": 208,
+              "pf": 175,
+              "pa": 238,
               "rank": 26,
-              "heat": "Cool",
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 21,
-                  "against": 45,
-                  "opp": "DET",
-                  "home": true
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -1684,18 +1767,26 @@
                   "against": 30,
                   "opp": "DEN",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 33,
+                  "against": 30,
+                  "opp": "DAL",
+                  "home": false
                 }
               ],
-              "story": "The Cardinals are 2-5 and have allowed an NFL-high 208 points, with Jeremiyah Love expected back at DAL.",
+              "story": "The Cardinals are 3-5 and have allowed the NFL's most points (238), but beat DAL 33-30 in OT.",
               "player": {
-                "name": "Jeremiyah Love",
+                "name": "Tyler Allgeier",
                 "pos": "RB",
-                "line": "Expected back at DAL; 63 yds vs NYG in Wk 4"
+                "line": "147 yds and a TD on 11 carries at DAL"
               },
               "next": {
-                "opp": "DAL",
+                "opp": "SEA",
                 "home": false,
-                "kickoff": "2026-11-01T18:00Z",
+                "kickoff": "2026-11-08T21:25Z",
                 "network": "Fox"
               }
             }

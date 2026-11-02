@@ -4,13 +4,27 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Sat, Oct 31",
-  "throughLabel": "through Sat, Oct 31",
+  "kicker": "2026-27 · through Sun, Nov 1",
+  "throughLabel": "through Sun, Nov 1",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
-  "updatedAt": "2026-11-01T18:26:50.906Z",
+  "updatedAt": "2026-11-02T00:53:42.897Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-02T00:53:42.897Z",
+      "abbr": "BKN",
+      "kind": "first-win",
+      "weight": 5,
+      "text": "The Nets finally got their first win."
+    },
+    {
+      "at": "2026-11-02T00:53:42.897Z",
+      "abbr": "BOS",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Celtics have won 5 straight."
+    },
     {
       "at": "2026-11-01T18:26:50.906Z",
       "abbr": "WSH",
@@ -100,25 +114,25 @@
               "city": "Boston",
               "name": "Celtics",
               "color": "#007A33",
-              "w": 4,
+              "w": 5,
               "l": 1,
               "t": 0,
-              "pf": 604,
-              "pa": 558,
-              "rank": 4,
+              "pf": 712,
+              "pa": 655,
+              "rank": 3,
               "heat": "Hot",
-              "seed": 3,
-              "form": "4-1",
-              "story": "The Celtics have won 4 straight and beat CHI 125-111 on Oct 30, but it's only five games.",
+              "seed": 2,
+              "form": "5-1",
+              "story": "The Celtics have won 5 straight and are 5-1 with a +57 point differential, though it is still early.",
               "player": {
-                "name": "Payton Pritchard",
-                "pos": "G",
-                "line": "30 points vs CHI on Oct 30"
+                "name": "Jayson Tatum",
+                "pos": "F",
+                "line": "32 points at ORL, 15 from the free-throw line"
               },
               "next": {
-                "opp": "ORL",
+                "opp": "HOU",
                 "home": false,
-                "kickoff": "2026-11-01T20:30Z",
+                "kickoff": "2026-11-03T01:30Z",
                 "network": "NBA League Pass"
               }
             },
@@ -161,7 +175,7 @@
               "pa": 646,
               "rank": 19,
               "heat": "Steady",
-              "seed": 10,
+              "seed": 9,
               "form": "2-4",
               "story": "The Knicks are 2-4 after losing 98-93 at PHI, and the offense has been inconsistent early.",
               "player": {
@@ -181,25 +195,25 @@
               "city": "Brooklyn",
               "name": "Nets",
               "color": "#000000",
-              "w": 0,
+              "w": 1,
               "l": 5,
               "t": 0,
-              "pf": 551,
-              "pa": 606,
-              "rank": 28,
-              "heat": "Cold",
-              "seed": 15,
-              "form": "0-5",
-              "story": "The Nets are 0-5 with a -55 point differential, and lost 110-94 to DET on Oct 30.",
+              "pf": 649,
+              "pa": 696,
+              "rank": 25,
+              "heat": "Cool",
+              "seed": 13,
+              "form": "1-5",
+              "story": "The Nets are 1-5 with a -47 point differential, their lone win a 98-90 victory at IND.",
               "player": {
                 "name": "Michael Porter Jr.",
                 "pos": "F",
-                "line": "12 rebounds vs BOS in a 125-124 loss"
+                "line": "23 points at IND in the Nets' only win"
               },
               "next": {
-                "opp": "IND",
+                "opp": "NY",
                 "home": false,
-                "kickoff": "2026-11-01T22:00Z",
+                "kickoff": "2026-11-03T00:30Z",
                 "network": "NBA League Pass"
               }
             }
@@ -220,7 +234,7 @@
               "pa": 611,
               "rank": 5,
               "heat": "Hot",
-              "seed": 2,
+              "seed": 3,
               "form": "5-1",
               "story": "The Pistons are 5-1 and lead the East with a +48 point differential, but it is still early.",
               "player": {
@@ -268,24 +282,24 @@
               "name": "Pacers",
               "color": "#FDBB30",
               "w": 2,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 700,
-              "pa": 719,
-              "rank": 21,
+              "pf": 790,
+              "pa": 817,
+              "rank": 22,
               "heat": "Cool",
-              "seed": 11,
-              "form": "2-4",
-              "story": "The Pacers are 2-4 on a 3-game skid, most recently losing 145-125 at MIA while short-handed.",
+              "seed": 12,
+              "form": "2-5",
+              "story": "The Pacers are 2-5 and have lost four straight, most recently 98-90 to BKN, whom they beat 136-109 earlier.",
               "player": {
-                "name": "Pascal Siakam",
-                "pos": "F",
-                "line": "11 reb vs PHI; led team in pts/reb in 5 games"
+                "name": "Andrew Nembhard",
+                "pos": "G",
+                "line": "23 pts vs BKN on Nov 1; team leader in 3 games"
               },
               "next": {
-                "opp": "BKN",
+                "opp": "ATL",
                 "home": true,
-                "kickoff": "2026-11-01T22:00Z",
+                "kickoff": "2026-11-03T00:30Z",
                 "network": "NBA League Pass"
               }
             },
@@ -299,9 +313,9 @@
               "t": 0,
               "pf": 678,
               "pa": 757,
-              "rank": 27,
+              "rank": 28,
               "heat": "Cold",
-              "seed": 13,
+              "seed": 14,
               "form": "1-5",
               "story": "The Bucks are 1-5 with a -79 point differential after losing 136-111 to CLE; it is only 6 games.",
               "player": {
@@ -328,7 +342,7 @@
               "pa": 776,
               "rank": 29,
               "heat": "Cold",
-              "seed": 14,
+              "seed": 15,
               "form": "1-5",
               "story": "The Bulls are 1-5 on a 4-game losing streak, most recently falling 125-111 at BOS in the NBA Cup opener.",
               "player": {
@@ -412,7 +426,7 @@
               "t": 0,
               "pf": 688,
               "pa": 745,
-              "rank": 22,
+              "rank": 21,
               "heat": "Cool",
               "seed": 8,
               "form": "3-4",
@@ -430,33 +444,6 @@
               }
             },
             {
-              "abbr": "ORL",
-              "city": "Orlando",
-              "name": "Magic",
-              "color": "#0077C0",
-              "w": 2,
-              "l": 3,
-              "t": 0,
-              "pf": 549,
-              "pa": 592,
-              "rank": 23,
-              "heat": "Steady",
-              "seed": 9,
-              "form": "2-3",
-              "story": "The Magic are 2-3 with a -43 point differential, but beat TOR 121-114 Friday behind Bane and Wagner.",
-              "player": {
-                "name": "Franz Wagner",
-                "pos": "F",
-                "line": "26 pts and 11 ast vs TOR, both season highs"
-              },
-              "next": {
-                "opp": "BOS",
-                "home": true,
-                "kickoff": "2026-11-01T20:30Z",
-                "network": "NBA League Pass"
-              }
-            },
-            {
               "abbr": "MIA",
               "city": "Miami",
               "name": "Heat",
@@ -468,7 +455,7 @@
               "pa": 729,
               "rank": 20,
               "heat": "Steady",
-              "seed": 12,
+              "seed": 10,
               "form": "2-4",
               "story": "The Heat are 2-4 but have won two straight, 129-117 at ATL and 145-125 over IND.",
               "player": {
@@ -481,6 +468,33 @@
                 "home": false,
                 "kickoff": "2026-11-03T03:00Z",
                 "network": "NBA League Pass"
+              }
+            },
+            {
+              "abbr": "ORL",
+              "city": "Orlando",
+              "name": "Magic",
+              "color": "#0077C0",
+              "w": 2,
+              "l": 4,
+              "t": 0,
+              "pf": 646,
+              "pa": 700,
+              "rank": 23,
+              "heat": "Cool",
+              "seed": 11,
+              "form": "2-4",
+              "story": "The Magic are 2-4 with a -54 point differential after a 108-97 loss to BOS, still a small sample.",
+              "player": {
+                "name": "Franz Wagner",
+                "pos": "F",
+                "line": "26 pts and 11 ast vs TOR, 12 ast vs BOS"
+              },
+              "next": {
+                "opp": "WSH",
+                "home": true,
+                "kickoff": "2026-11-03T00:30Z",
+                "network": "MNMT"
               }
             }
           ]
@@ -504,7 +518,7 @@
               "t": 0,
               "pf": 603,
               "pa": 546,
-              "rank": 3,
+              "rank": 4,
               "heat": "Warm",
               "seed": 3,
               "form": "4-1",
@@ -612,7 +626,7 @@
               "t": 0,
               "pf": 652,
               "pa": 713,
-              "rank": 26,
+              "rank": 27,
               "heat": "Cold",
               "seed": 14,
               "form": "1-5",
@@ -698,7 +712,7 @@
               "t": 0,
               "pf": 448,
               "pa": 498,
-              "rank": 25,
+              "rank": 26,
               "heat": "Cool",
               "seed": 12,
               "form": "1-3",
