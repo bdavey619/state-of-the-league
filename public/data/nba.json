@@ -7,7 +7,7 @@
   "kicker": "2026-27 · through Sun, Nov 1",
   "throughLabel": "through Sun, Nov 1",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
-  "updatedAt": "2026-11-02T16:34:13.287Z",
+  "updatedAt": "2026-11-02T22:19:13.356Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
