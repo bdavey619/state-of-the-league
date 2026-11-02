@@ -216,27 +216,27 @@
       "pct": 0.375,
       "seed": 11
     },
-    "PHI": {
-      "w": 2,
-      "l": 5,
-      "t": 0,
-      "rank": 24,
-      "heat": "Cold",
-      "place": 3,
-      "division": "NFC East",
-      "streak": "L5",
-      "pct": 0.2857142857142857,
-      "seed": 15
-    },
     "WSH": {
-      "w": 1,
+      "w": 2,
       "l": 4,
       "t": 1,
       "rank": 28,
-      "heat": "Cool",
+      "heat": "Warm",
+      "place": 3,
+      "division": "NFC East",
+      "streak": "W1",
+      "pct": 0.35714285714285715,
+      "seed": 14
+    },
+    "PHI": {
+      "w": 2,
+      "l": 6,
+      "t": 0,
+      "rank": 24,
+      "heat": "Cold",
       "place": 4,
       "division": "NFC East",
-      "streak": "L1",
+      "streak": "L6",
       "pct": 0.25,
       "seed": 16
     },
@@ -334,7 +334,7 @@
       "division": "NFC South",
       "streak": "L1",
       "pct": 0.2857142857142857,
-      "seed": 14
+      "seed": 15
     },
     "SF": {
       "w": 6,
@@ -484,6 +484,13 @@
       "kind": "heat",
       "weight": 3,
       "text": "The Buccaneers are now running hot."
+    },
+    {
+      "at": "2026-11-02T16:34:00.051Z",
+      "abbr": "WSH",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Commanders have warmed up after a rough stretch."
     }
   ],
   "recap": {

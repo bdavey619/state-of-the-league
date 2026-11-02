@@ -26,14 +26,14 @@
     }
   },
   "TOR": {
-    "key": "401909281|401909906",
+    "key": "401909906|401909920",
     "result": {
       "abbr": "TOR",
-      "story": "The Raptors are 3-2 with a +53 differential, a small sample, and lost 121-114 to ORL on Oct 30.",
+      "story": "The Raptors are 3-3 and have lost 2 straight, including 131-125 at LAL, despite a +47 point differential.",
       "player": {
         "name": "Scottie Barnes",
         "pos": "F",
-        "line": "41 points vs ORL, his first 40-point game"
+        "line": "29 points vs LAL; led Toronto in 5 games"
       },
       "source": "claude"
     }
@@ -260,27 +260,27 @@
     }
   },
   "LAL": {
-    "key": "401909285|401909906",
+    "key": "401909906|401909921",
     "result": {
       "abbr": "LAL",
-      "story": "The Lakers are 4-2 but just lost 112-95 at GS after an early 25-point lead; it is only six games.",
+      "story": "The Lakers are 5-2 after beating TOR 131-125 on Doncic's 45 points, a small early sample.",
       "player": {
         "name": "Luka Doncic",
         "pos": "G",
-        "line": "5 assists in the 112-95 loss at GS on Oct 30"
+        "line": "45 pts, 15 reb and 5 stl vs TOR"
       },
       "source": "claude"
     }
   },
   "GS": {
-    "key": "401909285|401909905",
+    "key": "401909905|401909919",
     "result": {
       "abbr": "GS",
-      "story": "The Warriors are 3-3 but have won 3 straight, the latest 112-95 over LAL after trailing by 25.",
+      "story": "The Warriors have won 4 straight, the latest 124-112 over LAC with Curry and Green resting.",
       "player": {
-        "name": "Stephen Curry",
-        "pos": "G",
-        "line": "31 points and 6 assists vs LAL"
+        "name": "Yaxel Lendeborg",
+        "pos": "F",
+        "line": "Rookie scored a career-high 37 vs LAC"
       },
       "source": "claude"
     }
@@ -299,14 +299,14 @@
     }
   },
   "LAC": {
-    "key": "401909284|401909905",
+    "key": "401909905|401909920",
     "result": {
       "abbr": "LAC",
-      "story": "The Clippers have lost 4 straight to fall to 1-4, the latest a 127-101 loss at MIN.",
+      "story": "The Clippers are 1-5 and have lost 5 straight, the latest 124-112 at GS.",
       "player": {
         "name": "Darius Garland",
         "pos": "G",
-        "line": "24 points vs MIN on Oct 30"
+        "line": "Led LAC in points or assists in 6 games; 7 ast vs GS"
       },
       "source": "claude"
     }

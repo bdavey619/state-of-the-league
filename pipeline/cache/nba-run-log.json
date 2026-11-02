@@ -1,15 +1,8 @@
 {
-  "at": "2026-11-02T00:53:42.897Z",
+  "at": "2026-11-02T16:34:13.287Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 30,
   "recap": "claude",
-  "newChanges": 2,
-  "issues": [
-    {
-      "attempt": 1,
-      "problems": [
-        "WSH: numbers not in facts: 7"
-      ]
-    }
-  ]
+  "newChanges": 1,
+  "issues": []
 }

@@ -7,10 +7,17 @@
   "kicker": "Week 8 · through Sun, Nov 1",
   "throughLabel": "through Sun, Nov 1",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
-  "updatedAt": "2026-11-02T00:52:19.832Z",
+  "updatedAt": "2026-11-02T16:34:00.051Z",
   "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-02T16:34:00.051Z",
+      "abbr": "WSH",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Commanders have warmed up after a rough stretch."
+    },
     {
       "at": "2026-11-02T00:52:19.832Z",
       "abbr": "MIN",
@@ -1070,26 +1077,65 @@
               }
             },
             {
+              "abbr": "WSH",
+              "city": "Washington",
+              "name": "Commanders",
+              "color": "#5A1414",
+              "w": 2,
+              "l": 4,
+              "t": 1,
+              "pf": 159,
+              "pa": 182,
+              "rank": 28,
+              "heat": "Warm",
+              "last3": [
+                {
+                  "week": 6,
+                  "result": "L",
+                  "for": 17,
+                  "against": 23,
+                  "opp": "SF",
+                  "home": false
+                },
+                {
+                  "week": 7,
+                  "result": "BYE"
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 27,
+                  "against": 10,
+                  "opp": "PHI",
+                  "home": true
+                }
+              ],
+              "story": "The Commanders are 2-4-1 with a -23 point differential, but beat PHI 27-10 in Week 8.",
+              "player": {
+                "name": "Jayden Daniels",
+                "pos": "QB",
+                "line": "217 yds and a TD in the win over PHI"
+              },
+              "next": {
+                "opp": "LAR",
+                "home": true,
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "Fox"
+              }
+            },
+            {
               "abbr": "PHI",
               "city": "Philadelphia",
               "name": "Eagles",
               "color": "#004C54",
               "w": 2,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 127,
-              "pa": 175,
+              "pf": 137,
+              "pa": 202,
               "rank": 24,
               "heat": "Cold",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 17,
-                  "against": 19,
-                  "opp": "JAX",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "L",
@@ -1105,70 +1151,27 @@
                   "against": 38,
                   "opp": "DAL",
                   "home": true
-                }
-              ],
-              "story": "The Eagles have lost five straight and sit at 2-5 after losing 38-21 to DAL.",
-              "player": {
-                "name": "Saquon Barkley",
-                "pos": "RB",
-                "line": "Carries no injury designation into the WSH game"
-              },
-              "next": {
-                "opp": "WSH",
-                "home": false,
-                "kickoff": "2026-11-02T01:20Z",
-                "network": "NBC"
-              }
-            },
-            {
-              "abbr": "WSH",
-              "city": "Washington",
-              "name": "Commanders",
-              "color": "#5A1414",
-              "w": 1,
-              "l": 4,
-              "t": 1,
-              "pf": 132,
-              "pa": 172,
-              "rank": 28,
-              "heat": "Cool",
-              "last3": [
-                {
-                  "week": 4,
-                  "result": "L",
-                  "for": 13,
-                  "against": 30,
-                  "opp": "IND",
-                  "home": true
                 },
                 {
-                  "week": 5,
-                  "result": "T",
-                  "for": 27,
+                  "week": 8,
+                  "result": "L",
+                  "for": 10,
                   "against": 27,
-                  "opp": "NYG",
-                  "home": true
-                },
-                {
-                  "week": 6,
-                  "result": "L",
-                  "for": 17,
-                  "against": 23,
-                  "opp": "SF",
+                  "opp": "WSH",
                   "home": false
                 }
               ],
-              "story": "The Commanders are 1-4-1 and a source says DT Daron Payne suffered a season-ending foot injury.",
+              "story": "The Eagles are 2-6 and have lost six straight, the latest a 27-10 loss at WSH.",
               "player": {
-                "name": "Jayden Daniels",
-                "pos": "QB",
-                "line": "300 yds and 2 TD at SF in Week 6"
+                "name": "Saquon Barkley",
+                "pos": "RB",
+                "line": "Has assurances he stays past the Nov. 10 deadline"
               },
               "next": {
-                "opp": "PHI",
+                "opp": "NYG",
                 "home": true,
-                "kickoff": "2026-11-02T01:20Z",
-                "network": "NBC"
+                "kickoff": "2026-11-08T18:00Z",
+                "network": "Fox"
               }
             }
           ]

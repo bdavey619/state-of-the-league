@@ -234,27 +234,27 @@
     }
   },
   "PHI": {
-    "key": "401873009|401873035",
+    "key": "401873035|401873044",
     "result": {
       "abbr": "PHI",
-      "story": "The Eagles have lost five straight and sit at 2-5 after losing 38-21 to DAL.",
+      "story": "The Eagles are 2-6 and have lost six straight, the latest a 27-10 loss at WSH.",
       "player": {
         "name": "Saquon Barkley",
         "pos": "RB",
-        "line": "Carries no injury designation into the WSH game"
+        "line": "Has assurances he stays past the Nov. 10 deadline"
       },
       "source": "claude"
     }
   },
   "WSH": {
-    "key": "401873008|401873035",
+    "key": "401873035|401873043",
     "result": {
       "abbr": "WSH",
-      "story": "The Commanders are 1-4-1 and a source says DT Daron Payne suffered a season-ending foot injury.",
+      "story": "The Commanders are 2-4-1 with a -23 point differential, but beat PHI 27-10 in Week 8.",
       "player": {
         "name": "Jayden Daniels",
         "pos": "QB",
-        "line": "300 yds and 2 TD at SF in Week 6"
+        "line": "217 yds and a TD in the win over PHI"
       },
       "source": "claude"
     }
