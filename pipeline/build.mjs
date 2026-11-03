@@ -50,6 +50,11 @@ async function writeJSON(p, data) {
   await writeFile(p, JSON.stringify(data, null, 2) + '\n');
 }
 
+function trendOf(games) {
+  let v = 0;
+  return games.map((g) => (v += g.result === 'W' ? 1 : g.result === 'L' ? -1 : 0));
+}
+
 const ymd = (d) => d.toISOString().slice(0, 10).replaceAll('-', '');
 
 async function loadGames() {
@@ -146,6 +151,7 @@ async function main() {
     kicker: league.form === 'weeks' ? `Week ${state.currentWeek} · ${through}` : `${seasonLabel} · ${through}`,
     throughLabel: through,
     formNote: league.formNote,
+    features: { trends: league.key === 'nba' },
     updatedAt: now.toISOString(),
     powerSource,
     aiStorylines: false,
@@ -165,6 +171,8 @@ async function main() {
             rank: t.rank, heat: t.heat,
             seed: league.key === 'nba' ? t.seed : undefined,
             form: league.form === 'games' ? t.lastNRecord : undefined,
+            // Games over .500 after each game, for the trend charts (NBA).
+            trend: league.key === 'nba' ? trendOf(t.games) : undefined,
             last3: t.last3,
             story: s.story,
             player: s.player,

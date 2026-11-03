@@ -163,6 +163,18 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
 }
 .footer p { margin: 0 0 6px; }
 
+/* Trends */
+.trend-card { padding-bottom: 8px; }
+.trend-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.trend-wrap { width: 100%; margin-top: 2px; }
+.trend { display: block; }
+.trend-zero { stroke: #d9d5cc; stroke-width: 1; stroke-dasharray: 2 3; }
+.trend-label { font-family: var(--mono); font-size: 8px; fill: var(--muted); }
+@media (min-width: 761px) { .trend-label { font-size: 10px; } }
+.m-trend { display: flex; align-items: center; gap: 8px; }
+.m-trend-now { font-size: 11px; color: var(--muted); }
+.spark { flex: none; }
+
 /* What changed */
 .digest { background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin-top: -14px; }
 .digest-bar {
@@ -237,7 +249,7 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
   .segmented button { min-height: 34px; padding: 0 14px; font-size: 12px; }
   h2 { font-size: 18px; }
   .glance { gap: 10px; }
-  .mini-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .mini-grid, .trend-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
   .mini { padding: 8px 10px 4px; border-radius: 12px; }
   .mini-row { min-height: 26px; }
   .label { padding-bottom: 2px; }

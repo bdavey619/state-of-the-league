@@ -46,6 +46,8 @@ scores and any number that isn't in the facts. It is also rewritten mid-week aft
 - Games come from ESPN's scoreboard one day at a time, opening night through a week ahead.
 - Hot/cold reads the last 10 games instead of the last three weeks; detail shows the conference seed
   and last-10 record.
+- **Trends**: a third at-a-glance view charts each team's games over .500 after every game (one line
+  per team, per division), with a sparkline in each team's details.
 - Power rank is computed (point differential per game 50%, record 30%, last 10 20%) unless
   `pipeline/overrides/nba-power.json` has `"validThrough": "YYYY-MM-DD"` on or after today.
 - Storylines refresh whenever a team plays, so most NBA teams get a new one every couple of days.

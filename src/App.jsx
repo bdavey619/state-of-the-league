@@ -37,6 +37,7 @@ export default function App() {
     setError(null);
     setOpenTeam(null);
     setDivision(store.get(`${league}:division`));
+    setView((v) => (v === 'trends' && league !== 'nba' ? 'standings' : v));
     let cancelled = false;
     fetch(`${import.meta.env.BASE_URL}data/${league}.json`, { cache: 'no-cache' })
       .then((r) => {
@@ -107,6 +108,7 @@ export default function App() {
               setView={setView}
               selected={division}
               onPick={pick}
+              trends={Boolean(data.features?.trends)}
             />
 
             <div className="desktop-only">

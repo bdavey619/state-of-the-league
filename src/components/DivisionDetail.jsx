@@ -1,6 +1,7 @@
 import { forwardRef } from 'react';
 import { nextLabel, record } from '../format.js';
 import Heat from './Heat.jsx';
+import { Sparkline } from './TrendChart.jsx';
 
 // Phone: the chosen division's teams, one line each; tap a team for its storyline and player.
 const DivisionDetail = forwardRef(function DivisionDetail({ division, openTeam, setOpenTeam }, ref) {
@@ -49,6 +50,13 @@ const DivisionDetail = forwardRef(function DivisionDetail({ division, openTeam, 
                       <span className="player-line"> · {t.player?.line}</span>
                     </span>
                   </div>
+                  {t.trend?.length > 1 && (
+                    <div className="m-trend">
+                      <span className="mono m-label">Trend</span>
+                      <Sparkline values={t.trend} color={t.color} />
+                      <span className="mono m-trend-now">{t.trend.at(-1) > 0 ? '+' : ''}{t.trend.at(-1)} vs .500</span>
+                    </div>
+                  )}
                   <div className="mono m-meta">
                     {t.seed ? `${ordinal(t.seed)} in the ${division.name.split(' ')[0]} · ` : ''}
                     {t.form ? `Last ${t.form.split('-').reduce((a, b) => +a + +b, 0)}: ${t.form} · ` : ''}
