@@ -510,25 +510,25 @@
   "recap": {
     "key": "wk-8",
     "label": "Week 8 recap",
-    "at": "2026-11-03T14:41:18.003Z",
+    "at": "2026-11-03T15:15:20.687Z",
     "bullets": [
       {
-        "text": "The Chargers are 0-7 after 7 straight losses, the only winless team left in the NFL.",
+        "text": "The Chargers are the NFL's only winless team at 0-7, having now lost seven straight games.",
         "teams": [
           "LAC"
         ]
       },
       {
-        "text": "The Ravens are 4-4 and have lost 3 straight, with QBs Lamar Jackson and Tyler Huntley both leaving hurt in the latest loss.",
+        "text": "The Ravens have lost three straight to fall to 4-4, and both Lamar Jackson and Tyler Huntley left their latest game hurt.",
         "teams": [
           "BAL"
         ]
       },
       {
-        "text": "The Broncos lead the AFC West at 6-2 on a +7 point differential, while the Chiefs, 5-2, have lost 2 straight despite a +36 mark.",
+        "text": "The Panthers lead the NFC South at 3-4 after two straight losses, and the 3-5 Buccaneers are running hot with a +27 differential.",
         "teams": [
-          "DEN",
-          "KC"
+          "CAR",
+          "TB"
         ]
       }
     ],

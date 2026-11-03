@@ -514,27 +514,31 @@
   "recap": {
     "key": "wk-2026-11-02",
     "label": "Week of Nov 2",
-    "at": "2026-11-02T16:34:13.287Z",
+    "at": "2026-11-03T15:15:32.822Z",
     "bullets": [
       {
-        "text": "The Grizzlies are the NBA's only unbeaten team at 6-0, with the Rockets at 6-1 right behind them in the power rankings.",
+        "text": "The Rockets took over the West Southwest and top the power rankings at 7-1, while the Grizzlies are no longer unbeaten at 6-1.",
         "teams": [
-          "MEM",
-          "HOU"
+          "HOU",
+          "MEM"
         ]
       },
       {
-        "text": "The Timberwolves (4-3, +79) and Raptors (3-3, +47) have point differentials that point to better records than they hold.",
+        "text": "Six teams are stuck at 1-6: the Nets, Bucks, Bulls, Jazz, Clippers and Kings, and the Bulls and Jazz have each lost five straight.",
         "teams": [
-          "MIN",
-          "TOR"
+          "BKN",
+          "MIL",
+          "CHI",
+          "UTAH",
+          "LAC",
+          "SAC"
         ]
       },
       {
-        "text": "Injuries are testing the Thunder and Trail Blazers: Chet Holmgren is out two-plus months and Ja Morant at least 4 weeks.",
+        "text": "The Thunder are 5-2 with only a +2 point differential, while the Timberwolves are 5-3 with a +91 and slid to No. 8 in the power rankings.",
         "teams": [
           "OKC",
-          "POR"
+          "MIN"
         ]
       }
     ],
