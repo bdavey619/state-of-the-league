@@ -7,7 +7,10 @@
   "kicker": "Week 9 · through Mon, Nov 2",
   "throughLabel": "through Mon, Nov 2",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
-  "updatedAt": "2026-11-03T15:15:20.687Z",
+  "features": {
+    "trends": false
+  },
+  "updatedAt": "2026-11-03T15:27:55.634Z",
   "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",
   "aiStorylines": true,
   "changes": [
