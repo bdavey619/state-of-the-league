@@ -2,15 +2,29 @@
   "league": "NFL",
   "season": 2026,
   "seasonLabel": "2026",
-  "week": 8,
-  "badge": "WK 8",
-  "kicker": "Week 8 · through Sun, Nov 1",
-  "throughLabel": "through Sun, Nov 1",
+  "week": 9,
+  "badge": "WK 9",
+  "kicker": "Week 9 · through Mon, Nov 2",
+  "throughLabel": "through Mon, Nov 2",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
-  "updatedAt": "2026-11-03T02:57:23.111Z",
-  "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
+  "updatedAt": "2026-11-03T14:41:18.003Z",
+  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-03T14:41:18.003Z",
+      "abbr": "CHI",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Bears are now running hot."
+    },
+    {
+      "at": "2026-11-03T14:41:18.003Z",
+      "abbr": "CHI",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bears have won 3 straight."
+    },
     {
       "at": "2026-11-02T16:34:00.051Z",
       "abbr": "WSH",
@@ -118,28 +132,26 @@
     }
   ],
   "recap": {
-    "label": "Week 7 recap",
-    "at": "2026-10-31T17:21:48.896Z",
+    "label": "Week 8 recap",
+    "at": "2026-11-03T14:41:18.003Z",
     "bullets": [
       {
-        "text": "The Vikings are the NFL's only unbeaten team at 6-0, and the 4-2 Lions are the next team to face them.",
+        "text": "The Chargers are 0-7 after 7 straight losses, the only winless team left in the NFL.",
         "teams": [
-          "MIN",
-          "DET"
-        ]
-      },
-      {
-        "text": "The Browns and Broncos are both 5-2, but their point differentials of -13 and +3 suggest very thin margins.",
-        "teams": [
-          "CLE",
-          "DEN"
-        ]
-      },
-      {
-        "text": "The Eagles have lost five straight to fall to 2-5, while the Chargers are the NFL's only winless team at 0-6.",
-        "teams": [
-          "PHI",
           "LAC"
+        ]
+      },
+      {
+        "text": "The Ravens are 4-4 and have lost 3 straight, with QBs Lamar Jackson and Tyler Huntley both leaving hurt in the latest loss.",
+        "teams": [
+          "BAL"
+        ]
+      },
+      {
+        "text": "The Broncos lead the AFC West at 6-2 on a +7 point differential, while the Chiefs, 5-2, have lost 2 straight despite a +36 mark.",
+        "teams": [
+          "DEN",
+          "KC"
         ]
       }
     ]
@@ -162,7 +174,7 @@
               "t": 0,
               "pf": 233,
               "pa": 181,
-              "rank": 1,
+              "rank": 2,
               "heat": "Hot",
               "last3": [
                 {
@@ -260,7 +272,7 @@
               "t": 0,
               "pf": 170,
               "pa": 188,
-              "rank": 29,
+              "rank": 27,
               "heat": "Cold",
               "last3": [
                 {
@@ -311,7 +323,7 @@
               "t": 0,
               "pf": 117,
               "pa": 181,
-              "rank": 30,
+              "rank": 29,
               "heat": "Steady",
               "last3": [
                 {
@@ -363,7 +375,7 @@
               "t": 0,
               "pf": 180,
               "pa": 144,
-              "rank": 16,
+              "rank": 6,
               "heat": "Hot",
               "last3": [
                 {
@@ -414,7 +426,7 @@
               "t": 0,
               "pf": 206,
               "pa": 158,
-              "rank": 8,
+              "rank": 5,
               "heat": "Hot",
               "last3": [
                 {
@@ -461,7 +473,7 @@
               "t": 0,
               "pf": 139,
               "pa": 173,
-              "rank": 15,
+              "rank": 19,
               "heat": "Steady",
               "last3": [
                 {
@@ -512,7 +524,7 @@
               "t": 0,
               "pf": 179,
               "pa": 203,
-              "rank": 13,
+              "rank": 24,
               "heat": "Cold",
               "last3": [
                 {
@@ -568,7 +580,7 @@
               "t": 0,
               "pf": 196,
               "pa": 111,
-              "rank": 7,
+              "rank": 1,
               "heat": "Warm",
               "last3": [
                 {
@@ -666,7 +678,7 @@
               "t": 0,
               "pf": 161,
               "pa": 222,
-              "rank": 25,
+              "rank": 30,
               "heat": "Cold",
               "last3": [
                 {
@@ -717,7 +729,7 @@
               "t": 0,
               "pf": 144,
               "pa": 199,
-              "rank": 31,
+              "rank": 28,
               "heat": "Cool",
               "last3": [
                 {
@@ -824,7 +836,7 @@
               "t": 0,
               "pf": 167,
               "pa": 131,
-              "rank": 4,
+              "rank": 10,
               "heat": "Cool",
               "last3": [
                 {
@@ -875,7 +887,7 @@
               "t": 0,
               "pf": 221,
               "pa": 230,
-              "rank": 22,
+              "rank": 17,
               "heat": "Steady",
               "last3": [
                 {
@@ -984,7 +996,7 @@
               "t": 1,
               "pf": 163,
               "pa": 161,
-              "rank": 18,
+              "rank": 15,
               "heat": "Steady",
               "last3": [
                 {
@@ -1035,7 +1047,7 @@
               "t": 0,
               "pf": 219,
               "pa": 213,
-              "rank": 21,
+              "rank": 18,
               "heat": "Steady",
               "last3": [
                 {
@@ -1086,7 +1098,7 @@
               "t": 1,
               "pf": 159,
               "pa": 182,
-              "rank": 28,
+              "rank": 21,
               "heat": "Warm",
               "last3": [
                 {
@@ -1133,7 +1145,7 @@
               "t": 0,
               "pf": 137,
               "pa": 202,
-              "rank": 24,
+              "rank": 31,
               "heat": "Cold",
               "last3": [
                 {
@@ -1189,7 +1201,7 @@
               "t": 0,
               "pf": 140,
               "pa": 93,
-              "rank": 3,
+              "rank": 7,
               "heat": "Steady",
               "last3": [
                 {
@@ -1231,22 +1243,14 @@
               "city": "Chicago",
               "name": "Bears",
               "color": "#0B162A",
-              "w": 5,
+              "w": 6,
               "l": 2,
               "t": 0,
-              "pf": 180,
-              "pa": 143,
-              "rank": 6,
-              "heat": "Warm",
+              "pf": 214,
+              "pa": 160,
+              "rank": 3,
+              "heat": "Hot",
               "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 7,
-                  "against": 31,
-                  "opp": "GB",
-                  "home": false
-                },
                 {
                   "week": 6,
                   "result": "W",
@@ -1262,19 +1266,27 @@
                   "against": 24,
                   "opp": "NE",
                   "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 34,
+                  "against": 17,
+                  "opp": "SEA",
+                  "home": false
                 }
               ],
-              "story": "The Bears are 5-2 and have won two straight, beating NE 30-24 last after a 31-7 loss at GB.",
+              "story": "The Bears are 6-2 and have won three straight, most recently beating SEA 34-17 on the road.",
               "player": {
-                "name": "Luther Burden III",
-                "pos": "WR",
-                "line": "130 yds and a TD vs NE"
+                "name": "D'Andre Swift",
+                "pos": "RB",
+                "line": "69 yds and 3 TD at SEA in Week 8"
               },
               "next": {
-                "opp": "SEA",
-                "home": false,
-                "kickoff": "2026-11-03T01:15Z",
-                "network": "ESPN"
+                "opp": "TB",
+                "home": true,
+                "kickoff": "2026-11-09T01:20Z",
+                "network": "NBC"
               }
             },
             {
@@ -1287,7 +1299,7 @@
               "t": 0,
               "pf": 203,
               "pa": 180,
-              "rank": 10,
+              "rank": 8,
               "heat": "Warm",
               "last3": [
                 {
@@ -1334,7 +1346,7 @@
               "t": 0,
               "pf": 171,
               "pa": 164,
-              "rank": 14,
+              "rank": 13,
               "heat": "Warm",
               "last3": [
                 {
@@ -1390,7 +1402,7 @@
               "t": 0,
               "pf": 178,
               "pa": 193,
-              "rank": 19,
+              "rank": 22,
               "heat": "Cool",
               "last3": [
                 {
@@ -1441,7 +1453,7 @@
               "t": 0,
               "pf": 178,
               "pa": 151,
-              "rank": 23,
+              "rank": 14,
               "heat": "Hot",
               "last3": [
                 {
@@ -1492,7 +1504,7 @@
               "t": 0,
               "pf": 171,
               "pa": 189,
-              "rank": 17,
+              "rank": 23,
               "heat": "Cool",
               "last3": [
                 {
@@ -1543,7 +1555,7 @@
               "t": 0,
               "pf": 162,
               "pa": 194,
-              "rank": 27,
+              "rank": 26,
               "heat": "Cool",
               "last3": [
                 {
@@ -1599,7 +1611,7 @@
               "t": 0,
               "pf": 197,
               "pa": 139,
-              "rank": 2,
+              "rank": 4,
               "heat": "Steady",
               "last3": [
                 {
@@ -1638,57 +1650,6 @@
                 "home": true,
                 "kickoff": "2026-11-08T21:25Z",
                 "network": "Fox"
-              }
-            },
-            {
-              "abbr": "SEA",
-              "city": "Seattle",
-              "name": "Seahawks",
-              "color": "#69BE28",
-              "w": 4,
-              "l": 3,
-              "t": 0,
-              "pf": 168,
-              "pa": 125,
-              "rank": 5,
-              "heat": "Steady",
-              "last3": [
-                {
-                  "week": 5,
-                  "result": "L",
-                  "for": 29,
-                  "against": 32,
-                  "opp": "SF",
-                  "home": true
-                },
-                {
-                  "week": 6,
-                  "result": "L",
-                  "for": 14,
-                  "against": 17,
-                  "opp": "DEN",
-                  "home": false
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 20,
-                  "against": 3,
-                  "opp": "KC",
-                  "home": true
-                }
-              ],
-              "story": "The Seahawks beat KC 20-3 to reach 4-3, and Quenton Nelson's arrival cost Anthony Bradford his starting job.",
-              "player": {
-                "name": "Jaxon Smith-Njigba",
-                "pos": "WR",
-                "line": "9 REC, 150 YDS and a TD vs KC"
-              },
-              "next": {
-                "opp": "CHI",
-                "home": true,
-                "kickoff": "2026-11-03T01:15Z",
-                "network": "ESPN"
               }
             },
             {
@@ -1743,6 +1704,57 @@
               }
             },
             {
+              "abbr": "SEA",
+              "city": "Seattle",
+              "name": "Seahawks",
+              "color": "#69BE28",
+              "w": 4,
+              "l": 4,
+              "t": 0,
+              "pf": 185,
+              "pa": 159,
+              "rank": 16,
+              "heat": "Cool",
+              "last3": [
+                {
+                  "week": 6,
+                  "result": "L",
+                  "for": 14,
+                  "against": 17,
+                  "opp": "DEN",
+                  "home": false
+                },
+                {
+                  "week": 7,
+                  "result": "W",
+                  "for": 20,
+                  "against": 3,
+                  "opp": "KC",
+                  "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 17,
+                  "against": 34,
+                  "opp": "CHI",
+                  "home": true
+                }
+              ],
+              "story": "The Seahawks are 4-4 after a 34-17 home loss to CHI, with a +26 point differential.",
+              "player": {
+                "name": "Jaxon Smith-Njigba",
+                "pos": "WR",
+                "line": "6 catches, 118 yds and a TD vs CHI"
+              },
+              "next": {
+                "opp": "ARI",
+                "home": true,
+                "kickoff": "2026-11-08T21:25Z",
+                "network": "Fox"
+              }
+            },
+            {
               "abbr": "ARI",
               "city": "Arizona",
               "name": "Cardinals",
@@ -1752,7 +1764,7 @@
               "t": 0,
               "pf": 175,
               "pa": 238,
-              "rank": 26,
+              "rank": 25,
               "heat": "Steady",
               "last3": [
                 {

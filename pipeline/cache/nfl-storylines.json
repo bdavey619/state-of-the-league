@@ -273,14 +273,14 @@
     }
   },
   "CHI": {
-    "key": "401873010|401873036",
+    "key": "401873036|401873050",
     "result": {
       "abbr": "CHI",
-      "story": "The Bears are 5-2 and have won two straight, beating NE 30-24 last after a 31-7 loss at GB.",
+      "story": "The Bears are 6-2 and have won three straight, most recently beating SEA 34-17 on the road.",
       "player": {
-        "name": "Luther Burden III",
-        "pos": "WR",
-        "line": "130 yds and a TD vs NE"
+        "name": "D'Andre Swift",
+        "pos": "RB",
+        "line": "69 yds and 3 TD at SEA in Week 8"
       },
       "source": "claude"
     }
@@ -377,14 +377,14 @@
     }
   },
   "SEA": {
-    "key": "401873022|401873036",
+    "key": "401873036|401873048",
     "result": {
       "abbr": "SEA",
-      "story": "The Seahawks beat KC 20-3 to reach 4-3, and Quenton Nelson's arrival cost Anthony Bradford his starting job.",
+      "story": "The Seahawks are 4-4 after a 34-17 home loss to CHI, with a +26 point differential.",
       "player": {
         "name": "Jaxon Smith-Njigba",
         "pos": "WR",
-        "line": "9 REC, 150 YDS and a TD vs KC"
+        "line": "6 catches, 118 yds and a TD vs CHI"
       },
       "source": "claude"
     }

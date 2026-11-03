@@ -4,7 +4,7 @@
       "w": 6,
       "l": 1,
       "t": 0,
-      "rank": 1,
+      "rank": 2,
       "heat": "Hot",
       "place": 1,
       "division": "AFC East",
@@ -28,7 +28,7 @@
       "w": 2,
       "l": 6,
       "t": 0,
-      "rank": 29,
+      "rank": 27,
       "heat": "Cold",
       "place": 3,
       "division": "AFC East",
@@ -40,7 +40,7 @@
       "w": 1,
       "l": 6,
       "t": 0,
-      "rank": 30,
+      "rank": 29,
       "heat": "Steady",
       "place": 4,
       "division": "AFC East",
@@ -52,7 +52,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 16,
+      "rank": 6,
       "heat": "Hot",
       "place": 1,
       "division": "AFC North",
@@ -64,7 +64,7 @@
       "w": 5,
       "l": 2,
       "t": 0,
-      "rank": 8,
+      "rank": 5,
       "heat": "Hot",
       "place": 2,
       "division": "AFC North",
@@ -76,7 +76,7 @@
       "w": 5,
       "l": 3,
       "t": 0,
-      "rank": 15,
+      "rank": 19,
       "heat": "Steady",
       "place": 3,
       "division": "AFC North",
@@ -88,7 +88,7 @@
       "w": 4,
       "l": 4,
       "t": 0,
-      "rank": 13,
+      "rank": 24,
       "heat": "Cold",
       "place": 4,
       "division": "AFC North",
@@ -100,7 +100,7 @@
       "w": 5,
       "l": 2,
       "t": 0,
-      "rank": 7,
+      "rank": 1,
       "heat": "Warm",
       "place": 1,
       "division": "AFC South",
@@ -124,7 +124,7 @@
       "w": 2,
       "l": 6,
       "t": 0,
-      "rank": 25,
+      "rank": 30,
       "heat": "Cold",
       "place": 3,
       "division": "AFC South",
@@ -136,7 +136,7 @@
       "w": 1,
       "l": 7,
       "t": 0,
-      "rank": 31,
+      "rank": 28,
       "heat": "Cool",
       "place": 4,
       "division": "AFC South",
@@ -160,7 +160,7 @@
       "w": 5,
       "l": 2,
       "t": 0,
-      "rank": 4,
+      "rank": 10,
       "heat": "Cool",
       "place": 2,
       "division": "AFC West",
@@ -172,7 +172,7 @@
       "w": 4,
       "l": 4,
       "t": 0,
-      "rank": 22,
+      "rank": 17,
       "heat": "Steady",
       "place": 3,
       "division": "AFC West",
@@ -196,7 +196,7 @@
       "w": 4,
       "l": 2,
       "t": 1,
-      "rank": 18,
+      "rank": 15,
       "heat": "Steady",
       "place": 1,
       "division": "NFC East",
@@ -208,7 +208,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 21,
+      "rank": 18,
       "heat": "Steady",
       "place": 2,
       "division": "NFC East",
@@ -220,7 +220,7 @@
       "w": 2,
       "l": 4,
       "t": 1,
-      "rank": 28,
+      "rank": 21,
       "heat": "Warm",
       "place": 3,
       "division": "NFC East",
@@ -232,7 +232,7 @@
       "w": 2,
       "l": 6,
       "t": 0,
-      "rank": 24,
+      "rank": 31,
       "heat": "Cold",
       "place": 4,
       "division": "NFC East",
@@ -244,7 +244,7 @@
       "w": 6,
       "l": 1,
       "t": 0,
-      "rank": 3,
+      "rank": 7,
       "heat": "Steady",
       "place": 1,
       "division": "NFC North",
@@ -253,22 +253,22 @@
       "seed": 2
     },
     "CHI": {
-      "w": 5,
+      "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 6,
-      "heat": "Warm",
+      "rank": 3,
+      "heat": "Hot",
       "place": 2,
       "division": "NFC North",
-      "streak": "W2",
-      "pct": 0.7142857142857143,
+      "streak": "W3",
+      "pct": 0.75,
       "seed": 3
     },
     "DET": {
       "w": 5,
       "l": 2,
       "t": 0,
-      "rank": 10,
+      "rank": 8,
       "heat": "Warm",
       "place": 3,
       "division": "NFC North",
@@ -280,7 +280,7 @@
       "w": 5,
       "l": 3,
       "t": 0,
-      "rank": 14,
+      "rank": 13,
       "heat": "Warm",
       "place": 4,
       "division": "NFC North",
@@ -292,7 +292,7 @@
       "w": 3,
       "l": 4,
       "t": 0,
-      "rank": 19,
+      "rank": 22,
       "heat": "Cool",
       "place": 1,
       "division": "NFC South",
@@ -304,7 +304,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 23,
+      "rank": 14,
       "heat": "Hot",
       "place": 2,
       "division": "NFC South",
@@ -316,7 +316,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 17,
+      "rank": 23,
       "heat": "Cool",
       "place": 3,
       "division": "NFC South",
@@ -328,7 +328,7 @@
       "w": 2,
       "l": 5,
       "t": 0,
-      "rank": 27,
+      "rank": 26,
       "heat": "Cool",
       "place": 4,
       "division": "NFC South",
@@ -340,7 +340,7 @@
       "w": 6,
       "l": 1,
       "t": 0,
-      "rank": 2,
+      "rank": 4,
       "heat": "Steady",
       "place": 1,
       "division": "NFC West",
@@ -348,27 +348,27 @@
       "pct": 0.8571428571428571,
       "seed": 1
     },
-    "SEA": {
-      "w": 4,
-      "l": 3,
-      "t": 0,
-      "rank": 5,
-      "heat": "Steady",
-      "place": 2,
-      "division": "NFC West",
-      "streak": "W1",
-      "pct": 0.5714285714285714,
-      "seed": 7
-    },
     "LAR": {
       "w": 4,
       "l": 4,
       "t": 0,
       "rank": 12,
       "heat": "Warm",
-      "place": 3,
+      "place": 2,
       "division": "NFC West",
       "streak": "W2",
+      "pct": 0.5,
+      "seed": 7
+    },
+    "SEA": {
+      "w": 4,
+      "l": 4,
+      "t": 0,
+      "rank": 16,
+      "heat": "Cool",
+      "place": 3,
+      "division": "NFC West",
+      "streak": "L1",
       "pct": 0.5,
       "seed": 8
     },
@@ -376,7 +376,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 26,
+      "rank": 25,
       "heat": "Steady",
       "place": 4,
       "division": "NFC West",
@@ -385,7 +385,7 @@
       "seed": 13
     }
   },
-  "powerSource": "SportsBrackets consensus of ESPN, CBS, Yahoo, Sportsnaut and WalterFootball (Oct 27)",
+  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "events": [
     {
       "at": "2026-11-02T00:52:19.832Z",
@@ -491,32 +491,44 @@
       "kind": "heat",
       "weight": 3,
       "text": "The Commanders have warmed up after a rough stretch."
+    },
+    {
+      "at": "2026-11-03T14:41:18.003Z",
+      "abbr": "CHI",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Bears are now running hot."
+    },
+    {
+      "at": "2026-11-03T14:41:18.003Z",
+      "abbr": "CHI",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bears have won 3 straight."
     }
   ],
   "recap": {
-    "key": "wk-7",
-    "label": "Week 7 recap",
-    "at": "2026-10-31T17:21:48.896Z",
+    "key": "wk-8",
+    "label": "Week 8 recap",
+    "at": "2026-11-03T14:41:18.003Z",
     "bullets": [
       {
-        "text": "The Vikings are the NFL's only unbeaten team at 6-0, and the 4-2 Lions are the next team to face them.",
+        "text": "The Chargers are 0-7 after 7 straight losses, the only winless team left in the NFL.",
         "teams": [
-          "MIN",
-          "DET"
-        ]
-      },
-      {
-        "text": "The Browns and Broncos are both 5-2, but their point differentials of -13 and +3 suggest very thin margins.",
-        "teams": [
-          "CLE",
-          "DEN"
-        ]
-      },
-      {
-        "text": "The Eagles have lost five straight to fall to 2-5, while the Chargers are the NFL's only winless team at 0-6.",
-        "teams": [
-          "PHI",
           "LAC"
+        ]
+      },
+      {
+        "text": "The Ravens are 4-4 and have lost 3 straight, with QBs Lamar Jackson and Tyler Huntley both leaving hurt in the latest loss.",
+        "teams": [
+          "BAL"
+        ]
+      },
+      {
+        "text": "The Broncos lead the AFC West at 6-2 on a +7 point differential, while the Chiefs, 5-2, have lost 2 straight despite a +36 mark.",
+        "teams": [
+          "DEN",
+          "KC"
         ]
       }
     ],
