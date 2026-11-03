@@ -7,8 +7,8 @@
   "kicker": "Week 9 · through Mon, Nov 2",
   "throughLabel": "through Mon, Nov 2",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
-  "updatedAt": "2026-11-03T14:41:18.003Z",
-  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
+  "updatedAt": "2026-11-03T15:13:20.772Z",
+  "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",
   "aiStorylines": true,
   "changes": [
     {
@@ -174,7 +174,7 @@
               "t": 0,
               "pf": 233,
               "pa": 181,
-              "rank": 2,
+              "rank": 1,
               "heat": "Hot",
               "last3": [
                 {
@@ -221,7 +221,7 @@
               "t": 0,
               "pf": 184,
               "pa": 162,
-              "rank": 11,
+              "rank": 12,
               "heat": "Warm",
               "last3": [
                 {
@@ -272,7 +272,7 @@
               "t": 0,
               "pf": 170,
               "pa": 188,
-              "rank": 27,
+              "rank": 29,
               "heat": "Cold",
               "last3": [
                 {
@@ -323,7 +323,7 @@
               "t": 0,
               "pf": 117,
               "pa": 181,
-              "rank": 29,
+              "rank": 28,
               "heat": "Steady",
               "last3": [
                 {
@@ -375,7 +375,7 @@
               "t": 0,
               "pf": 180,
               "pa": 144,
-              "rank": 6,
+              "rank": 14,
               "heat": "Hot",
               "last3": [
                 {
@@ -426,7 +426,7 @@
               "t": 0,
               "pf": 206,
               "pa": 158,
-              "rank": 5,
+              "rank": 10,
               "heat": "Hot",
               "last3": [
                 {
@@ -524,7 +524,7 @@
               "t": 0,
               "pf": 179,
               "pa": 203,
-              "rank": 24,
+              "rank": 20,
               "heat": "Cold",
               "last3": [
                 {
@@ -580,7 +580,7 @@
               "t": 0,
               "pf": 196,
               "pa": 111,
-              "rank": 1,
+              "rank": 4,
               "heat": "Warm",
               "last3": [
                 {
@@ -627,7 +627,7 @@
               "t": 0,
               "pf": 165,
               "pa": 170,
-              "rank": 20,
+              "rank": 15,
               "heat": "Steady",
               "last3": [
                 {
@@ -678,7 +678,7 @@
               "t": 0,
               "pf": 161,
               "pa": 222,
-              "rank": 30,
+              "rank": 31,
               "heat": "Cold",
               "last3": [
                 {
@@ -729,7 +729,7 @@
               "t": 0,
               "pf": 144,
               "pa": 199,
-              "rank": 28,
+              "rank": 27,
               "heat": "Cool",
               "last3": [
                 {
@@ -785,7 +785,7 @@
               "t": 0,
               "pf": 172,
               "pa": 165,
-              "rank": 9,
+              "rank": 5,
               "heat": "Hot",
               "last3": [
                 {
@@ -836,7 +836,7 @@
               "t": 0,
               "pf": 167,
               "pa": 131,
-              "rank": 10,
+              "rank": 6,
               "heat": "Cool",
               "last3": [
                 {
@@ -887,7 +887,7 @@
               "t": 0,
               "pf": 221,
               "pa": 230,
-              "rank": 17,
+              "rank": 23,
               "heat": "Steady",
               "last3": [
                 {
@@ -996,7 +996,7 @@
               "t": 1,
               "pf": 163,
               "pa": 161,
-              "rank": 15,
+              "rank": 18,
               "heat": "Steady",
               "last3": [
                 {
@@ -1047,7 +1047,7 @@
               "t": 0,
               "pf": 219,
               "pa": 213,
-              "rank": 18,
+              "rank": 21,
               "heat": "Steady",
               "last3": [
                 {
@@ -1098,7 +1098,7 @@
               "t": 1,
               "pf": 159,
               "pa": 182,
-              "rank": 21,
+              "rank": 25,
               "heat": "Warm",
               "last3": [
                 {
@@ -1145,7 +1145,7 @@
               "t": 0,
               "pf": 137,
               "pa": 202,
-              "rank": 31,
+              "rank": 30,
               "heat": "Cold",
               "last3": [
                 {
@@ -1201,7 +1201,7 @@
               "t": 0,
               "pf": 140,
               "pa": 93,
-              "rank": 7,
+              "rank": 9,
               "heat": "Steady",
               "last3": [
                 {
@@ -1248,7 +1248,7 @@
               "t": 0,
               "pf": 214,
               "pa": 160,
-              "rank": 3,
+              "rank": 11,
               "heat": "Hot",
               "last3": [
                 {
@@ -1299,7 +1299,7 @@
               "t": 0,
               "pf": 203,
               "pa": 180,
-              "rank": 8,
+              "rank": 7,
               "heat": "Warm",
               "last3": [
                 {
@@ -1402,7 +1402,7 @@
               "t": 0,
               "pf": 178,
               "pa": 193,
-              "rank": 22,
+              "rank": 17,
               "heat": "Cool",
               "last3": [
                 {
@@ -1453,7 +1453,7 @@
               "t": 0,
               "pf": 178,
               "pa": 151,
-              "rank": 14,
+              "rank": 16,
               "heat": "Hot",
               "last3": [
                 {
@@ -1504,7 +1504,7 @@
               "t": 0,
               "pf": 171,
               "pa": 189,
-              "rank": 23,
+              "rank": 22,
               "heat": "Cool",
               "last3": [
                 {
@@ -1611,7 +1611,7 @@
               "t": 0,
               "pf": 197,
               "pa": 139,
-              "rank": 4,
+              "rank": 3,
               "heat": "Steady",
               "last3": [
                 {
@@ -1662,7 +1662,7 @@
               "t": 0,
               "pf": 194,
               "pa": 168,
-              "rank": 12,
+              "rank": 8,
               "heat": "Warm",
               "last3": [
                 {
@@ -1713,7 +1713,7 @@
               "t": 0,
               "pf": 185,
               "pa": 159,
-              "rank": 16,
+              "rank": 2,
               "heat": "Cool",
               "last3": [
                 {
@@ -1764,7 +1764,7 @@
               "t": 0,
               "pf": 175,
               "pa": 238,
-              "rank": 25,
+              "rank": 24,
               "heat": "Steady",
               "last3": [
                 {
