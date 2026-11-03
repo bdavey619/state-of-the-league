@@ -16,6 +16,10 @@ on:
         description: Rewrite every storyline
         type: boolean
         default: false
+      force_recap:
+        description: Rewrite the weekly recaps
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -44,11 +48,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |
-          if [ "${{ inputs.force_stories }}" = "true" ]; then
-            npm run data:nfl -- --force-stories
-          else
-            npm run data:nfl
-          fi
+          ARGS=""
+          [ "${{ inputs.force_stories }}" = "true" ] && ARGS="$ARGS --force-stories"
+          [ "${{ inputs.force_recap }}" = "true" ] && ARGS="$ARGS --force-recap"
+          npm run data:nfl -- $ARGS
 
       - name: Refresh NBA data
         if: github.event_name != 'push'
@@ -57,11 +60,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |
-          if [ "${{ inputs.force_stories }}" = "true" ]; then
-            npm run data:nba -- --force-stories
-          else
-            npm run data:nba
-          fi
+          ARGS=""
+          [ "${{ inputs.force_stories }}" = "true" ] && ARGS="$ARGS --force-stories"
+          [ "${{ inputs.force_recap }}" = "true" ] && ARGS="$ARGS --force-recap"
+          npm run data:nba -- $ARGS
 
       - name: Commit refreshed data
         if: github.event_name != 'push'

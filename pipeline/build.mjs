@@ -121,7 +121,10 @@ async function main() {
   // Weekly recap, written once per week (or with --force-recap).
   const rk = recapKey(league, games, now);
   let recap = history.recap;
-  if (!recap || recap.key !== rk.key || args['force-recap'] || (useAI && recap.source !== 'claude' && process.env.ANTHROPIC_API_KEY)) {
+  // Rewrite when the week turns over, or mid-week if something big happened (a lead change,
+  // an unbeaten run ending, a first win) so the recap never contradicts the standings.
+  const bigChange = fresh.some((e) => e.weight >= 5);
+  if (!recap || recap.key !== rk.key || bigChange || args['force-recap'] || (useAI && recap.source !== 'claude' && process.env.ANTHROPIC_API_KEY)) {
     const withStories = conferences.map((c) => ({
       ...c,
       divisions: c.divisions.map((d) => ({ ...d, teams: d.teams.map((t) => ({ ...t, story: cache[t.abbr].result.story })) })),

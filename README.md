@@ -37,7 +37,9 @@ your last visit (remembered per browser); otherwise it shows the weekly recap.
 
 The recap is three league-wide storylines written by Claude once a week (NFL: after the week's last
 game; NBA: each Monday) from the week's changes and the current team storylines. Checks reject game
-scores and any number that isn't in the facts. `--force-recap` rewrites it.
+scores and any number that isn't in the facts. It is also rewritten mid-week after a major change
+(lead change, unbeaten run ending, first win) so it never contradicts the standings. `--force-recap`
+(or the workflow's *force_recap* option) rewrites it on demand.
 
 ### NBA differences
 
