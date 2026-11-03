@@ -28,13 +28,13 @@
       "w": 3,
       "l": 3,
       "t": 0,
-      "rank": 12,
+      "rank": 11,
       "heat": "Steady",
       "place": 3,
       "division": "East Atlantic",
       "streak": "L2",
       "pct": 0.5,
-      "seed": 5
+      "seed": 6
     },
     "NY": {
       "w": 2,
@@ -74,14 +74,14 @@
     },
     "CLE": {
       "w": 4,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "rank": 10,
-      "heat": "Warm",
+      "rank": 14,
+      "heat": "Steady",
       "place": 2,
       "division": "East Central",
-      "streak": "W1",
-      "pct": 0.6666666666666666,
+      "streak": "L1",
+      "pct": 0.5714285714285714,
       "seed": 4
     },
     "IND": {
@@ -94,7 +94,7 @@
       "division": "East Central",
       "streak": "L4",
       "pct": 0.2857142857142857,
-      "seed": 12
+      "seed": 11
     },
     "MIL": {
       "w": 1,
@@ -121,16 +121,16 @@
       "seed": 15
     },
     "WSH": {
-      "w": 3,
+      "w": 4,
       "l": 3,
       "t": 0,
-      "rank": 16,
+      "rank": 15,
       "heat": "Steady",
       "place": 1,
       "division": "East Southeast",
-      "streak": "W1",
-      "pct": 0.5,
-      "seed": 6
+      "streak": "W2",
+      "pct": 0.5714285714285714,
+      "seed": 5
     },
     "ATL": {
       "w": 3,
@@ -170,15 +170,15 @@
     },
     "ORL": {
       "w": 2,
-      "l": 4,
+      "l": 5,
       "t": 0,
       "rank": 23,
       "heat": "Cool",
       "place": 5,
       "division": "East Southeast",
-      "streak": "L1",
-      "pct": 0.3333333333333333,
-      "seed": 11
+      "streak": "L2",
+      "pct": 0.2857142857142857,
+      "seed": 12
     },
     "POR": {
       "w": 4,
@@ -193,22 +193,22 @@
       "seed": 3
     },
     "OKC": {
-      "w": 4,
+      "w": 5,
       "l": 2,
       "t": 0,
-      "rank": 14,
-      "heat": "Steady",
+      "rank": 13,
+      "heat": "Warm",
       "place": 2,
       "division": "West Northwest",
-      "streak": "L2",
-      "pct": 0.6666666666666666,
-      "seed": 7
+      "streak": "W1",
+      "pct": 0.7142857142857143,
+      "seed": 5
     },
     "DEN": {
       "w": 3,
       "l": 2,
       "t": 0,
-      "rank": 15,
+      "rank": 16,
       "heat": "Warm",
       "place": 3,
       "division": "West Northwest",
@@ -256,7 +256,7 @@
       "w": 4,
       "l": 3,
       "t": 0,
-      "rank": 13,
+      "rank": 12,
       "heat": "Warm",
       "place": 2,
       "division": "West Pacific",
@@ -334,19 +334,19 @@
       "division": "West Southwest",
       "streak": "W4",
       "pct": 0.6666666666666666,
-      "seed": 5
+      "seed": 6
     },
     "DAL": {
       "w": 4,
       "l": 2,
       "t": 0,
-      "rank": 11,
+      "rank": 10,
       "heat": "Warm",
       "place": 4,
       "division": "West Southwest",
       "streak": "W3",
       "pct": 0.6666666666666666,
-      "seed": 6
+      "seed": 7
     },
     "NO": {
       "w": 2,

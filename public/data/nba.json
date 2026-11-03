@@ -4,10 +4,10 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Sun, Nov 1",
-  "throughLabel": "through Sun, Nov 1",
+  "kicker": "2026-27 · through Mon, Nov 2",
+  "throughLabel": "through Mon, Nov 2",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
-  "updatedAt": "2026-11-02T22:19:13.356Z",
+  "updatedAt": "2026-11-03T02:57:25.321Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -153,9 +153,9 @@
               "t": 0,
               "pf": 709,
               "pa": 662,
-              "rank": 12,
+              "rank": 11,
               "heat": "Steady",
-              "seed": 5,
+              "seed": 6,
               "form": "3-3",
               "story": "The Raptors are 3-3 and have lost 2 straight, including 131-125 at LAL, despite a +47 point differential.",
               "player": {
@@ -262,25 +262,25 @@
               "name": "Cavaliers",
               "color": "#860038",
               "w": 4,
-              "l": 2,
+              "l": 3,
               "t": 0,
-              "pf": 726,
-              "pa": 696,
-              "rank": 10,
-              "heat": "Warm",
+              "pf": 838,
+              "pa": 813,
+              "rank": 14,
+              "heat": "Steady",
               "seed": 4,
-              "form": "4-2",
-              "story": "The Cavaliers are 4-2 after beating MIL 136-111, with earlier wins by 4 and 2 points over BKN and MIN.",
+              "form": "4-3",
+              "story": "The Cavaliers are 4-3 after a 136-111 win at MIL, then lost 117-112 to OKC on Nov 2.",
               "player": {
                 "name": "Evan Mobley",
                 "pos": "C",
-                "line": "27 points vs MIL on Oct 31"
+                "line": "27 pts vs MIL on Oct 31"
               },
               "next": {
                 "opp": "OKC",
-                "home": true,
-                "kickoff": "2026-11-03T00:00Z",
-                "network": "NBCSN"
+                "home": false,
+                "kickoff": "2026-11-05T01:00Z",
+                "network": "KSBI"
               }
             },
             {
@@ -295,7 +295,7 @@
               "pa": 817,
               "rank": 22,
               "heat": "Cool",
-              "seed": 12,
+              "seed": 11,
               "form": "2-5",
               "story": "The Pacers are 2-5 and have lost four straight, most recently 98-90 to BKN, whom they beat 136-109 earlier.",
               "player": {
@@ -374,25 +374,25 @@
               "city": "Washington",
               "name": "Wizards",
               "color": "#002B5C",
-              "w": 3,
+              "w": 4,
               "l": 3,
               "t": 0,
-              "pf": 663,
-              "pa": 658,
-              "rank": 16,
+              "pf": 766,
+              "pa": 752,
+              "rank": 15,
               "heat": "Steady",
-              "seed": 6,
-              "form": "3-3",
-              "story": "The Wizards are 3-3 with a +5 point differential after routing CHA 95-79 on Friday.",
+              "seed": 5,
+              "form": "4-3",
+              "story": "The Wizards are 4-3 and have won two straight, beating ORL 103-94 after a 95-79 win over CHA.",
               "player": {
                 "name": "Trae Young",
                 "pos": "G",
                 "line": "21 pts, 9 ast and 7 reb vs CHA"
               },
               "next": {
-                "opp": "ORL",
-                "home": false,
-                "kickoff": "2026-11-03T00:30Z",
+                "opp": "ATL",
+                "home": true,
+                "kickoff": "2026-11-05T00:00Z",
                 "network": "MNMT"
               }
             },
@@ -483,25 +483,25 @@
               "name": "Magic",
               "color": "#0077C0",
               "w": 2,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 646,
-              "pa": 700,
+              "pf": 740,
+              "pa": 803,
               "rank": 23,
               "heat": "Cool",
-              "seed": 11,
-              "form": "2-4",
-              "story": "The Magic are 2-4 with a -54 point differential after a 108-97 loss to BOS, still a small sample.",
+              "seed": 12,
+              "form": "2-5",
+              "story": "The Magic are 2-5 with a -63 point differential and lost 103-94 to WSH in their last game.",
               "player": {
                 "name": "Franz Wagner",
                 "pos": "F",
-                "line": "26 pts and 11 ast vs TOR, 12 ast vs BOS"
+                "line": "Led the team in 5 games; 6 assists vs WSH"
               },
               "next": {
-                "opp": "WSH",
-                "home": true,
-                "kickoff": "2026-11-03T00:30Z",
-                "network": "MNMT"
+                "opp": "PHX",
+                "home": false,
+                "kickoff": "2026-11-06T02:00Z",
+                "network": "Suns Live"
               }
             }
           ]
@@ -547,26 +547,26 @@
               "city": "Oklahoma City",
               "name": "Thunder",
               "color": "#007AC1",
-              "w": 4,
+              "w": 5,
               "l": 2,
               "t": 0,
-              "pf": 639,
-              "pa": 642,
-              "rank": 14,
-              "heat": "Steady",
-              "seed": 7,
-              "form": "4-2",
-              "story": "The Thunder have lost two straight, most recently 119-98 at HOU, and Chet Holmgren is out two-plus months.",
+              "pf": 756,
+              "pa": 754,
+              "rank": 13,
+              "heat": "Warm",
+              "seed": 5,
+              "form": "5-2",
+              "story": "The Thunder are 5-2 but only +2 in point differential after losing 120-96 at DAL and 119-98 at HOU.",
               "player": {
-                "name": "Shai Gilgeous-Alexander",
-                "pos": "G",
-                "line": "26 pts vs HOU; led team in points in 3 games"
+                "name": "Isaiah Hartenstein",
+                "pos": "C",
+                "line": "14 reb at CLE on Nov 2"
               },
               "next": {
                 "opp": "CLE",
-                "home": false,
-                "kickoff": "2026-11-03T00:00Z",
-                "network": "NBCSN"
+                "home": true,
+                "kickoff": "2026-11-05T01:00Z",
+                "network": "KSBI"
               }
             },
             {
@@ -579,7 +579,7 @@
               "t": 0,
               "pf": 570,
               "pa": 576,
-              "rank": 15,
+              "rank": 16,
               "heat": "Warm",
               "seed": 8,
               "form": "3-2",
@@ -692,7 +692,7 @@
               "t": 0,
               "pf": 824,
               "pa": 804,
-              "rank": 13,
+              "rank": 12,
               "heat": "Warm",
               "seed": 10,
               "form": "4-3",
@@ -861,7 +861,7 @@
               "pa": 661,
               "rank": 7,
               "heat": "Warm",
-              "seed": 5,
+              "seed": 6,
               "form": "4-2",
               "story": "The Spurs are 4-2 and have won four straight, the latest 121-111 over MIN.",
               "player": {
@@ -886,9 +886,9 @@
               "t": 0,
               "pf": 686,
               "pa": 671,
-              "rank": 11,
+              "rank": 10,
               "heat": "Warm",
-              "seed": 6,
+              "seed": 7,
               "form": "4-2",
               "story": "The Mavericks are 4-2 and have won three straight, the latest 116-111 over HOU, which had been unbeaten.",
               "player": {

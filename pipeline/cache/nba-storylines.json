@@ -78,14 +78,14 @@
     }
   },
   "CLE": {
-    "key": "401909900|401909907",
+    "key": "401909907|401909929",
     "result": {
       "abbr": "CLE",
-      "story": "The Cavaliers are 4-2 after beating MIL 136-111, with earlier wins by 4 and 2 points over BKN and MIN.",
+      "story": "The Cavaliers are 4-3 after a 136-111 win at MIL, then lost 117-112 to OKC on Nov 2.",
       "player": {
         "name": "Evan Mobley",
         "pos": "C",
-        "line": "27 points vs MIL on Oct 31"
+        "line": "27 pts vs MIL on Oct 31"
       },
       "source": "claude"
     }
@@ -143,10 +143,10 @@
     }
   },
   "WSH": {
-    "key": "401909277|401909911",
+    "key": "401909911|401909923",
     "result": {
       "abbr": "WSH",
-      "story": "The Wizards are 3-3 with a +5 point differential after routing CHA 95-79 on Friday.",
+      "story": "The Wizards are 4-3 and have won two straight, beating ORL 103-94 after a 95-79 win over CHA.",
       "player": {
         "name": "Trae Young",
         "pos": "G",
@@ -169,14 +169,14 @@
     }
   },
   "ORL": {
-    "key": "401909903|401909911",
+    "key": "401909911|401909936",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic are 2-4 with a -54 point differential after a 108-97 loss to BOS, still a small sample.",
+      "story": "The Magic are 2-5 with a -63 point differential and lost 103-94 to WSH in their last game.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "26 pts and 11 ast vs TOR, 12 ast vs BOS"
+        "line": "Led the team in 5 games; 6 assists vs WSH"
       },
       "source": "claude"
     }
@@ -195,14 +195,14 @@
     }
   },
   "OKC": {
-    "key": "401909902|401909907",
+    "key": "401909907|401909929",
     "result": {
       "abbr": "OKC",
-      "story": "The Thunder have lost two straight, most recently 119-98 at HOU, and Chet Holmgren is out two-plus months.",
+      "story": "The Thunder are 5-2 but only +2 in point differential after losing 120-96 at DAL and 119-98 at HOU.",
       "player": {
-        "name": "Shai Gilgeous-Alexander",
-        "pos": "G",
-        "line": "26 pts vs HOU; led team in points in 3 games"
+        "name": "Isaiah Hartenstein",
+        "pos": "C",
+        "line": "14 reb at CLE on Nov 2"
       },
       "source": "claude"
     }
