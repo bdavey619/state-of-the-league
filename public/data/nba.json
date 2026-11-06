@@ -4,13 +4,13 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Wed, Nov 4",
-  "throughLabel": "through Wed, Nov 4",
+  "kicker": "2026-27 · through Thu, Nov 5",
+  "throughLabel": "through Thu, Nov 5",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-06T01:38:00.821Z",
+  "updatedAt": "2026-11-06T19:57:41.162Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -404,7 +404,7 @@
               "pa": 903,
               "rank": 22,
               "heat": "Cool",
-              "seed": 13,
+              "seed": 12,
               "form": "2-6",
               "trend": [
                 -1,
@@ -518,9 +518,9 @@
               "t": 0,
               "pf": 1001,
               "pa": 1028,
-              "rank": 21,
+              "rank": 20,
               "heat": "Cool",
-              "seed": 10,
+              "seed": 9,
               "form": "3-6",
               "trend": [
                 1,
@@ -706,14 +706,14 @@
               "name": "Heat",
               "color": "#98002E",
               "w": 3,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 944,
-              "pa": 983,
-              "rank": 20,
-              "heat": "Steady",
-              "seed": 9,
-              "form": "3-5",
+              "pf": 1044,
+              "pa": 1103,
+              "rank": 21,
+              "heat": "Cool",
+              "seed": 10,
+              "form": "3-6",
               "trend": [
                 -1,
                 -2,
@@ -722,19 +722,20 @@
                 -3,
                 -2,
                 -3,
-                -2
+                -2,
+                -3
               ],
-              "story": "The Heat are 3-5 with a -39 point differential, but Klay Thompson's late 3 beat LAC 117-116 in OT.",
+              "story": "The Heat are 3-6 with a -59 point differential, most recently losing 120-100 at GS.",
               "player": {
                 "name": "Bam Adebayo",
                 "pos": "C",
-                "line": "35 points vs LAC on Nov 4"
+                "line": "35 pts in the 117-116 win at LAC"
               },
               "next": {
-                "opp": "GS",
+                "opp": "SAC",
                 "home": false,
-                "kickoff": "2026-11-06T03:00Z",
-                "network": "NBA TV"
+                "kickoff": "2026-11-09T02:00Z",
+                "network": ""
               }
             },
             {
@@ -781,14 +782,14 @@
               "name": "Magic",
               "color": "#0077C0",
               "w": 2,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 740,
-              "pa": 803,
-              "rank": 23,
+              "pf": 844,
+              "pa": 920,
+              "rank": 25,
               "heat": "Cool",
-              "seed": 12,
-              "form": "2-5",
+              "seed": 13,
+              "form": "2-6",
               "trend": [
                 -1,
                 -2,
@@ -796,19 +797,20 @@
                 -2,
                 -1,
                 -2,
-                -3
+                -3,
+                -4
               ],
-              "story": "The Magic are 2-5 with a -63 point differential and lost 103-94 to WSH in their last game.",
+              "story": "The Magic are 2-6 and have lost three straight, most recently 117-104 at PHX.",
               "player": {
                 "name": "Franz Wagner",
                 "pos": "F",
-                "line": "Led the team in 5 games; 6 assists vs WSH"
+                "line": "15 assists in the 117-104 loss at PHX"
               },
               "next": {
-                "opp": "PHX",
+                "opp": "GS",
                 "home": false,
-                "kickoff": "2026-11-06T02:00Z",
-                "network": "Suns Live"
+                "kickoff": "2026-11-08T01:30Z",
+                "network": ""
               }
             }
           ]
@@ -868,7 +870,7 @@
               "t": 0,
               "pf": 880,
               "pa": 870,
-              "rank": 10,
+              "rank": 11,
               "heat": "Warm",
               "seed": 6,
               "form": "6-2",
@@ -1054,15 +1056,15 @@
               "city": "Golden State",
               "name": "Warriors",
               "color": "#1D428A",
-              "w": 5,
+              "w": 6,
               "l": 3,
               "t": 0,
-              "pf": 940,
-              "pa": 917,
-              "rank": 11,
+              "pf": 1060,
+              "pa": 1017,
+              "rank": 10,
               "heat": "Warm",
               "seed": 8,
-              "form": "5-3",
+              "form": "6-3",
               "trend": [
                 -1,
                 -2,
@@ -1071,19 +1073,20 @@
                 -1,
                 0,
                 1,
-                2
+                2,
+                3
               ],
-              "story": "The Warriors are 5-3 on a 5-game win streak, though a +23 point differential is a small sample.",
+              "story": "The Warriors have won six straight to reach 6-3, the latest a 120-100 win over MIA, in a small sample.",
               "player": {
                 "name": "Stephen Curry",
                 "pos": "G",
-                "line": "34 pts and 7 ast vs PHX"
+                "line": "29 points vs MIA in the sixth straight win"
               },
               "next": {
-                "opp": "MIA",
+                "opp": "ORL",
                 "home": true,
-                "kickoff": "2026-11-06T03:00Z",
-                "network": "NBA TV"
+                "kickoff": "2026-11-08T01:30Z",
+                "network": ""
               }
             },
             {
@@ -1091,34 +1094,35 @@
               "city": "Phoenix",
               "name": "Suns",
               "color": "#E56020",
-              "w": 1,
+              "w": 2,
               "l": 5,
               "t": 0,
-              "pf": 680,
-              "pa": 746,
-              "rank": 26,
-              "heat": "Cold",
+              "pf": 797,
+              "pa": 850,
+              "rank": 23,
+              "heat": "Cool",
               "seed": 12,
-              "form": "1-5",
+              "form": "2-5",
               "trend": [
                 -1,
                 0,
                 -1,
                 -2,
                 -3,
-                -4
+                -4,
+                -3
               ],
-              "story": "The Suns are 1-5 and on a 4-game skid, most recently losing 132-119 to POR; it is still a small sample.",
+              "story": "The Suns are 2-5 with a -53 point differential but snapped a four-game skid, beating ORL 117-104.",
               "player": {
                 "name": "Devin Booker",
                 "pos": "G",
-                "line": "33 points vs POR on Nov 4"
+                "line": "30 pts and 8 assists vs ORL on Nov 5"
               },
               "next": {
-                "opp": "ORL",
+                "opp": "HOU",
                 "home": true,
-                "kickoff": "2026-11-06T02:00Z",
-                "network": "Suns Live"
+                "kickoff": "2026-11-08T02:00Z",
+                "network": "Arizona's Family 3TV"
               }
             },
             {
@@ -1131,7 +1135,7 @@
               "t": 0,
               "pf": 873,
               "pa": 925,
-              "rank": 25,
+              "rank": 26,
               "heat": "Cold",
               "seed": 13,
               "form": "1-7",

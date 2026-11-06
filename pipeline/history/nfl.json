@@ -58,7 +58,7 @@
       "division": "AFC North",
       "streak": "W4",
       "pct": 0.75,
-      "seed": 2
+      "seed": 3
     },
     "CIN": {
       "w": 5,
@@ -86,27 +86,27 @@
     },
     "BAL": {
       "w": 4,
-      "l": 4,
+      "l": 5,
       "t": 0,
       "rank": 20,
       "heat": "Cold",
       "place": 4,
       "division": "AFC North",
-      "streak": "L3",
-      "pct": 0.5,
+      "streak": "L4",
+      "pct": 0.4444444444444444,
       "seed": 10
     },
     "JAX": {
-      "w": 5,
+      "w": 6,
       "l": 2,
       "t": 0,
       "rank": 4,
-      "heat": "Warm",
+      "heat": "Hot",
       "place": 1,
       "division": "AFC South",
-      "streak": "W1",
-      "pct": 0.7142857142857143,
-      "seed": 4
+      "streak": "W2",
+      "pct": 0.75,
+      "seed": 2
     },
     "HOU": {
       "w": 2,
@@ -154,7 +154,7 @@
       "division": "AFC West",
       "streak": "W4",
       "pct": 0.75,
-      "seed": 3
+      "seed": 4
     },
     "KC": {
       "w": 5,
@@ -505,6 +505,13 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Bears have won 3 straight."
+    },
+    {
+      "at": "2026-11-06T19:57:19.790Z",
+      "abbr": "JAX",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Jaguars are now running hot."
     }
   ],
   "recap": {

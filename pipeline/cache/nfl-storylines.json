@@ -91,27 +91,27 @@
     }
   },
   "BAL": {
-    "key": "401873026|401873037",
+    "key": "401873037|401873065",
     "result": {
       "abbr": "BAL",
-      "story": "The Ravens are 4-4 and lost 36-10 at BUF, where QBs Lamar Jackson and Tyler Huntley both left hurt.",
+      "story": "The Ravens have lost four straight, the latest 33-10 to JAX, and traded for QB Jacoby Brissett.",
       "player": {
         "name": "Derrick Henry",
         "pos": "RB",
-        "line": "Has led Baltimore in rushing in 6 games"
+        "line": "Led the team in rushing in 6 games, 490 yds"
       },
       "source": "claude"
     }
   },
   "JAX": {
-    "key": "401873028|401873037",
+    "key": "401873037|401873057",
     "result": {
       "abbr": "JAX",
-      "story": "The Jaguars lead the AFC South at 5-2 after beating IND 42-7, with a +85 point differential.",
+      "story": "The Jaguars are 6-2 atop the AFC South after beating IND 42-7 and then BAL 33-10 on the road.",
       "player": {
-        "name": "Trevor Lawrence",
-        "pos": "QB",
-        "line": "210 yds and 3 TD vs IND in Week 8"
+        "name": "Bhayshul Tuten",
+        "pos": "RB",
+        "line": "Led team in rushing 6 times; 104 yds and a TD vs IND"
       },
       "source": "claude"
     }

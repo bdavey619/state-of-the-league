@@ -169,27 +169,27 @@
     }
   },
   "ORL": {
-    "key": "401909911|401909936",
+    "key": "401909936|401909942",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic are 2-5 with a -63 point differential and lost 103-94 to WSH in their last game.",
+      "story": "The Magic are 2-6 and have lost three straight, most recently 117-104 at PHX.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "Led the team in 5 games; 6 assists vs WSH"
+        "line": "15 assists in the 117-104 loss at PHX"
       },
       "source": "claude"
     }
   },
   "MIA": {
-    "key": "401909935|401909937",
+    "key": "401909937|401909951",
     "result": {
       "abbr": "MIA",
-      "story": "The Heat are 3-5 with a -39 point differential, but Klay Thompson's late 3 beat LAC 117-116 in OT.",
+      "story": "The Heat are 3-6 with a -59 point differential, most recently losing 120-100 at GS.",
       "player": {
         "name": "Bam Adebayo",
         "pos": "C",
-        "line": "35 points vs LAC on Nov 4"
+        "line": "35 pts in the 117-116 win at LAC"
       },
       "source": "claude"
     }
@@ -273,27 +273,27 @@
     }
   },
   "GS": {
-    "key": "401909919|401909937",
+    "key": "401909937|401909942",
     "result": {
       "abbr": "GS",
-      "story": "The Warriors are 5-3 on a 5-game win streak, though a +23 point differential is a small sample.",
+      "story": "The Warriors have won six straight to reach 6-3, the latest a 120-100 win over MIA, in a small sample.",
       "player": {
         "name": "Stephen Curry",
         "pos": "G",
-        "line": "34 pts and 7 ast vs PHX"
+        "line": "29 points vs MIA in the sixth straight win"
       },
       "source": "claude"
     }
   },
   "PHX": {
-    "key": "401909932|401909936",
+    "key": "401909936|401909943",
     "result": {
       "abbr": "PHX",
-      "story": "The Suns are 1-5 and on a 4-game skid, most recently losing 132-119 to POR; it is still a small sample.",
+      "story": "The Suns are 2-5 with a -53 point differential but snapped a four-game skid, beating ORL 117-104.",
       "player": {
         "name": "Devin Booker",
         "pos": "G",
-        "line": "33 points vs POR on Nov 4"
+        "line": "30 pts and 8 assists vs ORL on Nov 5"
       },
       "source": "claude"
     }
