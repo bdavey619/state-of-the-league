@@ -1,39 +1,39 @@
 {
   "PHI": {
-    "key": "401909922|401909289",
+    "key": "401909289|401909945",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 8-1 and have won 5 straight, though the +52 point differential trails the record.",
+      "story": "The 76ers are 8-2 and lead the East, but a +28 point differential is modest and they lost 119-95 at CLE.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "Led in points or assists in 7 games; 11 ast vs CHI"
+        "line": "Led team in points/assists in 7 games; 11 ast vs CHI"
       },
       "source": "claude"
     }
   },
   "BOS": {
-    "key": "401909924|401909288",
+    "key": "401909288|401909949",
     "result": {
       "abbr": "BOS",
-      "story": "The Celtics are 6-2 with a +48 point differential, beating MIL 109-102 after a 109-93 loss at HOU.",
+      "story": "The Celtics are 7-2 and 2nd in the East with a +87 differential after beating CHA 119-80.",
       "player": {
-        "name": "Paul George",
+        "name": "Jayson Tatum",
         "pos": "F",
-        "line": "25 pts and five 3-pointers vs MIL"
+        "line": "34 pts, 9 ast and 8 reb vs CHA"
       },
       "source": "claude"
     }
   },
   "TOR": {
-    "key": "401909931|401909292",
+    "key": "401909292|401909955",
     "result": {
       "abbr": "TOR",
-      "story": "The Raptors are 4-4 with a +35 point differential, but they lost 128-109 at DEN on Nov 4.",
+      "story": "The Raptors are 5-4 and beat MIL 121-107 while short-handed, after a 128-109 loss at DEN.",
       "player": {
-        "name": "Scottie Barnes",
+        "name": "RJ Barrett",
         "pos": "F",
-        "line": "Led team in pts, reb or ast in 7 of 8 games"
+        "line": "27 pts vs MIL in the Nov 6 win"
       },
       "source": "claude"
     }
@@ -78,14 +78,14 @@
     }
   },
   "CLE": {
-    "key": "401909929|401909289",
+    "key": "401909289|401909940",
     "result": {
       "abbr": "CLE",
-      "story": "The Cavaliers are 4-4 with a +17 differential and lost twice to OKC, 117-112 and 124-116.",
+      "story": "The Cavaliers are 5-4 and sixth in the East after a 119-95 win over PHI in an NBA Cup game.",
       "player": {
-        "name": "Evan Mobley",
-        "pos": "C",
-        "line": "10 rebounds vs OKC, led the team in 6 games"
+        "name": "Donovan Mitchell",
+        "pos": "G",
+        "line": "23 pts and 8 ast vs PHI"
       },
       "source": "claude"
     }
@@ -104,14 +104,14 @@
     }
   },
   "MIL": {
-    "key": "401909924|401909292",
+    "key": "401909292|401909949",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 1-7 with a -98 differential and have lost four straight, most recently 109-102 at BOS.",
+      "story": "The Bucks are 1-8 and have lost five straight, most recently 121-107 to TOR in an NBA Cup game.",
       "player": {
         "name": "Tyler Herro",
         "pos": "G",
-        "line": "25 points vs BOS, led the team in 6 games"
+        "line": "10 assists vs TOR on Nov 6"
       },
       "source": "claude"
     }
@@ -130,40 +130,40 @@
     }
   },
   "ATL": {
-    "key": "401909923|401909287",
+    "key": "401909287|401909939",
     "result": {
       "abbr": "ATL",
-      "story": "The Hawks are 5-4 with a +25 point differential, winners of two straight after beating WSH 120-105.",
+      "story": "The Hawks are 6-4 with a +32 point differential and 3 straight wins, the latest 139-132 over WSH.",
       "player": {
         "name": "Nickeil Alexander-Walker",
         "pos": "G",
-        "line": "26 pts to lead the 120-105 win over WSH"
+        "line": "28 points vs WSH in the 139-132 win"
       },
       "source": "claude"
     }
   },
   "WSH": {
-    "key": "401909923|401909287",
+    "key": "401909287|401909941",
     "result": {
       "abbr": "WSH",
-      "story": "The Wizards are 4-4 with a -1 point differential after losing 120-105 to ATL on Nov 4.",
+      "story": "The Wizards are 4-5 and have lost 2 straight, both to ATL, the latest 139-132 in Trae Young's return.",
       "player": {
-        "name": "Anthony Davis",
+        "name": "Kyshawn George",
         "pos": "F",
-        "line": "Led the team in points or rebounds in 7 games"
+        "line": "33 points in the 139-132 loss at ATL"
       },
       "source": "claude"
     }
   },
   "CHA": {
-    "key": "401909925|401909288",
+    "key": "401909288|401909953",
     "result": {
       "abbr": "CHA",
-      "story": "The Hornets have lost 5 straight and are 3-6 with a -100 point differential.",
+      "story": "The Hornets have lost 6 straight, the latest 119-80 to BOS, and are 3-7 with a -139 point differential.",
       "player": {
-        "name": "Brandon Miller",
-        "pos": "F",
-        "line": "Led the team in 5 games; 4 assists vs DET"
+        "name": "Naz Reid",
+        "pos": "C",
+        "line": "14 points vs BOS on Nov 6"
       },
       "source": "claude"
     }
@@ -195,40 +195,40 @@
     }
   },
   "OKC": {
-    "key": "401909929|401909291",
+    "key": "401909291|401909941",
     "result": {
       "abbr": "OKC",
-      "story": "The Thunder are 6-2 with a point differential of just +10, and they have won 2 straight.",
+      "story": "The Thunder have won 3 straight to reach 7-2, the latest a 128-97 rout of MEM.",
       "player": {
-        "name": "Shai Gilgeous-Alexander",
+        "name": "Ajay Mitchell",
         "pos": "G",
-        "line": "42 pts and 8 ast vs CLE on Nov 4"
+        "line": "Career-high 35 points vs MEM on Nov 6"
       },
       "source": "claude"
     }
   },
   "POR": {
-    "key": "401909932|401909294",
+    "key": "401909294|401909944",
     "result": {
       "abbr": "POR",
-      "story": "The Trail Blazers are 6-1 and first in the West, with a +11.1 scoring margin through just 7 games.",
+      "story": "The Blazers are 6-2 with a +9 per-game margin, but lost 124-118 at LAL in their last game.",
       "player": {
         "name": "Deni Avdija",
         "pos": "F",
-        "line": "12 assists vs PHX on Nov 4"
+        "line": "11 assists vs LAL; led the team in 8 games"
       },
       "source": "claude"
     }
   },
   "MIN": {
-    "key": "401909930|401909293",
+    "key": "401909293|401909947",
     "result": {
       "abbr": "MIN",
-      "story": "The Timberwolves are 6-3 with the NBA's best scoring margin at +11.2 per game, early in the season.",
+      "story": "The Timberwolves are 7-3 with the NBA's best point differential per game, +10.7, through 10 games.",
       "player": {
-        "name": "LaMelo Ball",
+        "name": "Ayo Dosunmu",
         "pos": "G",
-        "line": "34 pts vs MIL on Nov 2"
+        "line": "26 points vs NO on Nov 6"
       },
       "source": "claude"
     }
@@ -247,27 +247,27 @@
     }
   },
   "UTAH": {
-    "key": "401909928|401909290",
+    "key": "401909290|401909947",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 1-7 and have lost 6 straight, most recently 120-113 in overtime at NO.",
+      "story": "The Jazz are 1-8 and have lost 7 straight, most recently 112-100 at DAL.",
       "player": {
         "name": "Keyonte George",
         "pos": "G",
-        "line": "9 assists vs NO on Nov 4"
+        "line": "9 assists vs DAL; led the team in 7 games"
       },
       "source": "claude"
     }
   },
   "LAL": {
-    "key": "401909934|401909294",
+    "key": "401909294|401909946",
     "result": {
       "abbr": "LAL",
-      "story": "The Lakers are 7-2 with 3 straight wins, and Luka Doncic has 35-plus points in six straight games.",
+      "story": "The Lakers are 8-2 on a four-game win streak, with Doncic averaging 40.1 points over a short sample.",
       "player": {
         "name": "Luka Doncic",
         "pos": "G",
-        "line": "40 pts vs SAC, sixth straight game of 35-plus"
+        "line": "53 pts vs POR, averaging 40.1 PPG"
       },
       "source": "claude"
     }
@@ -312,27 +312,27 @@
     }
   },
   "SAC": {
-    "key": "401909934|401909295",
+    "key": "401909295|401909951",
     "result": {
       "abbr": "SAC",
-      "story": "The Kings are 1-7 with a -112 point differential, including a 116-103 loss to LAL on Nov 4.",
+      "story": "The Kings are 1-8 with a -14.1 per-game margin, the latest loss 124-109 to SA in an NBA Cup game.",
       "player": {
         "name": "Domantas Sabonis",
         "pos": "F",
-        "line": "17 rebounds vs LAL on Nov 4"
+        "line": "12 reb vs SA; led team in reb/ast in 8 games"
       },
       "source": "claude"
     }
   },
   "MEM": {
-    "key": "401909927|401909291",
+    "key": "401909291|401909955",
     "result": {
       "abbr": "MEM",
-      "story": "The Grizzlies are 6-2 but have lost two straight, 135-134 to NO and 107-103 to IND.",
+      "story": "The Grizzlies are 6-3 but have dropped 3 in a row, the latest a 128-97 loss to OKC.",
       "player": {
-        "name": "Ty Jerome",
-        "pos": "G",
-        "line": "Scored 40 points vs NO on Nov 2"
+        "name": "Cameron Boozer",
+        "pos": "F",
+        "line": "12 reb vs OKC; led the team in 6 games"
       },
       "source": "claude"
     }
@@ -351,40 +351,40 @@
     }
   },
   "DAL": {
-    "key": "401909933|401909290",
+    "key": "401909290|401909948",
     "result": {
       "abbr": "DAL",
-      "story": "The Mavericks are 4-4 with a -1 point differential and just lost 112-111 at SA on Wembanyama's 52.",
+      "story": "The Mavericks are 5-4 with a +11 point differential and beat UTAH 112-100 on Nov 6.",
       "player": {
         "name": "P.J. Washington",
         "pos": "F",
-        "line": "10 rebounds vs SA; led team in boards in 4 games"
+        "line": "26 pts vs UTAH; led the team in 5 games"
       },
       "source": "claude"
     }
   },
   "SA": {
-    "key": "401909933|401909295",
+    "key": "401909295|401909944",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs have won 6 straight, the latest a 112-111 win over DAL behind Wembanyama's 52 points.",
+      "story": "The Spurs have won 7 straight, including a 112-111 squeaker over DAL, and sit 7-2 after just 9 games.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "52 points, 24 rebounds and 8 blocks vs DAL"
+        "line": "30 pts and 14 reb vs SAC"
       },
       "source": "claude"
     }
   },
   "NO": {
-    "key": "401909928|401909293",
+    "key": "401909293|401909950",
     "result": {
       "abbr": "NO",
-      "story": "The Pelicans are 4-4 but have won 4 straight, the latest 120-113 in overtime over UTAH.",
+      "story": "The Pelicans are 4-5 despite a +13 point differential, after losing 115-109 to MIN on Nov 6.",
       "player": {
         "name": "Zion Williamson",
         "pos": "F",
-        "line": "23 points vs UTAH in the overtime win"
+        "line": "8 reb vs MIN; led the team in 5 games"
       },
       "source": "claude"
     }
