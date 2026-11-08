@@ -23,6 +23,10 @@ function formText(t, league) {
 }
 
 function playerText(p, league) {
+  if (league.key === 'nba' && p.ppg != null) {
+    const last = p.latest ? ` Latest: ${p.latest.pts} pts, ${p.latest.reb} reb, ${p.latest.ast} ast vs ${p.latest.opp}.` : '';
+    return `- ${p.name} (${p.pos || '?'}): ${p.ppg} pts, ${p.rpg} reb, ${p.apg} ast per game in ${p.gp} games; Game Score ${p.gs}.${last}`;
+  }
   if (league.key === 'nba') {
     return `- ${p.name} (${p.pos || '?'}): led the team in ${p.kinds.join('/')} in ${p.games} of the team's games. Latest: ${p.lastLine}`;
   }
@@ -82,7 +86,8 @@ export function fallback(team, notes = [], league = NFL) {
     player: p ? {
       name: p.name,
       pos: p.pos,
-      line: league.key === 'nba' ? `Led the team in ${p.kinds[0]} in ${p.games} games` : `Team's ${p.kinds[0]} leader: ${p.total} yds`,
+      line: p.ppg != null ? `${p.ppg} pts, ${p.rpg} reb, ${p.apg} ast per game`
+        : league.key === 'nba' ? `Led the team in ${p.kinds[0]} in ${p.games} games` : `Team's ${p.kinds[0]} leader: ${p.total} yds`,
     } : { name: '', pos: '', line: '' },
     source: 'template',
   };

@@ -21,6 +21,9 @@ import { applyPower } from './lib/power.mjs';
 import { storyKey, writeStorylines } from './lib/storylines.mjs';
 import { diff, prune, snapshot } from './lib/changes.mjs';
 import { recapKey, writeRecap } from './lib/recap.mjs';
+import { updateBoxCache } from './lib/boxscore.mjs';
+import { aggregatePlayers, dominanceRanking, teamCandidates } from './lib/players.mjs';
+import { mustWatch } from './lib/watch.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
@@ -31,7 +34,7 @@ const args = Object.fromEntries(process.argv.slice(2).map((a) => {
 const league = LEAGUES[String(args.league || 'nfl').toLowerCase()];
 if (!league) throw new Error(`Unknown --league=${args.league}`);
 const K = league.key;
-const now = new Date();
+const now = args.now ? new Date(args.now) : new Date();
 const season = Number(args.season) || (now.getUTCMonth() >= 7 ? now.getUTCFullYear() : now.getUTCFullYear() - 1);
 const paths = {
   out: resolve(ROOT, args.out || `public/data/${K}.json`),
@@ -40,6 +43,7 @@ const paths = {
   power: resolve(ROOT, `pipeline/overrides/${K}-power.json`),
   runLog: resolve(ROOT, args.runlog || `pipeline/cache/${K}-run-log.json`),
   history: resolve(ROOT, args.history || `pipeline/history/${K}.json`),
+  box: resolve(ROOT, args.box || `pipeline/cache/${K}-box.json`),
 };
 
 async function readJSON(p, fallback) {
@@ -93,6 +97,24 @@ async function main() {
   const powerSource = applyPower(teams, await readJSON(paths.power, null), state.currentWeek, league);
   const conferences = arrange(teams, league);
   const notes = leagueNotes(teams, league);
+
+  // NBA: box scores → season averages → dominant players; also better player-to-watch candidates.
+  let players = [];
+  let stars = [];
+  if (league.key === 'nba') {
+    const box = await readJSON(paths.box, {});
+    if (!args.games) await updateBoxCache(box, games, league);
+    await writeJSON(paths.box, box);
+    const teamGames = Object.fromEntries(Object.values(teams).map((t) => [t.abbr, t.gp]));
+    players = aggregatePlayers(box, teamGames);
+    stars = dominanceRanking(players, 25);
+    for (const t of Object.values(teams)) {
+      const cands = teamCandidates(players, t.abbr);
+      if (cands.length) t.leaderList = cands;
+    }
+    console.log(`players: ${players.length} with box scores, top: ${stars.slice(0, 3).map((p) => p.name).join(', ')}`);
+  }
+  const watch = mustWatch(games, teams, league, stars, now);
 
   // Storylines: reuse cached ones unless the team's latest result or next game changed.
   const cache = args['force-stories'] ? {} : await readJSON(paths.stories, {});
@@ -157,6 +179,8 @@ async function main() {
     aiStorylines: false,
     changes: [...events].sort((a, b) => String(b.at).localeCompare(String(a.at)) || b.weight - a.weight),
     recap: recap ? { label: recap.label, at: recap.at, bullets: recap.bullets } : null,
+    mustWatch: { window: league.key === 'nba' ? 'next 48 hours' : 'this week', games: watch.slice(0, 10) },
+    players: league.key === 'nba' ? dominanceRanking(players, 15) : undefined,
     conferences: conferences.map((c) => ({
       abbr: c.abbr,
       name: c.name,

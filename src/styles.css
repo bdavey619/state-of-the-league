@@ -267,3 +267,42 @@ h2 { margin: 0; font-weight: 700; font-size: 22px; letter-spacing: -0.025em; }
   .digest-first { font-size: 12px; }
   .digest-list li { font-size: 13px; }
 }
+
+/* Must watch + dominant players */
+.extras { display: grid; gap: 14px; grid-template-columns: 1fr; }
+@media (min-width: 761px) { .extras { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); margin-bottom: 28px; } }
+.mobile-only .extras { margin-top: 14px; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 14px 16px 6px; }
+.section-head h2 { margin: 0; font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
+.section-sub { font-size: 11px; color: var(--faint); text-transform: uppercase; letter-spacing: 0.04em; }
+.watch-list, .dp-list { list-style: none; margin: 0; padding: 0 16px 8px; }
+.watch-game { display: flex; gap: 12px; padding: 12px 0; }
+.watch-game + .watch-game, .dp-row + .dp-row { border-top: 1px solid var(--hair); }
+.watch-score {
+  flex: none; width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center;
+  font-size: 16px; font-weight: 600; background: #f1efea; color: var(--text);
+}
+.watch-score.tier-must { background: var(--up); color: #fff; }
+.watch-score.tier-worth { background: #fbe7dc; color: var(--up); }
+.watch-body { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.watch-teams { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: 14px; font-weight: 600; }
+.watch-side { display: inline-flex; align-items: center; gap: 6px; }
+.watch-rec { font-size: 11px; font-weight: 400; color: var(--muted); }
+.watch-at { font-size: 12px; color: var(--dim); font-weight: 400; }
+.watch-meta { font-size: 11px; color: var(--muted); }
+.watch-tier.tier-must { color: var(--up); font-weight: 600; }
+.watch-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
+.tag { font-size: 11px; color: var(--text); background: #f4f2ed; border-radius: 999px; padding: 2px 8px; }
+.dp-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; }
+.dp-rank { flex: none; width: 18px; font-size: 11px; color: var(--dim); text-align: right; }
+.dp-body { flex: 1; min-width: 0; }
+.dp-name { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dp-team { margin-left: 6px; font-size: 11px; font-weight: 400; color: var(--muted); }
+.dp-line { font-size: 11px; color: var(--muted); margin-top: 1px; }
+.dp-trend.up { color: var(--up); }
+.dp-trend.down { color: var(--down); }
+.dp-gs { flex: none; font-size: 17px; font-weight: 600; color: var(--ink); }
+.more { display: block; width: 100%; border: 0; border-top: 1px solid var(--hair); background: none; padding: 11px; font-size: 11px; color: var(--muted); cursor: pointer; border-radius: 0 0 14px 14px; }
+.more:hover { color: var(--ink); }
+.dp-trend { white-space: nowrap; }
+@media (max-width: 760px) { .dp-trend-text { display: none; } }

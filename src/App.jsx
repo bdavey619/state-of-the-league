@@ -3,6 +3,8 @@ import Glance from './components/Glance.jsx';
 import Conference from './components/Conference.jsx';
 import DivisionDetail from './components/DivisionDetail.jsx';
 import Digest from './components/Digest.jsx';
+import MustWatch from './components/MustWatch.jsx';
+import Players from './components/Players.jsx';
 import { divisionId, updatedLabel } from './format.js';
 
 const LEAGUES = ['nfl', 'nba'];
@@ -52,6 +54,7 @@ export default function App() {
 
   const divisions = useMemo(() => (data ? data.conferences.flatMap((c) => c.divisions) : []), [data]);
   const selectedDivision = divisions.find((d) => d.name === division) || null;
+  const colors = useMemo(() => Object.fromEntries(divisions.flatMap((d) => d.teams.map((t) => [t.abbr, t.color]))), [divisions]);
 
   function pick(name, abbr = null) {
     setDivision(name);
@@ -112,6 +115,7 @@ export default function App() {
             />
 
             <div className="desktop-only">
+              <Extras data={data} colors={colors} />
               {data.conferences.map((c) => (
                 <Conference key={c.abbr} conf={c} />
               ))}
@@ -125,6 +129,7 @@ export default function App() {
                 setOpenTeam={setOpenTeam}
                 leagueKey={league}
               />
+              <Extras data={data} colors={colors} />
             </div>
 
             <footer className="footer">
@@ -132,6 +137,14 @@ export default function App() {
                 {data.formNote || 'Hot/cold reads each team’s last three weeks, weighting the latest game most and factoring in margin.'}{' '}
                 Power rank: {data.powerSource}.
               </p>
+              {data.mustWatch && (
+                <p>
+                  Watch Score (0–100) blends how good both teams are, how close the game projects, what’s at stake
+                  (division leads, seeding, streaks){data.players ? ', current form and star power' : ' and current form'}.
+                  80+ is a must watch.
+                  {data.players && ' Dominant players are ranked by average Game Score (John Hollinger’s one-number box-score rating), minimum 60% of team games.'}
+                </p>
+              )}
               <p>
                 Updated {updatedLabel(data.updatedAt)}. Scores and schedule from ESPN. Storylines
                 {data.aiStorylines ? ' are written by Claude from those facts' : ' are written from those facts'}.
@@ -140,6 +153,17 @@ export default function App() {
           </>
         )}
       </main>
+    </div>
+  );
+}
+
+// Must-watch games and (NBA) dominant players: side by side on desktop, stacked on phones.
+function Extras({ data, colors }) {
+  if (!data.mustWatch?.games?.length && !data.players?.length) return null;
+  return (
+    <div className="extras">
+      <MustWatch watch={data.mustWatch} limit={data.players ? 3 : 4} />
+      <Players players={data.players} colors={colors} />
     </div>
   );
 }

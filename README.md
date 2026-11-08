@@ -52,7 +52,27 @@ scores and any number that isn't in the facts. It is also rewritten mid-week aft
   `pipeline/overrides/nba-power.json` has `"validThrough": "YYYY-MM-DD"` on or after today.
 - Storylines refresh whenever a team plays, so most NBA teams get a new one every couple of days.
 
+### Must watch (both leagues)
+
+Every upcoming game in the window (next 48 hours for the NBA, this week for the NFL) gets a **Watch Score** from 0 to 100 (`pipeline/lib/watch.mjs`):
+
+| Part | NBA | NFL | What it measures |
+| --- | --- | --- | --- |
+| Quality | 35% | 45% | Both teams' power ranks, leaning on the weaker team |
+| Closeness | 25% | 25% | Projected margin from point differential per game, plus home edge |
+| Stakes | 20% | 20% | Division lead on the line, top-6 seeding battle, unbeaten runs, win streaks |
+| Form | 10% | 10% | Both teams' hot/cold |
+| Stars | 10% | — | Players from the top-25 dominance list |
+
+80+ is a **must watch**, 65+ is **worth a look**. Each game carries up to three plain-English reasons. The site shows the top three or four that haven't finished, scoring 40 or more.
+
+### Dominant players (NBA)
+
+Each refresh pulls the box score of every completed game from ESPN's summary endpoint and caches it in `pipeline/cache/nba-box.json`, so each game is only fetched once. Players are ranked by average **Game Score** (John Hollinger's one-number box-score rating), minimum 3 games and 60% of their team's games. A player is "heating up" or "cooling off" when his last five games are 4+ Game Score above or below his season average. The same averages feed each team's player to watch.
+
 ## Run it
+
+Add `--now=2026-10-30T18:00:00Z` to a fixture run to pretend it's a different time (handy for testing Must watch).
 
 ```bash
 npm install

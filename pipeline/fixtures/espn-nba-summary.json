@@ -1,0 +1,31 @@
+{
+  "boxscore": {
+    "players": [
+      {
+        "team": { "id": "7", "abbreviation": "DEN" },
+        "statistics": [
+          {
+            "names": ["MIN", "PTS", "FG", "3PT", "FT", "REB", "AST", "TO", "STL", "BLK", "OREB", "DREB", "PF", "+/-"],
+            "keys": ["minutes", "points", "fieldGoalsMade-fieldGoalsAttempted", "threePointFieldGoalsMade-threePointFieldGoalsAttempted", "freeThrowsMade-freeThrowsAttempted", "rebounds", "assists", "turnovers", "steals", "blocks", "offensiveRebounds", "defensiveRebounds", "fouls", "plusMinus"],
+            "athletes": [
+              { "athlete": { "id": "3112335", "displayName": "Nikola Jokic", "position": { "abbreviation": "C" } }, "stats": ["36", "31", "12-20", "2-5", "5-6", "14", "11", "3", "2", "1", "4", "10", "2", "+9"] },
+              { "athlete": { "id": "3936299", "displayName": "Jamal Murray", "position": { "abbreviation": "G" } }, "stats": ["34", "22", "8-17", "3-8", "3-3", "4", "6", "2", "1", "0", "0", "4", "3", "+5"] },
+              { "athlete": { "id": "999", "displayName": "Bench Guy", "position": { "abbreviation": "F" } }, "didNotPlay": true, "stats": [] }
+            ]
+          }
+        ]
+      },
+      {
+        "team": { "id": "25", "abbreviation": "OKC" },
+        "statistics": [
+          {
+            "labels": ["MIN", "FG", "3PT", "FT", "OREB", "DREB", "REB", "AST", "STL", "BLK", "TO", "PF", "+/-", "PTS"],
+            "athletes": [
+              { "athlete": { "id": "4278073", "displayName": "Shai Gilgeous-Alexander", "position": { "abbreviation": "G" } }, "stats": ["35", "11-21", "1-4", "9-10", "0", "5", "5", "7", "2", "1", "2", "2", "-4", "32"] }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
