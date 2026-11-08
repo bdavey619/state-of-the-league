@@ -65,14 +65,14 @@
     }
   },
   "CIN": {
-    "key": "401873031|401873038",
+    "key": "401873038|401873064",
     "result": {
       "abbr": "CIN",
-      "story": "The Bengals are 5-2 and have won three straight, most recently beating TEN 43-36.",
+      "story": "The Bengals are 6-2 and have won four straight, scoring a league-high 240 points.",
       "player": {
         "name": "Joe Burrow",
         "pos": "QB",
-        "line": "462 yds, 5 TD and 3 INT vs TEN"
+        "line": "24/29, 271 yds and 3 TD at ATL"
       },
       "source": "claude"
     }
@@ -338,14 +338,14 @@
     }
   },
   "ATL": {
-    "key": "401873025|401873038",
+    "key": "401873038|401873058",
     "result": {
       "abbr": "ATL",
-      "story": "The Falcons are 3-5 after losing 16-0 at TB, where Michael Penix Jr. threw 4 interceptions.",
+      "story": "The Falcons are 3-6 and have lost two straight, 16-0 at TB and 34-17 to CIN.",
       "player": {
-        "name": "Michael Penix Jr.",
-        "pos": "QB",
-        "line": "8/24, 125 yds and 4 INT at TB"
+        "name": "Bijan Robinson",
+        "pos": "RB",
+        "line": "100 yds and a TD vs CIN"
       },
       "source": "claude"
     }

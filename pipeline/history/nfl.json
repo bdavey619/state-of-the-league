@@ -48,11 +48,11 @@
       "pct": 0.14285714285714285,
       "seed": 14
     },
-    "PIT": {
+    "CIN": {
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 14,
+      "rank": 10,
       "heat": "Hot",
       "place": 1,
       "division": "AFC North",
@@ -60,17 +60,17 @@
       "pct": 0.75,
       "seed": 3
     },
-    "CIN": {
-      "w": 5,
+    "PIT": {
+      "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 10,
+      "rank": 14,
       "heat": "Hot",
       "place": 2,
       "division": "AFC North",
-      "streak": "W3",
-      "pct": 0.7142857142857143,
-      "seed": 5
+      "streak": "W4",
+      "pct": 0.75,
+      "seed": 4
     },
     "CLE": {
       "w": 5,
@@ -154,7 +154,7 @@
       "division": "AFC West",
       "streak": "W4",
       "pct": 0.75,
-      "seed": 4
+      "seed": 5
     },
     "KC": {
       "w": 5,
@@ -226,7 +226,7 @@
       "division": "NFC East",
       "streak": "W1",
       "pct": 0.35714285714285715,
-      "seed": 14
+      "seed": 13
     },
     "PHI": {
       "w": 2,
@@ -314,15 +314,15 @@
     },
     "ATL": {
       "w": 3,
-      "l": 5,
+      "l": 6,
       "t": 0,
       "rank": 22,
       "heat": "Cool",
       "place": 3,
       "division": "NFC South",
-      "streak": "L1",
-      "pct": 0.375,
-      "seed": 12
+      "streak": "L2",
+      "pct": 0.3333333333333333,
+      "seed": 14
     },
     "NO": {
       "w": 2,
@@ -382,7 +382,7 @@
       "division": "NFC West",
       "streak": "W1",
       "pct": 0.375,
-      "seed": 13
+      "seed": 12
     }
   },
   "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",

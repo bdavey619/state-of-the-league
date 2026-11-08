@@ -4,13 +4,13 @@
   "seasonLabel": "2026",
   "week": 9,
   "badge": "WK 9",
-  "kicker": "Week 9 · through Thu, Nov 5",
-  "throughLabel": "through Thu, Nov 5",
+  "kicker": "Week 9 · through Sun, Nov 8",
+  "throughLabel": "through Sun, Nov 8",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-08T01:53:14.158Z",
+  "updatedAt": "2026-11-08T18:21:58.108Z",
   "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",
   "aiStorylines": true,
   "changes": [
@@ -194,6 +194,54 @@
         ]
       },
       {
+        "id": "401873060",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "MIN",
+          "name": "Vikings",
+          "color": "#4F2683",
+          "rec": "6-1"
+        },
+        "home": {
+          "abbr": "GB",
+          "name": "Packers",
+          "color": "#203731",
+          "rec": "5-3"
+        },
+        "score": 78,
+        "tier": "worth",
+        "reasons": [
+          "Two winning teams",
+          "Projected coin flip",
+          "NFC North lead on the line"
+        ]
+      },
+      {
+        "id": "401873053",
+        "kickoff": "2026-11-15T14:30Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "NE",
+          "name": "Patriots",
+          "color": "#002244",
+          "rec": "5-3"
+        },
+        "home": {
+          "abbr": "DET",
+          "name": "Lions",
+          "color": "#0076B6",
+          "rec": "5-2"
+        },
+        "score": 71,
+        "tier": "worth",
+        "reasons": [
+          "Two winning teams",
+          "Projected coin flip",
+          "Lions have won 3 straight"
+        ]
+      },
+      {
         "id": "401873041",
         "kickoff": "2026-11-08T18:00Z",
         "network": "CBS",
@@ -241,26 +289,49 @@
         ]
       },
       {
-        "id": "401873038",
-        "kickoff": "2026-11-08T14:30Z",
-        "network": "NFL Net",
+        "id": "401873055",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "Fox",
         "away": {
-          "abbr": "CIN",
-          "name": "Bengals",
-          "color": "#FB4F14",
-          "rec": "5-2"
+          "abbr": "CAR",
+          "name": "Panthers",
+          "color": "#0085CA",
+          "rec": "3-4"
         },
         "home": {
-          "abbr": "ATL",
-          "name": "Falcons",
-          "color": "#A71930",
-          "rec": "3-5"
+          "abbr": "NO",
+          "name": "Saints",
+          "color": "#D3BC8D",
+          "rec": "2-5"
         },
-        "score": 58,
+        "score": 60,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "NFC South lead on the line"
+        ]
+      },
+      {
+        "id": "401873054",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "BUF",
+          "name": "Bills",
+          "color": "#00338D",
+          "rec": "6-1"
+        },
+        "home": {
+          "abbr": "NYJ",
+          "name": "Jets",
+          "color": "#125740",
+          "rec": "2-6"
+        },
+        "score": 56,
         "tier": "other",
         "reasons": [
           "Should be close",
-          "Bengals have won 3 straight"
+          "Bills have won 3 straight"
         ]
       },
       {
@@ -288,7 +359,7 @@
       {
         "id": "401873042",
         "kickoff": "2026-11-08T18:00Z",
-        "network": "Fox",
+        "network": "CBS",
         "away": {
           "abbr": "DET",
           "name": "Lions",
@@ -308,88 +379,26 @@
         ]
       },
       {
-        "id": "401873043",
-        "kickoff": "2026-11-08T18:00Z",
+        "id": "401873056",
+        "kickoff": "2026-11-15T18:00Z",
         "network": "Fox",
         "away": {
-          "abbr": "LAR",
-          "name": "Rams",
-          "color": "#003594",
-          "rec": "4-4"
+          "abbr": "HOU",
+          "name": "Texans",
+          "color": "#03202F",
+          "rec": "2-5"
         },
         "home": {
-          "abbr": "WSH",
-          "name": "Commanders",
-          "color": "#5A1414",
-          "rec": "2-4-1"
+          "abbr": "CLE",
+          "name": "Browns",
+          "color": "#FF3C00",
+          "rec": "5-3"
         },
-        "score": 48,
+        "score": 50,
         "tier": "other",
         "reasons": [
           "Projected coin flip"
         ]
-      },
-      {
-        "id": "401873048",
-        "kickoff": "2026-11-08T21:25Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "ARI",
-          "name": "Cardinals",
-          "color": "#97233F",
-          "rec": "3-5"
-        },
-        "home": {
-          "abbr": "SEA",
-          "name": "Seahawks",
-          "color": "#69BE28",
-          "rec": "4-4"
-        },
-        "score": 46,
-        "tier": "other",
-        "reasons": []
-      },
-      {
-        "id": "401873052",
-        "kickoff": "2026-11-13T01:15Z",
-        "network": "Prime Video",
-        "away": {
-          "abbr": "WSH",
-          "name": "Commanders",
-          "color": "#5A1414",
-          "rec": "2-4-1"
-        },
-        "home": {
-          "abbr": "NYG",
-          "name": "Giants",
-          "color": "#0B2265",
-          "rec": "4-2-1"
-        },
-        "score": 46,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
-        ]
-      },
-      {
-        "id": "401873047",
-        "kickoff": "2026-11-08T21:25Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "LV",
-          "name": "Raiders",
-          "color": "#A5ACAF",
-          "rec": "4-4"
-        },
-        "home": {
-          "abbr": "SF",
-          "name": "49ers",
-          "color": "#AA0000",
-          "rec": "6-1"
-        },
-        "score": 43,
-        "tier": "other",
-        "reasons": []
       }
     ]
   },
@@ -594,7 +603,7 @@
                 "opp": "DET",
                 "home": true,
                 "kickoff": "2026-11-08T18:00Z",
-                "network": "Fox"
+                "network": "CBS"
               }
             }
           ]
@@ -602,6 +611,57 @@
         {
           "name": "AFC North",
           "teams": [
+            {
+              "abbr": "CIN",
+              "city": "Cincinnati",
+              "name": "Bengals",
+              "color": "#FB4F14",
+              "w": 6,
+              "l": 2,
+              "t": 0,
+              "pf": 240,
+              "pa": 175,
+              "rank": 10,
+              "heat": "Hot",
+              "last3": [
+                {
+                  "week": 7,
+                  "result": "W",
+                  "for": 35,
+                  "against": 13,
+                  "opp": "BAL",
+                  "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 43,
+                  "against": 36,
+                  "opp": "TEN",
+                  "home": true
+                },
+                {
+                  "week": 9,
+                  "result": "W",
+                  "for": 34,
+                  "against": 17,
+                  "opp": "ATL",
+                  "home": false
+                }
+              ],
+              "story": "The Bengals are 6-2 and have won four straight, scoring a league-high 240 points.",
+              "player": {
+                "name": "Joe Burrow",
+                "pos": "QB",
+                "line": "24/29, 271 yds and 3 TD at ATL"
+              },
+              "next": {
+                "opp": "PIT",
+                "home": true,
+                "kickoff": "2026-11-16T01:20Z",
+                "network": "NBC"
+              }
+            },
             {
               "abbr": "PIT",
               "city": "Pittsburgh",
@@ -651,53 +711,6 @@
                 "home": false,
                 "kickoff": "2026-11-16T01:20Z",
                 "network": "NBC"
-              }
-            },
-            {
-              "abbr": "CIN",
-              "city": "Cincinnati",
-              "name": "Bengals",
-              "color": "#FB4F14",
-              "w": 5,
-              "l": 2,
-              "t": 0,
-              "pf": 206,
-              "pa": 158,
-              "rank": 10,
-              "heat": "Hot",
-              "last3": [
-                {
-                  "week": 6,
-                  "result": "BYE"
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 35,
-                  "against": 13,
-                  "opp": "BAL",
-                  "home": false
-                },
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 43,
-                  "against": 36,
-                  "opp": "TEN",
-                  "home": true
-                }
-              ],
-              "story": "The Bengals are 5-2 and have won three straight, most recently beating TEN 43-36.",
-              "player": {
-                "name": "Joe Burrow",
-                "pos": "QB",
-                "line": "462 yds, 5 TD and 3 INT vs TEN"
-              },
-              "next": {
-                "opp": "ATL",
-                "home": false,
-                "kickoff": "2026-11-08T14:30Z",
-                "network": "NFL Net"
               }
             },
             {
@@ -1570,7 +1583,7 @@
                 "opp": "MIA",
                 "home": false,
                 "kickoff": "2026-11-08T18:00Z",
-                "network": "Fox"
+                "network": "CBS"
               }
             },
             {
@@ -1737,21 +1750,13 @@
               "name": "Falcons",
               "color": "#A71930",
               "w": 3,
-              "l": 5,
+              "l": 6,
               "t": 0,
-              "pf": 171,
-              "pa": 189,
+              "pf": 188,
+              "pa": 223,
               "rank": 22,
               "heat": "Cool",
               "last3": [
-                {
-                  "week": 6,
-                  "result": "L",
-                  "for": 23,
-                  "against": 31,
-                  "opp": "CHI",
-                  "home": true
-                },
                 {
                   "week": 7,
                   "result": "W",
@@ -1767,19 +1772,27 @@
                   "against": 16,
                   "opp": "TB",
                   "home": false
+                },
+                {
+                  "week": 9,
+                  "result": "L",
+                  "for": 17,
+                  "against": 34,
+                  "opp": "CIN",
+                  "home": true
                 }
               ],
-              "story": "The Falcons are 3-5 after losing 16-0 at TB, where Michael Penix Jr. threw 4 interceptions.",
+              "story": "The Falcons are 3-6 and have lost two straight, 16-0 at TB and 34-17 to CIN.",
               "player": {
-                "name": "Michael Penix Jr.",
-                "pos": "QB",
-                "line": "8/24, 125 yds and 4 INT at TB"
+                "name": "Bijan Robinson",
+                "pos": "RB",
+                "line": "100 yds and a TD vs CIN"
               },
               "next": {
-                "opp": "CIN",
+                "opp": "KC",
                 "home": true,
-                "kickoff": "2026-11-08T14:30Z",
-                "network": "NFL Net"
+                "kickoff": "2026-11-15T18:00Z",
+                "network": "CBS"
               }
             },
             {
