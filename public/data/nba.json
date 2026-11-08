@@ -4,13 +4,13 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Fri, Nov 6",
-  "throughLabel": "through Fri, Nov 6",
+  "kicker": "2026-27 · through Sat, Nov 7",
+  "throughLabel": "through Sat, Nov 7",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-07T18:02:46.907Z",
+  "updatedAt": "2026-11-08T00:45:26.822Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -441,7 +441,7 @@
               "t": 0,
               "pf": 880,
               "pa": 841,
-              "rank": 14,
+              "rank": 15,
               "heat": "Warm",
               "seed": 7,
               "form": "4-4",
@@ -557,7 +557,7 @@
               "t": 0,
               "pf": 1073,
               "pa": 1032,
-              "rank": 13,
+              "rank": 14,
               "heat": "Steady",
               "seed": 6,
               "form": "5-4",
@@ -591,14 +591,14 @@
               "name": "Pacers",
               "color": "#FDBB30",
               "w": 3,
-              "l": 6,
+              "l": 7,
               "t": 0,
-              "pf": 1001,
-              "pa": 1028,
+              "pf": 1103,
+              "pa": 1142,
               "rank": 20,
               "heat": "Cool",
-              "seed": 9,
-              "form": "3-6",
+              "seed": 10,
+              "form": "3-7",
               "trend": [
                 1,
                 0,
@@ -608,19 +608,20 @@
                 -2,
                 -3,
                 -4,
-                -3
+                -3,
+                -4
               ],
-              "story": "The Pacers are 3-6 with a -27 differential but won their latest game, 107-103 at MEM.",
+              "story": "The Pacers are 3-7 with a -39 point differential and lost 114-102 to DEN on Nov 7.",
               "player": {
-                "name": "Andrew Nembhard",
-                "pos": "G",
-                "line": "22 points and 5 assists at MEM"
+                "name": "Pascal Siakam",
+                "pos": "F",
+                "line": "23 points vs DEN; led team in 7 games"
               },
               "next": {
-                "opp": "DEN",
-                "home": true,
-                "kickoff": "2026-11-07T22:00Z",
-                "network": "NBA TV"
+                "opp": "DAL",
+                "home": false,
+                "kickoff": "2026-11-10T01:00Z",
+                "network": "KFAA-TV"
               }
             },
             {
@@ -713,7 +714,7 @@
               "t": 0,
               "pf": 1181,
               "pa": 1149,
-              "rank": 15,
+              "rank": 16,
               "heat": "Steady",
               "seed": 4,
               "form": "6-4",
@@ -792,7 +793,7 @@
               "pa": 1103,
               "rank": 21,
               "heat": "Cool",
-              "seed": 10,
+              "seed": 9,
               "form": "3-6",
               "trend": [
                 -1,
@@ -1024,15 +1025,15 @@
               "city": "Denver",
               "name": "Nuggets",
               "color": "#0E2240",
-              "w": 4,
+              "w": 5,
               "l": 3,
               "t": 0,
-              "pf": 808,
-              "pa": 803,
-              "rank": 16,
-              "heat": "Steady",
+              "pf": 922,
+              "pa": 905,
+              "rank": 13,
+              "heat": "Warm",
               "seed": 9,
-              "form": "4-3",
+              "form": "5-3",
               "trend": [
                 -1,
                 0,
@@ -1040,19 +1041,20 @@
                 0,
                 1,
                 0,
-                1
+                1,
+                2
               ],
-              "story": "The Nuggets are 4-3 with a +5 differential after beating TOR 128-109 on Jokic's third triple-double.",
+              "story": "The Nuggets are 5-3 and have won two straight, but are only +17 in point differential through eight games.",
               "player": {
                 "name": "Nikola Jokic",
                 "pos": "C",
-                "line": "32 pts, 11 ast and 10 reb vs TOR"
+                "line": "32 pts, 11 ast, 10 reb in third triple-double vs TOR"
               },
               "next": {
-                "opp": "IND",
+                "opp": "HOU",
                 "home": false,
-                "kickoff": "2026-11-07T22:00Z",
-                "network": "NBA TV"
+                "kickoff": "2026-11-10T01:30Z",
+                "network": "ALT2/KTVD"
               }
             },
             {

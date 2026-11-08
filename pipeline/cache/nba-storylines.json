@@ -91,14 +91,14 @@
     }
   },
   "IND": {
-    "key": "401909927|401909938",
+    "key": "401909938|401909956",
     "result": {
       "abbr": "IND",
-      "story": "The Pacers are 3-6 with a -27 differential but won their latest game, 107-103 at MEM.",
+      "story": "The Pacers are 3-7 with a -39 point differential and lost 114-102 to DEN on Nov 7.",
       "player": {
-        "name": "Andrew Nembhard",
-        "pos": "G",
-        "line": "22 points and 5 assists at MEM"
+        "name": "Pascal Siakam",
+        "pos": "F",
+        "line": "23 points vs DEN; led team in 7 games"
       },
       "source": "claude"
     }
@@ -234,14 +234,14 @@
     }
   },
   "DEN": {
-    "key": "401909931|401909938",
+    "key": "401909938|401909957",
     "result": {
       "abbr": "DEN",
-      "story": "The Nuggets are 4-3 with a +5 differential after beating TOR 128-109 on Jokic's third triple-double.",
+      "story": "The Nuggets are 5-3 and have won two straight, but are only +17 in point differential through eight games.",
       "player": {
         "name": "Nikola Jokic",
         "pos": "C",
-        "line": "32 pts, 11 ast and 10 reb vs TOR"
+        "line": "32 pts, 11 ast, 10 reb in third triple-double vs TOR"
       },
       "source": "claude"
     }
