@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-08T00:45:26.822Z",
+  "updatedAt": "2026-11-08T01:54:41.113Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -308,6 +308,437 @@
       }
     ]
   },
+  "mustWatch": {
+    "window": "next 48 hours",
+    "games": [
+      {
+        "id": "401909944",
+        "kickoff": "2026-11-08T03:00Z",
+        "network": "KUNP 16",
+        "away": {
+          "abbr": "SA",
+          "name": "Spurs",
+          "color": "#8A8D8F",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "POR",
+          "name": "Trail Blazers",
+          "color": "#E03A3E",
+          "rec": "6-2"
+        },
+        "score": 80,
+        "tier": "must",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Should be close",
+          "West seeding battle"
+        ]
+      },
+      {
+        "id": "401909946",
+        "kickoff": "2026-11-08T23:00Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "LAL",
+          "name": "Lakers",
+          "color": "#552583",
+          "rec": "8-2"
+        },
+        "home": {
+          "abbr": "DET",
+          "name": "Pistons",
+          "color": "#C8102E",
+          "rec": "6-2"
+        },
+        "score": 64,
+        "tier": "other",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Should be close",
+          "Both teams hot"
+        ]
+      },
+      {
+        "id": "401909952",
+        "kickoff": "2026-11-10T00:00Z",
+        "network": "Spectrum Sports Net",
+        "away": {
+          "abbr": "LAL",
+          "name": "Lakers",
+          "color": "#552583",
+          "rec": "8-2"
+        },
+        "home": {
+          "abbr": "ATL",
+          "name": "Hawks",
+          "color": "#E03A3E",
+          "rec": "6-4"
+        },
+        "score": 59,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Luka Doncic"
+        ]
+      },
+      {
+        "id": "401909957",
+        "kickoff": "2026-11-10T01:30Z",
+        "network": "ALT2/KTVD",
+        "away": {
+          "abbr": "DEN",
+          "name": "Nuggets",
+          "color": "#0E2240",
+          "rec": "5-3"
+        },
+        "home": {
+          "abbr": "HOU",
+          "name": "Rockets",
+          "color": "#CE1141",
+          "rec": "7-2"
+        },
+        "score": 56,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Jokic vs Sengun"
+        ]
+      },
+      {
+        "id": "401909940",
+        "kickoff": "2026-11-08T01:00Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "NY",
+          "name": "Knicks",
+          "color": "#F58426",
+          "rec": "4-4"
+        },
+        "home": {
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "5-4"
+        },
+        "score": 55,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Brunson vs Mobley"
+        ]
+      },
+      {
+        "id": "401909955",
+        "kickoff": "2026-11-10T00:30Z",
+        "network": "DAZN MEM",
+        "away": {
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "6-3"
+        },
+        "home": {
+          "abbr": "TOR",
+          "name": "Raptors",
+          "color": "#CE1141",
+          "rec": "5-4"
+        },
+        "score": 54,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Jerome vs Barnes"
+        ]
+      },
+      {
+        "id": "401909941",
+        "kickoff": "2026-11-08T01:00Z",
+        "network": "MNMT",
+        "away": {
+          "abbr": "WSH",
+          "name": "Wizards",
+          "color": "#002B5C",
+          "rec": "4-5"
+        },
+        "home": {
+          "abbr": "OKC",
+          "name": "Thunder",
+          "color": "#007AC1",
+          "rec": "7-2"
+        },
+        "score": 49,
+        "tier": "other",
+        "reasons": [
+          "Davis vs Gilgeous-Alexander"
+        ]
+      },
+      {
+        "id": "401909943",
+        "kickoff": "2026-11-08T02:00Z",
+        "network": "Arizona's Family 3TV",
+        "away": {
+          "abbr": "HOU",
+          "name": "Rockets",
+          "color": "#CE1141",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "PHX",
+          "name": "Suns",
+          "color": "#E56020",
+          "rec": "2-5"
+        },
+        "score": 44,
+        "tier": "other",
+        "reasons": [
+          "Sengun vs Booker"
+        ]
+      },
+      {
+        "id": "401909954",
+        "kickoff": "2026-11-10T00:00Z",
+        "network": "NBCSN",
+        "away": {
+          "abbr": "WSH",
+          "name": "Wizards",
+          "color": "#002B5C",
+          "rec": "4-5"
+        },
+        "home": {
+          "abbr": "DET",
+          "name": "Pistons",
+          "color": "#C8102E",
+          "rec": "6-2"
+        },
+        "score": 44,
+        "tier": "other",
+        "reasons": [
+          "Davis vs Cunningham"
+        ]
+      },
+      {
+        "id": "401909942",
+        "kickoff": "2026-11-08T01:30Z",
+        "network": "",
+        "away": {
+          "abbr": "ORL",
+          "name": "Magic",
+          "color": "#0077C0",
+          "rec": "2-6"
+        },
+        "home": {
+          "abbr": "GS",
+          "name": "Warriors",
+          "color": "#1D428A",
+          "rec": "6-3"
+        },
+        "score": 42,
+        "tier": "other",
+        "reasons": [
+          "Warriors have won 6 straight",
+          "Stephen Curry"
+        ]
+      }
+    ]
+  },
+  "players": [
+    {
+      "rank": 1,
+      "name": "Luka Doncic",
+      "pos": "G",
+      "team": "LAL",
+      "gp": 9,
+      "ppg": 40.1,
+      "rpg": 7.8,
+      "apg": 7.7,
+      "ts": 67.9,
+      "gs": 31.3,
+      "trend": "flat"
+    },
+    {
+      "rank": 2,
+      "name": "Victor Wembanyama",
+      "pos": "F",
+      "team": "SA",
+      "gp": 9,
+      "ppg": 29.1,
+      "rpg": 12.6,
+      "apg": 3,
+      "ts": 58.1,
+      "gs": 25.8,
+      "trend": "up"
+    },
+    {
+      "rank": 3,
+      "name": "Stephen Curry",
+      "pos": "G",
+      "team": "GS",
+      "gp": 7,
+      "ppg": 29.9,
+      "rpg": 3.7,
+      "apg": 4.4,
+      "ts": 68.3,
+      "gs": 23.9,
+      "trend": "flat"
+    },
+    {
+      "rank": 4,
+      "name": "Giannis Antetokounmpo",
+      "pos": "F",
+      "team": "MIA",
+      "gp": 9,
+      "ppg": 27.3,
+      "rpg": 12.7,
+      "apg": 5.6,
+      "ts": 60.7,
+      "gs": 23.5,
+      "trend": "flat"
+    },
+    {
+      "rank": 5,
+      "name": "Nikola Jokic",
+      "pos": "C",
+      "team": "DEN",
+      "gp": 8,
+      "ppg": 22.9,
+      "rpg": 10.1,
+      "apg": 9.1,
+      "ts": 56,
+      "gs": 22.3,
+      "trend": "flat"
+    },
+    {
+      "rank": 6,
+      "name": "Jayson Tatum",
+      "pos": "F",
+      "team": "BOS",
+      "gp": 8,
+      "ppg": 27.9,
+      "rpg": 6.3,
+      "apg": 8,
+      "ts": 58,
+      "gs": 21.7,
+      "trend": "flat"
+    },
+    {
+      "rank": 7,
+      "name": "Alperen Sengun",
+      "pos": "C",
+      "team": "HOU",
+      "gp": 7,
+      "ppg": 22.4,
+      "rpg": 9.1,
+      "apg": 8.1,
+      "ts": 61.4,
+      "gs": 21.3,
+      "trend": "flat"
+    },
+    {
+      "rank": 8,
+      "name": "Shai Gilgeous-Alexander",
+      "pos": "G",
+      "team": "OKC",
+      "gp": 9,
+      "ppg": 29.9,
+      "rpg": 4.1,
+      "apg": 4.4,
+      "ts": 56.2,
+      "gs": 20.7,
+      "trend": "flat"
+    },
+    {
+      "rank": 9,
+      "name": "Tyrese Maxey",
+      "pos": "G",
+      "team": "PHI",
+      "gp": 10,
+      "ppg": 26.9,
+      "rpg": 3.7,
+      "apg": 5.3,
+      "ts": 59.7,
+      "gs": 20.4,
+      "trend": "flat"
+    },
+    {
+      "rank": 10,
+      "name": "Cooper Flagg",
+      "pos": "F",
+      "team": "DAL",
+      "gp": 8,
+      "ppg": 23.9,
+      "rpg": 6.8,
+      "apg": 6.4,
+      "ts": 57,
+      "gs": 20.2,
+      "trend": "flat"
+    },
+    {
+      "rank": 11,
+      "name": "Ty Jerome",
+      "pos": "G",
+      "team": "MEM",
+      "gp": 8,
+      "ppg": 26.6,
+      "rpg": 3.4,
+      "apg": 5.3,
+      "ts": 62.9,
+      "gs": 20,
+      "trend": "down"
+    },
+    {
+      "rank": 12,
+      "name": "Jamal Murray",
+      "pos": "G",
+      "team": "DEN",
+      "gp": 8,
+      "ppg": 24.3,
+      "rpg": 5.5,
+      "apg": 6.1,
+      "ts": 64.4,
+      "gs": 20,
+      "trend": "flat"
+    },
+    {
+      "rank": 13,
+      "name": "Cade Cunningham",
+      "pos": "G",
+      "team": "DET",
+      "gp": 8,
+      "ppg": 24,
+      "rpg": 5.6,
+      "apg": 7.6,
+      "ts": 58.5,
+      "gs": 19.3,
+      "trend": "flat"
+    },
+    {
+      "rank": 14,
+      "name": "Devin Booker",
+      "pos": "G",
+      "team": "PHX",
+      "gp": 7,
+      "ppg": 25.4,
+      "rpg": 2.9,
+      "apg": 5.1,
+      "ts": 61.9,
+      "gs": 18.3,
+      "trend": "flat"
+    },
+    {
+      "rank": 15,
+      "name": "Deni Avdija",
+      "pos": "F",
+      "team": "POR",
+      "gp": 8,
+      "ppg": 23.3,
+      "rpg": 6.8,
+      "apg": 7,
+      "ts": 58.1,
+      "gs": 18.3,
+      "trend": "flat"
+    }
+  ],
   "conferences": [
     {
       "abbr": "East",
@@ -342,11 +773,11 @@
                 7,
                 6
               ],
-              "story": "The 76ers are 8-2 and lead the East, but a +28 point differential is modest and they lost 119-95 at CLE.",
+              "story": "The 76ers are 8-2 and top the East, but their +28 point differential is thinner; they lost 119-95 at CLE.",
               "player": {
                 "name": "Tyrese Maxey",
                 "pos": "G",
-                "line": "Led team in points/assists in 7 games; 11 ast vs CHI"
+                "line": "26.9 pts and 5.3 ast per game through 10 games"
               },
               "next": {
                 "opp": "CHI",
@@ -380,11 +811,11 @@
                 4,
                 5
               ],
-              "story": "The Celtics are 7-2 and 2nd in the East with a +87 differential after beating CHA 119-80.",
+              "story": "The Celtics are 7-2 with a +87 point differential and just beat CHA 119-80.",
               "player": {
                 "name": "Jayson Tatum",
                 "pos": "F",
-                "line": "34 pts, 9 ast and 8 reb vs CHA"
+                "line": "34 pts, 8 reb and 9 ast vs CHA"
               },
               "next": {
                 "opp": "MIL",
@@ -418,11 +849,11 @@
                 0,
                 1
               ],
-              "story": "The Raptors are 5-4 and beat MIL 121-107 while short-handed, after a 128-109 loss at DEN.",
+              "story": "The Raptors are 5-4 with a +49 point differential after beating MIL 121-107 while short-handed.",
               "player": {
                 "name": "RJ Barrett",
                 "pos": "F",
-                "line": "27 pts vs MIL in the Nov 6 win"
+                "line": "27 pts, 7 reb and 4 ast vs MIL"
               },
               "next": {
                 "opp": "MEM",
@@ -455,11 +886,11 @@
                 -1,
                 0
               ],
-              "story": "The Knicks are only 4-4, but they have won 2 straight and beat CHI 135-105 on Nov 4.",
+              "story": "The Knicks are 4-4 with a +39 point differential and have won 2 straight, including 135-105 over CHI.",
               "player": {
                 "name": "Jalen Brunson",
                 "pos": "G",
-                "line": "33 pts vs CHI in a 135-105 win"
+                "line": "33 pts vs CHI; 25.6 pts per game this season"
               },
               "next": {
                 "opp": "CLE",
@@ -492,7 +923,7 @@
                 -5,
                 -4
               ],
-              "story": "The Nets are 2-6 with a -50 point differential, though they beat CHA 114-104 on Nov 4 for their second win.",
+              "story": "The Nets are 2-6 with a -50 point differential, though they beat CHA 114-104 last time out.",
               "player": {
                 "name": "Michael Porter Jr.",
                 "pos": "F",
@@ -534,11 +965,11 @@
                 5,
                 4
               ],
-              "story": "The Pistons are 6-2 with a +75 point differential, but dropped their latest game 112-106 to PHI.",
+              "story": "The Pistons are 6-2 through 8 games with a +9.4 point margin, but lost 112-106 to PHI last time out.",
               "player": {
                 "name": "Cade Cunningham",
                 "pos": "G",
-                "line": "11 assists vs PHI, led the team in 8 games"
+                "line": "26 pts, 7 reb and 11 ast vs PHI"
               },
               "next": {
                 "opp": "LAL",
@@ -572,11 +1003,11 @@
                 0,
                 1
               ],
-              "story": "The Cavaliers are 5-4 and sixth in the East after a 119-95 win over PHI in an NBA Cup game.",
+              "story": "The Cavaliers are 5-4 and beat PHI 119-95 in their last game after losing twice to OKC.",
               "player": {
                 "name": "Donovan Mitchell",
                 "pos": "G",
-                "line": "23 pts and 8 ast vs PHI"
+                "line": "23 pts, 7 reb and 8 ast vs PHI"
               },
               "next": {
                 "opp": "NY",
@@ -611,11 +1042,11 @@
                 -3,
                 -4
               ],
-              "story": "The Pacers are 3-7 with a -39 point differential and lost 114-102 to DEN on Nov 7.",
+              "story": "The Pacers are 3-7 with a -3.9 point margin and lost 114-102 to DEN in their last game.",
               "player": {
                 "name": "Pascal Siakam",
                 "pos": "F",
-                "line": "23 points vs DEN; led team in 7 games"
+                "line": "21.4 pts per game; 23 pts vs DEN"
               },
               "next": {
                 "opp": "DAL",
@@ -648,11 +1079,11 @@
                 -5,
                 -6
               ],
-              "story": "The Bulls are 1-7 with the NBA's worst point differential per game (-18) and have lost six straight.",
+              "story": "The Bulls are 1-7 on a 6-game skid and have the NBA's worst margin at -18 per game.",
               "player": {
-                "name": "Josh Giddey",
-                "pos": "G",
-                "line": "6 assists vs NY, led the team in assists in 8 games"
+                "name": "Caleb Wilson",
+                "pos": "F",
+                "line": "19.5 pts and 6.5 reb per game in 8 games"
               },
               "next": {
                 "opp": "PHI",
@@ -686,11 +1117,11 @@
                 -6,
                 -7
               ],
-              "story": "The Bucks are 1-8 and have lost five straight, most recently 121-107 to TOR in an NBA Cup game.",
+              "story": "The Bucks are 1-8 and have lost 5 straight, the latest 121-107 to TOR in an NBA Cup game.",
               "player": {
                 "name": "Tyler Herro",
                 "pos": "G",
-                "line": "10 assists vs TOR on Nov 6"
+                "line": "23 pts, 5 reb and 10 ast vs TOR"
               },
               "next": {
                 "opp": "BOS",
@@ -730,11 +1161,11 @@
                 1,
                 2
               ],
-              "story": "The Hawks are 6-4 with a +32 point differential and 3 straight wins, the latest 139-132 over WSH.",
+              "story": "The Hawks are 6-4 and have won three straight, most recently beating WSH 139-132 in an NBA Cup game.",
               "player": {
                 "name": "Nickeil Alexander-Walker",
                 "pos": "G",
-                "line": "28 points vs WSH in the 139-132 win"
+                "line": "22.3 pts a game; 28 pts in the win over WSH"
               },
               "next": {
                 "opp": "BKN",
@@ -768,11 +1199,11 @@
                 0,
                 -1
               ],
-              "story": "The Wizards are 4-5 and have lost 2 straight, both to ATL, the latest 139-132 in Trae Young's return.",
+              "story": "The Wizards are 4-5 and have lost two straight to ATL, 120-105 and 139-132, with OKC next.",
               "player": {
-                "name": "Kyshawn George",
+                "name": "Anthony Davis",
                 "pos": "F",
-                "line": "33 points in the 139-132 loss at ATL"
+                "line": "23.4 pts and 9.3 reb a game; 26 pts vs ATL"
               },
               "next": {
                 "opp": "OKC",
@@ -806,11 +1237,11 @@
                 -2,
                 -3
               ],
-              "story": "The Heat are 3-6 with a -59 point differential, most recently losing 120-100 at GS.",
+              "story": "The Heat are 3-6 with a -59 point differential, and their latest game was a 120-100 loss at GS.",
               "player": {
-                "name": "Bam Adebayo",
-                "pos": "C",
-                "line": "35 pts in the 117-116 win at LAC"
+                "name": "Giannis Antetokounmpo",
+                "pos": "F",
+                "line": "27.3 pts and 12.7 reb a game; 20 pts, 14 reb vs GS"
               },
               "next": {
                 "opp": "SAC",
@@ -845,11 +1276,11 @@
                 -3,
                 -4
               ],
-              "story": "The Hornets have lost 6 straight, the latest 119-80 to BOS, and are 3-7 with a -139 point differential.",
+              "story": "The Hornets are 3-7 and have lost six straight, most recently 119-80 to BOS; the point differential is -139.",
               "player": {
-                "name": "Naz Reid",
-                "pos": "C",
-                "line": "14 points vs BOS on Nov 6"
+                "name": "Brandon Miller",
+                "pos": "F",
+                "line": "20.6 pts and 5 reb a game over 10 games"
               },
               "next": {
                 "opp": "CLE",
@@ -886,7 +1317,7 @@
               "player": {
                 "name": "Franz Wagner",
                 "pos": "F",
-                "line": "15 assists in the 117-104 loss at PHX"
+                "line": "19.6 pts, 8.5 ast a game; 15 pts and 15 ast vs PHX"
               },
               "next": {
                 "opp": "GS",
@@ -931,11 +1362,11 @@
                 4,
                 5
               ],
-              "story": "The Thunder have won 3 straight to reach 7-2, the latest a 128-97 rout of MEM.",
+              "story": "The Thunder are 7-2 after a 128-97 win at MEM, with a +41 point differential in just 9 games.",
               "player": {
                 "name": "Ajay Mitchell",
                 "pos": "G",
-                "line": "Career-high 35 points vs MEM on Nov 6"
+                "line": "Career-high 35 pts vs MEM"
               },
               "next": {
                 "opp": "WSH",
@@ -968,11 +1399,11 @@
                 5,
                 4
               ],
-              "story": "The Blazers are 6-2 with a +9 per-game margin, but lost 124-118 at LAL in their last game.",
+              "story": "The Blazers are 6-2 with a +72 point differential, but lost 124-118 at LAL when Doncic scored 53.",
               "player": {
                 "name": "Deni Avdija",
                 "pos": "F",
-                "line": "11 assists vs LAL; led the team in 8 games"
+                "line": "22 pts, 9 reb and 11 ast vs LAL"
               },
               "next": {
                 "opp": "SA",
@@ -1007,11 +1438,11 @@
                 3,
                 4
               ],
-              "story": "The Timberwolves are 7-3 with the NBA's best point differential per game, +10.7, through 10 games.",
+              "story": "The Timberwolves are 7-3 with the NBA's best point differential per game, +10.7, over just 10 games.",
               "player": {
-                "name": "Ayo Dosunmu",
+                "name": "Anthony Edwards",
                 "pos": "G",
-                "line": "26 points vs NO on Nov 6"
+                "line": "47 pts vs CLE; 33.3 ppg in only 4 games"
               },
               "next": {
                 "opp": "UTAH",
@@ -1044,11 +1475,11 @@
                 1,
                 2
               ],
-              "story": "The Nuggets are 5-3 and have won two straight, but are only +17 in point differential through eight games.",
+              "story": "The Nuggets are 5-3 and have won 2 straight, most recently beating IND 114-102 in Mexico City.",
               "player": {
                 "name": "Nikola Jokic",
                 "pos": "C",
-                "line": "32 pts, 11 ast, 10 reb in third triple-double vs TOR"
+                "line": "22.9 pts, 10.1 reb and 9.1 ast per game"
               },
               "next": {
                 "opp": "HOU",
@@ -1082,11 +1513,11 @@
                 -6,
                 -7
               ],
-              "story": "The Jazz are 1-8 and have lost 7 straight, most recently 112-100 at DAL.",
+              "story": "The Jazz are 1-8 and have lost 7 straight, most recently 112-100 at DAL, with a -102 point differential.",
               "player": {
                 "name": "Keyonte George",
                 "pos": "G",
-                "line": "9 assists vs DAL; led the team in 7 games"
+                "line": "21.3 pts and 6.2 ast per game; 9 ast vs DAL"
               },
               "next": {
                 "opp": "MIN",
@@ -1126,11 +1557,11 @@
                 5,
                 6
               ],
-              "story": "The Lakers are 8-2 on a four-game win streak, with Doncic averaging 40.1 points over a short sample.",
+              "story": "The Lakers are 8-2 and have won four straight, led by Luka Doncic's 53 points in a 124-118 win over POR.",
               "player": {
                 "name": "Luka Doncic",
                 "pos": "G",
-                "line": "53 pts vs POR, averaging 40.1 PPG"
+                "line": "40.1 pts per game; 53 pts vs POR"
               },
               "next": {
                 "opp": "DET",
@@ -1164,11 +1595,11 @@
                 2,
                 3
               ],
-              "story": "The Warriors have won six straight to reach 6-3, the latest a 120-100 win over MIA, in a small sample.",
+              "story": "The Warriors have won six straight to go 6-3, and Porzingis is stepping away without playing this season.",
               "player": {
                 "name": "Stephen Curry",
                 "pos": "G",
-                "line": "29 points vs MIA in the sixth straight win"
+                "line": "29.9 pts per game; 29 pts vs MIA"
               },
               "next": {
                 "opp": "ORL",
@@ -1200,11 +1631,11 @@
                 -4,
                 -3
               ],
-              "story": "The Suns are 2-5 with a -53 point differential but snapped a four-game skid, beating ORL 117-104.",
+              "story": "The Suns are 2-5 and 12th in the West, but beat ORL 117-104 to snap a four-game losing streak.",
               "player": {
                 "name": "Devin Booker",
                 "pos": "G",
-                "line": "30 pts and 8 assists vs ORL on Nov 5"
+                "line": "30 pts and 8 ast vs ORL"
               },
               "next": {
                 "opp": "HOU",
@@ -1237,11 +1668,11 @@
                 -5,
                 -6
               ],
-              "story": "The Clippers have lost 7 straight to fall to 1-7, the latest a 117-116 overtime loss to MIA.",
+              "story": "The Clippers have lost seven straight and sit at 1-7, the latest a 117-116 overtime loss to MIA.",
               "player": {
                 "name": "Darius Garland",
                 "pos": "G",
-                "line": "7 assists vs MIA; led team in points/assists 8 games"
+                "line": "20.9 pts, 6.6 ast per game; 26 pts vs MIA"
               },
               "next": {
                 "opp": "NO",
@@ -1275,11 +1706,11 @@
                 -6,
                 -7
               ],
-              "story": "The Kings are 1-8 with a -14.1 per-game margin, the latest loss 124-109 to SA in an NBA Cup game.",
+              "story": "The Kings are 1-8 with a point differential of -14.1 per game, and they lost 124-109 to SA most recently.",
               "player": {
                 "name": "Domantas Sabonis",
                 "pos": "F",
-                "line": "12 reb vs SA; led team in reb/ast in 8 games"
+                "line": "14.6 reb per game; 17 pts, 12 reb vs SA"
               },
               "next": {
                 "opp": "MIA",
@@ -1318,11 +1749,11 @@
                 6,
                 5
               ],
-              "story": "The Rockets are 7-2 with a +93 point differential, but they just lost 117-107 to MIN at home.",
+              "story": "The Rockets are 7-2 with a +10.3 margin over nine games, but lost 117-107 to MIN last time out.",
               "player": {
                 "name": "Alperen Sengun",
                 "pos": "C",
-                "line": "10 assists vs MIN; a team leader in 6 games"
+                "line": "17 pts, 12 reb and 10 ast vs MIN; 8.1 ast per game"
               },
               "next": {
                 "opp": "PHX",
@@ -1356,11 +1787,11 @@
                 4,
                 5
               ],
-              "story": "The Spurs have won 7 straight, including a 112-111 squeaker over DAL, and sit 7-2 after just 9 games.",
+              "story": "The Spurs have won 7 straight to reach 7-2, most recently beating SAC 124-109 on the road.",
               "player": {
                 "name": "Victor Wembanyama",
                 "pos": "F",
-                "line": "30 pts and 14 reb vs SAC"
+                "line": "30 pts and 14 reb vs SAC; 29.1 pts per game"
               },
               "next": {
                 "opp": "POR",
@@ -1394,11 +1825,11 @@
                 4,
                 3
               ],
-              "story": "The Grizzlies are 6-3 but have dropped 3 in a row, the latest a 128-97 loss to OKC.",
+              "story": "The Grizzlies are 6-3 but have lost 3 straight, the latest 128-97 to OKC.",
               "player": {
-                "name": "Cameron Boozer",
-                "pos": "F",
-                "line": "12 reb vs OKC; led the team in 6 games"
+                "name": "Ty Jerome",
+                "pos": "G",
+                "line": "26.6 pts per game over 8 games; 21 pts vs OKC"
               },
               "next": {
                 "opp": "TOR",
@@ -1432,11 +1863,11 @@
                 0,
                 1
               ],
-              "story": "The Mavericks are 5-4 with a +11 point differential and beat UTAH 112-100 on Nov 6.",
+              "story": "The Mavericks are 5-4 with a +11 point differential and beat UTAH 112-100 in their latest game.",
               "player": {
-                "name": "P.J. Washington",
+                "name": "Cooper Flagg",
                 "pos": "F",
-                "line": "26 pts vs UTAH; led the team in 5 games"
+                "line": "21 pts, 10 reb and 7 ast vs UTAH"
               },
               "next": {
                 "opp": "BKN",
@@ -1470,11 +1901,11 @@
                 0,
                 -1
               ],
-              "story": "The Pelicans are 4-5 despite a +13 point differential, after losing 115-109 to MIN on Nov 6.",
+              "story": "The Pelicans are 4-5 despite a +13 point differential, and lost 115-109 to MIN on Nov 6.",
               "player": {
                 "name": "Zion Williamson",
                 "pos": "F",
-                "line": "8 reb vs MIN; led the team in 5 games"
+                "line": "20.6 pts per game; 13 pts and 8 reb vs MIN"
               },
               "next": {
                 "opp": "LAC",
