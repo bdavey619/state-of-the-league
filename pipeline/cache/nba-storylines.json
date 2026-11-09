@@ -1,13 +1,13 @@
 {
   "PHI": {
-    "key": "401909289|401909945",
+    "key": "401909945|401909961",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 8-2 and top the East, but their +28 point differential is thinner; they lost 119-95 at CLE.",
+      "story": "The 76ers are 9-2 and top the East, but their +34 point differential is modest for that record.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "26.9 pts and 5.3 ast per game through 10 games"
+        "line": "26.9 pts per game; 27 pts and 7 ast vs CHI"
       },
       "source": "claude"
     }
@@ -104,14 +104,14 @@
     }
   },
   "CHI": {
-    "key": "401909926|401909945",
+    "key": "401909945|401909969",
     "result": {
       "abbr": "CHI",
-      "story": "The Bulls are 1-7 on a 6-game skid and have the NBA's worst margin at -18 per game.",
+      "story": "The Bulls are 1-8 with the NBA's worst margin, -16.7 per game, and have lost seven straight.",
       "player": {
-        "name": "Caleb Wilson",
-        "pos": "F",
-        "line": "19.5 pts and 6.5 reb per game in 8 games"
+        "name": "Josh Giddey",
+        "pos": "G",
+        "line": "19 pts, 7 reb and 15 ast vs PHI"
       },
       "source": "claude"
     }

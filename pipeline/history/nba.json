@@ -1,15 +1,15 @@
 {
   "snapshot": {
     "PHI": {
-      "w": 8,
+      "w": 9,
       "l": 2,
       "t": 0,
       "rank": 9,
       "heat": "Warm",
       "place": 1,
       "division": "East Atlantic",
-      "streak": "L1",
-      "pct": 0.8,
+      "streak": "W1",
+      "pct": 0.8181818181818182,
       "seed": 1
     },
     "BOS": {
@@ -96,27 +96,27 @@
       "pct": 0.3,
       "seed": 10
     },
-    "CHI": {
-      "w": 1,
-      "l": 7,
-      "t": 0,
-      "rank": 30,
-      "heat": "Cold",
-      "place": 4,
-      "division": "East Central",
-      "streak": "L6",
-      "pct": 0.125,
-      "seed": 14
-    },
     "MIL": {
       "w": 1,
       "l": 8,
       "t": 0,
       "rank": 28,
       "heat": "Cold",
-      "place": 5,
+      "place": 4,
       "division": "East Central",
       "streak": "L5",
+      "pct": 0.1111111111111111,
+      "seed": 14
+    },
+    "CHI": {
+      "w": 1,
+      "l": 8,
+      "t": 0,
+      "rank": 30,
+      "heat": "Cold",
+      "place": 5,
+      "division": "East Central",
+      "streak": "L7",
       "pct": 0.1111111111111111,
       "seed": 15
     },
@@ -656,6 +656,13 @@
       "kind": "rank",
       "weight": 3,
       "text": "The Rockets slid to No. 7 in the power rankings."
+    },
+    {
+      "at": "2026-11-09T01:01:36.726Z",
+      "abbr": "CHI",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Bulls have lost 7 straight."
     }
   ],
   "recap": {

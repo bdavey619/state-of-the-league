@@ -4,16 +4,23 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Sat, Nov 7",
-  "throughLabel": "through Sat, Nov 7",
+  "kicker": "2026-27 · through Sun, Nov 8",
+  "throughLabel": "through Sun, Nov 8",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-08T18:22:19.538Z",
+  "updatedAt": "2026-11-09T01:01:36.726Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-09T01:01:36.726Z",
+      "abbr": "CHI",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Bulls have lost 7 straight."
+    },
     {
       "at": "2026-11-08T18:22:19.538Z",
       "abbr": "SA",
@@ -343,6 +350,30 @@
     "window": "next 48 hours",
     "games": [
       {
+        "id": "401909961",
+        "kickoff": "2026-11-11T01:00Z",
+        "network": "NBC",
+        "away": {
+          "abbr": "BOS",
+          "name": "Celtics",
+          "color": "#007A33",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "76ers",
+          "color": "#006BB6",
+          "rec": "9-2"
+        },
+        "score": 89,
+        "tier": "must",
+        "reasons": [
+          "Two winning teams",
+          "Projected coin flip",
+          "East Atlantic lead on the line"
+        ]
+      },
+      {
         "id": "401909946",
         "kickoff": "2026-11-08T23:00Z",
         "network": "NBA TV",
@@ -549,28 +580,6 @@
           "Projected coin flip",
           "Zion Williamson"
         ]
-      },
-      {
-        "id": "401909954",
-        "kickoff": "2026-11-10T00:00Z",
-        "network": "NBCSN",
-        "away": {
-          "abbr": "WSH",
-          "name": "Wizards",
-          "color": "#002B5C",
-          "rec": "4-6"
-        },
-        "home": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "6-2"
-        },
-        "score": 36,
-        "tier": "other",
-        "reasons": [
-          "Davis vs Cunningham"
-        ]
       }
     ]
   },
@@ -671,12 +680,12 @@
       "name": "Tyrese Maxey",
       "pos": "G",
       "team": "PHI",
-      "gp": 10,
+      "gp": 11,
       "ppg": 26.9,
       "rpg": 3.7,
-      "apg": 5.3,
-      "ts": 59.7,
-      "gs": 20.4,
+      "apg": 5.5,
+      "ts": 60.7,
+      "gs": 20.7,
       "trend": "flat"
     },
     {
@@ -784,11 +793,11 @@
               "city": "Philadelphia",
               "name": "76ers",
               "color": "#006BB6",
-              "w": 8,
+              "w": 9,
               "l": 2,
               "t": 0,
-              "pf": 1094,
-              "pa": 1066,
+              "pf": 1221,
+              "pa": 1187,
               "rank": 9,
               "heat": "Warm",
               "seed": 1,
@@ -803,19 +812,20 @@
                 5,
                 6,
                 7,
-                6
+                6,
+                7
               ],
-              "story": "The 76ers are 8-2 and top the East, but their +28 point differential is thinner; they lost 119-95 at CLE.",
+              "story": "The 76ers are 9-2 and top the East, but their +34 point differential is modest for that record.",
               "player": {
                 "name": "Tyrese Maxey",
                 "pos": "G",
-                "line": "26.9 pts and 5.3 ast per game through 10 games"
+                "line": "26.9 pts per game; 27 pts and 7 ast vs CHI"
               },
               "next": {
-                "opp": "CHI",
-                "home": false,
-                "kickoff": "2026-11-08T20:30Z",
-                "network": ""
+                "opp": "BOS",
+                "home": true,
+                "kickoff": "2026-11-11T01:00Z",
+                "network": "NBC"
               }
             },
             {
@@ -1091,43 +1101,6 @@
               }
             },
             {
-              "abbr": "CHI",
-              "city": "Chicago",
-              "name": "Bulls",
-              "color": "#CE1141",
-              "w": 1,
-              "l": 7,
-              "t": 0,
-              "pf": 893,
-              "pa": 1037,
-              "rank": 30,
-              "heat": "Cold",
-              "seed": 14,
-              "form": "1-7",
-              "trend": [
-                -1,
-                0,
-                -1,
-                -2,
-                -3,
-                -4,
-                -5,
-                -6
-              ],
-              "story": "The Bulls are 1-7 on a 6-game skid and have the NBA's worst margin at -18 per game.",
-              "player": {
-                "name": "Caleb Wilson",
-                "pos": "F",
-                "line": "19.5 pts and 6.5 reb per game in 8 games"
-              },
-              "next": {
-                "opp": "PHI",
-                "home": true,
-                "kickoff": "2026-11-08T20:30Z",
-                "network": ""
-              }
-            },
-            {
               "abbr": "MIL",
               "city": "Milwaukee",
               "name": "Bucks",
@@ -1139,7 +1112,7 @@
               "pa": 1099,
               "rank": 28,
               "heat": "Cold",
-              "seed": 15,
+              "seed": 14,
               "form": "1-8",
               "trend": [
                 -1,
@@ -1163,6 +1136,44 @@
                 "home": true,
                 "kickoff": "2026-11-09T01:00Z",
                 "network": "MyMi"
+              }
+            },
+            {
+              "abbr": "CHI",
+              "city": "Chicago",
+              "name": "Bulls",
+              "color": "#CE1141",
+              "w": 1,
+              "l": 8,
+              "t": 0,
+              "pf": 1014,
+              "pa": 1164,
+              "rank": 30,
+              "heat": "Cold",
+              "seed": 15,
+              "form": "1-8",
+              "trend": [
+                -1,
+                0,
+                -1,
+                -2,
+                -3,
+                -4,
+                -5,
+                -6,
+                -7
+              ],
+              "story": "The Bulls are 1-8 with the NBA's worst margin, -16.7 per game, and have lost seven straight.",
+              "player": {
+                "name": "Josh Giddey",
+                "pos": "G",
+                "line": "19 pts, 7 reb and 15 ast vs PHI"
+              },
+              "next": {
+                "opp": "SA",
+                "home": true,
+                "kickoff": "2026-11-12T01:00Z",
+                "network": "DAZN SAS"
               }
             }
           ]
