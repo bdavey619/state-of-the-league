@@ -328,13 +328,13 @@
     "key": "401873050|401873072",
     "result": {
       "abbr": "TB",
-      "story": "Better than 3-6: they've outscored opponents by 24.",
+      "story": "The Buccaneers are 3-6 despite a +24 point differential, most recently losing 27-24 at CHI.",
       "player": {
         "name": "Bucky Irving",
         "pos": "RB",
-        "line": "Team's rushing leader: 688 yds"
+        "line": "97 yds and 2 TD vs CHI"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "ATL": {
