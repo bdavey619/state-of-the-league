@@ -253,15 +253,15 @@
       "seed": 2
     },
     "CHI": {
-      "w": 6,
+      "w": 7,
       "l": 2,
       "t": 0,
       "rank": 11,
       "heat": "Hot",
       "place": 2,
       "division": "NFC North",
-      "streak": "W3",
-      "pct": 0.75,
+      "streak": "W4",
+      "pct": 0.7777777777777778,
       "seed": 3
     },
     "DET": {
@@ -288,29 +288,17 @@
       "pct": 0.6666666666666666,
       "seed": 6
     },
-    "TB": {
-      "w": 3,
-      "l": 5,
-      "t": 0,
-      "rank": 16,
-      "heat": "Hot",
-      "place": 1,
-      "division": "NFC South",
-      "streak": "W2",
-      "pct": 0.375,
-      "seed": 10
-    },
     "CAR": {
       "w": 3,
       "l": 5,
       "t": 0,
       "rank": 17,
       "heat": "Cold",
-      "place": 2,
+      "place": 1,
       "division": "NFC South",
       "streak": "L3",
       "pct": 0.375,
-      "seed": 11
+      "seed": 10
     },
     "NO": {
       "w": 3,
@@ -318,10 +306,22 @@
       "t": 0,
       "rank": 26,
       "heat": "Steady",
-      "place": 3,
+      "place": 2,
       "division": "NFC South",
       "streak": "W1",
       "pct": 0.375,
+      "seed": 11
+    },
+    "TB": {
+      "w": 3,
+      "l": 6,
+      "t": 0,
+      "rank": 16,
+      "heat": "Warm",
+      "place": 3,
+      "division": "NFC South",
+      "streak": "L1",
+      "pct": 0.3333333333333333,
       "seed": 12
     },
     "ATL": {
@@ -582,30 +582,39 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Rams have won 3 straight."
+    },
+    {
+      "at": "2026-11-09T16:51:29.726Z",
+      "abbr": "CAR",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Panthers took over first place in the NFC South."
     }
   ],
   "recap": {
     "key": "wk-8",
     "label": "Week 8 recap",
-    "at": "2026-11-03T15:15:20.687Z",
+    "at": "2026-11-09T16:51:29.726Z",
     "bullets": [
       {
-        "text": "The Chargers are the NFL's only winless team at 0-7, having now lost seven straight games.",
+        "text": "The Panthers took over first place in the NFC South at 3-5 even though they have lost three straight.",
         "teams": [
-          "LAC"
+          "CAR"
         ]
       },
       {
-        "text": "The Ravens have lost three straight to fall to 4-4, and both Lamar Jackson and Tyler Huntley left their latest game hurt.",
+        "text": "The Broncos are 7-2 on a five-game win streak, but their +12 point differential is far below the Jaguars' +108 at 6-2.",
         "teams": [
+          "DEN",
+          "JAX"
+        ]
+      },
+      {
+        "text": "The Eagles have lost seven straight, and the Colts (five in a row) and Ravens (four) are also sliding.",
+        "teams": [
+          "PHI",
+          "IND",
           "BAL"
-        ]
-      },
-      {
-        "text": "The Panthers lead the NFC South at 3-4 after two straight losses, and the 3-5 Buccaneers are running hot with a +27 differential.",
-        "teams": [
-          "CAR",
-          "TB"
         ]
       }
     ],

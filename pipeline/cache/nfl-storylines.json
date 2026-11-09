@@ -273,14 +273,14 @@
     }
   },
   "CHI": {
-    "key": "401873036|401873050",
+    "key": "401873050|401873071",
     "result": {
       "abbr": "CHI",
-      "story": "The Bears are 6-2 and have won three straight, the latest a 34-17 win at SEA.",
+      "story": "The Bears are 7-2 and have won four straight, the latest a 27-24 win over TB.",
       "player": {
-        "name": "D'Andre Swift",
-        "pos": "RB",
-        "line": "3 TD on 27 carries at SEA"
+        "name": "Caleb Williams",
+        "pos": "QB",
+        "line": "279 yds and 2 TD, but 4 INT vs TB"
       },
       "source": "claude"
     }
@@ -325,16 +325,16 @@
     }
   },
   "TB": {
-    "key": "401873025|401873050",
+    "key": "401873050|401873072",
     "result": {
       "abbr": "TB",
-      "story": "The Buccaneers are 3-5 but +27 in point differential, with wins of 43-13 at CAR and 16-0 over ATL.",
+      "story": "Better than 3-6: they've outscored opponents by 24.",
       "player": {
         "name": "Bucky Irving",
         "pos": "RB",
-        "line": "170 yds and a TD on 27 carries vs ATL"
+        "line": "Team's rushing leader: 688 yds"
       },
-      "source": "claude"
+      "source": "template"
     }
   },
   "ATL": {

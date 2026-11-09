@@ -10,10 +10,17 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-09T00:59:44.113Z",
+  "updatedAt": "2026-11-09T16:51:29.726Z",
   "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-09T16:51:29.726Z",
+      "abbr": "CAR",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Panthers took over first place in the NFC South."
+    },
     {
       "at": "2026-11-09T00:59:44.113Z",
       "abbr": "NE",
@@ -213,25 +220,27 @@
   ],
   "recap": {
     "label": "Week 8 recap",
-    "at": "2026-11-03T15:15:20.687Z",
+    "at": "2026-11-09T16:51:29.726Z",
     "bullets": [
       {
-        "text": "The Chargers are the NFL's only winless team at 0-7, having now lost seven straight games.",
+        "text": "The Panthers took over first place in the NFC South at 3-5 even though they have lost three straight.",
         "teams": [
-          "LAC"
+          "CAR"
         ]
       },
       {
-        "text": "The Ravens have lost three straight to fall to 4-4, and both Lamar Jackson and Tyler Huntley left their latest game hurt.",
+        "text": "The Broncos are 7-2 on a five-game win streak, but their +12 point differential is far below the Jaguars' +108 at 6-2.",
         "teams": [
+          "DEN",
+          "JAX"
+        ]
+      },
+      {
+        "text": "The Eagles have lost seven straight, and the Colts (five in a row) and Ravens (four) are also sliding.",
+        "teams": [
+          "PHI",
+          "IND",
           "BAL"
-        ]
-      },
-      {
-        "text": "The Panthers lead the NFC South at 3-4 after two straight losses, and the 3-5 Buccaneers are running hot with a +27 differential.",
-        "teams": [
-          "CAR",
-          "TB"
         ]
       }
     ]
@@ -288,6 +297,30 @@
         ]
       },
       {
+        "id": "401873064",
+        "kickoff": "2026-11-16T01:20Z",
+        "network": "NBC",
+        "away": {
+          "abbr": "PIT",
+          "name": "Steelers",
+          "color": "#FFB612",
+          "rec": "6-2"
+        },
+        "home": {
+          "abbr": "CIN",
+          "name": "Bengals",
+          "color": "#FB4F14",
+          "rec": "6-2"
+        },
+        "score": 78,
+        "tier": "worth",
+        "reasons": [
+          "AFC North lead on the line",
+          "Steelers have won 4 straight",
+          "Bengals have won 4 straight"
+        ]
+      },
+      {
         "id": "401873053",
         "kickoff": "2026-11-15T14:30Z",
         "network": "Fox",
@@ -312,27 +345,26 @@
         ]
       },
       {
-        "id": "401873050",
-        "kickoff": "2026-11-09T01:20Z",
-        "network": "NBC",
+        "id": "401873055",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "Fox",
         "away": {
-          "abbr": "TB",
-          "name": "Buccaneers",
-          "color": "#D50A0A",
+          "abbr": "CAR",
+          "name": "Panthers",
+          "color": "#0085CA",
           "rec": "3-5"
         },
         "home": {
-          "abbr": "CHI",
-          "name": "Bears",
-          "color": "#0B162A",
-          "rec": "6-2"
+          "abbr": "NO",
+          "name": "Saints",
+          "color": "#D3BC8D",
+          "rec": "3-5"
         },
-        "score": 66,
-        "tier": "worth",
+        "score": 60,
+        "tier": "other",
         "reasons": [
-          "Should be close",
-          "Bears have won 3 straight",
-          "Both teams hot"
+          "Projected coin flip",
+          "NFC South lead on the line"
         ]
       },
       {
@@ -441,28 +473,6 @@
           "rec": "5-4"
         },
         "score": 48,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip"
-        ]
-      },
-      {
-        "id": "401873055",
-        "kickoff": "2026-11-15T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "CAR",
-          "name": "Panthers",
-          "color": "#0085CA",
-          "rec": "3-5"
-        },
-        "home": {
-          "abbr": "NO",
-          "name": "Saints",
-          "color": "#D3BC8D",
-          "rec": "3-5"
-        },
-        "score": 47,
         "tier": "other",
         "reasons": [
           "Projected coin flip"
@@ -1557,22 +1567,14 @@
               "city": "Chicago",
               "name": "Bears",
               "color": "#0B162A",
-              "w": 6,
+              "w": 7,
               "l": 2,
               "t": 0,
-              "pf": 214,
-              "pa": 160,
+              "pf": 241,
+              "pa": 184,
               "rank": 11,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 6,
-                  "result": "W",
-                  "for": 31,
-                  "against": 23,
-                  "opp": "ATL",
-                  "home": false
-                },
                 {
                   "week": 7,
                   "result": "W",
@@ -1588,19 +1590,27 @@
                   "against": 17,
                   "opp": "SEA",
                   "home": false
+                },
+                {
+                  "week": 9,
+                  "result": "W",
+                  "for": 27,
+                  "against": 24,
+                  "opp": "TB",
+                  "home": true
                 }
               ],
-              "story": "The Bears are 6-2 and have won three straight, the latest a 34-17 win at SEA.",
+              "story": "The Bears are 7-2 and have won four straight, the latest a 27-24 win over TB.",
               "player": {
-                "name": "D'Andre Swift",
-                "pos": "RB",
-                "line": "3 TD on 27 carries at SEA"
+                "name": "Caleb Williams",
+                "pos": "QB",
+                "line": "279 yds and 2 TD, but 4 INT vs TB"
               },
               "next": {
-                "opp": "TB",
+                "opp": "NO",
                 "home": true,
-                "kickoff": "2026-11-09T01:20Z",
-                "network": "NBC"
+                "kickoff": "2026-11-22T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -1711,57 +1721,6 @@
           "name": "NFC South",
           "teams": [
             {
-              "abbr": "TB",
-              "city": "Tampa Bay",
-              "name": "Buccaneers",
-              "color": "#D50A0A",
-              "w": 3,
-              "l": 5,
-              "t": 0,
-              "pf": 178,
-              "pa": 151,
-              "rank": 16,
-              "heat": "Hot",
-              "last3": [
-                {
-                  "week": 6,
-                  "result": "L",
-                  "for": 19,
-                  "against": 26,
-                  "opp": "PIT",
-                  "home": true
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 43,
-                  "against": 13,
-                  "opp": "CAR",
-                  "home": false
-                },
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 16,
-                  "against": 0,
-                  "opp": "ATL",
-                  "home": true
-                }
-              ],
-              "story": "The Buccaneers are 3-5 but +27 in point differential, with wins of 43-13 at CAR and 16-0 over ATL.",
-              "player": {
-                "name": "Bucky Irving",
-                "pos": "RB",
-                "line": "170 yds and a TD on 27 carries vs ATL"
-              },
-              "next": {
-                "opp": "CHI",
-                "home": false,
-                "kickoff": "2026-11-09T01:20Z",
-                "network": "NBC"
-              }
-            },
-            {
               "abbr": "CAR",
               "city": "Carolina",
               "name": "Panthers",
@@ -1856,6 +1815,57 @@
                 "opp": "CAR",
                 "home": true,
                 "kickoff": "2026-11-15T18:00Z",
+                "network": "Fox"
+              }
+            },
+            {
+              "abbr": "TB",
+              "city": "Tampa Bay",
+              "name": "Buccaneers",
+              "color": "#D50A0A",
+              "w": 3,
+              "l": 6,
+              "t": 0,
+              "pf": 202,
+              "pa": 178,
+              "rank": 16,
+              "heat": "Warm",
+              "last3": [
+                {
+                  "week": 7,
+                  "result": "W",
+                  "for": 43,
+                  "against": 13,
+                  "opp": "CAR",
+                  "home": false
+                },
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 16,
+                  "against": 0,
+                  "opp": "ATL",
+                  "home": true
+                },
+                {
+                  "week": 9,
+                  "result": "L",
+                  "for": 24,
+                  "against": 27,
+                  "opp": "CHI",
+                  "home": false
+                }
+              ],
+              "story": "Better than 3-6: they've outscored opponents by 24.",
+              "player": {
+                "name": "Bucky Irving",
+                "pos": "RB",
+                "line": "Team's rushing leader: 688 yds"
+              },
+              "next": {
+                "opp": "DET",
+                "home": false,
+                "kickoff": "2026-11-22T18:00Z",
                 "network": "Fox"
               }
             },

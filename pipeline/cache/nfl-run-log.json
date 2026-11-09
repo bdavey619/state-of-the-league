@@ -1,8 +1,18 @@
 {
-  "at": "2026-11-09T00:59:44.113Z",
+  "at": "2026-11-09T16:51:29.726Z",
   "model": "claude-sonnet-5-5",
-  "claudeStories": 32,
+  "claudeStories": 31,
   "recap": "claude",
-  "newChanges": 10,
-  "issues": []
+  "newChanges": 1,
+  "issues": [
+    {
+      "teams": [
+        "CAR",
+        "NO",
+        "TB",
+        "ATL"
+      ],
+      "error": "Could not parse JSON (stop_reason end_turn): ```json\n[\n  {\n    \"abbr\": \"CAR\",\n    \"story\": \"The Panthers are 3-5 and still lead the NFC South, but they have lost three straight, most recently 26-21 to DEN.\",\n    \"player\": {\n      \"name\": \"Bryce "
+    }
+  ]
 }
