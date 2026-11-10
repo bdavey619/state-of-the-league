@@ -2,18 +2,25 @@
   "league": "NFL",
   "season": 2026,
   "seasonLabel": "2026",
-  "week": 9,
-  "badge": "WK 9",
-  "kicker": "Week 9 · through Sun, Nov 8",
-  "throughLabel": "through Sun, Nov 8",
+  "week": 10,
+  "badge": "WK 10",
+  "kicker": "Week 10 · through Mon, Nov 9",
+  "throughLabel": "through Mon, Nov 9",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-10T03:38:54.198Z",
-  "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",
+  "updatedAt": "2026-11-10T15:14:38.114Z",
+  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-10T15:14:38.114Z",
+      "abbr": "CHI",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Bears took over first place in the NFC North."
+    },
     {
       "at": "2026-11-09T16:51:29.726Z",
       "abbr": "CAR",
@@ -219,28 +226,27 @@
     }
   ],
   "recap": {
-    "label": "Week 8 recap",
-    "at": "2026-11-09T16:51:29.726Z",
+    "label": "Week 9 recap",
+    "at": "2026-11-10T15:14:38.114Z",
     "bullets": [
       {
-        "text": "The Panthers took over first place in the NFC South at 3-5 even though they have lost three straight.",
+        "text": "The Jaguars, 6-2 with a +108 point differential, are No. 1 in the power rankings and running hot.",
         "teams": [
-          "CAR"
-        ]
-      },
-      {
-        "text": "The Broncos are 7-2 on a five-game win streak, but their +12 point differential is far below the Jaguars' +108 at 6-2.",
-        "teams": [
-          "DEN",
           "JAX"
         ]
       },
       {
-        "text": "The Eagles have lost seven straight, and the Colts (five in a row) and Ravens (four) are also sliding.",
+        "text": "The Eagles have lost seven straight and the Colts five, and both sit at 2-7 and have gone cold.",
         "teams": [
           "PHI",
-          "IND",
-          "BAL"
+          "IND"
+        ]
+      },
+      {
+        "text": "The Panthers lead the NFC South at 3-5 despite three straight losses, with the Saints also at 3-5.",
+        "teams": [
+          "CAR",
+          "NO"
         ]
       }
     ]
@@ -248,54 +254,6 @@
   "mustWatch": {
     "window": "this week",
     "games": [
-      {
-        "id": "401873051",
-        "kickoff": "2026-11-10T01:15Z",
-        "network": "ESPN",
-        "away": {
-          "abbr": "BUF",
-          "name": "Bills",
-          "color": "#00338D",
-          "rec": "6-1"
-        },
-        "home": {
-          "abbr": "MIN",
-          "name": "Vikings",
-          "color": "#4F2683",
-          "rec": "6-1"
-        },
-        "score": 79,
-        "tier": "worth",
-        "reasons": [
-          "Two winning teams",
-          "Projected coin flip",
-          "Bills have won 3 straight"
-        ]
-      },
-      {
-        "id": "401873060",
-        "kickoff": "2026-11-15T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "MIN",
-          "name": "Vikings",
-          "color": "#4F2683",
-          "rec": "6-1"
-        },
-        "home": {
-          "abbr": "GB",
-          "name": "Packers",
-          "color": "#203731",
-          "rec": "6-3"
-        },
-        "score": 79,
-        "tier": "worth",
-        "reasons": [
-          "Two winning teams",
-          "Projected coin flip",
-          "NFC North lead on the line"
-        ]
-      },
       {
         "id": "401873064",
         "kickoff": "2026-11-16T01:20Z",
@@ -312,12 +270,12 @@
           "color": "#FB4F14",
           "rec": "6-2"
         },
-        "score": 78,
-        "tier": "worth",
+        "score": 88,
+        "tier": "must",
         "reasons": [
+          "Top-8 vs top-8",
           "AFC North lead on the line",
-          "Steelers have won 4 straight",
-          "Bengals have won 4 straight"
+          "Steelers have won 4 straight"
         ]
       },
       {
@@ -336,12 +294,33 @@
           "color": "#0076B6",
           "rec": "6-2"
         },
-        "score": 68,
-        "tier": "worth",
+        "score": 62,
+        "tier": "other",
         "reasons": [
-          "Two winning teams",
           "Should be close",
           "Lions have won 4 straight"
+        ]
+      },
+      {
+        "id": "401873060",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "MIN",
+          "name": "Vikings",
+          "color": "#4F2683",
+          "rec": "6-2"
+        },
+        "home": {
+          "abbr": "GB",
+          "name": "Packers",
+          "color": "#203731",
+          "rec": "6-3"
+        },
+        "score": 62,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip"
         ]
       },
       {
@@ -368,6 +347,29 @@
         ]
       },
       {
+        "id": "401873063",
+        "kickoff": "2026-11-15T21:25Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "SF",
+          "name": "49ers",
+          "color": "#AA0000",
+          "rec": "7-1"
+        },
+        "home": {
+          "abbr": "DAL",
+          "name": "Cowboys",
+          "color": "#003594",
+          "rec": "4-5"
+        },
+        "score": 58,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Should be close"
+        ]
+      },
+      {
         "id": "401873054",
         "kickoff": "2026-11-15T18:00Z",
         "network": "CBS",
@@ -375,7 +377,7 @@
           "abbr": "BUF",
           "name": "Bills",
           "color": "#00338D",
-          "rec": "6-1"
+          "rec": "7-1"
         },
         "home": {
           "abbr": "NYJ",
@@ -386,8 +388,7 @@
         "score": 54,
         "tier": "other",
         "reasons": [
-          "Should be close",
-          "Bills have won 3 straight"
+          "Bills have won 4 straight"
         ]
       },
       {
@@ -406,49 +407,27 @@
           "color": "#97233F",
           "rec": "3-6"
         },
-        "score": 54,
+        "score": 51,
         "tier": "other",
         "reasons": [
           "Rams have won 3 straight"
         ]
       },
       {
-        "id": "401873063",
-        "kickoff": "2026-11-15T21:25Z",
-        "network": "Fox",
+        "id": "401873052",
+        "kickoff": "2026-11-13T01:15Z",
+        "network": "Prime Video",
         "away": {
-          "abbr": "SF",
-          "name": "49ers",
-          "color": "#AA0000",
-          "rec": "7-1"
+          "abbr": "WSH",
+          "name": "Commanders",
+          "color": "#5A1414",
+          "rec": "2-5-1"
         },
         "home": {
-          "abbr": "DAL",
-          "name": "Cowboys",
-          "color": "#003594",
-          "rec": "4-5"
-        },
-        "score": 53,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
-        ]
-      },
-      {
-        "id": "401873062",
-        "kickoff": "2026-11-15T21:05Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "SEA",
-          "name": "Seahawks",
-          "color": "#69BE28",
-          "rec": "5-4"
-        },
-        "home": {
-          "abbr": "LV",
-          "name": "Raiders",
-          "color": "#A5ACAF",
-          "rec": "4-5"
+          "abbr": "NYG",
+          "name": "Giants",
+          "color": "#0B2265",
+          "rec": "5-2-1"
         },
         "score": 50,
         "tier": "other",
@@ -472,10 +451,32 @@
           "color": "#FF3C00",
           "rec": "5-4"
         },
-        "score": 48,
+        "score": 47,
         "tier": "other",
         "reasons": [
           "Projected coin flip"
+        ]
+      },
+      {
+        "id": "401873062",
+        "kickoff": "2026-11-15T21:05Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "SEA",
+          "name": "Seahawks",
+          "color": "#69BE28",
+          "rec": "5-4"
+        },
+        "home": {
+          "abbr": "LV",
+          "name": "Raiders",
+          "color": "#A5ACAF",
+          "rec": "4-5"
+        },
+        "score": 45,
+        "tier": "other",
+        "reasons": [
+          "Should be close"
         ]
       }
     ]
@@ -493,22 +494,14 @@
               "city": "Buffalo",
               "name": "Bills",
               "color": "#00338D",
-              "w": 6,
+              "w": 7,
               "l": 1,
               "t": 0,
-              "pf": 233,
-              "pa": 181,
-              "rank": 1,
+              "pf": 256,
+              "pa": 187,
+              "rank": 2,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 6,
-                  "result": "W",
-                  "for": 33,
-                  "against": 30,
-                  "opp": "LV",
-                  "home": false
-                },
                 {
                   "week": 7,
                   "result": "BYE"
@@ -520,19 +513,27 @@
                   "against": 10,
                   "opp": "BAL",
                   "home": true
+                },
+                {
+                  "week": 9,
+                  "result": "W",
+                  "for": 23,
+                  "against": 6,
+                  "opp": "MIN",
+                  "home": false
                 }
               ],
-              "story": "The Bills are 6-1 with the NFL's most points (233) and beat BAL 36-10 in their last game.",
+              "story": "The Bills are 7-1 and have won 4 straight, the latest 23-6 at MIN, and lead the NFL with 256 points.",
               "player": {
-                "name": "Josh Allen",
-                "pos": "QB",
-                "line": "289 yds and 2 TD vs BAL in Wk 8"
+                "name": "James Cook III",
+                "pos": "RB",
+                "line": "107 yds and a TD at MIN in Wk 9"
               },
               "next": {
-                "opp": "MIN",
+                "opp": "NYJ",
                 "home": false,
-                "kickoff": "2026-11-10T01:15Z",
-                "network": "ESPN"
+                "kickoff": "2026-11-15T18:00Z",
+                "network": "CBS"
               }
             },
             {
@@ -545,7 +546,7 @@
               "t": 0,
               "pf": 211,
               "pa": 207,
-              "rank": 12,
+              "rank": 18,
               "heat": "Cool",
               "last3": [
                 {
@@ -596,7 +597,7 @@
               "t": 0,
               "pf": 182,
               "pa": 223,
-              "rank": 29,
+              "rank": 27,
               "heat": "Cold",
               "last3": [
                 {
@@ -647,7 +648,7 @@
               "t": 0,
               "pf": 126,
               "pa": 200,
-              "rank": 28,
+              "rank": 31,
               "heat": "Cool",
               "last3": [
                 {
@@ -703,7 +704,7 @@
               "t": 0,
               "pf": 240,
               "pa": 175,
-              "rank": 10,
+              "rank": 4,
               "heat": "Hot",
               "last3": [
                 {
@@ -754,7 +755,7 @@
               "t": 0,
               "pf": 180,
               "pa": 144,
-              "rank": 14,
+              "rank": 6,
               "heat": "Hot",
               "last3": [
                 {
@@ -856,7 +857,7 @@
               "t": 0,
               "pf": 189,
               "pa": 236,
-              "rank": 20,
+              "rank": 25,
               "heat": "Cold",
               "last3": [
                 {
@@ -912,7 +913,7 @@
               "t": 0,
               "pf": 229,
               "pa": 121,
-              "rank": 4,
+              "rank": 1,
               "heat": "Hot",
               "last3": [
                 {
@@ -959,7 +960,7 @@
               "t": 0,
               "pf": 209,
               "pa": 192,
-              "rank": 15,
+              "rank": 16,
               "heat": "Warm",
               "last3": [
                 {
@@ -1006,7 +1007,7 @@
               "t": 0,
               "pf": 184,
               "pa": 249,
-              "rank": 31,
+              "rank": 29,
               "heat": "Cold",
               "last3": [
                 {
@@ -1057,7 +1058,7 @@
               "t": 0,
               "pf": 144,
               "pa": 199,
-              "rank": 27,
+              "rank": 28,
               "heat": "Cool",
               "last3": [
                 {
@@ -1113,7 +1114,7 @@
               "t": 0,
               "pf": 198,
               "pa": 186,
-              "rank": 5,
+              "rank": 9,
               "heat": "Hot",
               "last3": [
                 {
@@ -1164,7 +1165,7 @@
               "t": 0,
               "pf": 202,
               "pa": 143,
-              "rank": 6,
+              "rank": 7,
               "heat": "Steady",
               "last3": [
                 {
@@ -1215,7 +1216,7 @@
               "t": 0,
               "pf": 238,
               "pa": 268,
-              "rank": 23,
+              "rank": 21,
               "heat": "Cool",
               "last3": [
                 {
@@ -1324,7 +1325,7 @@
               "t": 1,
               "pf": 182,
               "pa": 172,
-              "rank": 18,
+              "rank": 12,
               "heat": "Warm",
               "last3": [
                 {
@@ -1371,7 +1372,7 @@
               "t": 0,
               "pf": 246,
               "pa": 236,
-              "rank": 21,
+              "rank": 15,
               "heat": "Warm",
               "last3": [
                 {
@@ -1422,7 +1423,7 @@
               "t": 1,
               "pf": 172,
               "pa": 202,
-              "rank": 25,
+              "rank": 22,
               "heat": "Steady",
               "last3": [
                 {
@@ -1516,53 +1517,6 @@
           "name": "NFC North",
           "teams": [
             {
-              "abbr": "MIN",
-              "city": "Minnesota",
-              "name": "Vikings",
-              "color": "#4F2683",
-              "w": 6,
-              "l": 1,
-              "t": 0,
-              "pf": 140,
-              "pa": 93,
-              "rank": 9,
-              "heat": "Steady",
-              "last3": [
-                {
-                  "week": 6,
-                  "result": "BYE"
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 16,
-                  "against": 10,
-                  "opp": "IND",
-                  "home": true
-                },
-                {
-                  "week": 8,
-                  "result": "L",
-                  "for": 15,
-                  "against": 19,
-                  "opp": "DET",
-                  "home": false
-                }
-              ],
-              "story": "The Vikings are 6-1 with the NFL's fewest points allowed (93) but lost 19-15 at DET last time out.",
-              "player": {
-                "name": "Kyler Murray",
-                "pos": "QB",
-                "line": "210 yds and 2 TD in the loss at DET"
-              },
-              "next": {
-                "opp": "BUF",
-                "home": true,
-                "kickoff": "2026-11-10T01:15Z",
-                "network": "ESPN"
-              }
-            },
-            {
               "abbr": "CHI",
               "city": "Chicago",
               "name": "Bears",
@@ -1572,7 +1526,7 @@
               "t": 0,
               "pf": 241,
               "pa": 184,
-              "rank": 11,
+              "rank": 5,
               "heat": "Hot",
               "last3": [
                 {
@@ -1623,7 +1577,7 @@
               "t": 0,
               "pf": 222,
               "pa": 189,
-              "rank": 7,
+              "rank": 8,
               "heat": "Hot",
               "last3": [
                 {
@@ -1665,6 +1619,57 @@
               }
             },
             {
+              "abbr": "MIN",
+              "city": "Minnesota",
+              "name": "Vikings",
+              "color": "#4F2683",
+              "w": 6,
+              "l": 2,
+              "t": 0,
+              "pf": 146,
+              "pa": 116,
+              "rank": 14,
+              "heat": "Cool",
+              "last3": [
+                {
+                  "week": 7,
+                  "result": "W",
+                  "for": 16,
+                  "against": 10,
+                  "opp": "IND",
+                  "home": true
+                },
+                {
+                  "week": 8,
+                  "result": "L",
+                  "for": 15,
+                  "against": 19,
+                  "opp": "DET",
+                  "home": false
+                },
+                {
+                  "week": 9,
+                  "result": "L",
+                  "for": 6,
+                  "against": 23,
+                  "opp": "BUF",
+                  "home": true
+                }
+              ],
+              "story": "The Vikings have lost two straight but still allow the fewest points in the NFL, 116.",
+              "player": {
+                "name": "Kyler Murray",
+                "pos": "QB",
+                "line": "210 yds and 2 TD in the loss to DET"
+              },
+              "next": {
+                "opp": "GB",
+                "home": false,
+                "kickoff": "2026-11-15T18:00Z",
+                "network": "Fox"
+              }
+            },
+            {
               "abbr": "GB",
               "city": "Green Bay",
               "name": "Packers",
@@ -1674,7 +1679,7 @@
               "t": 0,
               "pf": 216,
               "pa": 191,
-              "rank": 13,
+              "rank": 11,
               "heat": "Warm",
               "last3": [
                 {
@@ -1730,7 +1735,7 @@
               "t": 0,
               "pf": 199,
               "pa": 219,
-              "rank": 17,
+              "rank": 23,
               "heat": "Cold",
               "last3": [
                 {
@@ -1781,7 +1786,7 @@
               "t": 0,
               "pf": 185,
               "pa": 216,
-              "rank": 26,
+              "rank": 20,
               "heat": "Steady",
               "last3": [
                 {
@@ -1828,7 +1833,7 @@
               "t": 0,
               "pf": 202,
               "pa": 178,
-              "rank": 16,
+              "rank": 17,
               "heat": "Warm",
               "last3": [
                 {
@@ -1879,7 +1884,7 @@
               "t": 0,
               "pf": 188,
               "pa": 223,
-              "rank": 22,
+              "rank": 24,
               "heat": "Cool",
               "last3": [
                 {
@@ -1982,7 +1987,7 @@
               "t": 0,
               "pf": 202,
               "pa": 162,
-              "rank": 2,
+              "rank": 13,
               "heat": "Warm",
               "last3": [
                 {
@@ -2033,7 +2038,7 @@
               "t": 0,
               "pf": 214,
               "pa": 181,
-              "rank": 8,
+              "rank": 10,
               "heat": "Hot",
               "last3": [
                 {
@@ -2084,7 +2089,7 @@
               "t": 0,
               "pf": 178,
               "pa": 255,
-              "rank": 24,
+              "rank": 26,
               "heat": "Cool",
               "last3": [
                 {

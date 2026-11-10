@@ -1,22 +1,22 @@
 {
   "snapshot": {
     "BUF": {
-      "w": 6,
+      "w": 7,
       "l": 1,
       "t": 0,
-      "rank": 1,
+      "rank": 2,
       "heat": "Hot",
       "place": 1,
       "division": "AFC East",
-      "streak": "W3",
-      "pct": 0.8571428571428571,
+      "streak": "W4",
+      "pct": 0.875,
       "seed": 1
     },
     "NE": {
       "w": 5,
       "l": 4,
       "t": 0,
-      "rank": 12,
+      "rank": 18,
       "heat": "Cool",
       "place": 2,
       "division": "AFC East",
@@ -28,7 +28,7 @@
       "w": 2,
       "l": 7,
       "t": 0,
-      "rank": 29,
+      "rank": 27,
       "heat": "Cold",
       "place": 3,
       "division": "AFC East",
@@ -40,7 +40,7 @@
       "w": 1,
       "l": 7,
       "t": 0,
-      "rank": 28,
+      "rank": 31,
       "heat": "Cool",
       "place": 4,
       "division": "AFC East",
@@ -52,7 +52,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 10,
+      "rank": 4,
       "heat": "Hot",
       "place": 1,
       "division": "AFC North",
@@ -64,7 +64,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 14,
+      "rank": 6,
       "heat": "Hot",
       "place": 2,
       "division": "AFC North",
@@ -88,7 +88,7 @@
       "w": 4,
       "l": 5,
       "t": 0,
-      "rank": 20,
+      "rank": 25,
       "heat": "Cold",
       "place": 4,
       "division": "AFC North",
@@ -100,7 +100,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 4,
+      "rank": 1,
       "heat": "Hot",
       "place": 1,
       "division": "AFC South",
@@ -112,7 +112,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 15,
+      "rank": 16,
       "heat": "Warm",
       "place": 2,
       "division": "AFC South",
@@ -124,7 +124,7 @@
       "w": 2,
       "l": 7,
       "t": 0,
-      "rank": 31,
+      "rank": 29,
       "heat": "Cold",
       "place": 3,
       "division": "AFC South",
@@ -136,7 +136,7 @@
       "w": 1,
       "l": 7,
       "t": 0,
-      "rank": 27,
+      "rank": 28,
       "heat": "Cool",
       "place": 4,
       "division": "AFC South",
@@ -148,7 +148,7 @@
       "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 5,
+      "rank": 9,
       "heat": "Hot",
       "place": 1,
       "division": "AFC West",
@@ -160,7 +160,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 6,
+      "rank": 7,
       "heat": "Steady",
       "place": 2,
       "division": "AFC West",
@@ -172,7 +172,7 @@
       "w": 4,
       "l": 5,
       "t": 0,
-      "rank": 23,
+      "rank": 21,
       "heat": "Cool",
       "place": 3,
       "division": "AFC West",
@@ -196,7 +196,7 @@
       "w": 5,
       "l": 2,
       "t": 1,
-      "rank": 18,
+      "rank": 12,
       "heat": "Warm",
       "place": 1,
       "division": "NFC East",
@@ -208,7 +208,7 @@
       "w": 4,
       "l": 5,
       "t": 0,
-      "rank": 21,
+      "rank": 15,
       "heat": "Warm",
       "place": 2,
       "division": "NFC East",
@@ -220,7 +220,7 @@
       "w": 2,
       "l": 5,
       "t": 1,
-      "rank": 25,
+      "rank": 22,
       "heat": "Steady",
       "place": 3,
       "division": "NFC East",
@@ -240,39 +240,39 @@
       "pct": 0.2222222222222222,
       "seed": 16
     },
-    "MIN": {
-      "w": 6,
-      "l": 1,
-      "t": 0,
-      "rank": 9,
-      "heat": "Steady",
-      "place": 1,
-      "division": "NFC North",
-      "streak": "L1",
-      "pct": 0.8571428571428571,
-      "seed": 2
-    },
     "CHI": {
       "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 11,
+      "rank": 5,
       "heat": "Hot",
-      "place": 2,
+      "place": 1,
       "division": "NFC North",
       "streak": "W4",
       "pct": 0.7777777777777778,
-      "seed": 3
+      "seed": 2
     },
     "DET": {
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 7,
+      "rank": 8,
       "heat": "Hot",
-      "place": 3,
+      "place": 2,
       "division": "NFC North",
       "streak": "W4",
+      "pct": 0.75,
+      "seed": 3
+    },
+    "MIN": {
+      "w": 6,
+      "l": 2,
+      "t": 0,
+      "rank": 14,
+      "heat": "Cool",
+      "place": 3,
+      "division": "NFC North",
+      "streak": "L2",
       "pct": 0.75,
       "seed": 4
     },
@@ -280,7 +280,7 @@
       "w": 6,
       "l": 3,
       "t": 0,
-      "rank": 13,
+      "rank": 11,
       "heat": "Warm",
       "place": 4,
       "division": "NFC North",
@@ -292,7 +292,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 17,
+      "rank": 23,
       "heat": "Cold",
       "place": 1,
       "division": "NFC South",
@@ -304,7 +304,7 @@
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 26,
+      "rank": 20,
       "heat": "Steady",
       "place": 2,
       "division": "NFC South",
@@ -316,7 +316,7 @@
       "w": 3,
       "l": 6,
       "t": 0,
-      "rank": 16,
+      "rank": 17,
       "heat": "Warm",
       "place": 3,
       "division": "NFC South",
@@ -328,7 +328,7 @@
       "w": 3,
       "l": 6,
       "t": 0,
-      "rank": 22,
+      "rank": 24,
       "heat": "Cool",
       "place": 4,
       "division": "NFC South",
@@ -352,7 +352,7 @@
       "w": 5,
       "l": 4,
       "t": 0,
-      "rank": 2,
+      "rank": 13,
       "heat": "Warm",
       "place": 2,
       "division": "NFC West",
@@ -364,7 +364,7 @@
       "w": 5,
       "l": 4,
       "t": 0,
-      "rank": 8,
+      "rank": 10,
       "heat": "Hot",
       "place": 3,
       "division": "NFC West",
@@ -376,7 +376,7 @@
       "w": 3,
       "l": 6,
       "t": 0,
-      "rank": 24,
+      "rank": 26,
       "heat": "Cool",
       "place": 4,
       "division": "NFC West",
@@ -385,7 +385,7 @@
       "seed": 14
     }
   },
-  "powerSource": "Sharp Football Analysis (Week 9, Nov 2)",
+  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "events": [
     {
       "at": "2026-11-02T00:52:19.832Z",
@@ -589,32 +589,38 @@
       "kind": "lead",
       "weight": 5,
       "text": "The Panthers took over first place in the NFC South."
+    },
+    {
+      "at": "2026-11-10T15:14:38.114Z",
+      "abbr": "CHI",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Bears took over first place in the NFC North."
     }
   ],
   "recap": {
-    "key": "wk-8",
-    "label": "Week 8 recap",
-    "at": "2026-11-09T16:51:29.726Z",
+    "key": "wk-9",
+    "label": "Week 9 recap",
+    "at": "2026-11-10T15:14:38.114Z",
     "bullets": [
       {
-        "text": "The Panthers took over first place in the NFC South at 3-5 even though they have lost three straight.",
+        "text": "The Jaguars, 6-2 with a +108 point differential, are No. 1 in the power rankings and running hot.",
         "teams": [
-          "CAR"
-        ]
-      },
-      {
-        "text": "The Broncos are 7-2 on a five-game win streak, but their +12 point differential is far below the Jaguars' +108 at 6-2.",
-        "teams": [
-          "DEN",
           "JAX"
         ]
       },
       {
-        "text": "The Eagles have lost seven straight, and the Colts (five in a row) and Ravens (four) are also sliding.",
+        "text": "The Eagles have lost seven straight and the Colts five, and both sit at 2-7 and have gone cold.",
         "teams": [
           "PHI",
-          "IND",
-          "BAL"
+          "IND"
+        ]
+      },
+      {
+        "text": "The Panthers lead the NFC South at 3-5 despite three straight losses, with the Saints also at 3-5.",
+        "teams": [
+          "CAR",
+          "NO"
         ]
       }
     ],

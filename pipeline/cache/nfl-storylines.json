@@ -1,13 +1,13 @@
 {
   "BUF": {
-    "key": "401873026|401873051",
+    "key": "401873051|401873054",
     "result": {
       "abbr": "BUF",
-      "story": "The Bills are 6-1 with the NFL's most points (233) and beat BAL 36-10 in their last game.",
+      "story": "The Bills are 7-1 and have won 4 straight, the latest 23-6 at MIN, and lead the NFL with 256 points.",
       "player": {
-        "name": "Josh Allen",
-        "pos": "QB",
-        "line": "289 yds and 2 TD vs BAL in Wk 8"
+        "name": "James Cook III",
+        "pos": "RB",
+        "line": "107 yds and a TD at MIN in Wk 9"
       },
       "source": "claude"
     }
@@ -260,14 +260,14 @@
     }
   },
   "MIN": {
-    "key": "401873030|401873051",
+    "key": "401873051|401873060",
     "result": {
       "abbr": "MIN",
-      "story": "The Vikings are 6-1 with the NFL's fewest points allowed (93) but lost 19-15 at DET last time out.",
+      "story": "The Vikings have lost two straight but still allow the fewest points in the NFL, 116.",
       "player": {
         "name": "Kyler Murray",
         "pos": "QB",
-        "line": "210 yds and 2 TD in the loss at DET"
+        "line": "210 yds and 2 TD in the loss to DET"
       },
       "source": "claude"
     }
