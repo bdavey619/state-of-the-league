@@ -1,8 +1,5 @@
 {
-  "at": "2026-11-09T22:59:53.561Z",
-  "model": "claude-sonnet-5-5",
-  "claudeStories": 30,
-  "recap": "claude",
-  "newChanges": 0,
-  "issues": []
+  "at": "2026-11-10T03:38:56.016Z",
+  "failed": true,
+  "error": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at parseJSONFromBytes (node:internal/deps/undici/undici:5959:19)\n    at successSteps (node:internal/deps/undici/undici:5940:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4832:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async consumeBody (node:internal/deps/undici/undici:5949:7)\n    at async fetchJSON (file:///home/runner/work/state-of-the-league/state-of-the-league/pipeline/lib/espn.mjs:14:14)\n    at async fetchDay (file:///home/runner/work/state-of-the-league/state-of-the-league/pipeline/lib/espn.mjs:34:16)\n    at async loadGames (file:///home/runner/work/state-of-the-league/state-of-the-league/pipeline/build.mjs:79:19)\n    at async main (file:///home/runner/work/state-of-the-league/state-of-the-league/pipeline/build.mjs:94:17)"
 }
