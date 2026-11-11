@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-10T20:28:08.473Z",
+  "updatedAt": "2026-11-11T01:18:30.783Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -490,6 +490,52 @@
         ]
       },
       {
+        "id": "401909976",
+        "kickoff": "2026-11-13T00:00Z",
+        "network": "",
+        "away": {
+          "abbr": "TOR",
+          "name": "Raptors",
+          "color": "#CE1141",
+          "rec": "5-5"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "76ers",
+          "color": "#006BB6",
+          "rec": "9-2"
+        },
+        "score": 61,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Barnes vs Maxey"
+        ]
+      },
+      {
+        "id": "401909978",
+        "kickoff": "2026-11-13T01:00Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "DAL",
+          "name": "Mavericks",
+          "color": "#00538C",
+          "rec": "7-4"
+        },
+        "home": {
+          "abbr": "MIN",
+          "name": "Timberwolves",
+          "color": "#236192",
+          "rec": "8-3"
+        },
+        "score": 55,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Cooper Flagg"
+        ]
+      },
+      {
         "id": "401909970",
         "kickoff": "2026-11-12T01:00Z",
         "network": "",
@@ -554,52 +600,6 @@
         "reasons": [
           "Lakers have won 6 straight",
           "Luka Doncic"
-        ]
-      },
-      {
-        "id": "401909962",
-        "kickoff": "2026-11-11T02:00Z",
-        "network": "Suns Live",
-        "away": {
-          "abbr": "LAC",
-          "name": "Clippers",
-          "color": "#C8102E",
-          "rec": "2-7"
-        },
-        "home": {
-          "abbr": "PHX",
-          "name": "Suns",
-          "color": "#E56020",
-          "rec": "3-6"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Devin Booker"
-        ]
-      },
-      {
-        "id": "401909963",
-        "kickoff": "2026-11-11T02:00Z",
-        "network": "KJZZ-TV",
-        "away": {
-          "abbr": "MIA",
-          "name": "Heat",
-          "color": "#98002E",
-          "rec": "4-6"
-        },
-        "home": {
-          "abbr": "UTAH",
-          "name": "Jazz",
-          "color": "#3E2680",
-          "rec": "1-9"
-        },
-        "score": 41,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Giannis Antetokounmpo"
         ]
       }
     ]
