@@ -1,26 +1,26 @@
 {
   "PHI": {
-    "key": "401909945|401909961",
+    "key": "401909961|401909976",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 9-2 and top the East, but their +34 point differential is modest for that record.",
+      "story": "The 76ers are 9-3 with only a +12 point differential, and lost 123-101 to BOS on Nov 10.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "26.9 pts per game; 27 pts and 7 ast vs CHI"
+        "line": "26.7 pts per game; 24 pts vs BOS"
       },
       "source": "claude"
     }
   },
   "BOS": {
-    "key": "401909949|401909961",
+    "key": "401909961|401909968",
     "result": {
       "abbr": "BOS",
-      "story": "The Celtics are 8-2 with a +10.7 point margin per game and have won 3 straight, next at PHI.",
+      "story": "The Celtics are 9-2 with the NBA's best margin (+11.7 per game), early but on a four-game win streak.",
       "player": {
         "name": "Jayson Tatum",
         "pos": "F",
-        "line": "27.1 pts and 7.8 ast per game through 9 games"
+        "line": "26.5 pts, 7.4 ast per game; 21 pts vs PHI"
       },
       "source": "claude"
     }
@@ -39,14 +39,14 @@
     }
   },
   "NY": {
-    "key": "401909940|401909960",
+    "key": "401909960|401909967",
     "result": {
       "abbr": "NY",
-      "story": "The Knicks are 5-4 on a 3-game win streak, the latest a 109-97 win at CLE.",
+      "story": "The Knicks are 6-4 with a +83 point differential and a four-game streak, after beating MIL 117-85.",
       "player": {
-        "name": "Jalen Brunson",
-        "pos": "G",
-        "line": "31 pts and 9 ast vs CLE"
+        "name": "Karl-Anthony Towns",
+        "pos": "C",
+        "line": "21 pts and 16 reb vs MIL"
       },
       "source": "claude"
     }
@@ -117,14 +117,14 @@
     }
   },
   "MIL": {
-    "key": "401909949|401909960",
+    "key": "401909960|401909971",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 1-9 with a -132 point differential and have lost six straight, the latest 117-97 to BOS.",
+      "story": "The Bucks are 1-10 and have lost seven straight, the latest a 117-85 defeat at NY.",
       "player": {
         "name": "Tyler Herro",
         "pos": "G",
-        "line": "21.4 pts and 4.3 ast per game over 10 games"
+        "line": "21.4 pts per game across 10 games"
       },
       "source": "claude"
     }
@@ -156,14 +156,14 @@
     }
   },
   "MIA": {
-    "key": "401909951|401909963",
+    "key": "401909963|401909298",
     "result": {
       "abbr": "MIA",
-      "story": "The Heat are 4-6 even with Giannis Antetokounmpo at 27.5 points a game; they beat SAC 114-108 last.",
+      "story": "The Heat are 5-6 and have won two straight, beating UTAH 115-109, despite a -47 point differential.",
       "player": {
         "name": "Giannis Antetokounmpo",
         "pos": "F",
-        "line": "29 pts and 14 reb vs SAC; 27.5 pts a game"
+        "line": "30 pts and 11 reb vs UTAH; 27.7 ppg this season"
       },
       "source": "claude"
     }
@@ -182,40 +182,40 @@
     }
   },
   "ORL": {
-    "key": "401909942|401909964",
+    "key": "401909964|401909973",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic are 2-7 and have lost four straight, most recently 126-119 in overtime at GS.",
+      "story": "The Magic are 3-7 but beat SAC 107-100 to snap a four-game skid behind Franz Wagner's 33 points.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "30 pts, 6 reb and 11 ast vs GS"
+        "line": "Season-high 33 pts, 7 reb and 7 ast vs SAC"
       },
       "source": "claude"
     }
   },
   "OKC": {
-    "key": "401909941|401909965",
+    "key": "401909965|401909975",
     "result": {
       "abbr": "OKC",
-      "story": "The Thunder are 8-2 and have won 4 straight, the latest a 114-75 win over WSH, with +8 points per game.",
+      "story": "The Thunder are 8-3 but lost 123-103 at POR on Nov 10 after winning four in a row.",
       "player": {
         "name": "Shai Gilgeous-Alexander",
         "pos": "G",
-        "line": "29.9 pts per game; 30 pts and 9 ast vs WSH"
+        "line": "29.5 pts per game; 26 pts and 8 reb vs POR"
       },
       "source": "claude"
     }
   },
   "POR": {
-    "key": "401909944|401909965",
+    "key": "401909965|401909975",
     "result": {
       "abbr": "POR",
-      "story": "The Trail Blazers are 6-3 but have lost 2 straight: 125-103 vs SA and 124-118 at LAL.",
+      "story": "The Trail Blazers are 7-3 and beat OKC 123-103 on Nov 10 after losing two straight.",
       "player": {
         "name": "Deni Avdija",
         "pos": "F",
-        "line": "22.3 pts, 6.4 reb and 6.3 ast per game"
+        "line": "24 pts, 6 reb and 8 ast vs OKC"
       },
       "source": "claude"
     }
@@ -247,14 +247,14 @@
     }
   },
   "UTAH": {
-    "key": "401909947|401909963",
+    "key": "401909963|401909973",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 1-9 and have lost 8 straight, the latest 115-100 at MIN.",
+      "story": "The Jazz are 1-10 on a nine-game skid, and Lauri Markkanen is out at least a month with a fractured hand.",
       "player": {
         "name": "Keyonte George",
         "pos": "G",
-        "line": "21.1 pts and 6.4 ast a game; 19 pts, 8 ast vs MIN"
+        "line": "21.1 pts and 6.4 ast per game over 10 games"
       },
       "source": "claude"
     }
@@ -286,40 +286,40 @@
     }
   },
   "PHX": {
-    "key": "401909958|401909962",
+    "key": "401909962|401909979",
     "result": {
       "abbr": "PHX",
-      "story": "The Suns are 3-6 after losing 122-96 to SA and are being outscored by 8.4 points per game.",
+      "story": "The Suns are 4-6 with a -53 point differential, but beat LAC 133-110 on Nov 10.",
       "player": {
-        "name": "Devin Booker",
+        "name": "Jordan Goodwin",
         "pos": "G",
-        "line": "32 pts vs SA; averaging 26 pts per game"
+        "line": "18 pts, six 3s in return from a calf injury vs LAC"
       },
       "source": "claude"
     }
   },
   "LAC": {
-    "key": "401909950|401909962",
+    "key": "401909962|401909304",
     "result": {
       "abbr": "LAC",
-      "story": "The Clippers are 2-7 after beating NO 139-123 to end a seven-game losing streak.",
+      "story": "The Clippers are 2-8 and 13th in the West, coming off a 133-110 loss at PHX.",
       "player": {
         "name": "Darius Garland",
         "pos": "G",
-        "line": "24 pts and 10 ast vs NO; 21.2 ppg this season"
+        "line": "20.4 pts and 6.9 ast per game"
       },
       "source": "claude"
     }
   },
   "SAC": {
-    "key": "401909951|401909964",
+    "key": "401909964|401909303",
     "result": {
       "abbr": "SAC",
-      "story": "The Kings are 1-9 with a -13.3 point differential per game and have lost three straight.",
+      "story": "The Kings are 1-10 and have lost four straight, the latest 107-100 to ORL.",
       "player": {
         "name": "Darius Acuff Jr.",
         "pos": "G",
-        "line": "32 pts, 5 reb, 10 ast vs MIA; 25.9 ppg in 10 games"
+        "line": "Rookie scoring 26.2 per game; 29 pts vs ORL"
       },
       "source": "claude"
     }

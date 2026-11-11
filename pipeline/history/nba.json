@@ -1,40 +1,40 @@
 {
   "snapshot": {
-    "PHI": {
-      "w": 9,
-      "l": 2,
-      "t": 0,
-      "rank": 10,
-      "heat": "Warm",
-      "place": 1,
-      "division": "East Atlantic",
-      "streak": "W1",
-      "pct": 0.8181818181818182,
-      "seed": 1
-    },
     "BOS": {
-      "w": 8,
+      "w": 9,
       "l": 2,
       "t": 0,
       "rank": 2,
       "heat": "Hot",
-      "place": 2,
+      "place": 1,
       "division": "East Atlantic",
-      "streak": "W3",
-      "pct": 0.8,
-      "seed": 2
+      "streak": "W4",
+      "pct": 0.8181818181818182,
+      "seed": 1
     },
-    "NY": {
-      "w": 5,
-      "l": 4,
+    "PHI": {
+      "w": 9,
+      "l": 3,
       "t": 0,
       "rank": 13,
       "heat": "Warm",
+      "place": 2,
+      "division": "East Atlantic",
+      "streak": "L1",
+      "pct": 0.75,
+      "seed": 2
+    },
+    "NY": {
+      "w": 6,
+      "l": 4,
+      "t": 0,
+      "rank": 10,
+      "heat": "Warm",
       "place": 3,
       "division": "East Atlantic",
-      "streak": "W3",
-      "pct": 0.5555555555555556,
-      "seed": 5
+      "streak": "W4",
+      "pct": 0.6,
+      "seed": 4
     },
     "TOR": {
       "w": 5,
@@ -52,7 +52,7 @@
       "w": 2,
       "l": 8,
       "t": 0,
-      "rank": 25,
+      "rank": 26,
       "heat": "Cool",
       "place": 5,
       "division": "East Atlantic",
@@ -64,7 +64,7 @@
       "w": 7,
       "l": 3,
       "t": 0,
-      "rank": 8,
+      "rank": 7,
       "heat": "Warm",
       "place": 1,
       "division": "East Central",
@@ -88,13 +88,13 @@
       "w": 3,
       "l": 8,
       "t": 0,
-      "rank": 21,
+      "rank": 22,
       "heat": "Cool",
       "place": 3,
       "division": "East Central",
       "streak": "L2",
       "pct": 0.2727272727272727,
-      "seed": 11
+      "seed": 12
     },
     "CHI": {
       "w": 1,
@@ -110,14 +110,14 @@
     },
     "MIL": {
       "w": 1,
-      "l": 9,
+      "l": 10,
       "t": 0,
       "rank": 29,
       "heat": "Cold",
       "place": 5,
       "division": "East Central",
-      "streak": "L6",
-      "pct": 0.1,
+      "streak": "L7",
+      "pct": 0.09090909090909091,
       "seed": 15
     },
     "ATL": {
@@ -130,25 +130,25 @@
       "division": "East Southeast",
       "streak": "L1",
       "pct": 0.5833333333333334,
-      "seed": 4
+      "seed": 5
     },
     "MIA": {
-      "w": 4,
+      "w": 5,
       "l": 6,
       "t": 0,
       "rank": 18,
       "heat": "Steady",
       "place": 2,
       "division": "East Southeast",
-      "streak": "W1",
-      "pct": 0.4,
+      "streak": "W2",
+      "pct": 0.45454545454545453,
       "seed": 8
     },
     "WSH": {
       "w": 4,
       "l": 7,
       "t": 0,
-      "rank": 20,
+      "rank": 21,
       "heat": "Cool",
       "place": 3,
       "division": "East Southeast",
@@ -160,7 +160,7 @@
       "w": 4,
       "l": 7,
       "t": 0,
-      "rank": 24,
+      "rank": 25,
       "heat": "Cool",
       "place": 4,
       "division": "East Southeast",
@@ -169,28 +169,16 @@
       "seed": 10
     },
     "ORL": {
-      "w": 2,
+      "w": 3,
       "l": 7,
       "t": 0,
-      "rank": 26,
-      "heat": "Cold",
+      "rank": 23,
+      "heat": "Cool",
       "place": 5,
       "division": "East Southeast",
-      "streak": "L4",
-      "pct": 0.2222222222222222,
-      "seed": 12
-    },
-    "OKC": {
-      "w": 8,
-      "l": 2,
-      "t": 0,
-      "rank": 6,
-      "heat": "Warm",
-      "place": 1,
-      "division": "West Northwest",
-      "streak": "W4",
-      "pct": 0.8,
-      "seed": 3
+      "streak": "W1",
+      "pct": 0.3,
+      "seed": 11
     },
     "MIN": {
       "w": 8,
@@ -198,22 +186,34 @@
       "t": 0,
       "rank": 3,
       "heat": "Warm",
-      "place": 2,
+      "place": 1,
       "division": "West Northwest",
       "streak": "W4",
       "pct": 0.7272727272727273,
-      "seed": 4
+      "seed": 3
     },
-    "POR": {
-      "w": 6,
+    "OKC": {
+      "w": 8,
       "l": 3,
       "t": 0,
       "rank": 11,
       "heat": "Warm",
+      "place": 2,
+      "division": "West Northwest",
+      "streak": "L1",
+      "pct": 0.7272727272727273,
+      "seed": 6
+    },
+    "POR": {
+      "w": 7,
+      "l": 3,
+      "t": 0,
+      "rank": 9,
+      "heat": "Warm",
       "place": 3,
       "division": "West Northwest",
-      "streak": "L2",
-      "pct": 0.6666666666666666,
+      "streak": "W1",
+      "pct": 0.7,
       "seed": 8
     },
     "DEN": {
@@ -230,21 +230,21 @@
     },
     "UTAH": {
       "w": 1,
-      "l": 9,
+      "l": 10,
       "t": 0,
       "rank": 27,
       "heat": "Cold",
       "place": 5,
       "division": "West Northwest",
-      "streak": "L8",
-      "pct": 0.1,
+      "streak": "L9",
+      "pct": 0.09090909090909091,
       "seed": 14
     },
     "LAL": {
       "w": 10,
       "l": 2,
       "t": 0,
-      "rank": 5,
+      "rank": 4,
       "heat": "Hot",
       "place": 1,
       "division": "West Pacific",
@@ -256,48 +256,48 @@
       "w": 8,
       "l": 3,
       "t": 0,
-      "rank": 4,
+      "rank": 5,
       "heat": "Hot",
       "place": 2,
       "division": "West Pacific",
       "streak": "W8",
       "pct": 0.7272727272727273,
-      "seed": 5
+      "seed": 4
     },
     "PHX": {
-      "w": 3,
+      "w": 4,
       "l": 6,
       "t": 0,
-      "rank": 23,
-      "heat": "Cool",
+      "rank": 19,
+      "heat": "Steady",
       "place": 3,
       "division": "West Pacific",
-      "streak": "L1",
-      "pct": 0.3333333333333333,
-      "seed": 12
+      "streak": "W1",
+      "pct": 0.4,
+      "seed": 11
     },
     "LAC": {
       "w": 2,
-      "l": 7,
+      "l": 8,
       "t": 0,
-      "rank": 22,
+      "rank": 24,
       "heat": "Cool",
       "place": 4,
       "division": "West Pacific",
-      "streak": "W1",
-      "pct": 0.2222222222222222,
+      "streak": "L1",
+      "pct": 0.2,
       "seed": 13
     },
     "SAC": {
       "w": 1,
-      "l": 9,
+      "l": 10,
       "t": 0,
       "rank": 28,
       "heat": "Cold",
       "place": 5,
       "division": "West Pacific",
-      "streak": "L3",
-      "pct": 0.1,
+      "streak": "L4",
+      "pct": 0.09090909090909091,
       "seed": 15
     },
     "SA": {
@@ -316,19 +316,19 @@
       "w": 8,
       "l": 3,
       "t": 0,
-      "rank": 7,
+      "rank": 6,
       "heat": "Warm",
       "place": 2,
       "division": "West Southwest",
       "streak": "W1",
       "pct": 0.7272727272727273,
-      "seed": 6
+      "seed": 5
     },
     "MEM": {
       "w": 7,
       "l": 3,
       "t": 0,
-      "rank": 9,
+      "rank": 8,
       "heat": "Warm",
       "place": 3,
       "division": "West Southwest",
@@ -352,13 +352,13 @@
       "w": 4,
       "l": 7,
       "t": 0,
-      "rank": 19,
+      "rank": 20,
       "heat": "Cool",
       "place": 5,
       "division": "West Southwest",
       "streak": "L3",
       "pct": 0.36363636363636365,
-      "seed": 11
+      "seed": 12
     }
   },
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
@@ -684,34 +684,55 @@
       "kind": "heat",
       "weight": 3,
       "text": "The Warriors are now running hot."
+    },
+    {
+      "at": "2026-11-11T20:12:33.993Z",
+      "abbr": "BOS",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Celtics took over first place in the East Atlantic."
+    },
+    {
+      "at": "2026-11-11T20:12:33.993Z",
+      "abbr": "MIL",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Bucks have lost 7 straight."
+    },
+    {
+      "at": "2026-11-11T20:12:33.993Z",
+      "abbr": "OKC",
+      "kind": "rank",
+      "weight": 3,
+      "text": "The Thunder slid to No. 11 in the power rankings."
     }
   ],
   "recap": {
     "key": "wk-2026-11-09",
     "label": "Week of Nov 9",
-    "at": "2026-11-09T16:51:56.123Z",
+    "at": "2026-11-11T20:12:33.993Z",
     "bullets": [
       {
-        "text": "The Spurs have won eight straight to reach 8-2, taking the West Southwest lead from the Rockets, who have lost two straight.",
+        "text": "The Bucks, Jazz and Kings are each 1-10 and the Bulls are 1-8, leaving four teams already far behind.",
         "teams": [
-          "SA",
-          "HOU"
-        ]
-      },
-      {
-        "text": "The 76ers lead the East Atlantic at 9-2 on a modest +34 point differential, while the Timberwolves own the NBA's best margin at 8-3.",
-        "teams": [
-          "PHI",
-          "MIN"
-        ]
-      },
-      {
-        "text": "Four teams sit at 1-8 or 1-9: the Bulls, Bucks, Jazz and Kings, with the Jazz on an eight-game skid.",
-        "teams": [
-          "CHI",
           "MIL",
           "UTAH",
-          "SAC"
+          "SAC",
+          "CHI"
+        ]
+      },
+      {
+        "text": "The Spurs, Lakers and Warriors are running hot, with the Lakers at 10-2 and the Spurs at 9-2, making the West crowded at the top.",
+        "teams": [
+          "SA",
+          "LAL",
+          "GS"
+        ]
+      },
+      {
+        "text": "The 76ers are 9-3 with only a +12 point differential, and they slid to No. 9 in the power rankings.",
+        "teams": [
+          "PHI"
         ]
       }
     ],
