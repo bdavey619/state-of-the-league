@@ -1,8 +1,15 @@
 {
-  "at": "2026-11-12T02:18:47.907Z",
+  "at": "2026-11-12T13:25:30.997Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 30,
   "recap": "claude",
-  "newChanges": 0,
-  "issues": []
+  "newChanges": 5,
+  "issues": [
+    {
+      "attempt": 1,
+      "problems": [
+        "NY: numbers not in facts: 0"
+      ]
+    }
+  ]
 }
