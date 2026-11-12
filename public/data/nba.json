@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-11T20:12:33.993Z",
+  "updatedAt": "2026-11-12T02:18:47.907Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -509,6 +509,52 @@
         ]
       },
       {
+        "id": "401909298",
+        "kickoff": "2026-11-14T01:00Z",
+        "network": "DAZN CLE",
+        "away": {
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "5-6"
+        },
+        "home": {
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "5-6"
+        },
+        "score": 53,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Mitchell vs Antetokounmpo"
+        ]
+      },
+      {
+        "id": "401909300",
+        "kickoff": "2026-11-14T01:00Z",
+        "network": "GCSEN",
+        "away": {
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "7-3"
+        },
+        "home": {
+          "abbr": "NO",
+          "name": "Pelicans",
+          "color": "#0C2340",
+          "rec": "4-7"
+        },
+        "score": 53,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Jerome vs Williamson"
+        ]
+      },
+      {
         "id": "401909970",
         "kickoff": "2026-11-12T01:00Z",
         "network": "",
@@ -573,52 +619,6 @@
         "reasons": [
           "Lakers have won 6 straight",
           "Luka Doncic"
-        ]
-      },
-      {
-        "id": "401909977",
-        "kickoff": "2026-11-13T00:00Z",
-        "network": "MNMT",
-        "away": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "7-3"
-        },
-        "home": {
-          "abbr": "WSH",
-          "name": "Wizards",
-          "color": "#002B5C",
-          "rec": "4-7"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Cunningham vs Davis"
-        ]
-      },
-      {
-        "id": "401909969",
-        "kickoff": "2026-11-12T01:00Z",
-        "network": "DAZN SAS",
-        "away": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "9-2"
-        },
-        "home": {
-          "abbr": "CHI",
-          "name": "Bulls",
-          "color": "#CE1141",
-          "rec": "1-8"
-        },
-        "score": 39,
-        "tier": "other",
-        "reasons": [
-          "Spurs have won 9 straight",
-          "Victor Wembanyama"
         ]
       }
     ]
