@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-12T20:49:28.660Z",
+  "updatedAt": "2026-11-13T01:56:12.828Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -473,6 +473,29 @@
         ]
       },
       {
+        "id": "401909981",
+        "kickoff": "2026-11-15T00:30Z",
+        "network": "KFAA-TV",
+        "away": {
+          "abbr": "DAL",
+          "name": "Mavericks",
+          "color": "#00538C",
+          "rec": "7-4"
+        },
+        "home": {
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "6-6"
+        },
+        "score": 58,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Flagg vs Mitchell"
+        ]
+      },
+      {
         "id": "401909978",
         "kickoff": "2026-11-13T01:00Z",
         "network": "NBA TV",
@@ -542,6 +565,52 @@
         ]
       },
       {
+        "id": "401909982",
+        "kickoff": "2026-11-15T01:00Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "DET",
+          "name": "Pistons",
+          "color": "#C8102E",
+          "rec": "7-3"
+        },
+        "home": {
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "5-6"
+        },
+        "score": 51,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Cunningham vs Antetokounmpo"
+        ]
+      },
+      {
+        "id": "401909980",
+        "kickoff": "2026-11-15T00:00Z",
+        "network": "GCSEN",
+        "away": {
+          "abbr": "DEN",
+          "name": "Nuggets",
+          "color": "#0E2240",
+          "rec": "6-4"
+        },
+        "home": {
+          "abbr": "NO",
+          "name": "Pelicans",
+          "color": "#0C2340",
+          "rec": "4-8"
+        },
+        "score": 48,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Jokic vs Williamson"
+        ]
+      },
+      {
         "id": "401909300",
         "kickoff": "2026-11-14T01:00Z",
         "network": "GCSEN",
@@ -585,73 +654,6 @@
         "reasons": [
           "Should be close",
           "Cunningham vs Davis"
-        ]
-      },
-      {
-        "id": "401909304",
-        "kickoff": "2026-11-14T03:30Z",
-        "network": "KSBI",
-        "away": {
-          "abbr": "OKC",
-          "name": "Thunder",
-          "color": "#007AC1",
-          "rec": "8-4"
-        },
-        "home": {
-          "abbr": "LAC",
-          "name": "Clippers",
-          "color": "#C8102E",
-          "rec": "2-8"
-        },
-        "score": 41,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Shai Gilgeous-Alexander"
-        ]
-      },
-      {
-        "id": "401909303",
-        "kickoff": "2026-11-14T03:00Z",
-        "network": "KUNP 16",
-        "away": {
-          "abbr": "POR",
-          "name": "Trail Blazers",
-          "color": "#E03A3E",
-          "rec": "8-3"
-        },
-        "home": {
-          "abbr": "SAC",
-          "name": "Kings",
-          "color": "#5A2D81",
-          "rec": "1-10"
-        },
-        "score": 30,
-        "tier": "other",
-        "reasons": [
-          "Deni Avdija"
-        ]
-      },
-      {
-        "id": "401909979",
-        "kickoff": "2026-11-13T02:00Z",
-        "network": "Suns Live",
-        "away": {
-          "abbr": "CHA",
-          "name": "Hornets",
-          "color": "#00788C",
-          "rec": "4-7"
-        },
-        "home": {
-          "abbr": "PHX",
-          "name": "Suns",
-          "color": "#E56020",
-          "rec": "4-6"
-        },
-        "score": 28,
-        "tier": "other",
-        "reasons": [
-          "Devin Booker"
         ]
       }
     ]
