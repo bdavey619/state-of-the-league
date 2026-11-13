@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-13T13:39:46.335Z",
+  "updatedAt": "2026-11-13T20:29:39.427Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -616,6 +616,28 @@
         ]
       },
       {
+        "id": "401909985",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "DAZN IND",
+        "away": {
+          "abbr": "IND",
+          "name": "Pacers",
+          "color": "#FDBB30",
+          "rec": "4-8"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "76ers",
+          "color": "#006BB6",
+          "rec": "10-3"
+        },
+        "score": 45,
+        "tier": "other",
+        "reasons": [
+          "Siakam vs Maxey"
+        ]
+      },
+      {
         "id": "401909304",
         "kickoff": "2026-11-14T03:30Z",
         "network": "KSBI",
@@ -658,28 +680,6 @@
         "tier": "other",
         "reasons": [
           "Ty Jerome"
-        ]
-      },
-      {
-        "id": "401909303",
-        "kickoff": "2026-11-14T03:00Z",
-        "network": "KUNP 16",
-        "away": {
-          "abbr": "POR",
-          "name": "Trail Blazers",
-          "color": "#E03A3E",
-          "rec": "8-3"
-        },
-        "home": {
-          "abbr": "SAC",
-          "name": "Kings",
-          "color": "#5A2D81",
-          "rec": "1-10"
-        },
-        "score": 30,
-        "tier": "other",
-        "reasons": [
-          "Deni Avdija"
         ]
       }
     ]
