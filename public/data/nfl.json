@@ -4,13 +4,13 @@
   "seasonLabel": "2026",
   "week": 10,
   "badge": "WK 10",
-  "kicker": "Week 10 · through Mon, Nov 9",
-  "throughLabel": "through Mon, Nov 9",
+  "kicker": "Week 10 · through Thu, Nov 12",
+  "throughLabel": "through Thu, Nov 12",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-13T01:56:11.148Z",
+  "updatedAt": "2026-11-13T13:39:32.586Z",
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
@@ -279,6 +279,28 @@
         ]
       },
       {
+        "id": "401873060",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "MIN",
+          "name": "Vikings",
+          "color": "#4F2683",
+          "rec": "6-2"
+        },
+        "home": {
+          "abbr": "GB",
+          "name": "Packers",
+          "color": "#203731",
+          "rec": "6-3"
+        },
+        "score": 63,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip"
+        ]
+      },
+      {
         "id": "401873053",
         "kickoff": "2026-11-15T14:30Z",
         "network": "Fox",
@@ -299,28 +321,6 @@
         "reasons": [
           "Should be close",
           "Lions have won 4 straight"
-        ]
-      },
-      {
-        "id": "401873060",
-        "kickoff": "2026-11-15T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "MIN",
-          "name": "Vikings",
-          "color": "#4F2683",
-          "rec": "6-2"
-        },
-        "home": {
-          "abbr": "GB",
-          "name": "Packers",
-          "color": "#203731",
-          "rec": "6-3"
-        },
-        "score": 62,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip"
         ]
       },
       {
@@ -414,28 +414,6 @@
         ]
       },
       {
-        "id": "401873052",
-        "kickoff": "2026-11-13T01:15Z",
-        "network": "Prime Video",
-        "away": {
-          "abbr": "WSH",
-          "name": "Commanders",
-          "color": "#5A1414",
-          "rec": "2-5-1"
-        },
-        "home": {
-          "abbr": "NYG",
-          "name": "Giants",
-          "color": "#0B2265",
-          "rec": "5-2-1"
-        },
-        "score": 50,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
-        ]
-      },
-      {
         "id": "401873056",
         "kickoff": "2026-11-15T18:00Z",
         "network": "Fox",
@@ -451,7 +429,7 @@
           "color": "#FF3C00",
           "rec": "5-4"
         },
-        "score": 47,
+        "score": 46,
         "tier": "other",
         "reasons": [
           "Projected coin flip"
@@ -478,6 +456,26 @@
         "reasons": [
           "Should be close"
         ]
+      },
+      {
+        "id": "401873057",
+        "kickoff": "2026-11-15T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "JAX",
+          "name": "Jaguars",
+          "color": "#006778",
+          "rec": "6-2"
+        },
+        "home": {
+          "abbr": "TEN",
+          "name": "Titans",
+          "color": "#4B92DB",
+          "rec": "1-7"
+        },
+        "score": 44,
+        "tier": "other",
+        "reasons": []
       }
     ]
   },
@@ -806,7 +804,7 @@
               "t": 0,
               "pf": 161,
               "pa": 196,
-              "rank": 19,
+              "rank": 20,
               "heat": "Cool",
               "last3": [
                 {
@@ -1216,7 +1214,7 @@
               "t": 0,
               "pf": 238,
               "pa": 268,
-              "rank": 21,
+              "rank": 22,
               "heat": "Cool",
               "last3": [
                 {
@@ -1321,21 +1319,13 @@
               "name": "Giants",
               "color": "#0B2265",
               "w": 5,
-              "l": 2,
+              "l": 3,
               "t": 1,
-              "pf": 182,
-              "pa": 172,
-              "rank": 12,
-              "heat": "Warm",
+              "pf": 203,
+              "pa": 196,
+              "rank": 14,
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 27,
-                  "against": 21,
-                  "opp": "HOU",
-                  "home": false
-                },
                 {
                   "week": 8,
                   "result": "BYE"
@@ -1347,19 +1337,27 @@
                   "against": 11,
                   "opp": "PHI",
                   "home": false
+                },
+                {
+                  "week": 10,
+                  "result": "L",
+                  "for": 21,
+                  "against": 24,
+                  "opp": "WSH",
+                  "home": true
                 }
               ],
-              "story": "The Giants are 5-2-1 and lead the NFC East despite a +10 point differential, winning 19-11 at PHI.",
+              "story": "The Giants lost 24-21 to WSH on a late TD drive, and their NFC East lead at 5-3-1 is shrinking.",
               "player": {
-                "name": "Malik Nabers",
-                "pos": "WR",
-                "line": "7 catches, 111 yds vs HOU in Week 7"
+                "name": "Isaiah Likely",
+                "pos": "TE",
+                "line": "9 catches, 127 yds and a TD vs WSH"
               },
               "next": {
-                "opp": "WSH",
+                "opp": "JAX",
                 "home": true,
-                "kickoff": "2026-11-13T01:15Z",
-                "network": "Prime Video"
+                "kickoff": "2026-11-22T21:25Z",
+                "network": "CBS"
               }
             },
             {
@@ -1418,18 +1416,14 @@
               "city": "Washington",
               "name": "Commanders",
               "color": "#5A1414",
-              "w": 2,
+              "w": 3,
               "l": 5,
               "t": 1,
-              "pf": 172,
-              "pa": 202,
-              "rank": 22,
-              "heat": "Steady",
+              "pf": 196,
+              "pa": 223,
+              "rank": 19,
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 7,
-                  "result": "BYE"
-                },
                 {
                   "week": 8,
                   "result": "W",
@@ -1445,19 +1439,27 @@
                   "against": 20,
                   "opp": "LAR",
                   "home": true
+                },
+                {
+                  "week": 10,
+                  "result": "W",
+                  "for": 24,
+                  "against": 21,
+                  "opp": "NYG",
+                  "home": false
                 }
               ],
-              "story": "The Commanders are 2-5-1 and lost 20-13 to LAR in Week 9, a week after beating PHI 27-10.",
+              "story": "The Commanders are 3-5-1 but beat NYG 24-21 on a Jayden Daniels game-winning drive.",
               "player": {
                 "name": "Jayden Daniels",
                 "pos": "QB",
-                "line": "24/35, 274 yds and a TD vs LAR"
+                "line": "Game-winning drive vs NYG after two INTs"
               },
               "next": {
-                "opp": "NYG",
-                "home": false,
-                "kickoff": "2026-11-13T01:15Z",
-                "network": "Prime Video"
+                "opp": "CIN",
+                "home": true,
+                "kickoff": "2026-11-24T01:15Z",
+                "network": "ESPN"
               }
             },
             {
@@ -1628,7 +1630,7 @@
               "t": 0,
               "pf": 146,
               "pa": 116,
-              "rank": 14,
+              "rank": 13,
               "heat": "Cool",
               "last3": [
                 {
@@ -1786,7 +1788,7 @@
               "t": 0,
               "pf": 185,
               "pa": 216,
-              "rank": 20,
+              "rank": 21,
               "heat": "Steady",
               "last3": [
                 {
@@ -1987,7 +1989,7 @@
               "t": 0,
               "pf": 202,
               "pa": 162,
-              "rank": 13,
+              "rank": 12,
               "heat": "Warm",
               "last3": [
                 {

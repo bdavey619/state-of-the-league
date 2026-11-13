@@ -208,14 +208,14 @@
     }
   },
   "NYG": {
-    "key": "401873044|401873052",
+    "key": "401873052|401873069",
     "result": {
       "abbr": "NYG",
-      "story": "The Giants are 5-2-1 and lead the NFC East despite a +10 point differential, winning 19-11 at PHI.",
+      "story": "The Giants lost 24-21 to WSH on a late TD drive, and their NFC East lead at 5-3-1 is shrinking.",
       "player": {
-        "name": "Malik Nabers",
-        "pos": "WR",
-        "line": "7 catches, 111 yds vs HOU in Week 7"
+        "name": "Isaiah Likely",
+        "pos": "TE",
+        "line": "9 catches, 127 yds and a TD vs WSH"
       },
       "source": "claude"
     }
@@ -234,14 +234,14 @@
     }
   },
   "WSH": {
-    "key": "401873043|401873052",
+    "key": "401873052|401873078",
     "result": {
       "abbr": "WSH",
-      "story": "The Commanders are 2-5-1 and lost 20-13 to LAR in Week 9, a week after beating PHI 27-10.",
+      "story": "The Commanders are 3-5-1 but beat NYG 24-21 on a Jayden Daniels game-winning drive.",
       "player": {
         "name": "Jayden Daniels",
         "pos": "QB",
-        "line": "24/35, 274 yds and a TD vs LAR"
+        "line": "Game-winning drive vs NYG after two INTs"
       },
       "source": "claude"
     }

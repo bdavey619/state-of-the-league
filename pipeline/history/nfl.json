@@ -76,7 +76,7 @@
       "w": 5,
       "l": 4,
       "t": 0,
-      "rank": 19,
+      "rank": 20,
       "heat": "Cool",
       "place": 3,
       "division": "AFC North",
@@ -172,7 +172,7 @@
       "w": 4,
       "l": 5,
       "t": 0,
-      "rank": 21,
+      "rank": 22,
       "heat": "Cool",
       "place": 3,
       "division": "AFC West",
@@ -194,15 +194,15 @@
     },
     "NYG": {
       "w": 5,
-      "l": 2,
+      "l": 3,
       "t": 1,
-      "rank": 12,
-      "heat": "Warm",
+      "rank": 14,
+      "heat": "Steady",
       "place": 1,
       "division": "NFC East",
-      "streak": "W2",
-      "pct": 0.6875,
-      "seed": 5
+      "streak": "L1",
+      "pct": 0.6111111111111112,
+      "seed": 6
     },
     "DAL": {
       "w": 4,
@@ -217,16 +217,16 @@
       "seed": 9
     },
     "WSH": {
-      "w": 2,
+      "w": 3,
       "l": 5,
       "t": 1,
-      "rank": 22,
-      "heat": "Steady",
+      "rank": 19,
+      "heat": "Warm",
       "place": 3,
       "division": "NFC East",
-      "streak": "L1",
-      "pct": 0.3125,
-      "seed": 15
+      "streak": "W1",
+      "pct": 0.3888888888888889,
+      "seed": 10
     },
     "PHI": {
       "w": 2,
@@ -268,7 +268,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 14,
+      "rank": 13,
       "heat": "Cool",
       "place": 3,
       "division": "NFC North",
@@ -286,7 +286,7 @@
       "division": "NFC North",
       "streak": "W2",
       "pct": 0.6666666666666666,
-      "seed": 6
+      "seed": 5
     },
     "CAR": {
       "w": 3,
@@ -298,19 +298,19 @@
       "division": "NFC South",
       "streak": "L3",
       "pct": 0.375,
-      "seed": 10
+      "seed": 11
     },
     "NO": {
       "w": 3,
       "l": 5,
       "t": 0,
-      "rank": 20,
+      "rank": 21,
       "heat": "Steady",
       "place": 2,
       "division": "NFC South",
       "streak": "W1",
       "pct": 0.375,
-      "seed": 11
+      "seed": 12
     },
     "TB": {
       "w": 3,
@@ -322,7 +322,7 @@
       "division": "NFC South",
       "streak": "L1",
       "pct": 0.3333333333333333,
-      "seed": 12
+      "seed": 13
     },
     "ATL": {
       "w": 3,
@@ -334,7 +334,7 @@
       "division": "NFC South",
       "streak": "L2",
       "pct": 0.3333333333333333,
-      "seed": 13
+      "seed": 14
     },
     "SF": {
       "w": 7,
@@ -352,7 +352,7 @@
       "w": 5,
       "l": 4,
       "t": 0,
-      "rank": 13,
+      "rank": 12,
       "heat": "Warm",
       "place": 2,
       "division": "NFC West",
@@ -382,7 +382,7 @@
       "division": "NFC West",
       "streak": "L1",
       "pct": 0.3333333333333333,
-      "seed": 14
+      "seed": 15
     }
   },
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",

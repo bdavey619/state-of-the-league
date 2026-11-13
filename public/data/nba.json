@@ -4,16 +4,44 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Wed, Nov 11",
-  "throughLabel": "through Wed, Nov 11",
+  "kicker": "2026-27 · through Thu, Nov 12",
+  "throughLabel": "through Thu, Nov 12",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-13T01:56:12.828Z",
+  "updatedAt": "2026-11-13T13:39:46.335Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-13T13:39:46.335Z",
+      "abbr": "WSH",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Wizards have gone cold."
+    },
+    {
+      "at": "2026-11-13T13:39:46.335Z",
+      "abbr": "MIN",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Timberwolves are now running hot."
+    },
+    {
+      "at": "2026-11-13T13:39:46.335Z",
+      "abbr": "DAL",
+      "kind": "rank",
+      "weight": 3,
+      "text": "The Mavericks slid to No. 15 in the power rankings."
+    },
+    {
+      "at": "2026-11-13T13:39:46.335Z",
+      "abbr": "MIN",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Timberwolves have won 5 straight."
+    },
     {
       "at": "2026-11-12T13:25:30.997Z",
       "abbr": "WSH",
@@ -450,72 +478,26 @@
         ]
       },
       {
-        "id": "401909976",
-        "kickoff": "2026-11-13T00:00Z",
-        "network": "",
-        "away": {
-          "abbr": "TOR",
-          "name": "Raptors",
-          "color": "#CE1141",
-          "rec": "5-6"
-        },
-        "home": {
-          "abbr": "PHI",
-          "name": "76ers",
-          "color": "#006BB6",
-          "rec": "9-3"
-        },
-        "score": 58,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Barnes vs Maxey"
-        ]
-      },
-      {
-        "id": "401909981",
-        "kickoff": "2026-11-15T00:30Z",
-        "network": "KFAA-TV",
-        "away": {
-          "abbr": "DAL",
-          "name": "Mavericks",
-          "color": "#00538C",
-          "rec": "7-4"
-        },
-        "home": {
-          "abbr": "CLE",
-          "name": "Cavaliers",
-          "color": "#860038",
-          "rec": "6-6"
-        },
-        "score": 58,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Flagg vs Mitchell"
-        ]
-      },
-      {
-        "id": "401909978",
-        "kickoff": "2026-11-13T01:00Z",
+        "id": "401909982",
+        "kickoff": "2026-11-15T01:00Z",
         "network": "NBA TV",
         "away": {
-          "abbr": "DAL",
-          "name": "Mavericks",
-          "color": "#00538C",
-          "rec": "7-4"
-        },
-        "home": {
-          "abbr": "MIN",
-          "name": "Timberwolves",
-          "color": "#236192",
+          "abbr": "DET",
+          "name": "Pistons",
+          "color": "#C8102E",
           "rec": "8-3"
         },
-        "score": 56,
+        "home": {
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "5-6"
+        },
+        "score": 53,
         "tier": "other",
         "reasons": [
-          "Two winning teams",
-          "Cooper Flagg"
+          "Should be close",
+          "Cunningham vs Antetokounmpo"
         ]
       },
       {
@@ -534,7 +516,7 @@
           "color": "#FDBB30",
           "rec": "4-8"
         },
-        "score": 51,
+        "score": 50,
         "tier": "other",
         "reasons": [
           "Should be close",
@@ -557,34 +539,11 @@
           "color": "#98002E",
           "rec": "5-6"
         },
-        "score": 51,
+        "score": 50,
         "tier": "other",
         "reasons": [
           "Projected coin flip",
           "Mitchell vs Antetokounmpo"
-        ]
-      },
-      {
-        "id": "401909982",
-        "kickoff": "2026-11-15T01:00Z",
-        "network": "NBA TV",
-        "away": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "7-3"
-        },
-        "home": {
-          "abbr": "MIA",
-          "name": "Heat",
-          "color": "#98002E",
-          "rec": "5-6"
-        },
-        "score": 51,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Cunningham vs Antetokounmpo"
         ]
       },
       {
@@ -603,11 +562,34 @@
           "color": "#0C2340",
           "rec": "4-8"
         },
-        "score": 48,
+        "score": 49,
         "tier": "other",
         "reasons": [
           "Projected coin flip",
           "Jokic vs Williamson"
+        ]
+      },
+      {
+        "id": "401909981",
+        "kickoff": "2026-11-15T00:30Z",
+        "network": "KFAA-TV",
+        "away": {
+          "abbr": "DAL",
+          "name": "Mavericks",
+          "color": "#00538C",
+          "rec": "7-5"
+        },
+        "home": {
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "6-6"
+        },
+        "score": 48,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Flagg vs Mitchell"
         ]
       },
       {
@@ -626,7 +608,7 @@
           "color": "#0C2340",
           "rec": "4-8"
         },
-        "score": 46,
+        "score": 47,
         "tier": "other",
         "reasons": [
           "Should be close",
@@ -634,26 +616,70 @@
         ]
       },
       {
-        "id": "401909977",
-        "kickoff": "2026-11-13T00:00Z",
-        "network": "MNMT",
+        "id": "401909304",
+        "kickoff": "2026-11-14T03:30Z",
+        "network": "KSBI",
         "away": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "7-3"
+          "abbr": "OKC",
+          "name": "Thunder",
+          "color": "#007AC1",
+          "rec": "8-4"
         },
         "home": {
-          "abbr": "WSH",
-          "name": "Wizards",
-          "color": "#002B5C",
-          "rec": "4-8"
+          "abbr": "LAC",
+          "name": "Clippers",
+          "color": "#C8102E",
+          "rec": "2-8"
         },
-        "score": 42,
+        "score": 41,
         "tier": "other",
         "reasons": [
           "Should be close",
-          "Cunningham vs Davis"
+          "Shai Gilgeous-Alexander"
+        ]
+      },
+      {
+        "id": "401909983",
+        "kickoff": "2026-11-15T01:00Z",
+        "network": "DAZN (YES)",
+        "away": {
+          "abbr": "BKN",
+          "name": "Nets",
+          "color": "#000000",
+          "rec": "3-8"
+        },
+        "home": {
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "7-4"
+        },
+        "score": 31,
+        "tier": "other",
+        "reasons": [
+          "Ty Jerome"
+        ]
+      },
+      {
+        "id": "401909303",
+        "kickoff": "2026-11-14T03:00Z",
+        "network": "KUNP 16",
+        "away": {
+          "abbr": "POR",
+          "name": "Trail Blazers",
+          "color": "#E03A3E",
+          "rec": "8-3"
+        },
+        "home": {
+          "abbr": "SAC",
+          "name": "Kings",
+          "color": "#5A2D81",
+          "rec": "1-10"
+        },
+        "score": 30,
+        "tier": "other",
+        "reasons": [
+          "Deni Avdija"
         ]
       }
     ]
@@ -726,19 +752,6 @@
     },
     {
       "rank": 6,
-      "name": "Cooper Flagg",
-      "pos": "F",
-      "team": "DAL",
-      "gp": 10,
-      "ppg": 25.9,
-      "rpg": 6.9,
-      "apg": 6.9,
-      "ts": 61.2,
-      "gs": 22.5,
-      "trend": "flat"
-    },
-    {
-      "rank": 7,
       "name": "Jamal Murray",
       "pos": "G",
       "team": "DEN",
@@ -751,7 +764,33 @@
       "trend": "flat"
     },
     {
+      "rank": 7,
+      "name": "Cooper Flagg",
+      "pos": "F",
+      "team": "DAL",
+      "gp": 11,
+      "ppg": 24.6,
+      "rpg": 6.9,
+      "apg": 6.5,
+      "ts": 60.3,
+      "gs": 21.3,
+      "trend": "flat"
+    },
+    {
       "rank": 8,
+      "name": "Tyrese Maxey",
+      "pos": "G",
+      "team": "PHI",
+      "gp": 13,
+      "ppg": 26.7,
+      "rpg": 3.4,
+      "apg": 5.5,
+      "ts": 62.8,
+      "gs": 21,
+      "trend": "flat"
+    },
+    {
+      "rank": 9,
       "name": "Shai Gilgeous-Alexander",
       "pos": "G",
       "team": "OKC",
@@ -764,20 +803,33 @@
       "trend": "flat"
     },
     {
-      "rank": 9,
-      "name": "Tyrese Maxey",
+      "rank": 10,
+      "name": "Cade Cunningham",
       "pos": "G",
-      "team": "PHI",
-      "gp": 12,
-      "ppg": 26.7,
-      "rpg": 3.5,
-      "apg": 5.3,
-      "ts": 62,
-      "gs": 20.5,
-      "trend": "flat"
+      "team": "DET",
+      "gp": 11,
+      "ppg": 25,
+      "rpg": 5.2,
+      "apg": 7.9,
+      "ts": 59.8,
+      "gs": 20.6,
+      "trend": "up"
     },
     {
-      "rank": 10,
+      "rank": 11,
+      "name": "Anthony Davis",
+      "pos": "F",
+      "team": "WSH",
+      "gp": 11,
+      "ppg": 25.6,
+      "rpg": 10.5,
+      "apg": 2,
+      "ts": 59.6,
+      "gs": 20.5,
+      "trend": "up"
+    },
+    {
+      "rank": 12,
       "name": "Jayson Tatum",
       "pos": "F",
       "team": "BOS",
@@ -790,20 +842,7 @@
       "trend": "flat"
     },
     {
-      "rank": 11,
-      "name": "Anthony Davis",
-      "pos": "F",
-      "team": "WSH",
-      "gp": 10,
-      "ppg": 25.2,
-      "rpg": 10,
-      "apg": 1.8,
-      "ts": 58.9,
-      "gs": 20,
-      "trend": "up"
-    },
-    {
-      "rank": 12,
+      "rank": 13,
       "name": "Alperen Sengun",
       "pos": "C",
       "team": "HOU",
@@ -816,7 +855,7 @@
       "trend": "flat"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Ty Jerome",
       "pos": "G",
       "team": "MEM",
@@ -829,7 +868,7 @@
       "trend": "flat"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Zion Williamson",
       "pos": "F",
       "team": "NO",
@@ -839,19 +878,6 @@
       "apg": 2.6,
       "ts": 69.1,
       "gs": 18.8,
-      "trend": "flat"
-    },
-    {
-      "rank": 15,
-      "name": "Karl-Anthony Towns",
-      "pos": "C",
-      "team": "NY",
-      "gp": 11,
-      "ppg": 20.9,
-      "rpg": 13.5,
-      "apg": 3.5,
-      "ts": 65.9,
-      "gs": 18.5,
       "trend": "flat"
     }
   ],
@@ -909,12 +935,12 @@
               "city": "Philadelphia",
               "name": "76ers",
               "color": "#006BB6",
-              "w": 9,
+              "w": 10,
               "l": 3,
               "t": 0,
-              "pf": 1322,
-              "pa": 1310,
-              "rank": 13,
+              "pf": 1445,
+              "pa": 1422,
+              "rank": 11,
               "heat": "Warm",
               "seed": 2,
               "form": "7-3",
@@ -930,19 +956,20 @@
                 7,
                 6,
                 7,
-                6
+                6,
+                7
               ],
-              "story": "The 76ers are 9-3 with only a +12 point differential, and lost 123-101 to BOS on Nov 10.",
+              "story": "The 76ers are 10-3 but only +23 in point differential, and they beat TOR 123-112 without LeBron James.",
               "player": {
                 "name": "Tyrese Maxey",
                 "pos": "G",
-                "line": "26.7 pts per game; 24 pts vs BOS"
+                "line": "26.7 pts a game; 27 pts and 8 ast vs TOR"
               },
               "next": {
-                "opp": "TOR",
+                "opp": "IND",
                 "home": true,
-                "kickoff": "2026-11-13T00:00Z",
-                "network": ""
+                "kickoff": "2026-11-15T18:00Z",
+                "network": "DAZN IND"
               }
             },
             {
@@ -991,14 +1018,14 @@
               "name": "Raptors",
               "color": "#CE1141",
               "w": 5,
-              "l": 6,
+              "l": 7,
               "t": 0,
-              "pf": 1259,
-              "pa": 1231,
+              "pf": 1371,
+              "pa": 1354,
               "rank": 17,
               "heat": "Cool",
-              "seed": 7,
-              "form": "4-6",
+              "seed": 8,
+              "form": "3-7",
               "trend": [
                 1,
                 2,
@@ -1010,18 +1037,19 @@
                 0,
                 1,
                 0,
-                -1
+                -1,
+                -2
               ],
-              "story": "The Raptors are 5-6 and have lost 2 straight, the latest 98-93 to BOS, who erased a 22-point deficit.",
+              "story": "The Raptors are 5-7 on a three-game skid, but their +17 point differential is better than that record.",
               "player": {
-                "name": "Scottie Barnes",
+                "name": "RJ Barrett",
                 "pos": "F",
-                "line": "23.5 pts, 7.6 reb, 5.1 ast in 8 games"
+                "line": "31 pts and 14 reb at PHI; 21.3 pts a game"
               },
               "next": {
-                "opp": "PHI",
-                "home": false,
-                "kickoff": "2026-11-13T00:00Z",
+                "opp": "NY",
+                "home": true,
+                "kickoff": "2026-11-15T23:00Z",
                 "network": ""
               }
             },
@@ -1075,11 +1103,11 @@
               "city": "Detroit",
               "name": "Pistons",
               "color": "#C8102E",
-              "w": 7,
+              "w": 8,
               "l": 3,
               "t": 0,
-              "pf": 1127,
-              "pa": 1046,
+              "pf": 1271,
+              "pa": 1186,
               "rank": 7,
               "heat": "Warm",
               "seed": 3,
@@ -1094,19 +1122,20 @@
                 5,
                 4,
                 3,
-                4
+                4,
+                5
               ],
-              "story": "The Pistons are 7-3 and third in the East with a +8.1 per-game margin, though it is only 10 games.",
+              "story": "The Pistons are 8-3 with a +7.7 point differential and won 144-140 at WSH in double overtime.",
               "player": {
                 "name": "Cade Cunningham",
                 "pos": "G",
-                "line": "22.3 pts and 7.6 ast per game over 10 games"
+                "line": "52 pts, 11 ast and no turnovers vs WSH"
               },
               "next": {
-                "opp": "WSH",
+                "opp": "MIA",
                 "home": false,
-                "kickoff": "2026-11-13T00:00Z",
-                "network": "MNMT"
+                "kickoff": "2026-11-15T01:00Z",
+                "network": "NBA TV"
               }
             },
             {
@@ -1160,9 +1189,9 @@
               "t": 0,
               "pf": 1339,
               "pa": 1368,
-              "rank": 19,
+              "rank": 20,
               "heat": "Cool",
-              "seed": 11,
+              "seed": 10,
               "form": "3-7",
               "trend": [
                 1,
@@ -1286,7 +1315,7 @@
               "t": 0,
               "pf": 1419,
               "pa": 1394,
-              "rank": 15,
+              "rank": 14,
               "heat": "Steady",
               "seed": 4,
               "form": "5-5",
@@ -1327,9 +1356,9 @@
               "t": 0,
               "pf": 1273,
               "pa": 1320,
-              "rank": 18,
+              "rank": 19,
               "heat": "Steady",
-              "seed": 8,
+              "seed": 7,
               "form": "5-5",
               "trend": [
                 -1,
@@ -1403,13 +1432,13 @@
               "name": "Hornets",
               "color": "#00788C",
               "w": 4,
-              "l": 7,
+              "l": 8,
               "t": 0,
-              "pf": 1087,
-              "pa": 1214,
+              "pf": 1183,
+              "pa": 1315,
               "rank": 26,
               "heat": "Cool",
-              "seed": 10,
+              "seed": 11,
               "form": "3-7",
               "trend": [
                 1,
@@ -1422,19 +1451,20 @@
                 -2,
                 -3,
                 -4,
-                -3
+                -3,
+                -4
               ],
-              "story": "The Hornets are 4-7 with a -127 point differential and just ended a 6-game skid by beating CLE 124-112.",
+              "story": "The Hornets are 4-8 with a -132 point differential, and just lost 101-96 at PHX.",
               "player": {
-                "name": "Naz Reid",
-                "pos": "C",
-                "line": "25 pts and 13 reb vs CLE in the win"
+                "name": "Brandon Miller",
+                "pos": "F",
+                "line": "20.6 pts per game over 10 games"
               },
               "next": {
-                "opp": "PHX",
+                "opp": "LAC",
                 "home": false,
-                "kickoff": "2026-11-13T02:00Z",
-                "network": "Suns Live"
+                "kickoff": "2026-11-15T21:30Z",
+                "network": "ClipperVision"
               }
             },
             {
@@ -1443,14 +1473,14 @@
               "name": "Wizards",
               "color": "#002B5C",
               "w": 4,
-              "l": 8,
+              "l": 9,
               "t": 0,
-              "pf": 1290,
-              "pa": 1361,
-              "rank": 23,
-              "heat": "Cool",
+              "pf": 1430,
+              "pa": 1505,
+              "rank": 24,
+              "heat": "Cold",
               "seed": 12,
-              "form": "3-7",
+              "form": "2-8",
               "trend": [
                 1,
                 0,
@@ -1463,18 +1493,19 @@
                 -1,
                 -2,
                 -3,
-                -4
+                -4,
+                -5
               ],
-              "story": "The Wizards are 4-8 and have lost 5 straight, the latest 114-101 at IND.",
+              "story": "The Wizards are 4-9 and have lost six straight, the latest 144-140 to DET in double overtime.",
               "player": {
-                "name": "Anthony Davis",
-                "pos": "F",
-                "line": "25.2 pts, 10 reb per game; 21 pts, 13 reb vs IND"
+                "name": "Trae Young",
+                "pos": "G",
+                "line": "37 pts and 14 ast vs DET"
               },
               "next": {
-                "opp": "DET",
+                "opp": "HOU",
                 "home": true,
-                "kickoff": "2026-11-13T00:00Z",
+                "kickoff": "2026-11-16T00:00Z",
                 "network": "MNMT"
               }
             }
@@ -1494,14 +1525,14 @@
               "city": "Minnesota",
               "name": "Timberwolves",
               "color": "#236192",
-              "w": 8,
+              "w": 9,
               "l": 3,
               "t": 0,
-              "pf": 1299,
-              "pa": 1177,
-              "rank": 4,
-              "heat": "Warm",
-              "seed": 4,
+              "pf": 1432,
+              "pa": 1271,
+              "rank": 3,
+              "heat": "Hot",
+              "seed": 3,
               "form": "7-3",
               "trend": [
                 1,
@@ -1514,19 +1545,20 @@
                 2,
                 3,
                 4,
-                5
+                5,
+                6
               ],
-              "story": "The Timberwolves are 8-3 with the NBA's best point differential, +11.1 a game, and 4 straight wins.",
+              "story": "The Timberwolves are 9-3 and have won 5 straight, with the NBA's best margin at +13.4 per game.",
               "player": {
-                "name": "Anthony Edwards",
+                "name": "LaMelo Ball",
                 "pos": "G",
-                "line": "33.3 pts a game in 4 games; 47 pts vs CLE"
+                "line": "22 pts, 9 ast and six 3s in 133-94 win vs DAL"
               },
               "next": {
-                "opp": "DAL",
+                "opp": "CHI",
                 "home": true,
-                "kickoff": "2026-11-13T01:00Z",
-                "network": "NBA TV"
+                "kickoff": "2026-11-15T01:00Z",
+                "network": "DAZN MIN"
               }
             },
             {
@@ -1620,9 +1652,9 @@
               "t": 0,
               "pf": 1145,
               "pa": 1133,
-              "rank": 14,
+              "rank": 13,
               "heat": "Warm",
-              "seed": 10,
+              "seed": 9,
               "form": "6-4",
               "trend": [
                 -1,
@@ -1705,7 +1737,7 @@
               "t": 0,
               "pf": 1588,
               "pa": 1485,
-              "rank": 3,
+              "rank": 4,
               "heat": "Hot",
               "seed": 1,
               "form": "8-2",
@@ -1783,15 +1815,15 @@
               "city": "Phoenix",
               "name": "Suns",
               "color": "#E56020",
-              "w": 4,
+              "w": 5,
               "l": 6,
               "t": 0,
-              "pf": 1128,
-              "pa": 1181,
-              "rank": 20,
+              "pf": 1229,
+              "pa": 1277,
+              "rank": 18,
               "heat": "Steady",
               "seed": 11,
-              "form": "4-6",
+              "form": "5-5",
               "trend": [
                 -1,
                 0,
@@ -1802,19 +1834,20 @@
                 -3,
                 -2,
                 -3,
-                -2
+                -2,
+                -1
               ],
-              "story": "The Suns are 4-6 with a -53 point differential, but beat LAC 133-110 on Nov 10.",
+              "story": "The Suns are 5-6 with a -48 point differential, but have won two straight, including 101-96 over CHA.",
               "player": {
-                "name": "Jordan Goodwin",
+                "name": "Devin Booker",
                 "pos": "G",
-                "line": "18 pts, six 3s in return from a calf injury vs LAC"
+                "line": "30 pts and 7 ast vs CHA; 25.5 ppg this season"
               },
               "next": {
-                "opp": "CHA",
+                "opp": "LAL",
                 "home": true,
-                "kickoff": "2026-11-13T02:00Z",
-                "network": "Suns Live"
+                "kickoff": "2026-11-15T21:00Z",
+                "network": "Spectrum Sports Net"
               }
             },
             {
@@ -1954,7 +1987,7 @@
               "pa": 1278,
               "rank": 5,
               "heat": "Warm",
-              "seed": 3,
+              "seed": 4,
               "form": "7-3",
               "trend": [
                 1,
@@ -1993,7 +2026,7 @@
               "t": 0,
               "pf": 1297,
               "pa": 1231,
-              "rank": 11,
+              "rank": 10,
               "heat": "Steady",
               "seed": 8,
               "form": "6-4",
@@ -2029,14 +2062,14 @@
               "name": "Mavericks",
               "color": "#00538C",
               "w": 7,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 1264,
-              "pa": 1213,
-              "rank": 10,
-              "heat": "Warm",
-              "seed": 9,
-              "form": "7-3",
+              "pf": 1358,
+              "pa": 1346,
+              "rank": 15,
+              "heat": "Steady",
+              "seed": 10,
+              "form": "6-4",
               "trend": [
                 -1,
                 0,
@@ -2048,19 +2081,20 @@
                 0,
                 1,
                 2,
-                3
+                3,
+                2
               ],
-              "story": "The Mavericks are 7-4 and have won 3 straight, beating IND 125-122 as Cooper Flagg scored 43.",
+              "story": "The Mavericks are 7-5 with a +12 differential after they lost 133-94 at MIN, a small sample.",
               "player": {
                 "name": "Cooper Flagg",
                 "pos": "F",
-                "line": "43 pts, 10 reb, 6 ast in the 125-122 win over IND"
+                "line": "24.6 pts, 6.9 reb, 6.5 ast per game"
               },
               "next": {
-                "opp": "MIN",
+                "opp": "CLE",
                 "home": false,
-                "kickoff": "2026-11-13T01:00Z",
-                "network": "NBA TV"
+                "kickoff": "2026-11-15T00:30Z",
+                "network": "KFAA-TV"
               }
             },
             {
@@ -2073,7 +2107,7 @@
               "t": 0,
               "pf": 1403,
               "pa": 1491,
-              "rank": 24,
+              "rank": 23,
               "heat": "Cool",
               "seed": 12,
               "form": "4-6",

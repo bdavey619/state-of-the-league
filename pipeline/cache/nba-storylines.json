@@ -1,13 +1,13 @@
 {
   "PHI": {
-    "key": "401909961|401909976",
+    "key": "401909976|401909985",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 9-3 with only a +12 point differential, and lost 123-101 to BOS on Nov 10.",
+      "story": "The 76ers are 10-3 but only +23 in point differential, and they beat TOR 123-112 without LeBron James.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "26.7 pts per game; 24 pts vs BOS"
+        "line": "26.7 pts a game; 27 pts and 8 ast vs TOR"
       },
       "source": "claude"
     }
@@ -26,14 +26,14 @@
     }
   },
   "TOR": {
-    "key": "401909968|401909976",
+    "key": "401909976|401909990",
     "result": {
       "abbr": "TOR",
-      "story": "The Raptors are 5-6 and have lost 2 straight, the latest 98-93 to BOS, who erased a 22-point deficit.",
+      "story": "The Raptors are 5-7 on a three-game skid, but their +17 point differential is better than that record.",
       "player": {
-        "name": "Scottie Barnes",
+        "name": "RJ Barrett",
         "pos": "F",
-        "line": "23.5 pts, 7.6 reb, 5.1 ast in 8 games"
+        "line": "31 pts and 14 reb at PHI; 21.3 pts a game"
       },
       "source": "claude"
     }
@@ -65,14 +65,14 @@
     }
   },
   "DET": {
-    "key": "401909954|401909977",
+    "key": "401909977|401909982",
     "result": {
       "abbr": "DET",
-      "story": "The Pistons are 7-3 and third in the East with a +8.1 per-game margin, though it is only 10 games.",
+      "story": "The Pistons are 8-3 with a +7.7 point differential and won 144-140 at WSH in double overtime.",
       "player": {
         "name": "Cade Cunningham",
         "pos": "G",
-        "line": "22.3 pts and 7.6 ast per game over 10 games"
+        "line": "52 pts, 11 ast and no turnovers vs WSH"
       },
       "source": "claude"
     }
@@ -143,14 +143,14 @@
     }
   },
   "WSH": {
-    "key": "401909966|401909977",
+    "key": "401909977|401909991",
     "result": {
       "abbr": "WSH",
-      "story": "The Wizards are 4-8 and have lost 5 straight, the latest 114-101 at IND.",
+      "story": "The Wizards are 4-9 and have lost six straight, the latest 144-140 to DET in double overtime.",
       "player": {
-        "name": "Anthony Davis",
-        "pos": "F",
-        "line": "25.2 pts, 10 reb per game; 21 pts, 13 reb vs IND"
+        "name": "Trae Young",
+        "pos": "G",
+        "line": "37 pts and 14 ast vs DET"
       },
       "source": "claude"
     }
@@ -169,14 +169,14 @@
     }
   },
   "CHA": {
-    "key": "401909953|401909979",
+    "key": "401909979|401909987",
     "result": {
       "abbr": "CHA",
-      "story": "The Hornets are 4-7 with a -127 point differential and just ended a 6-game skid by beating CLE 124-112.",
+      "story": "The Hornets are 4-8 with a -132 point differential, and just lost 101-96 at PHX.",
       "player": {
-        "name": "Naz Reid",
-        "pos": "C",
-        "line": "25 pts and 13 reb vs CLE in the win"
+        "name": "Brandon Miller",
+        "pos": "F",
+        "line": "20.6 pts per game over 10 games"
       },
       "source": "claude"
     }
@@ -221,14 +221,14 @@
     }
   },
   "MIN": {
-    "key": "401909947|401909978",
+    "key": "401909978|401909984",
     "result": {
       "abbr": "MIN",
-      "story": "The Timberwolves are 8-3 with the NBA's best point differential, +11.1 a game, and 4 straight wins.",
+      "story": "The Timberwolves are 9-3 and have won 5 straight, with the NBA's best margin at +13.4 per game.",
       "player": {
-        "name": "Anthony Edwards",
+        "name": "LaMelo Ball",
         "pos": "G",
-        "line": "33.3 pts a game in 4 games; 47 pts vs CLE"
+        "line": "22 pts, 9 ast and six 3s in 133-94 win vs DAL"
       },
       "source": "claude"
     }
@@ -286,14 +286,14 @@
     }
   },
   "PHX": {
-    "key": "401909962|401909979",
+    "key": "401909979|401909986",
     "result": {
       "abbr": "PHX",
-      "story": "The Suns are 4-6 with a -53 point differential, but beat LAC 133-110 on Nov 10.",
+      "story": "The Suns are 5-6 with a -48 point differential, but have won two straight, including 101-96 over CHA.",
       "player": {
-        "name": "Jordan Goodwin",
+        "name": "Devin Booker",
         "pos": "G",
-        "line": "18 pts, six 3s in return from a calf injury vs LAC"
+        "line": "30 pts and 7 ast vs CHA; 25.5 ppg this season"
       },
       "source": "claude"
     }
@@ -364,14 +364,14 @@
     }
   },
   "DAL": {
-    "key": "401909956|401909978",
+    "key": "401909978|401909981",
     "result": {
       "abbr": "DAL",
-      "story": "The Mavericks are 7-4 and have won 3 straight, beating IND 125-122 as Cooper Flagg scored 43.",
+      "story": "The Mavericks are 7-5 with a +12 differential after they lost 133-94 at MIN, a small sample.",
       "player": {
         "name": "Cooper Flagg",
         "pos": "F",
-        "line": "43 pts, 10 reb, 6 ast in the 125-122 win over IND"
+        "line": "24.6 pts, 6.9 reb, 6.5 ast per game"
       },
       "source": "claude"
     }
