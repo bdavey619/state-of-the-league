@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-13T20:29:39.427Z",
+  "updatedAt": "2026-11-14T01:29:29.996Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -478,6 +478,77 @@
         ]
       },
       {
+        "id": "401909986",
+        "kickoff": "2026-11-15T21:00Z",
+        "network": "Spectrum Sports Net",
+        "away": {
+          "abbr": "LAL",
+          "name": "Lakers",
+          "color": "#552583",
+          "rec": "11-2"
+        },
+        "home": {
+          "abbr": "PHX",
+          "name": "Suns",
+          "color": "#E56020",
+          "rec": "5-6"
+        },
+        "score": 68,
+        "tier": "worth",
+        "reasons": [
+          "Should be close",
+          "Lakers have won 7 straight",
+          "Doncic vs Booker"
+        ]
+      },
+      {
+        "id": "401909990",
+        "kickoff": "2026-11-15T23:00Z",
+        "network": "",
+        "away": {
+          "abbr": "NY",
+          "name": "Knicks",
+          "color": "#F58426",
+          "rec": "6-5"
+        },
+        "home": {
+          "abbr": "TOR",
+          "name": "Raptors",
+          "color": "#CE1141",
+          "rec": "5-7"
+        },
+        "score": 63,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Towns vs Barnes"
+        ]
+      },
+      {
+        "id": "401909989",
+        "kickoff": "2026-11-15T23:00Z",
+        "network": "KFAA-TV",
+        "away": {
+          "abbr": "DAL",
+          "name": "Mavericks",
+          "color": "#00538C",
+          "rec": "7-5"
+        },
+        "home": {
+          "abbr": "BOS",
+          "name": "Celtics",
+          "color": "#007A33",
+          "rec": "10-2"
+        },
+        "score": 61,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Celtics have won 5 straight",
+          "Flagg vs Tatum"
+        ]
+      },
+      {
         "id": "401909982",
         "kickoff": "2026-11-15T01:00Z",
         "network": "NBA TV",
@@ -613,73 +684,6 @@
         "reasons": [
           "Should be close",
           "Jerome vs Williamson"
-        ]
-      },
-      {
-        "id": "401909985",
-        "kickoff": "2026-11-15T18:00Z",
-        "network": "DAZN IND",
-        "away": {
-          "abbr": "IND",
-          "name": "Pacers",
-          "color": "#FDBB30",
-          "rec": "4-8"
-        },
-        "home": {
-          "abbr": "PHI",
-          "name": "76ers",
-          "color": "#006BB6",
-          "rec": "10-3"
-        },
-        "score": 45,
-        "tier": "other",
-        "reasons": [
-          "Siakam vs Maxey"
-        ]
-      },
-      {
-        "id": "401909304",
-        "kickoff": "2026-11-14T03:30Z",
-        "network": "KSBI",
-        "away": {
-          "abbr": "OKC",
-          "name": "Thunder",
-          "color": "#007AC1",
-          "rec": "8-4"
-        },
-        "home": {
-          "abbr": "LAC",
-          "name": "Clippers",
-          "color": "#C8102E",
-          "rec": "2-8"
-        },
-        "score": 41,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Shai Gilgeous-Alexander"
-        ]
-      },
-      {
-        "id": "401909983",
-        "kickoff": "2026-11-15T01:00Z",
-        "network": "DAZN (YES)",
-        "away": {
-          "abbr": "BKN",
-          "name": "Nets",
-          "color": "#000000",
-          "rec": "3-8"
-        },
-        "home": {
-          "abbr": "MEM",
-          "name": "Grizzlies",
-          "color": "#5D76A9",
-          "rec": "7-4"
-        },
-        "score": 31,
-        "tier": "other",
-        "reasons": [
-          "Ty Jerome"
         ]
       }
     ]
