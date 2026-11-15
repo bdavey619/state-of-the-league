@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-14T18:45:03.613Z",
+  "updatedAt": "2026-11-15T01:06:22.814Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -468,6 +468,30 @@
     "window": "next 48 hours",
     "games": [
       {
+        "id": "401909999",
+        "kickoff": "2026-11-17T01:00Z",
+        "network": "KUNP 16",
+        "away": {
+          "abbr": "POR",
+          "name": "Trail Blazers",
+          "color": "#E03A3E",
+          "rec": "9-3"
+        },
+        "home": {
+          "abbr": "MIN",
+          "name": "Timberwolves",
+          "color": "#236192",
+          "rec": "9-3"
+        },
+        "score": 77,
+        "tier": "worth",
+        "reasons": [
+          "Top-8 vs top-8",
+          "West Northwest lead on the line",
+          "Timberwolves have won 5 straight"
+        ]
+      },
+      {
         "id": "401909982",
         "kickoff": "2026-11-15T01:00Z",
         "network": "NBA TV",
@@ -563,6 +587,52 @@
         ]
       },
       {
+        "id": "401909998",
+        "kickoff": "2026-11-17T00:30Z",
+        "network": "",
+        "away": {
+          "abbr": "HOU",
+          "name": "Rockets",
+          "color": "#CE1141",
+          "rec": "10-3"
+        },
+        "home": {
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "6-6"
+        },
+        "score": 57,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Sengun vs Antetokounmpo"
+        ]
+      },
+      {
+        "id": "401909997",
+        "kickoff": "2026-11-17T00:30Z",
+        "network": "DAZN (YES)",
+        "away": {
+          "abbr": "PHI",
+          "name": "76ers",
+          "color": "#006BB6",
+          "rec": "10-3"
+        },
+        "home": {
+          "abbr": "BKN",
+          "name": "Nets",
+          "color": "#000000",
+          "rec": "3-8"
+        },
+        "score": 55,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Tyrese Maxey"
+        ]
+      },
+      {
         "id": "401909981",
         "kickoff": "2026-11-15T00:30Z",
         "network": "KFAA-TV",
@@ -586,6 +656,29 @@
         ]
       },
       {
+        "id": "401909994",
+        "kickoff": "2026-11-17T00:00Z",
+        "network": "NBCSN",
+        "away": {
+          "abbr": "ORL",
+          "name": "Magic",
+          "color": "#0077C0",
+          "rec": "5-7"
+        },
+        "home": {
+          "abbr": "BOS",
+          "name": "Celtics",
+          "color": "#007A33",
+          "rec": "10-2"
+        },
+        "score": 50,
+        "tier": "other",
+        "reasons": [
+          "Celtics have won 5 straight",
+          "Wagner vs Tatum"
+        ]
+      },
+      {
         "id": "401909980",
         "kickoff": "2026-11-15T00:00Z",
         "network": "GCSEN",
@@ -606,96 +699,6 @@
         "reasons": [
           "Should be close",
           "Jokic vs Williamson"
-        ]
-      },
-      {
-        "id": "401909985",
-        "kickoff": "2026-11-15T18:00Z",
-        "network": "DAZN IND",
-        "away": {
-          "abbr": "IND",
-          "name": "Pacers",
-          "color": "#FDBB30",
-          "rec": "5-8"
-        },
-        "home": {
-          "abbr": "PHI",
-          "name": "76ers",
-          "color": "#006BB6",
-          "rec": "10-3"
-        },
-        "score": 45,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Siakam vs Maxey"
-        ]
-      },
-      {
-        "id": "401909988",
-        "kickoff": "2026-11-15T22:00Z",
-        "network": "KJZZ-TV",
-        "away": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "11-2"
-        },
-        "home": {
-          "abbr": "UTAH",
-          "name": "Jazz",
-          "color": "#3E2680",
-          "rec": "1-12"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": [
-          "Spurs have won 11 straight",
-          "Victor Wembanyama"
-        ]
-      },
-      {
-        "id": "401909991",
-        "kickoff": "2026-11-16T00:00Z",
-        "network": "MNMT",
-        "away": {
-          "abbr": "HOU",
-          "name": "Rockets",
-          "color": "#CE1141",
-          "rec": "10-3"
-        },
-        "home": {
-          "abbr": "WSH",
-          "name": "Wizards",
-          "color": "#002B5C",
-          "rec": "4-9"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": [
-          "Sengun vs Davis"
-        ]
-      },
-      {
-        "id": "401909983",
-        "kickoff": "2026-11-15T01:00Z",
-        "network": "DAZN (YES)",
-        "away": {
-          "abbr": "BKN",
-          "name": "Nets",
-          "color": "#000000",
-          "rec": "3-8"
-        },
-        "home": {
-          "abbr": "MEM",
-          "name": "Grizzlies",
-          "color": "#5D76A9",
-          "rec": "8-4"
-        },
-        "score": 32,
-        "tier": "other",
-        "reasons": [
-          "Ty Jerome"
         ]
       }
     ]
