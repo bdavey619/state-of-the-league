@@ -13,14 +13,14 @@
     }
   },
   "NE": {
-    "key": "401873049|401873053",
+    "key": "401873053|401873093",
     "result": {
       "abbr": "NE",
-      "story": "The Patriots are 5-4 after a 45-27 loss to GB, their second loss in three games.",
+      "story": "The Patriots have lost two straight, most recently 35-10 at DET, where QB Drake Maye was injured.",
       "player": {
         "name": "Drake Maye",
         "pos": "QB",
-        "line": "321 yds and 2 TD vs CHI in Wk 7"
+        "line": "Injured at DET; threw for 321 yds and 2 TD vs CHI"
       },
       "source": "claude"
     }
@@ -286,14 +286,14 @@
     }
   },
   "DET": {
-    "key": "401873042|401873053",
+    "key": "401873053|401873072",
     "result": {
       "abbr": "DET",
-      "story": "The Lions are 6-2 on a four-game win streak, but their +33 point differential is modest for that record.",
+      "story": "The Lions have won five straight and lead the NFL with 257 points, most recently beating NE 35-10.",
       "player": {
         "name": "Jahmyr Gibbs",
         "pos": "RB",
-        "line": "20 carries, 74 yds and a TD vs MIA"
+        "line": "Ran for 153 yds and 2 TDs vs NE"
       },
       "source": "claude"
     }

@@ -14,15 +14,15 @@
     },
     "NE": {
       "w": 5,
-      "l": 4,
+      "l": 5,
       "t": 0,
-      "rank": 18,
-      "heat": "Cool",
+      "rank": 20,
+      "heat": "Cold",
       "place": 2,
       "division": "AFC East",
-      "streak": "L1",
-      "pct": 0.5555555555555556,
-      "seed": 7
+      "streak": "L2",
+      "pct": 0.5,
+      "seed": 8
     },
     "NYJ": {
       "w": 2,
@@ -64,7 +64,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 6,
+      "rank": 7,
       "heat": "Hot",
       "place": 2,
       "division": "AFC North",
@@ -76,13 +76,13 @@
       "w": 5,
       "l": 4,
       "t": 0,
-      "rank": 20,
+      "rank": 19,
       "heat": "Cool",
       "place": 3,
       "division": "AFC North",
       "streak": "L2",
       "pct": 0.5555555555555556,
-      "seed": 8
+      "seed": 7
     },
     "BAL": {
       "w": 4,
@@ -160,7 +160,7 @@
       "w": 6,
       "l": 2,
       "t": 0,
-      "rank": 7,
+      "rank": 8,
       "heat": "Steady",
       "place": 2,
       "division": "AFC West",
@@ -220,7 +220,7 @@
       "w": 3,
       "l": 5,
       "t": 1,
-      "rank": 19,
+      "rank": 18,
       "heat": "Warm",
       "place": 3,
       "division": "NFC East",
@@ -240,7 +240,7 @@
       "pct": 0.2222222222222222,
       "seed": 16
     },
-    "CHI": {
+    "DET": {
       "w": 7,
       "l": 2,
       "t": 0,
@@ -248,20 +248,20 @@
       "heat": "Hot",
       "place": 1,
       "division": "NFC North",
-      "streak": "W4",
+      "streak": "W5",
       "pct": 0.7777777777777778,
       "seed": 2
     },
-    "DET": {
-      "w": 6,
+    "CHI": {
+      "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 8,
+      "rank": 6,
       "heat": "Hot",
       "place": 2,
       "division": "NFC North",
       "streak": "W4",
-      "pct": 0.75,
+      "pct": 0.7777777777777778,
       "seed": 3
     },
     "MIN": {
@@ -596,6 +596,20 @@
       "kind": "lead",
       "weight": 5,
       "text": "The Bears took over first place in the NFC North."
+    },
+    {
+      "at": "2026-11-15T19:22:40.904Z",
+      "abbr": "NE",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Patriots have gone cold."
+    },
+    {
+      "at": "2026-11-15T19:22:40.904Z",
+      "abbr": "DET",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Lions have won 5 straight."
     }
   ],
   "recap": {

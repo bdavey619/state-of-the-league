@@ -4,16 +4,30 @@
   "seasonLabel": "2026",
   "week": 10,
   "badge": "WK 10",
-  "kicker": "Week 10 · through Thu, Nov 12",
-  "throughLabel": "through Thu, Nov 12",
+  "kicker": "Week 10 · through Sun, Nov 15",
+  "throughLabel": "through Sun, Nov 15",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-15T13:25:36.417Z",
+  "updatedAt": "2026-11-15T19:22:40.904Z",
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-15T19:22:40.904Z",
+      "abbr": "NE",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Patriots have gone cold."
+    },
+    {
+      "at": "2026-11-15T19:22:40.904Z",
+      "abbr": "DET",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Lions have won 5 straight."
+    },
     {
       "at": "2026-11-10T15:14:38.114Z",
       "abbr": "CHI",
@@ -270,12 +284,36 @@
           "color": "#FB4F14",
           "rec": "6-2"
         },
-        "score": 88,
+        "score": 87,
         "tier": "must",
         "reasons": [
           "Top-8 vs top-8",
           "AFC North lead on the line",
           "Steelers have won 4 straight"
+        ]
+      },
+      {
+        "id": "401873072",
+        "kickoff": "2026-11-22T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "TB",
+          "name": "Buccaneers",
+          "color": "#D50A0A",
+          "rec": "3-6"
+        },
+        "home": {
+          "abbr": "DET",
+          "name": "Lions",
+          "color": "#0076B6",
+          "rec": "7-2"
+        },
+        "score": 67,
+        "tier": "worth",
+        "reasons": [
+          "Should be close",
+          "Lions have won 5 straight",
+          "Both teams hot"
         ]
       },
       {
@@ -298,29 +336,6 @@
         "tier": "other",
         "reasons": [
           "Projected coin flip"
-        ]
-      },
-      {
-        "id": "401873053",
-        "kickoff": "2026-11-15T14:30Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "NE",
-          "name": "Patriots",
-          "color": "#002244",
-          "rec": "5-4"
-        },
-        "home": {
-          "abbr": "DET",
-          "name": "Lions",
-          "color": "#0076B6",
-          "rec": "6-2"
-        },
-        "score": 62,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Lions have won 4 straight"
         ]
       },
       {
@@ -370,6 +385,28 @@
         ]
       },
       {
+        "id": "401873071",
+        "kickoff": "2026-11-22T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "NO",
+          "name": "Saints",
+          "color": "#D3BC8D",
+          "rec": "3-5"
+        },
+        "home": {
+          "abbr": "CHI",
+          "name": "Bears",
+          "color": "#0B162A",
+          "rec": "7-2"
+        },
+        "score": 56,
+        "tier": "other",
+        "reasons": [
+          "Bears have won 4 straight"
+        ]
+      },
+      {
         "id": "401873054",
         "kickoff": "2026-11-15T18:00Z",
         "network": "CBS",
@@ -414,6 +451,28 @@
         ]
       },
       {
+        "id": "401873076",
+        "kickoff": "2026-11-22T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "PIT",
+          "name": "Steelers",
+          "color": "#FFB612",
+          "rec": "6-2"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "Eagles",
+          "color": "#004C54",
+          "rec": "2-7"
+        },
+        "score": 49,
+        "tier": "other",
+        "reasons": [
+          "Steelers have won 4 straight"
+        ]
+      },
+      {
         "id": "401873056",
         "kickoff": "2026-11-15T18:00Z",
         "network": "Fox",
@@ -429,53 +488,11 @@
           "color": "#FF3C00",
           "rec": "5-4"
         },
-        "score": 46,
+        "score": 47,
         "tier": "other",
         "reasons": [
           "Projected coin flip"
         ]
-      },
-      {
-        "id": "401873062",
-        "kickoff": "2026-11-15T21:05Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "SEA",
-          "name": "Seahawks",
-          "color": "#69BE28",
-          "rec": "5-4"
-        },
-        "home": {
-          "abbr": "LV",
-          "name": "Raiders",
-          "color": "#A5ACAF",
-          "rec": "4-5"
-        },
-        "score": 45,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
-        ]
-      },
-      {
-        "id": "401873057",
-        "kickoff": "2026-11-15T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "JAX",
-          "name": "Jaguars",
-          "color": "#006778",
-          "rec": "6-2"
-        },
-        "home": {
-          "abbr": "TEN",
-          "name": "Titans",
-          "color": "#4B92DB",
-          "rec": "1-7"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": []
       }
     ]
   },
@@ -540,21 +557,13 @@
               "name": "Patriots",
               "color": "#002244",
               "w": 5,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 211,
-              "pa": 207,
-              "rank": 18,
-              "heat": "Cool",
+              "pf": 221,
+              "pa": 242,
+              "rank": 20,
+              "heat": "Cold",
               "last3": [
-                {
-                  "week": 7,
-                  "result": "L",
-                  "for": 24,
-                  "against": 30,
-                  "opp": "CHI",
-                  "home": false
-                },
                 {
                   "week": 8,
                   "result": "W",
@@ -570,19 +579,27 @@
                   "against": 45,
                   "opp": "GB",
                   "home": true
+                },
+                {
+                  "week": 10,
+                  "result": "L",
+                  "for": 10,
+                  "against": 35,
+                  "opp": "DET",
+                  "home": false
                 }
               ],
-              "story": "The Patriots are 5-4 after a 45-27 loss to GB, their second loss in three games.",
+              "story": "The Patriots have lost two straight, most recently 35-10 at DET, where QB Drake Maye was injured.",
               "player": {
                 "name": "Drake Maye",
                 "pos": "QB",
-                "line": "321 yds and 2 TD vs CHI in Wk 7"
+                "line": "Injured at DET; threw for 321 yds and 2 TD vs CHI"
               },
               "next": {
-                "opp": "DET",
+                "opp": "LAC",
                 "home": false,
-                "kickoff": "2026-11-15T14:30Z",
-                "network": "Fox"
+                "kickoff": "2026-11-30T01:20Z",
+                "network": "NBC"
               }
             },
             {
@@ -753,7 +770,7 @@
               "t": 0,
               "pf": 180,
               "pa": 144,
-              "rank": 6,
+              "rank": 7,
               "heat": "Hot",
               "last3": [
                 {
@@ -804,7 +821,7 @@
               "t": 0,
               "pf": 161,
               "pa": 196,
-              "rank": 20,
+              "rank": 19,
               "heat": "Cool",
               "last3": [
                 {
@@ -1163,7 +1180,7 @@
               "t": 0,
               "pf": 202,
               "pa": 143,
-              "rank": 7,
+              "rank": 8,
               "heat": "Steady",
               "last3": [
                 {
@@ -1421,7 +1438,7 @@
               "t": 1,
               "pf": 196,
               "pa": 223,
-              "rank": 19,
+              "rank": 18,
               "heat": "Warm",
               "last3": [
                 {
@@ -1519,6 +1536,57 @@
           "name": "NFC North",
           "teams": [
             {
+              "abbr": "DET",
+              "city": "Detroit",
+              "name": "Lions",
+              "color": "#0076B6",
+              "w": 7,
+              "l": 2,
+              "t": 0,
+              "pf": 257,
+              "pa": 199,
+              "rank": 5,
+              "heat": "Hot",
+              "last3": [
+                {
+                  "week": 8,
+                  "result": "W",
+                  "for": 19,
+                  "against": 15,
+                  "opp": "MIN",
+                  "home": true
+                },
+                {
+                  "week": 9,
+                  "result": "W",
+                  "for": 19,
+                  "against": 9,
+                  "opp": "MIA",
+                  "home": false
+                },
+                {
+                  "week": 10,
+                  "result": "W",
+                  "for": 35,
+                  "against": 10,
+                  "opp": "NE",
+                  "home": true
+                }
+              ],
+              "story": "The Lions have won five straight and lead the NFL with 257 points, most recently beating NE 35-10.",
+              "player": {
+                "name": "Jahmyr Gibbs",
+                "pos": "RB",
+                "line": "Ran for 153 yds and 2 TDs vs NE"
+              },
+              "next": {
+                "opp": "TB",
+                "home": true,
+                "kickoff": "2026-11-22T18:00Z",
+                "network": "Fox"
+              }
+            },
+            {
               "abbr": "CHI",
               "city": "Chicago",
               "name": "Bears",
@@ -1528,7 +1596,7 @@
               "t": 0,
               "pf": 241,
               "pa": 184,
-              "rank": 5,
+              "rank": 6,
               "heat": "Hot",
               "last3": [
                 {
@@ -1566,57 +1634,6 @@
                 "opp": "NO",
                 "home": true,
                 "kickoff": "2026-11-22T18:00Z",
-                "network": "Fox"
-              }
-            },
-            {
-              "abbr": "DET",
-              "city": "Detroit",
-              "name": "Lions",
-              "color": "#0076B6",
-              "w": 6,
-              "l": 2,
-              "t": 0,
-              "pf": 222,
-              "pa": 189,
-              "rank": 8,
-              "heat": "Hot",
-              "last3": [
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 20,
-                  "against": 17,
-                  "opp": "GB",
-                  "home": true
-                },
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 19,
-                  "against": 15,
-                  "opp": "MIN",
-                  "home": true
-                },
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 19,
-                  "against": 9,
-                  "opp": "MIA",
-                  "home": false
-                }
-              ],
-              "story": "The Lions are 6-2 on a four-game win streak, but their +33 point differential is modest for that record.",
-              "player": {
-                "name": "Jahmyr Gibbs",
-                "pos": "RB",
-                "line": "20 carries, 74 yds and a TD vs MIA"
-              },
-              "next": {
-                "opp": "NE",
-                "home": true,
-                "kickoff": "2026-11-15T14:30Z",
                 "network": "Fox"
               }
             },
