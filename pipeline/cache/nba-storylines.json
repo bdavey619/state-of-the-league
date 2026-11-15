@@ -52,40 +52,40 @@
     }
   },
   "BKN": {
-    "key": "401909972|401909983",
+    "key": "401909983|401909997",
     "result": {
       "abbr": "BKN",
-      "story": "The Nets are 3-8 with a -5.1 per-game margin, but beat NO 145-111 on Nov 11 as Egor Demin returned.",
+      "story": "The Nets are 3-9 with a -75 differential after a 129-110 loss at MEM.",
       "player": {
         "name": "Michael Porter Jr.",
         "pos": "F",
-        "line": "22 pts, 6 reb vs NO; 21.5 ppg this season"
+        "line": "21.5 pts and 7.5 reb per game in 11 games"
       },
       "source": "claude"
     }
   },
   "DET": {
-    "key": "401909977|401909982",
+    "key": "401909982|401910004",
     "result": {
       "abbr": "DET",
-      "story": "The Pistons are 8-3 with a +7.7 point differential and won 144-140 at WSH in double overtime.",
+      "story": "The Pistons are 8-4 and third in the East, but lost 137-117 at MIA in their latest game.",
       "player": {
         "name": "Cade Cunningham",
         "pos": "G",
-        "line": "52 pts, 11 ast and no turnovers vs WSH"
+        "line": "25.7 pts and 7.9 ast per game through 12 games"
       },
       "source": "claude"
     }
   },
   "CLE": {
-    "key": "401909298|401909981",
+    "key": "401909981|401909995",
     "result": {
       "abbr": "CLE",
-      "story": "The Cavaliers are 6-7 with a +13 point differential and lost 133-121 at MIA in their latest game.",
+      "story": "The Cavaliers are 7-7 and beat DAL 127-117 without their entire starting lineup.",
       "player": {
         "name": "Donovan Mitchell",
         "pos": "G",
-        "line": "23 pts per game; 25 pts and 7 ast vs MIA"
+        "line": "25 pts and 7 ast vs MIA, 23 pts per game on the year"
       },
       "source": "claude"
     }
@@ -104,14 +104,14 @@
     }
   },
   "CHI": {
-    "key": "401909299|401909984",
+    "key": "401909984|401909995",
     "result": {
       "abbr": "CHI",
-      "story": "The Bulls are 2-9 with a -13.4 margin per game, but snapped an 8-game skid by beating ATL 125-117 in OT.",
+      "story": "The Bulls are 3-9 with a -11.3 point margin per game, but they have won two straight.",
       "player": {
         "name": "Norman Powell",
         "pos": "G",
-        "line": "33 pts vs ATL, nine of them in overtime"
+        "line": "24 pts vs MIN; 21.1 pts per game in 10 games"
       },
       "source": "claude"
     }
@@ -156,14 +156,14 @@
     }
   },
   "MIA": {
-    "key": "401909298|401909982",
+    "key": "401909982|401909998",
     "result": {
       "abbr": "MIA",
-      "story": "The Heat are 6-6 with a -35 point differential but have won three straight, beating CLE 133-121.",
+      "story": "The Heat have won four straight, latest 137-117 over DET, despite a -15 point differential.",
       "player": {
         "name": "Giannis Antetokounmpo",
         "pos": "F",
-        "line": "28.5 ppg, 12.3 rpg; 37 pts vs CLE"
+        "line": "34 pts, 14 reb and 8 ast vs DET"
       },
       "source": "claude"
     }
@@ -221,27 +221,27 @@
     }
   },
   "MIN": {
-    "key": "401909978|401909984",
+    "key": "401909984|401909999",
     "result": {
       "abbr": "MIN",
-      "story": "The Timberwolves are 9-3 and have won 5 straight, with the NBA's best margin at +13.4 per game.",
+      "story": "The Timberwolves are 9-4 with a +150 point differential, after losing 117-106 to CHI.",
       "player": {
-        "name": "LaMelo Ball",
+        "name": "Anthony Edwards",
         "pos": "G",
-        "line": "22 pts, 9 ast and six 3s in 133-94 win vs DAL"
+        "line": "33.3 ppg in 4 games, 47 pts vs CLE"
       },
       "source": "claude"
     }
   },
   "DEN": {
-    "key": "401909970|401909980",
+    "key": "401909980|401910001",
     "result": {
       "abbr": "DEN",
-      "story": "The Nuggets are 6-4 with a slim +12 point differential, and they beat MEM 123-118 on Nov 11.",
+      "story": "The Nuggets are 7-4 with a modest +20 differential after beating NO 116-108 for a second straight win.",
       "player": {
         "name": "Nikola Jokic",
         "pos": "C",
-        "line": "27 pts, 11 reb and 8 ast vs MEM"
+        "line": "26 pts, 8 reb and 10 ast at NO"
       },
       "source": "claude"
     }
@@ -351,40 +351,40 @@
     }
   },
   "MEM": {
-    "key": "401909300|401909983",
+    "key": "401909983|401909996",
     "result": {
       "abbr": "MEM",
-      "story": "The Grizzlies are 8-4 after beating NO 142-111 with a record-tying 10 double-figure scorers.",
+      "story": "The Grizzlies are 9-4 with two straight wins, the latest 129-110 over BKN, and a +8.9 per-game margin.",
       "player": {
         "name": "Ty Jerome",
         "pos": "G",
-        "line": "25.4 pts per game, plus 17 pts and 9 ast vs NO"
+        "line": "25.4 pts per game in 11 games; 9 ast vs NO"
       },
       "source": "claude"
     }
   },
   "DAL": {
-    "key": "401909978|401909981",
+    "key": "401909981|401909989",
     "result": {
       "abbr": "DAL",
-      "story": "The Mavericks are 7-5 with a +12 differential after they lost 133-94 at MIN, a small sample.",
+      "story": "The Mavericks are 7-6 with a +2 point differential after losing two straight, most recently 127-117 at CLE.",
       "player": {
         "name": "Cooper Flagg",
         "pos": "F",
-        "line": "24.6 pts, 6.9 reb, 6.5 ast per game"
+        "line": "24.1 pts, 7 reb, 6.4 ast per game in 12 games"
       },
       "source": "claude"
     }
   },
   "NO": {
-    "key": "401909300|401909980",
+    "key": "401909980|401910000",
     "result": {
       "abbr": "NO",
-      "story": "The Pelicans are 4-9 and have lost 5 straight, the latest 142-111 to MEM, with a -9.2 per-game margin.",
+      "story": "The Pelicans are 4-10 and have lost six straight, most recently 116-108 to DEN, with a -9.1 margin.",
       "player": {
         "name": "Zion Williamson",
         "pos": "F",
-        "line": "21.8 pts per game; 22 pts and 5 reb vs MEM"
+        "line": "21.9 pts per game; 24 pts and 6 reb vs DEN"
       },
       "source": "claude"
     }
