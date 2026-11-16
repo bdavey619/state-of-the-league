@@ -34,9 +34,10 @@ export default function Glance({ conferences, view, setView, selected, onPick, t
 
       {view === 'trends' && trends ? (
         <div className="mini-grid trend-grid">
-          {divisions.map((d) => (
+          {divisions.map((d, i) => (
             <button
               type="button"
+              style={{ '--i': i }}
               className={`card mini trend-card${selected === d.name ? ' selected' : ''}`}
               key={d.name}
               aria-pressed={selected === d.name}
@@ -50,9 +51,10 @@ export default function Glance({ conferences, view, setView, selected, onPick, t
         </div>
       ) : view === 'standings' ? (
         <div className="mini-grid">
-          {divisions.map((d) => (
+          {divisions.map((d, i) => (
             <button
               type="button"
+              style={{ '--i': i }}
               className={`card mini${selected === d.name ? ' selected' : ''}`}
               key={d.name}
               aria-pressed={selected === d.name}
@@ -77,7 +79,7 @@ export default function Glance({ conferences, view, setView, selected, onPick, t
       ) : (
         <div className="power-grid">
           {power.map((col, i) => (
-            <div className="card power" key={i}>
+            <div className="card power" key={i} style={{ '--i': i }}>
               {col.map((t) => (
                 <button type="button" className="power-row" key={t.abbr} onClick={() => onPick(t.division, t.abbr)}>
                   <span className="mono dim">{t.rank}</span>

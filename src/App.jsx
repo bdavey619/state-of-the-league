@@ -5,6 +5,7 @@ import DivisionDetail from './components/DivisionDetail.jsx';
 import Digest from './components/Digest.jsx';
 import MustWatch from './components/MustWatch.jsx';
 import Players from './components/Players.jsx';
+import Spotlight, { pickSpotlight } from './components/Spotlight.jsx';
 import { divisionId, updatedLabel } from './format.js';
 
 const LEAGUES = ['nfl', 'nba'];
@@ -54,6 +55,7 @@ export default function App() {
 
   const divisions = useMemo(() => (data ? data.conferences.flatMap((c) => c.divisions) : []), [data]);
   const selectedDivision = divisions.find((d) => d.name === division) || null;
+  const spotlight = useMemo(() => (data ? pickSpotlight(data.mustWatch) : null), [data]);
   const colors = useMemo(() => Object.fromEntries(divisions.flatMap((d) => d.teams.map((t) => [t.abbr, t.color]))), [divisions]);
 
   function pick(name, abbr = null) {
@@ -95,13 +97,15 @@ export default function App() {
       <main id="top" className="main">
         {error === 'not-yet' && <p className="notice">{name} data is on its way. Check back after the next update.</p>}
         {error && error !== 'not-yet' && <p className="notice">Couldn’t load the latest data ({error}).</p>}
-        {!data && !error && <p className="notice">Loading…</p>}
+        {!data && !error && <Skeleton />}
         {data && (
           <>
             <div className="intro">
               <div className="mono kicker">{kicker} · your local time</div>
               <h1>The state of the {data.league || name}</h1>
             </div>
+
+            <Spotlight game={spotlight} window={data.mustWatch?.window} />
 
             <Digest league={league} data={data} />
 
@@ -115,7 +119,7 @@ export default function App() {
             />
 
             <div className="desktop-only">
-              <Extras data={data} colors={colors} />
+              <Extras data={data} colors={colors} skip={spotlight?.id} />
               {data.conferences.map((c) => (
                 <Conference key={c.abbr} conf={c} />
               ))}
@@ -128,8 +132,9 @@ export default function App() {
                 openTeam={openTeam}
                 setOpenTeam={setOpenTeam}
                 leagueKey={league}
+                hint={view === 'power' ? 'Tap a team to see its division.' : 'Tap a division to see its teams.'}
               />
-              <Extras data={data} colors={colors} />
+              <Extras data={data} colors={colors} skip={spotlight?.id} />
             </div>
 
             <footer className="footer">
@@ -158,12 +163,27 @@ export default function App() {
 }
 
 // Must-watch games and (NBA) dominant players: side by side on desktop, stacked on phones.
-function Extras({ data, colors }) {
+function Extras({ data, colors, skip }) {
   if (!data.mustWatch?.games?.length && !data.players?.length) return null;
   return (
     <div className="extras">
-      <MustWatch watch={data.mustWatch} limit={data.players ? 3 : 4} />
+      <MustWatch watch={data.mustWatch} limit={data.players ? 3 : 4} skip={skip} />
       <Players players={data.players} colors={colors} />
+    </div>
+  );
+}
+
+// Placeholder shapes while the data loads, so the page doesn't flash a bare "Loading…".
+function Skeleton() {
+  return (
+    <div className="skeleton" aria-busy="true" aria-label="Loading">
+      <div className="sk sk-line" style={{ width: '55%' }} />
+      <div className="sk sk-title" />
+      <div className="sk sk-hero" />
+      <div className="sk sk-bar" />
+      <div className="sk-grid">
+        {Array.from({ length: 4 }, (_, i) => <div key={i} className="sk sk-card" />)}
+      </div>
     </div>
   );
 }

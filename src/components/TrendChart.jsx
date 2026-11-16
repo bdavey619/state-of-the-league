@@ -1,5 +1,6 @@
 // Games over .500 after each game. A line climbing steeply = a team on fire.
 import { useEffect, useRef, useState } from 'react';
+import { readable, useDark } from '../motion.js';
 
 const signed = (n) => (n > 0 ? `+${n}` : `${n}`);
 
@@ -25,7 +26,8 @@ export function TrendChart({ teams }) {
 
 function TrendSvg({ teams, width, height }) {
   // Every line starts at 0 before the first game.
-  const series = teams.map((t) => ({ abbr: t.abbr, color: t.color, values: [0, ...(t.trend || [])] }));
+  const dark = useDark();
+  const series = teams.map((t) => ({ abbr: t.abbr, color: readable(t.color, dark), values: [0, ...(t.trend || [])] }));
   const n = Math.max(2, ...series.map((s) => s.values.length));
   const all = series.flatMap((s) => s.values).concat(0);
   const lo = Math.min(...all);
@@ -56,6 +58,8 @@ function TrendSvg({ teams, width, height }) {
           points={s.values.map((v, i) => `${x(i)},${y(v)}`).join(' ')}
           fill="none"
           stroke={s.color}
+          pathLength="1"
+          className="trend-line"
           strokeWidth="1.8"
           strokeLinejoin="round"
           strokeLinecap="round"
@@ -71,7 +75,8 @@ function TrendSvg({ teams, width, height }) {
 }
 
 // Single team sparkline for the details row.
-export function Sparkline({ values: raw = [], color, width = 120, height = 26 }) {
+export function Sparkline({ values: raw = [], color: base, width = 120, height = 26 }) {
+  const color = readable(base, useDark());
   const values = [0, ...raw];
   if (values.length < 2) return null;
   const lo = Math.min(0, ...values);
@@ -82,7 +87,7 @@ export function Sparkline({ values: raw = [], color, width = 120, height = 26 })
   return (
     <svg className="spark" viewBox={`0 0 ${width} ${height}`} width={width} height={height} aria-hidden="true">
       <line x1="2" x2={width - 2} y1={y(0)} y2={y(0)} className="trend-zero" />
-      <polyline points={values.map((v, i) => `${x(i)},${y(v)}`).join(' ')} fill="none" stroke={color} strokeWidth="1.8" strokeLinejoin="round" strokeLinecap="round" />
+      <polyline points={values.map((v, i) => `${x(i)},${y(v)}`).join(' ')} fill="none" stroke={color} pathLength="1" className="trend-line" strokeWidth="1.8" strokeLinejoin="round" strokeLinecap="round" />
       <circle cx={x(values.length - 1)} cy={y(values.at(-1))} r="2.4" fill={color} />
     </svg>
   );

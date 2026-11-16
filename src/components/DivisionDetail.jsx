@@ -4,11 +4,11 @@ import Heat from './Heat.jsx';
 import { Sparkline } from './TrendChart.jsx';
 
 // Phone: the chosen division's teams, one line each; tap a team for its storyline and player.
-const DivisionDetail = forwardRef(function DivisionDetail({ division, openTeam, setOpenTeam }, ref) {
+const DivisionDetail = forwardRef(function DivisionDetail({ division, openTeam, setOpenTeam, hint = 'Tap a division to see its teams.' }, ref) {
   if (!division) {
     return (
       <section className="d-empty" ref={ref}>
-        Tap a division to see its teams.
+        {hint}
       </section>
     );
   }

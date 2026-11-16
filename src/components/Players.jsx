@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useCountUp } from '../motion.js';
 
 const TREND = { up: { glyph: '▲', label: 'Heating up' }, down: { glyph: '▼', label: 'Cooling off' } };
 const one = (n) => (n == null ? '–' : n.toFixed(1));
@@ -7,16 +8,16 @@ const one = (n) => (n == null ? '–' : n.toFixed(1));
 export default function Players({ players, colors, initial = 5 }) {
   const [all, setAll] = useState(false);
   if (!players?.length) return null;
-  const list = all ? dps : players.slice(0, initial);
+  const list = all ? players : players.slice(0, initial);
 
   return (
-    <section className="card dps" aria-label="Dominant dps">
+    <section className="card dps" aria-label="Dominant players">
       <div className="section-head">
         <h2>Dominant players</h2>
         <span className="mono section-sub">Game Score / game</span>
       </div>
       <ol className="dp-list">
-        {list.map((p) => {
+        {list.map((p, i) => {
           const tr = TREND[p.trend];
           return (
             <li key={`${p.name}-${p.team}`} className="dp-row">
@@ -32,7 +33,7 @@ export default function Players({ players, colors, initial = 5 }) {
                   {tr && <span className={`dp-trend ${p.trend}`} title={tr.label}> {tr.glyph}<span className="dp-trend-text"> {tr.label.toLowerCase()}</span></span>}
                 </div>
               </div>
-              <span className="mono dp-gs">{one(p.gs)}</span>
+              <Gs value={p.gs} delay={i < initial ? 300 + i * 90 : 0} />
             </li>
           );
         })}
@@ -44,4 +45,9 @@ export default function Players({ players, colors, initial = 5 }) {
       )}
     </section>
   );
+}
+
+function Gs({ value, delay }) {
+  const shown = useCountUp(value ?? 0, { duration: 900, delay, decimals: 1 });
+  return <span className="mono dp-gs" aria-label={one(value)}>{value == null ? '–' : shown.toFixed(1)}</span>;
 }
