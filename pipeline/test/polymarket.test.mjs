@@ -48,3 +48,16 @@ test('addOdds finds the event by slug and never throws on network errors', async
   assert.match(log[0], /42-58 via slug/);
   assert.match(log[1], /no market/);
 });
+
+test('back-to-back games: picks the event that starts closest to kickoff', async () => {
+  const g2 = { ...structuredClone(game), kickoff: '2026-11-17T01:20:00Z' };
+  const ev = (slug, start, price) => ({ ...event, slug, startTime: start, markets: [{ ...event.markets[2], slug, outcomePrices: JSON.stringify([price, String(1 - price)]) }] });
+  const fetchImpl = async (url) => {
+    if (url.includes('slug=nfl-pit-cin-2026-11-15')) return { ok: true, json: async () => [ev('nfl-pit-cin-2026-11-15', '2026-11-16T01:20:00Z', 0.6)] };
+    if (url.includes('slug=nfl-pit-cin-2026-11-16')) return { ok: true, json: async () => [ev('nfl-pit-cin-2026-11-16', '2026-11-17T01:20:00Z', 0.3)] };
+    return { ok: true, json: async () => [] };
+  };
+  await addOdds([g2], { key: 'nfl' }, { fetchImpl });
+  assert.equal(g2.polymarket.slug, 'nfl-pit-cin-2026-11-16');
+  assert.equal(g2.polymarket.home, 0.3);
+});

@@ -69,6 +69,12 @@ export function isGameEvent(event, game) {
   return Math.abs(new Date(start) - new Date(game.kickoff)) < 36 * 3600000;
 }
 
+// Hours between the event's listed start and kickoff; without a start time, trust the date guess.
+function startGap(event, game, shift) {
+  const start = event.startTime || event.gameStartTime;
+  return start ? Math.abs(new Date(start) - new Date(game.kickoff)) / 3600000 : Math.abs(shift) * 24 + 12;
+}
+
 async function getJSON(url, fetchImpl) {
   const r = await fetchImpl(url, { signal: AbortSignal.timeout(8000), headers: { accept: 'application/json' } });
   if (!r.ok) throw new Error(`${r.status} ${url}`);
@@ -78,19 +84,24 @@ async function getJSON(url, fetchImpl) {
 export async function findOdds(game, league, { fetchImpl = fetch } = {}) {
   const key = league.key;
   const tried = [];
-  // 1. Exact slug guesses: nfl-pit-cin-2026-11-15 (game date in US Eastern, ±1 day).
-  for (const shift of [0, -1, 1]) {
+  // 1. Exact slug guesses: nfl-pit-cin-2026-11-15, on the game's US Eastern date and a day
+  //    either side. Teams that meet on back-to-back nights match several, so keep the one
+  //    that starts closest to kickoff.
+  const hits = [];
+  for (const shift of [0, 1, -1]) {
     for (const a of slugAbbrs(game.away.abbr, key)) {
       for (const h of slugAbbrs(game.home.abbr, key)) {
         const slug = `${key}-${a}-${h}-${etDate(game.kickoff, shift)}`;
         tried.push(slug);
         const events = await getJSON(`${GAMMA}/events?slug=${slug}`, fetchImpl).catch(() => []);
-        const ev = (Array.isArray(events) ? events : []).find((e) => isGameEvent(e, game)) || null;
-        const odds = ev && pickMoneyline(ev, game);
-        if (odds) return { ...odds, slug: ev.slug, via: 'slug' };
+        for (const ev of Array.isArray(events) ? events : []) {
+          const odds = isGameEvent(ev, game) && pickMoneyline(ev, game);
+          if (odds) hits.push({ ...odds, slug: ev.slug, via: 'slug', gap: startGap(ev, game, shift) });
+        }
       }
     }
   }
+  if (hits.length) return hits.sort((x, y) => x.gap - y.gap)[0];
   // 2. Search by team names.
   const q = encodeURIComponent(`${game.away.name} ${game.home.name}`);
   const found = await getJSON(`${GAMMA}/public-search?q=${q}&events_status=active&limit_per_type=10`, fetchImpl).catch(() => null);
@@ -127,7 +138,7 @@ export async function addOdds(watch, league, { count = 3, fetchImpl = fetch, now
         volume: r.volume,
         at: now.toISOString(),
       };
-      log.push(`${g.away.abbr}@${g.home.abbr}: ${Math.round(r.away * 100)}-${Math.round(r.home * 100)} via ${r.via}`);
+      log.push(`${g.away.abbr}@${g.home.abbr}: ${Math.round(r.away * 100)}-${Math.round(r.home * 100)} via ${r.via}${r.gap != null ? ` (${Math.round(r.gap)}h)` : ""}`);
     } catch (e) {
       log.push(`${g.away.abbr}@${g.home.abbr}: ${e.message}`);
     }
