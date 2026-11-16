@@ -1,26 +1,26 @@
 {
   "PHI": {
-    "key": "401909976|401909985",
+    "key": "401909985|401909997",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 10-3 but only +23 in point differential, and they beat TOR 123-112 without LeBron James.",
+      "story": "The 76ers are 11-3, but their +30 point differential suggests the record may be flattering them early.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "26.7 pts a game; 27 pts and 8 ast vs TOR"
+        "line": "27 pts, 4 reb and 6 ast vs IND"
       },
       "source": "claude"
     }
   },
   "BOS": {
-    "key": "401909968|401909989",
+    "key": "401909989|401909994",
     "result": {
       "abbr": "BOS",
-      "story": "The Celtics are 10-2 with the NBA's best margin, +11.2 per game, and have won 5 straight.",
+      "story": "The Celtics are 11-2 on a 6-game streak, with the league's best margin at +13.2 per game.",
       "player": {
         "name": "Jayson Tatum",
         "pos": "F",
-        "line": "26.3 ppg; hit the go-ahead free throws vs TOR"
+        "line": "32 pts, 6 reb and 6 ast vs DAL"
       },
       "source": "claude"
     }
@@ -91,14 +91,14 @@
     }
   },
   "IND": {
-    "key": "401909296|401909985",
+    "key": "401909985|401910008",
     "result": {
       "abbr": "IND",
-      "story": "The Pacers are 5-8 but have won 2 straight, the latest 106-104 over NY in an NBA Cup game.",
+      "story": "The Pacers are 5-9 and 10th in the East after losing 131-124 at PHI.",
       "player": {
         "name": "Pascal Siakam",
         "pos": "F",
-        "line": "22.4 pts per game, 19 pts in the win over NY"
+        "line": "31 pts at PHI; 23.1 ppg over 13 games"
       },
       "source": "claude"
     }
@@ -169,14 +169,14 @@
     }
   },
   "CHA": {
-    "key": "401909979|401909987",
+    "key": "401909987|401910005",
     "result": {
       "abbr": "CHA",
-      "story": "The Hornets are 4-8 with a -132 point differential, and just lost 101-96 at PHX.",
+      "story": "The Hornets are 4-9 with a -140 point differential and have lost 2 straight, the latest at LAC.",
       "player": {
-        "name": "Brandon Miller",
-        "pos": "F",
-        "line": "20.6 pts per game over 10 games"
+        "name": "Naz Reid",
+        "pos": "C",
+        "line": "17.2 pts and 8.2 reb per game over 13 games"
       },
       "source": "claude"
     }
@@ -247,27 +247,27 @@
     }
   },
   "UTAH": {
-    "key": "401909301|401909988",
+    "key": "401909988|401910006",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 1-12 with 11 straight losses, the latest 125-118 at HOU, and a -11.2 per-game margin.",
+      "story": "The Jazz are 1-13 and have lost 12 straight, the latest 110-102 to a SA team on a 12-game win streak.",
       "player": {
         "name": "Keyonte George",
         "pos": "G",
-        "line": "27 pts, 4 reb and 7 ast vs HOU"
+        "line": "20.3 pts and 6.6 ast per game over 13 games"
       },
       "source": "claude"
     }
   },
   "LAL": {
-    "key": "401909971|401909986",
+    "key": "401909986|401910005",
     "result": {
       "abbr": "LAL",
-      "story": "The Lakers are 11-2 on a 7-game streak, but Austin Reaves left the 7th straight win with a heel injury.",
+      "story": "The Lakers are 12-2 on an 8-game win streak, beating PHX 131-123 without the injured Austin Reaves.",
       "player": {
         "name": "Luka Doncic",
         "pos": "G",
-        "line": "38.6 ppg through 11 games; 32 pts vs MIL"
+        "line": "39 pts per game; 43 pts and 9 ast at PHX"
       },
       "source": "claude"
     }
@@ -286,27 +286,27 @@
     }
   },
   "PHX": {
-    "key": "401909979|401909986",
+    "key": "401909986|401910001",
     "result": {
       "abbr": "PHX",
-      "story": "The Suns are 5-6 with a -48 point differential, but have won two straight, including 101-96 over CHA.",
+      "story": "The Suns are 5-7 after losing 131-123 to LAL, and their point differential is -56.",
       "player": {
         "name": "Devin Booker",
         "pos": "G",
-        "line": "30 pts and 7 ast vs CHA; 25.5 ppg this season"
+        "line": "24.8 pts per game; 17 pts and 7 ast vs LAL"
       },
       "source": "claude"
     }
   },
   "LAC": {
-    "key": "401909304|401909987",
+    "key": "401909987|401910006",
     "result": {
       "abbr": "LAC",
-      "story": "The Clippers are 3-8 and 2-8 over their last 10, but they beat OKC 113-112 in their latest game.",
+      "story": "The Clippers are 4-8 but have won two straight, beating CHA 113-105 for a 17th straight win over them.",
       "player": {
-        "name": "Brook Lopez",
-        "pos": "C",
-        "line": "26 pts and 7 reb vs OKC"
+        "name": "Darius Garland",
+        "pos": "G",
+        "line": "27 pts and 7 ast vs CHA; 21.3 pts per game"
       },
       "source": "claude"
     }
@@ -338,14 +338,14 @@
     }
   },
   "SA": {
-    "key": "401909302|401909988",
+    "key": "401909988|401910004",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs are 11-2 with 11 straight wins and a +13.2 per-game margin, still only a 13-game sample.",
+      "story": "The Spurs are 12-2 and have won 12 straight, outscoring opponents by 12.9 per game through 14 games.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "28.8 pts and 11.7 reb per game through 13 games"
+        "line": "28.6 pts and 11.6 reb per game over 14 games"
       },
       "source": "claude"
     }
@@ -364,14 +364,14 @@
     }
   },
   "DAL": {
-    "key": "401909981|401909989",
+    "key": "401909989|401910016",
     "result": {
       "abbr": "DAL",
-      "story": "The Mavericks are 7-6 with a +2 point differential after losing two straight, most recently 127-117 at CLE.",
+      "story": "The Mavericks are 7-7 after three straight losses, the latest 131-94 at BOS after a 42-9 first quarter.",
       "player": {
         "name": "Cooper Flagg",
         "pos": "F",
-        "line": "24.1 pts, 7 reb, 6.4 ast per game in 12 games"
+        "line": "23.5 pts, 6.7 reb and 6.2 ast per game"
       },
       "source": "claude"
     }
