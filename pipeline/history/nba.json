@@ -34,7 +34,7 @@
       "division": "East Atlantic",
       "streak": "W1",
       "pct": 0.5384615384615384,
-      "seed": 4
+      "seed": 5
     },
     "TOR": {
       "w": 5,
@@ -110,33 +110,33 @@
     },
     "MIL": {
       "w": 1,
-      "l": 12,
+      "l": 13,
       "t": 0,
       "rank": 30,
       "heat": "Cold",
       "place": 5,
       "division": "East Central",
-      "streak": "L9",
-      "pct": 0.07692307692307693,
+      "streak": "L10",
+      "pct": 0.07142857142857142,
       "seed": 15
     },
     "ATL": {
-      "w": 7,
+      "w": 8,
       "l": 6,
       "t": 0,
-      "rank": 15,
+      "rank": 14,
       "heat": "Steady",
       "place": 1,
       "division": "East Southeast",
-      "streak": "L2",
-      "pct": 0.5384615384615384,
-      "seed": 5
+      "streak": "W1",
+      "pct": 0.5714285714285714,
+      "seed": 4
     },
     "MIA": {
       "w": 7,
       "l": 6,
       "t": 0,
-      "rank": 14,
+      "rank": 15,
       "heat": "Warm",
       "place": 2,
       "division": "East Southeast",
@@ -204,29 +204,29 @@
       "pct": 0.6923076923076923,
       "seed": 5
     },
+    "OKC": {
+      "w": 9,
+      "l": 5,
+      "t": 0,
+      "rank": 12,
+      "heat": "Steady",
+      "place": 3,
+      "division": "West Northwest",
+      "streak": "W1",
+      "pct": 0.6428571428571429,
+      "seed": 7
+    },
     "DEN": {
       "w": 7,
       "l": 4,
       "t": 0,
-      "rank": 12,
+      "rank": 13,
       "heat": "Warm",
-      "place": 3,
+      "place": 4,
       "division": "West Northwest",
       "streak": "W2",
       "pct": 0.6363636363636364,
-      "seed": 7
-    },
-    "OKC": {
-      "w": 8,
-      "l": 5,
-      "t": 0,
-      "rank": 13,
-      "heat": "Steady",
-      "place": 4,
-      "division": "West Northwest",
-      "streak": "L3",
-      "pct": 0.6153846153846154,
-      "seed": 9
+      "seed": 8
     },
     "UTAH": {
       "w": 1,
@@ -262,7 +262,7 @@
       "division": "West Pacific",
       "streak": "L2",
       "pct": 0.6153846153846154,
-      "seed": 8
+      "seed": 9
     },
     "PHX": {
       "w": 5,
@@ -290,14 +290,14 @@
     },
     "SAC": {
       "w": 1,
-      "l": 11,
+      "l": 12,
       "t": 0,
       "rank": 29,
       "heat": "Cold",
       "place": 5,
       "division": "West Pacific",
-      "streak": "L5",
-      "pct": 0.08333333333333333,
+      "streak": "L6",
+      "pct": 0.07692307692307693,
       "seed": 14
     },
     "SA": {
@@ -803,15 +803,29 @@
       "kind": "streak",
       "weight": 3,
       "text": "The Wizards have lost 7 straight."
+    },
+    {
+      "at": "2026-11-16T13:29:38.796Z",
+      "abbr": "MIL",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Bucks have lost 10 straight."
     }
   ],
   "recap": {
-    "key": "wk-2026-11-09",
-    "label": "Week of Nov 9",
-    "at": "2026-11-15T13:25:38.302Z",
+    "key": "wk-2026-11-16",
+    "label": "Week of Nov 16",
+    "at": "2026-11-16T13:29:38.796Z",
     "bullets": [
       {
-        "text": "The Spurs and Lakers are both 11-2 atop the West, while the Celtics lead the East at 10-2 and all three are running hot.",
+        "text": "The 76ers are 11-3 on a thin +30 differential while the Knicks are 7-6 despite +77, so the standings may not match the play.",
+        "teams": [
+          "PHI",
+          "NY"
+        ]
+      },
+      {
+        "text": "The Spurs and Lakers are both 12-2 and the Celtics 11-2, the top three in the power rankings and all running hot.",
         "teams": [
           "SA",
           "LAL",
@@ -819,18 +833,11 @@
         ]
       },
       {
-        "text": "The Bucks and Jazz are both 1-12 and the Kings are 1-11, leaving all three far behind the rest of the league and gone cold.",
+        "text": "The Bucks and Jazz are both 1-13 and the Kings 1-12, a three-team race for the league's worst record.",
         "teams": [
           "MIL",
           "UTAH",
           "SAC"
-        ]
-      },
-      {
-        "text": "Records and play don't match: the Knicks are 6-6 despite a +73 point differential, while the Heat are 7-6 with a -15 differential.",
-        "teams": [
-          "NY",
-          "MIA"
         ]
       }
     ],

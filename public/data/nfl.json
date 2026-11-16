@@ -10,10 +10,31 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-16T03:01:06.136Z",
+  "updatedAt": "2026-11-16T13:29:25.647Z",
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-16T13:29:25.647Z",
+      "abbr": "PIT",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Steelers have cooled off."
+    },
+    {
+      "at": "2026-11-16T13:29:25.647Z",
+      "abbr": "PIT",
+      "kind": "rank",
+      "weight": 3,
+      "text": "The Steelers slid to No. 12 in the power rankings."
+    },
+    {
+      "at": "2026-11-16T13:29:25.647Z",
+      "abbr": "CIN",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bengals have won 5 straight."
+    },
     {
       "at": "2026-11-16T01:07:27.441Z",
       "abbr": "NYJ",
@@ -388,43 +409,6 @@
     "window": "this week",
     "games": [
       {
-        "id": "401873064",
-        "kickoff": "2026-11-16T01:20Z",
-        "network": "NBC",
-        "away": {
-          "abbr": "PIT",
-          "name": "Steelers",
-          "color": "#FFB612",
-          "rec": "6-2"
-        },
-        "home": {
-          "abbr": "CIN",
-          "name": "Bengals",
-          "color": "#FB4F14",
-          "rec": "6-2"
-        },
-        "score": 86,
-        "tier": "must",
-        "reasons": [
-          "Top-8 vs top-8",
-          "AFC North lead on the line",
-          "Steelers have won 4 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16",
-          "slug": "nfl-pit-cin-2026-11-16",
-          "marketSlug": "nfl-pit-cin-2026-11-16",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.029,
-          "home": 0.971,
-          "volume": 4309915,
-          "at": "2026-11-16T03:01:06.136Z"
-        }
-      },
-      {
         "id": "401873069",
         "kickoff": "2026-11-22T21:25Z",
         "network": "CBS",
@@ -454,10 +438,10 @@
             "away",
             "home"
           ],
-          "away": 0.71,
-          "home": 0.29,
-          "volume": 749,
-          "at": "2026-11-16T03:01:06.136Z"
+          "away": 0.715,
+          "home": 0.285,
+          "volume": 898,
+          "at": "2026-11-16T13:29:25.647Z"
         }
       },
       {
@@ -491,10 +475,10 @@
             "away",
             "home"
           ],
-          "away": 0.29,
-          "home": 0.71,
-          "volume": 3728,
-          "at": "2026-11-16T03:01:06.136Z"
+          "away": 0.295,
+          "home": 0.705,
+          "volume": 3739,
+          "at": "2026-11-16T13:29:25.647Z"
         }
       },
       {
@@ -513,12 +497,25 @@
           "color": "#AA0000",
           "rec": "8-1"
         },
-        "score": 62,
+        "score": 63,
         "tier": "other",
         "reasons": [
           "Two winning teams",
           "Should be close"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-min-sf-2026-11-23",
+          "slug": "nfl-min-sf-2026-11-23",
+          "marketSlug": "nfl-min-sf-2026-11-23",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 3363,
+          "at": "2026-11-16T13:29:25.647Z"
+        }
       },
       {
         "id": "401873071",
@@ -563,28 +560,6 @@
         "reasons": [
           "Should be close",
           "Broncos have won 5 straight"
-        ]
-      },
-      {
-        "id": "401873076",
-        "kickoff": "2026-11-22T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "PIT",
-          "name": "Steelers",
-          "color": "#FFB612",
-          "rec": "6-2"
-        },
-        "home": {
-          "abbr": "PHI",
-          "name": "Eagles",
-          "color": "#004C54",
-          "rec": "2-7"
-        },
-        "score": 49,
-        "tier": "other",
-        "reasons": [
-          "Steelers have won 4 straight"
         ]
       },
       {
@@ -650,6 +625,48 @@
         "reasons": [
           "Should be close"
         ]
+      },
+      {
+        "id": "401873076",
+        "kickoff": "2026-11-22T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "PIT",
+          "name": "Steelers",
+          "color": "#FFB612",
+          "rec": "6-3"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "Eagles",
+          "color": "#004C54",
+          "rec": "2-7"
+        },
+        "score": 35,
+        "tier": "other",
+        "reasons": [
+          "Should be close"
+        ]
+      },
+      {
+        "id": "401873067",
+        "kickoff": "2026-11-22T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "ARI",
+          "name": "Cardinals",
+          "color": "#97233F",
+          "rec": "3-7"
+        },
+        "home": {
+          "abbr": "KC",
+          "name": "Chiefs",
+          "color": "#E31837",
+          "rec": "7-2"
+        },
+        "score": 29,
+        "tier": "other",
+        "reasons": []
       }
     ]
   },
@@ -875,22 +892,14 @@
               "city": "Cincinnati",
               "name": "Bengals",
               "color": "#FB4F14",
-              "w": 6,
+              "w": 7,
               "l": 2,
               "t": 0,
-              "pf": 240,
-              "pa": 175,
-              "rank": 5,
+              "pf": 278,
+              "pa": 193,
+              "rank": 4,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 35,
-                  "against": 13,
-                  "opp": "BAL",
-                  "home": false
-                },
                 {
                   "week": 8,
                   "result": "W",
@@ -906,19 +915,27 @@
                   "against": 17,
                   "opp": "ATL",
                   "home": false
+                },
+                {
+                  "week": 10,
+                  "result": "W",
+                  "for": 38,
+                  "against": 18,
+                  "opp": "PIT",
+                  "home": true
                 }
               ],
-              "story": "The Bengals are 6-2 and have won four straight, scoring a league-high 240 points.",
+              "story": "The Bengals are 7-2 on a five-game win streak after beating PIT 38-18 to take sole lead of the AFC North.",
               "player": {
                 "name": "Joe Burrow",
                 "pos": "QB",
-                "line": "24/29, 271 yds and 3 TD at ATL"
+                "line": "35/44, 409 yds and 4 TD vs PIT"
               },
               "next": {
-                "opp": "PIT",
-                "home": true,
-                "kickoff": "2026-11-16T01:20Z",
-                "network": "NBC"
+                "opp": "WSH",
+                "home": false,
+                "kickoff": "2026-11-24T01:15Z",
+                "network": "ESPN"
               }
             },
             {
@@ -927,29 +944,13 @@
               "name": "Steelers",
               "color": "#FFB612",
               "w": 6,
-              "l": 2,
+              "l": 3,
               "t": 0,
-              "pf": 180,
-              "pa": 144,
-              "rank": 8,
-              "heat": "Hot",
+              "pf": 198,
+              "pa": 182,
+              "rank": 12,
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 6,
-                  "result": "W",
-                  "for": 26,
-                  "against": 19,
-                  "opp": "TB",
-                  "home": false
-                },
-                {
-                  "week": 7,
-                  "result": "W",
-                  "for": 16,
-                  "against": 10,
-                  "opp": "NO",
-                  "home": false
-                },
                 {
                   "week": 8,
                   "result": "W",
@@ -957,19 +958,31 @@
                   "against": 6,
                   "opp": "CLE",
                   "home": true
+                },
+                {
+                  "week": 9,
+                  "result": "BYE"
+                },
+                {
+                  "week": 10,
+                  "result": "L",
+                  "for": 18,
+                  "against": 38,
+                  "opp": "CIN",
+                  "home": false
                 }
               ],
-              "story": "The Steelers are 6-2 and have won four straight, most recently beating CLE 27-6.",
+              "story": "The Steelers are 6-3 but lost 38-18 at CIN, and their +16 point differential is thin for that record.",
               "player": {
-                "name": "Jaylen Warren",
-                "pos": "RB",
-                "line": "143 yds and a TD on 17 carries vs CLE"
+                "name": "Aaron Rodgers",
+                "pos": "QB",
+                "line": "Chasing records in his 22nd NFL season"
               },
               "next": {
-                "opp": "CIN",
+                "opp": "PHI",
                 "home": false,
-                "kickoff": "2026-11-16T01:20Z",
-                "network": "NBC"
+                "kickoff": "2026-11-22T18:00Z",
+                "network": "CBS"
               }
             },
             {
@@ -1290,7 +1303,7 @@
               "t": 0,
               "pf": 237,
               "pa": 156,
-              "rank": 4,
+              "rank": 5,
               "heat": "Hot",
               "last3": [
                 {
@@ -1341,7 +1354,7 @@
               "t": 0,
               "pf": 198,
               "pa": 186,
-              "rank": 11,
+              "rank": 10,
               "heat": "Hot",
               "last3": [
                 {
@@ -1808,7 +1821,7 @@
               "t": 0,
               "pf": 176,
               "pa": 126,
-              "rank": 10,
+              "rank": 9,
               "heat": "Steady",
               "last3": [
                 {
@@ -2167,7 +2180,7 @@
               "t": 0,
               "pf": 248,
               "pa": 187,
-              "rank": 9,
+              "rank": 8,
               "heat": "Hot",
               "last3": [
                 {
@@ -2218,7 +2231,7 @@
               "t": 0,
               "pf": 223,
               "pa": 175,
-              "rank": 12,
+              "rank": 11,
               "heat": "Warm",
               "last3": [
                 {

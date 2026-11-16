@@ -49,27 +49,27 @@
       "seed": 15
     },
     "CIN": {
-      "w": 6,
+      "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 5,
+      "rank": 4,
       "heat": "Hot",
       "place": 1,
       "division": "AFC North",
-      "streak": "W4",
-      "pct": 0.75,
-      "seed": 5
+      "streak": "W5",
+      "pct": 0.7777777777777778,
+      "seed": 3
     },
     "PIT": {
       "w": 6,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "rank": 8,
-      "heat": "Hot",
+      "rank": 12,
+      "heat": "Steady",
       "place": 2,
       "division": "AFC North",
-      "streak": "W4",
-      "pct": 0.75,
+      "streak": "L1",
+      "pct": 0.6666666666666666,
       "seed": 6
     },
     "CLE": {
@@ -148,25 +148,25 @@
       "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 4,
+      "rank": 5,
       "heat": "Hot",
       "place": 1,
       "division": "AFC West",
       "streak": "W2",
       "pct": 0.7777777777777778,
-      "seed": 3
+      "seed": 4
     },
     "DEN": {
       "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 11,
+      "rank": 10,
       "heat": "Hot",
       "place": 2,
       "division": "AFC West",
       "streak": "W5",
       "pct": 0.7777777777777778,
-      "seed": 4
+      "seed": 5
     },
     "LV": {
       "w": 4,
@@ -268,7 +268,7 @@
       "w": 7,
       "l": 2,
       "t": 0,
-      "rank": 10,
+      "rank": 9,
       "heat": "Steady",
       "place": 3,
       "division": "NFC North",
@@ -352,7 +352,7 @@
       "w": 6,
       "l": 4,
       "t": 0,
-      "rank": 9,
+      "rank": 8,
       "heat": "Hot",
       "place": 2,
       "division": "NFC West",
@@ -364,7 +364,7 @@
       "w": 6,
       "l": 4,
       "t": 0,
-      "rank": 12,
+      "rank": 11,
       "heat": "Warm",
       "place": 3,
       "division": "NFC West",
@@ -729,6 +729,27 @@
       "kind": "heat",
       "weight": 3,
       "text": "The Cardinals have gone cold."
+    },
+    {
+      "at": "2026-11-16T13:29:25.647Z",
+      "abbr": "CIN",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bengals have won 5 straight."
+    },
+    {
+      "at": "2026-11-16T13:29:25.647Z",
+      "abbr": "PIT",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Steelers have cooled off."
+    },
+    {
+      "at": "2026-11-16T13:29:25.647Z",
+      "abbr": "PIT",
+      "kind": "rank",
+      "weight": 3,
+      "text": "The Steelers slid to No. 12 in the power rankings."
     }
   ],
   "recap": {

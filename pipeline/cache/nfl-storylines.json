@@ -52,27 +52,27 @@
     }
   },
   "PIT": {
-    "key": "401873027|401873064",
+    "key": "401873064|401873076",
     "result": {
       "abbr": "PIT",
-      "story": "The Steelers are 6-2 and have won four straight, most recently beating CLE 27-6.",
+      "story": "The Steelers are 6-3 but lost 38-18 at CIN, and their +16 point differential is thin for that record.",
       "player": {
-        "name": "Jaylen Warren",
-        "pos": "RB",
-        "line": "143 yds and a TD on 17 carries vs CLE"
+        "name": "Aaron Rodgers",
+        "pos": "QB",
+        "line": "Chasing records in his 22nd NFL season"
       },
       "source": "claude"
     }
   },
   "CIN": {
-    "key": "401873038|401873064",
+    "key": "401873064|401873078",
     "result": {
       "abbr": "CIN",
-      "story": "The Bengals are 6-2 and have won four straight, scoring a league-high 240 points.",
+      "story": "The Bengals are 7-2 on a five-game win streak after beating PIT 38-18 to take sole lead of the AFC North.",
       "player": {
         "name": "Joe Burrow",
         "pos": "QB",
-        "line": "24/29, 271 yds and 3 TD at ATL"
+        "line": "35/44, 409 yds and 4 TD vs PIT"
       },
       "source": "claude"
     }

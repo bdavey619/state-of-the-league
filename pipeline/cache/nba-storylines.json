@@ -117,27 +117,27 @@
     }
   },
   "MIL": {
-    "key": "401909297|401909992",
+    "key": "401909992|401910009",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 1-12 on a 9-game losing streak, with the NBA's worst point margin at -14.1 per game.",
+      "story": "The Bucks are 1-13 on a 10-game losing streak, with the NBA's worst margin at -13.6 per game.",
       "player": {
         "name": "Tyler Herro",
         "pos": "G",
-        "line": "21.6 pts per game; 18 pts vs ORL"
+        "line": "Averaging 20.3 pts in 13 games"
       },
       "source": "claude"
     }
   },
   "ATL": {
-    "key": "401909299|401909992",
+    "key": "401909992|401910014",
     "result": {
       "abbr": "ATL",
-      "story": "The Hawks are 7-6 and lead the Southeast, but have lost two straight, including 125-117 at CHI in OT.",
+      "story": "The Hawks are 8-6 after beating MIL 113-106 from 22 points down, though their point differential is only +24.",
       "player": {
-        "name": "Jalen Johnson",
-        "pos": "F",
-        "line": "27 pts, 11 reb and 10 ast vs CHI"
+        "name": "Nickeil Alexander-Walker",
+        "pos": "G",
+        "line": "21.4 ppg, including 20 pts at MIL"
       },
       "source": "claude"
     }
@@ -195,14 +195,14 @@
     }
   },
   "OKC": {
-    "key": "401909304|401909993",
+    "key": "401909993|401910014",
     "result": {
       "abbr": "OKC",
-      "story": "The Thunder have lost 3 straight, the latest 113-112 at LAC, despite 40 points from Gilgeous-Alexander.",
+      "story": "The Thunder are 9-5 after beating SAC 125-103 to end a three-game losing streak.",
       "player": {
         "name": "Shai Gilgeous-Alexander",
         "pos": "G",
-        "line": "40 pts vs LAC; 30.5 ppg in 13 games"
+        "line": "37 pts vs SAC; 30.9 pts per game this season"
       },
       "source": "claude"
     }
@@ -312,14 +312,14 @@
     }
   },
   "SAC": {
-    "key": "401909303|401909993",
+    "key": "401909993|401910018",
     "result": {
       "abbr": "SAC",
-      "story": "The Kings are 1-11 and have lost 5 straight, with a point differential of -153.",
+      "story": "The Kings are 1-12 and have lost six straight, the latest 125-103 to OKC.",
       "player": {
         "name": "Darius Acuff Jr.",
         "pos": "G",
-        "line": "25.4 pts and 7.2 ast a game over 12 games"
+        "line": "25.5 pts and 7.1 ast a game; 26 pts vs OKC"
       },
       "source": "claude"
     }
