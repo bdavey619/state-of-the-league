@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { useCountUp } from '../motion.js';
 import { upcomingGames, whenLabel } from './MustWatch.jsx';
+import Odds from './Odds.jsx';
 
 // The single best game to watch, front and center: big names in team colors and a Watch Score dial.
 export function pickSpotlight(watch) {
@@ -41,6 +42,8 @@ export default function Spotlight({ game, window: span }) {
         </div>
         <Dial score={game.score} tier={game.tier} />
       </div>
+
+      {game.polymarket && <Odds pm={game.polymarket} away={game.away} home={game.home} live={live} />}
 
       {game.reasons?.length > 0 && (
         <div className="sp-tags">

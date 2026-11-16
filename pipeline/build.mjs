@@ -5,7 +5,8 @@
 //   node pipeline/build.mjs --league=nba
 //   --no-ai           template storylines only (no API key needed)
 //   --force-stories   rewrite every storyline, ignoring the cache
-//   --games=path      use a saved games file instead of fetching
+//   --games=path      use a saved games file instead of fetching (also skips Polymarket)
+//   --no-odds         skip Polymarket odds
 //   --season=2026     season start year
 //   --out=path --cache=path                     write somewhere else (used by the smoke test)
 //
@@ -24,6 +25,7 @@ import { recapKey, writeRecap } from './lib/recap.mjs';
 import { updateBoxCache } from './lib/boxscore.mjs';
 import { aggregatePlayers, dominanceRanking, teamCandidates } from './lib/players.mjs';
 import { mustWatch } from './lib/watch.mjs';
+import { addOdds } from './lib/polymarket.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
@@ -115,6 +117,12 @@ async function main() {
     console.log(`players: ${players.length} with box scores, top: ${stars.slice(0, 3).map((p) => p.name).join(', ')}`);
   }
   const watch = mustWatch(games, teams, league, stars, now);
+  // Prediction-market odds for the top games; offline runs and tests skip the network.
+  let odds = [];
+  if (!args.games && !args['no-odds']) {
+    odds = await addOdds(watch, league, { now }).catch((e) => [`polymarket: ${e.message}`]);
+    console.log(`polymarket: ${odds.join(' | ') || 'no games'}`);
+  }
 
   // Storylines: reuse cached ones unless the team's latest result or next game changed.
   const cache = args['force-stories'] ? {} : await readJSON(paths.stories, {});
@@ -208,7 +216,7 @@ async function main() {
   };
   out.aiStorylines = aiCount > league.teamCount / 2;
   await writeJSON(paths.out, out);
-  await writeJSON(paths.runLog, { at: now.toISOString(), model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5', claudeStories: aiCount, recap: recap?.source || null, newChanges: fresh.length, issues });
+  await writeJSON(paths.runLog, { at: now.toISOString(), model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5', claudeStories: aiCount, recap: recap?.source || null, newChanges: fresh.length, polymarket: odds, issues });
   console.log(`wrote ${paths.out}: ${out.kicker}, ${aiCount}/${league.teamCount} storylines from Claude, power: ${powerSource}`);
 }
 
