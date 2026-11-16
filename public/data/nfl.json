@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-16T01:07:27.441Z",
+  "updatedAt": "2026-11-16T02:58:35.482Z",
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
@@ -409,7 +409,20 @@
           "Top-8 vs top-8",
           "AFC North lead on the line",
           "Steelers have won 4 straight"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16",
+          "slug": "nfl-pit-cin-2026-11-16",
+          "marketSlug": "nfl-pit-cin-2026-11-16",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.028,
+          "home": 0.973,
+          "volume": 4309915,
+          "at": "2026-11-16T02:58:35.482Z"
+        }
       },
       {
         "id": "401873069",
@@ -432,7 +445,20 @@
         "reasons": [
           "Two winning teams",
           "Jaguars have won 3 straight"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-jax-nyg-2026-11-22",
+          "slug": "nfl-jax-nyg-2026-11-22",
+          "marketSlug": "nfl-jax-nyg-2026-11-22",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.71,
+          "home": 0.29,
+          "volume": 749,
+          "at": "2026-11-16T02:58:35.482Z"
+        }
       },
       {
         "id": "401873072",
@@ -456,6 +482,42 @@
           "Two winning teams",
           "Should be close",
           "Lions have won 5 straight"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-tb-det-2026-11-22",
+          "slug": "nfl-tb-det-2026-11-22",
+          "marketSlug": "nfl-tb-det-2026-11-22",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.29,
+          "home": 0.71,
+          "volume": 3728,
+          "at": "2026-11-16T02:58:35.482Z"
+        }
+      },
+      {
+        "id": "401873077",
+        "kickoff": "2026-11-23T01:20Z",
+        "network": "NBC",
+        "away": {
+          "abbr": "MIN",
+          "name": "Vikings",
+          "color": "#4F2683",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "SF",
+          "name": "49ers",
+          "color": "#AA0000",
+          "rec": "8-1"
+        },
+        "score": 62,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Should be close"
         ]
       },
       {
@@ -588,26 +650,6 @@
         "reasons": [
           "Should be close"
         ]
-      },
-      {
-        "id": "401873067",
-        "kickoff": "2026-11-22T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "ARI",
-          "name": "Cardinals",
-          "color": "#97233F",
-          "rec": "3-7"
-        },
-        "home": {
-          "abbr": "KC",
-          "name": "Chiefs",
-          "color": "#E31837",
-          "rec": "7-2"
-        },
-        "score": 30,
-        "tier": "other",
-        "reasons": []
       }
     ]
   },

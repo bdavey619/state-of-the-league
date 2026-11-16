@@ -26,27 +26,27 @@
     }
   },
   "TOR": {
-    "key": "401909976|401909990",
+    "key": "401909990|401910002",
     "result": {
       "abbr": "TOR",
-      "story": "The Raptors are 5-7 on a three-game skid, but their +17 point differential is better than that record.",
+      "story": "The Raptors have lost four straight, the latest 112-108 to NY in OT, despite a +13 point differential.",
       "player": {
-        "name": "RJ Barrett",
+        "name": "Scottie Barnes",
         "pos": "F",
-        "line": "31 pts and 14 reb at PHI; 21.3 pts a game"
+        "line": "30 pts and 9 reb vs NY, 24.2 ppg in 9 games"
       },
       "source": "claude"
     }
   },
   "NY": {
-    "key": "401909296|401909990",
+    "key": "401909990|401910002",
     "result": {
       "abbr": "NY",
-      "story": "The Knicks are 6-6 despite a +73 point differential and have lost two straight, 106-104 at IND on Nov 13.",
+      "story": "The Knicks are 7-6 despite a +77 point differential, after a 112-108 overtime win at TOR.",
       "player": {
-        "name": "Jalen Brunson",
-        "pos": "G",
-        "line": "33 pts, 11 ast vs IND; 26.6 pts per game"
+        "name": "Karl-Anthony Towns",
+        "pos": "C",
+        "line": "28 pts and 17 reb at TOR"
       },
       "source": "claude"
     }
@@ -143,14 +143,14 @@
     }
   },
   "WSH": {
-    "key": "401909977|401909991",
+    "key": "401909991|401909996",
     "result": {
       "abbr": "WSH",
-      "story": "The Wizards are 4-9 and have lost six straight, the latest 144-140 to DET in double overtime.",
+      "story": "The Wizards have lost seven straight and are 4-10, with a -103 point differential.",
       "player": {
-        "name": "Trae Young",
-        "pos": "G",
-        "line": "37 pts and 14 ast vs DET"
+        "name": "Anthony Davis",
+        "pos": "F",
+        "line": "24.7 pts and 10.3 reb per game this season"
       },
       "source": "claude"
     }
@@ -325,14 +325,14 @@
     }
   },
   "HOU": {
-    "key": "401909301|401909991",
+    "key": "401909991|401909998",
     "result": {
       "abbr": "HOU",
-      "story": "The Rockets are 10-3 and have won 3 straight, beating UTAH 125-118 behind Sengun's 43 points.",
+      "story": "The Rockets are 11-3 with 4 straight wins, the latest a 147-119 rout at WSH.",
       "player": {
         "name": "Alperen Sengun",
         "pos": "C",
-        "line": "43 pts and 12 reb vs UTAH"
+        "line": "22.8 pts, 9.6 reb and 7.7 ast per game in 12 games"
       },
       "source": "claude"
     }
