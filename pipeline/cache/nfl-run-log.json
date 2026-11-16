@@ -1,13 +1,13 @@
 {
-  "at": "2026-11-16T02:58:35.482Z",
+  "at": "2026-11-16T03:01:06.136Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 32,
   "recap": "claude",
   "newChanges": 0,
   "polymarket": [
-    "PIT@CIN: 3-97 via slug",
-    "JAX@NYG: 71-29 via slug",
-    "TB@DET: 29-71 via slug"
+    "PIT@CIN: 3-97 via slug (0h)",
+    "JAX@NYG: 71-29 via slug (0h)",
+    "TB@DET: 29-71 via slug (0h)"
   ],
   "issues": []
 }

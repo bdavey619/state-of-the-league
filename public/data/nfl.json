@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-16T02:58:35.482Z",
+  "updatedAt": "2026-11-16T03:01:06.136Z",
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
@@ -418,10 +418,10 @@
             "away",
             "home"
           ],
-          "away": 0.028,
-          "home": 0.973,
+          "away": 0.029,
+          "home": 0.971,
           "volume": 4309915,
-          "at": "2026-11-16T02:58:35.482Z"
+          "at": "2026-11-16T03:01:06.136Z"
         }
       },
       {
@@ -457,7 +457,7 @@
           "away": 0.71,
           "home": 0.29,
           "volume": 749,
-          "at": "2026-11-16T02:58:35.482Z"
+          "at": "2026-11-16T03:01:06.136Z"
         }
       },
       {
@@ -494,7 +494,7 @@
           "away": 0.29,
           "home": 0.71,
           "volume": 3728,
-          "at": "2026-11-16T02:58:35.482Z"
+          "at": "2026-11-16T03:01:06.136Z"
         }
       },
       {
