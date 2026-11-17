@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-17T16:28:59.219Z",
+  "updatedAt": "2026-11-17T21:46:39.428Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
@@ -456,8 +456,8 @@
           ],
           "away": 0.715,
           "home": 0.285,
-          "volume": 1753,
-          "at": "2026-11-17T16:28:59.219Z"
+          "volume": 1819,
+          "at": "2026-11-17T21:46:39.428Z"
         }
       },
       {
@@ -493,8 +493,8 @@
           ],
           "away": 0.295,
           "home": 0.705,
-          "volume": 27897,
-          "at": "2026-11-17T16:28:59.219Z"
+          "volume": 31668,
+          "at": "2026-11-17T21:46:39.428Z"
         }
       },
       {
@@ -527,10 +527,10 @@
             "away",
             "home"
           ],
-          "away": 0.405,
-          "home": 0.595,
-          "volume": 5159,
-          "at": "2026-11-17T16:28:59.219Z"
+          "away": 0.395,
+          "home": 0.605,
+          "volume": 6733,
+          "at": "2026-11-17T21:46:39.428Z"
         }
       },
       {
@@ -795,8 +795,8 @@
               "next": {
                 "opp": "LAC",
                 "home": false,
-                "kickoff": "2026-11-30T01:20Z",
-                "network": "NBC"
+                "kickoff": "2026-11-29T21:05Z",
+                "network": "CBS"
               }
             },
             {
@@ -1051,8 +1051,8 @@
               "next": {
                 "opp": "LV",
                 "home": true,
-                "kickoff": "2026-11-29T18:00Z",
-                "network": "Fox"
+                "kickoff": "2026-11-30T01:20Z",
+                "network": "NBC"
               }
             },
             {
