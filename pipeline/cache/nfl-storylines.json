@@ -91,14 +91,14 @@
     }
   },
   "BAL": {
-    "key": "401873037|401873065",
+    "key": "401873065|401873068",
     "result": {
       "abbr": "BAL",
-      "story": "The Ravens are 4-5 and have lost four straight, most recently 33-10 to JAX.",
+      "story": "The Ravens have lost five straight, the latest 23-20 to previously winless LAC, and sit at 4-6.",
       "player": {
-        "name": "Derrick Henry",
-        "pos": "RB",
-        "line": "Led the team in rushing in 6 games, 490 yds"
+        "name": "Jacoby Brissett",
+        "pos": "QB",
+        "line": "340 yds and an INT in the loss to LAC"
       },
       "source": "claude"
     }
@@ -195,14 +195,14 @@
     }
   },
   "LAC": {
-    "key": "401873046|401873065",
+    "key": "401873065|401873074",
     "result": {
       "abbr": "LAC",
-      "story": "The Chargers are the NFL's only winless team at 0-8 after a 44-22 loss to HOU.",
+      "story": "The Chargers are 1-8 but just got their first win, beating BAL 23-20 on the road.",
       "player": {
-        "name": "Justin Herbert",
-        "pos": "QB",
-        "line": "257 yds on 24/32 vs LAR in Wk 8"
+        "name": "Omarion Hampton",
+        "pos": "RB",
+        "line": "105 yds and a TD at BAL in Wk 10"
       },
       "source": "claude"
     }

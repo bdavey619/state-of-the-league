@@ -234,14 +234,14 @@
     }
   },
   "DEN": {
-    "key": "401909980|401910001",
+    "key": "401910001|401910015",
     "result": {
       "abbr": "DEN",
-      "story": "The Nuggets are 7-4 with a modest +20 differential after beating NO 116-108 for a second straight win.",
+      "story": "The Nuggets are 7-5 with a thin +0.7 per game margin and lost 117-105 vs PHX on Nov 16.",
       "player": {
         "name": "Nikola Jokic",
         "pos": "C",
-        "line": "26 pts, 8 reb and 10 ast at NO"
+        "line": "28 pts, 15 reb and 7 ast vs PHX"
       },
       "source": "claude"
     }
@@ -286,14 +286,14 @@
     }
   },
   "PHX": {
-    "key": "401909986|401910001",
+    "key": "401910001|401910018",
     "result": {
       "abbr": "PHX",
-      "story": "The Suns are 5-7 after losing 131-123 to LAL, and their point differential is -56.",
+      "story": "The Suns are 6-7 with a -44 point differential, but beat DEN 117-105 for their first road win.",
       "player": {
         "name": "Devin Booker",
         "pos": "G",
-        "line": "24.8 pts per game; 17 pts and 7 ast vs LAL"
+        "line": "20 pts and 8 ast vs DEN; 24.5 pts per game"
       },
       "source": "claude"
     }

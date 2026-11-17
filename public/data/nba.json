@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-17T03:58:55.923Z",
+  "updatedAt": "2026-11-17T13:28:08.177Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -553,10 +553,10 @@
             "away",
             "home"
           ],
-          "away": 0.425,
-          "home": 0.575,
-          "volume": 6916,
-          "at": "2026-11-17T03:58:55.923Z"
+          "away": 0.455,
+          "home": 0.545,
+          "volume": 51634,
+          "at": "2026-11-17T13:28:08.177Z"
         }
       },
       {
@@ -590,47 +590,10 @@
             "away",
             "home"
           ],
-          "away": 0.245,
-          "home": 0.755,
-          "volume": 15183,
-          "at": "2026-11-17T03:58:55.923Z"
-        }
-      },
-      {
-        "id": "401910015",
-        "kickoff": "2026-11-19T02:30Z",
-        "network": "ESPN",
-        "away": {
-          "abbr": "BOS",
-          "name": "Celtics",
-          "color": "#007A33",
-          "rec": "11-3"
-        },
-        "home": {
-          "abbr": "DEN",
-          "name": "Nuggets",
-          "color": "#0E2240",
-          "rec": "7-4"
-        },
-        "score": 66,
-        "tier": "worth",
-        "reasons": [
-          "Two winning teams",
-          "Should be close",
-          "Tatum vs Jokic"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-bos-den-2026-11-18",
-          "slug": "nba-bos-den-2026-11-18",
-          "marketSlug": "nba-bos-den-2026-11-18",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.565,
-          "home": 0.435,
-          "volume": 1064,
-          "at": "2026-11-17T03:58:55.923Z"
+          "away": 0.205,
+          "home": 0.795,
+          "volume": 88502,
+          "at": "2026-11-17T13:28:08.177Z"
         }
       },
       {
@@ -649,11 +612,47 @@
           "color": "#CE1141",
           "rec": "5-8"
         },
-        "score": 61,
+        "score": 60,
         "tier": "other",
         "reasons": [
           "Projected coin flip",
           "Towns vs Barnes"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-nyk-tor-2026-11-17",
+          "slug": "nba-nyk-tor-2026-11-17",
+          "marketSlug": "nba-nyk-tor-2026-11-17",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.575,
+          "home": 0.425,
+          "volume": 45137,
+          "at": "2026-11-17T13:28:08.177Z"
+        }
+      },
+      {
+        "id": "401910015",
+        "kickoff": "2026-11-19T02:30Z",
+        "network": "ESPN",
+        "away": {
+          "abbr": "BOS",
+          "name": "Celtics",
+          "color": "#007A33",
+          "rec": "11-3"
+        },
+        "home": {
+          "abbr": "DEN",
+          "name": "Nuggets",
+          "color": "#0E2240",
+          "rec": "7-5"
+        },
+        "score": 60,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Tatum vs Jokic"
         ]
       },
       {
@@ -676,6 +675,7 @@
         "tier": "other",
         "reasons": [
           "Projected coin flip",
+          "Two winning teams",
           "Jerome vs Mitchell"
         ]
       },
@@ -772,25 +772,26 @@
         ]
       },
       {
-        "id": "401910001",
-        "kickoff": "2026-11-17T02:00Z",
-        "network": "Suns Live",
+        "id": "401910013",
+        "kickoff": "2026-11-19T01:00Z",
+        "network": "GCSEN",
         "away": {
-          "abbr": "PHX",
-          "name": "Suns",
-          "color": "#E56020",
-          "rec": "5-7"
+          "abbr": "DET",
+          "name": "Pistons",
+          "color": "#C8102E",
+          "rec": "8-4"
         },
         "home": {
-          "abbr": "DEN",
-          "name": "Nuggets",
-          "color": "#0E2240",
-          "rec": "7-4"
+          "abbr": "NO",
+          "name": "Pelicans",
+          "color": "#0C2340",
+          "rec": "5-10"
         },
-        "score": 45,
+        "score": 44,
         "tier": "other",
         "reasons": [
-          "Booker vs Jokic"
+          "Should be close",
+          "Cunningham vs Williamson"
         ]
       }
     ]
@@ -840,12 +841,12 @@
       "name": "Nikola Jokic",
       "pos": "C",
       "team": "DEN",
-      "gp": 11,
-      "ppg": 23.7,
-      "rpg": 10.5,
-      "apg": 9.1,
-      "ts": 58.8,
-      "gs": 23.6,
+      "gp": 12,
+      "ppg": 24.1,
+      "rpg": 10.9,
+      "apg": 8.9,
+      "ts": 59.3,
+      "gs": 23.5,
       "trend": "flat"
     },
     {
@@ -892,12 +893,12 @@
       "name": "Jamal Murray",
       "pos": "G",
       "team": "DEN",
-      "gp": 11,
-      "ppg": 25.9,
-      "rpg": 5.2,
-      "apg": 6.2,
-      "ts": 66.4,
-      "gs": 21.7,
+      "gp": 12,
+      "ppg": 26.1,
+      "rpg": 5.1,
+      "apg": 6,
+      "ts": 65.8,
+      "gs": 21.5,
       "trend": "flat"
     },
     {
@@ -1139,7 +1140,7 @@
               "t": 0,
               "pf": 1479,
               "pa": 1466,
-              "rank": 19,
+              "rank": 20,
               "heat": "Cool",
               "seed": 9,
               "form": "3-7",
@@ -1269,7 +1270,7 @@
               "t": 0,
               "pf": 1771,
               "pa": 1737,
-              "rank": 16,
+              "rank": 15,
               "heat": "Steady",
               "seed": 7,
               "form": "5-5",
@@ -1313,7 +1314,7 @@
               "t": 0,
               "pf": 1569,
               "pa": 1603,
-              "rank": 20,
+              "rank": 21,
               "heat": "Cool",
               "seed": 10,
               "form": "3-7",
@@ -1446,7 +1447,7 @@
               "t": 0,
               "pf": 1649,
               "pa": 1625,
-              "rank": 15,
+              "rank": 14,
               "heat": "Steady",
               "seed": 4,
               "form": "6-4",
@@ -1489,7 +1490,7 @@
               "t": 0,
               "pf": 1671,
               "pa": 1668,
-              "rank": 13,
+              "rank": 12,
               "heat": "Hot",
               "seed": 5,
               "form": "8-2",
@@ -1795,14 +1796,14 @@
               "name": "Nuggets",
               "color": "#0E2240",
               "w": 7,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 1261,
-              "pa": 1241,
-              "rank": 12,
-              "heat": "Warm",
+              "pf": 1366,
+              "pa": 1358,
+              "rank": 16,
+              "heat": "Steady",
               "seed": 8,
-              "form": "7-3",
+              "form": "6-4",
               "trend": [
                 -1,
                 0,
@@ -1814,19 +1815,20 @@
                 2,
                 1,
                 2,
-                3
+                3,
+                2
               ],
-              "story": "The Nuggets are 7-4 with a modest +20 differential after beating NO 116-108 for a second straight win.",
+              "story": "The Nuggets are 7-5 with a thin +0.7 per game margin and lost 117-105 vs PHX on Nov 16.",
               "player": {
                 "name": "Nikola Jokic",
                 "pos": "C",
-                "line": "26 pts, 8 reb and 10 ast at NO"
+                "line": "28 pts, 15 reb and 7 ast vs PHX"
               },
               "next": {
-                "opp": "PHX",
+                "opp": "BOS",
                 "home": true,
-                "kickoff": "2026-11-17T02:00Z",
-                "network": "Suns Live"
+                "kickoff": "2026-11-19T02:30Z",
+                "network": "ESPN"
               }
             },
             {
@@ -1930,7 +1932,7 @@
               "t": 0,
               "pf": 1611,
               "pa": 1576,
-              "rank": 14,
+              "rank": 13,
               "heat": "Warm",
               "seed": 9,
               "form": "7-3",
@@ -1968,15 +1970,15 @@
               "city": "Phoenix",
               "name": "Suns",
               "color": "#E56020",
-              "w": 5,
+              "w": 6,
               "l": 7,
               "t": 0,
-              "pf": 1352,
-              "pa": 1408,
-              "rank": 21,
+              "pf": 1469,
+              "pa": 1513,
+              "rank": 19,
               "heat": "Steady",
               "seed": 11,
-              "form": "4-6",
+              "form": "5-5",
               "trend": [
                 -1,
                 0,
@@ -1989,18 +1991,19 @@
                 -3,
                 -2,
                 -1,
-                -2
+                -2,
+                -1
               ],
-              "story": "The Suns are 5-7 after losing 131-123 to LAL, and their point differential is -56.",
+              "story": "The Suns are 6-7 with a -44 point differential, but beat DEN 117-105 for their first road win.",
               "player": {
                 "name": "Devin Booker",
                 "pos": "G",
-                "line": "24.8 pts per game; 17 pts and 7 ast vs LAL"
+                "line": "20 pts and 8 ast vs DEN; 24.5 pts per game"
               },
               "next": {
-                "opp": "DEN",
+                "opp": "SAC",
                 "home": false,
-                "kickoff": "2026-11-17T02:00Z",
+                "kickoff": "2026-11-19T03:00Z",
                 "network": "Suns Live"
               }
             },
