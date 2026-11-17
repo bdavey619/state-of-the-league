@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-16T22:53:54.974Z",
+  "updatedAt": "2026-11-17T03:58:51.448Z",
   "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
@@ -440,8 +440,8 @@
           ],
           "away": 0.715,
           "home": 0.285,
-          "volume": 1417,
-          "at": "2026-11-16T22:53:54.974Z"
+          "volume": 1513,
+          "at": "2026-11-17T03:58:51.448Z"
         }
       },
       {
@@ -477,8 +477,8 @@
           ],
           "away": 0.295,
           "home": 0.705,
-          "volume": 12490,
-          "at": "2026-11-16T22:53:54.974Z"
+          "volume": 18211,
+          "at": "2026-11-17T03:58:51.448Z"
         }
       },
       {
@@ -513,9 +513,32 @@
           ],
           "away": 0.405,
           "home": 0.595,
-          "volume": 4285,
-          "at": "2026-11-16T22:53:54.974Z"
+          "volume": 4407,
+          "at": "2026-11-17T03:58:51.448Z"
         }
+      },
+      {
+        "id": "401873078",
+        "kickoff": "2026-11-24T01:15Z",
+        "network": "ESPN",
+        "away": {
+          "abbr": "CIN",
+          "name": "Bengals",
+          "color": "#FB4F14",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "WSH",
+          "name": "Commanders",
+          "color": "#5A1414",
+          "rec": "3-5-1"
+        },
+        "score": 63,
+        "tier": "other",
+        "reasons": [
+          "Bengals have won 5 straight",
+          "Both teams hot"
+        ]
       },
       {
         "id": "401873071",
@@ -647,26 +670,6 @@
         "reasons": [
           "Should be close"
         ]
-      },
-      {
-        "id": "401873067",
-        "kickoff": "2026-11-22T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "ARI",
-          "name": "Cardinals",
-          "color": "#97233F",
-          "rec": "3-7"
-        },
-        "home": {
-          "abbr": "KC",
-          "name": "Chiefs",
-          "color": "#E31837",
-          "rec": "7-2"
-        },
-        "score": 29,
-        "tier": "other",
-        "reasons": []
       }
     ]
   },
