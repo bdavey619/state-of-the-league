@@ -4,7 +4,7 @@
       "w": 12,
       "l": 3,
       "t": 0,
-      "rank": 8,
+      "rank": 7,
       "heat": "Warm",
       "place": 1,
       "division": "East Atlantic",
@@ -25,27 +25,27 @@
       "seed": 2
     },
     "NY": {
-      "w": 7,
+      "w": 8,
       "l": 6,
       "t": 0,
-      "rank": 10,
+      "rank": 9,
       "heat": "Warm",
       "place": 3,
       "division": "East Atlantic",
-      "streak": "W1",
-      "pct": 0.5384615384615384,
-      "seed": 6
+      "streak": "W2",
+      "pct": 0.5714285714285714,
+      "seed": 4
     },
     "TOR": {
       "w": 5,
-      "l": 8,
+      "l": 9,
       "t": 0,
       "rank": 20,
-      "heat": "Cool",
+      "heat": "Cold",
       "place": 4,
       "division": "East Atlantic",
-      "streak": "L4",
-      "pct": 0.38461538461538464,
+      "streak": "L5",
+      "pct": 0.35714285714285715,
       "seed": 9
     },
     "BKN": {
@@ -61,15 +61,15 @@
       "seed": 13
     },
     "DET": {
-      "w": 8,
+      "w": 9,
       "l": 4,
       "t": 0,
-      "rank": 9,
-      "heat": "Steady",
+      "rank": 8,
+      "heat": "Warm",
       "place": 1,
       "division": "East Central",
-      "streak": "L1",
-      "pct": 0.6666666666666666,
+      "streak": "W1",
+      "pct": 0.6923076923076923,
       "seed": 3
     },
     "CLE": {
@@ -130,7 +130,7 @@
       "division": "East Southeast",
       "streak": "W1",
       "pct": 0.5714285714285714,
-      "seed": 4
+      "seed": 5
     },
     "MIA": {
       "w": 8,
@@ -142,7 +142,7 @@
       "division": "East Southeast",
       "streak": "W5",
       "pct": 0.5714285714285714,
-      "seed": 5
+      "seed": 6
     },
     "ORL": {
       "w": 6,
@@ -158,14 +158,14 @@
     },
     "CHA": {
       "w": 4,
-      "l": 9,
+      "l": 10,
       "t": 0,
       "rank": 26,
       "heat": "Cold",
       "place": 4,
       "division": "East Southeast",
-      "streak": "L2",
-      "pct": 0.3076923076923077,
+      "streak": "L3",
+      "pct": 0.2857142857142857,
       "seed": 11
     },
     "WSH": {
@@ -181,27 +181,27 @@
       "seed": 12
     },
     "MIN": {
-      "w": 10,
+      "w": 11,
       "l": 4,
       "t": 0,
       "rank": 4,
-      "heat": "Warm",
+      "heat": "Hot",
       "place": 1,
       "division": "West Northwest",
-      "streak": "W1",
-      "pct": 0.7142857142857143,
-      "seed": 4
+      "streak": "W2",
+      "pct": 0.7333333333333333,
+      "seed": 3
     },
     "POR": {
       "w": 9,
-      "l": 4,
+      "l": 5,
       "t": 0,
-      "rank": 7,
+      "rank": 10,
       "heat": "Warm",
       "place": 2,
       "division": "West Northwest",
-      "streak": "L1",
-      "pct": 0.6923076923076923,
+      "streak": "L2",
+      "pct": 0.6428571428571429,
       "seed": 6
     },
     "OKC": {
@@ -229,28 +229,28 @@
       "seed": 8
     },
     "UTAH": {
-      "w": 1,
+      "w": 2,
       "l": 13,
       "t": 0,
       "rank": 28,
       "heat": "Cold",
       "place": 5,
       "division": "West Northwest",
-      "streak": "L12",
-      "pct": 0.07142857142857142,
-      "seed": 15
+      "streak": "W1",
+      "pct": 0.13333333333333333,
+      "seed": 14
     },
     "LAL": {
-      "w": 12,
+      "w": 13,
       "l": 2,
       "t": 0,
       "rank": 3,
       "heat": "Hot",
       "place": 1,
       "division": "West Pacific",
-      "streak": "W8",
-      "pct": 0.8571428571428571,
-      "seed": 2
+      "streak": "W9",
+      "pct": 0.8666666666666667,
+      "seed": 1
     },
     "GS": {
       "w": 8,
@@ -278,15 +278,15 @@
     },
     "LAC": {
       "w": 4,
-      "l": 8,
+      "l": 9,
       "t": 0,
       "rank": 22,
       "heat": "Cool",
       "place": 4,
       "division": "West Pacific",
-      "streak": "W2",
-      "pct": 0.3333333333333333,
-      "seed": 12
+      "streak": "L1",
+      "pct": 0.3076923076923077,
+      "seed": 13
     },
     "SAC": {
       "w": 1,
@@ -298,19 +298,19 @@
       "division": "West Pacific",
       "streak": "L6",
       "pct": 0.07692307692307693,
-      "seed": 14
+      "seed": 15
     },
     "SA": {
       "w": 12,
-      "l": 2,
+      "l": 3,
       "t": 0,
       "rank": 1,
       "heat": "Hot",
       "place": 1,
       "division": "West Southwest",
-      "streak": "W12",
-      "pct": 0.8571428571428571,
-      "seed": 1
+      "streak": "L1",
+      "pct": 0.8,
+      "seed": 2
     },
     "HOU": {
       "w": 11,
@@ -322,7 +322,7 @@
       "division": "West Southwest",
       "streak": "L1",
       "pct": 0.7333333333333333,
-      "seed": 3
+      "seed": 4
     },
     "MEM": {
       "w": 10,
@@ -358,7 +358,7 @@
       "division": "West Southwest",
       "streak": "W1",
       "pct": 0.3333333333333333,
-      "seed": 13
+      "seed": 12
     }
   },
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
@@ -838,6 +838,27 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Heat have won 5 straight."
+    },
+    {
+      "at": "2026-11-18T13:26:30.546Z",
+      "abbr": "TOR",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Raptors have gone cold."
+    },
+    {
+      "at": "2026-11-18T13:26:30.546Z",
+      "abbr": "TOR",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Raptors have lost 5 straight."
+    },
+    {
+      "at": "2026-11-18T13:26:30.546Z",
+      "abbr": "MIN",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Timberwolves are now running hot."
     }
   ],
   "recap": {

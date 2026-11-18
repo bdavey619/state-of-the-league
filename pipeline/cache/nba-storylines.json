@@ -26,27 +26,27 @@
     }
   },
   "TOR": {
-    "key": "401909990|401910002",
+    "key": "401910002|401910012",
     "result": {
       "abbr": "TOR",
-      "story": "The Raptors have lost four straight, the latest 112-108 to NY in OT, despite a +13 point differential.",
+      "story": "The Raptors have lost five straight and sit 5-9, with Kawhi Leonard out at least another week.",
       "player": {
         "name": "Scottie Barnes",
         "pos": "F",
-        "line": "30 pts and 9 reb vs NY, 24.2 ppg in 9 games"
+        "line": "23.8 pts, 7.4 reb per game in 10 games"
       },
       "source": "claude"
     }
   },
   "NY": {
-    "key": "401909990|401910002",
+    "key": "401910002|401910021",
     "result": {
       "abbr": "NY",
-      "story": "The Knicks are 7-6 despite a +77 point differential, after a 112-108 overtime win at TOR.",
+      "story": "The Knicks are 8-6 but have a +86 point differential and have won two straight, beating TOR 111-102.",
       "player": {
-        "name": "Karl-Anthony Towns",
-        "pos": "C",
-        "line": "28 pts and 17 reb at TOR"
+        "name": "Jalen Brunson",
+        "pos": "G",
+        "line": "27 pts per game; 31 pts and 5 ast vs TOR"
       },
       "source": "claude"
     }
@@ -65,14 +65,14 @@
     }
   },
   "DET": {
-    "key": "401909982|401910004",
+    "key": "401910004|401910013",
     "result": {
       "abbr": "DET",
-      "story": "The Pistons are 8-4 and third in the East, but lost 137-117 at MIA in their latest game.",
+      "story": "The Pistons are 9-4 and beat SA 105-93 while missing Duncan Robinson (quad) and Ron Holland II (knee).",
       "player": {
         "name": "Cade Cunningham",
         "pos": "G",
-        "line": "25.7 pts and 7.9 ast per game through 12 games"
+        "line": "25.8 pts and 7.8 ast per game; 27 pts vs SA"
       },
       "source": "claude"
     }
@@ -169,14 +169,14 @@
     }
   },
   "CHA": {
-    "key": "401909987|401910005",
+    "key": "401910005|401909305",
     "result": {
       "abbr": "CHA",
-      "story": "The Hornets are 4-9 with a -140 point differential and have lost 2 straight, the latest at LAC.",
+      "story": "The Hornets are 4-10 and 1-9 in their last 10, most recently losing 118-114 at LAL.",
       "player": {
-        "name": "Naz Reid",
-        "pos": "C",
-        "line": "17.2 pts and 8.2 reb per game over 13 games"
+        "name": "Brandon Miller",
+        "pos": "F",
+        "line": "19.9 pts per game, 28 pts at LAL"
       },
       "source": "claude"
     }
@@ -208,27 +208,27 @@
     }
   },
   "POR": {
-    "key": "401909999|401910003",
+    "key": "401910003|401910020",
     "result": {
       "abbr": "POR",
-      "story": "The Trail Blazers are 9-4 but lost 106-98 at MIN on Nov 16, ending a three-game win streak.",
+      "story": "The Trail Blazers are 9-5 but have lost two straight at MIN, 106-98 and 106-105.",
       "player": {
         "name": "Deni Avdija",
         "pos": "F",
-        "line": "24.2 pts per game; 27 pts and 8 reb vs MIN"
+        "line": "24.2 ppg, 6.1 ast; 27 pts vs MIN"
       },
       "source": "claude"
     }
   },
   "MIN": {
-    "key": "401909999|401910003",
+    "key": "401910003|401910021",
     "result": {
       "abbr": "MIN",
-      "story": "The Timberwolves are 10-4 with a +11.3 point differential per game, and beat POR 106-98 last time out.",
+      "story": "The Timberwolves are 11-4 with a +10.6 per-game margin and just beat POR 106-105 for a second straight win.",
       "player": {
-        "name": "Jaden McDaniels",
-        "pos": "F",
-        "line": "16.7 pts, 6.3 reb per game; 13 pts vs POR"
+        "name": "Anthony Edwards",
+        "pos": "G",
+        "line": "47 pts vs CLE; 33.3 ppg but only 4 games played"
       },
       "source": "claude"
     }
@@ -247,27 +247,27 @@
     }
   },
   "UTAH": {
-    "key": "401909988|401910006",
+    "key": "401910006|401910017",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 1-13 and have lost 12 straight, the latest 110-102 to a SA team on a 12-game win streak.",
+      "story": "The Jazz are 2-13 with a -8.5 per-game margin, but beat LAC 132-107 on the road in their latest game.",
       "player": {
         "name": "Keyonte George",
         "pos": "G",
-        "line": "20.3 pts and 6.6 ast per game over 13 games"
+        "line": "30 pts and 11 ast vs LAC; 21 ppg this season"
       },
       "source": "claude"
     }
   },
   "LAL": {
-    "key": "401909986|401910005",
+    "key": "401910005|401910017",
     "result": {
       "abbr": "LAL",
-      "story": "The Lakers are 12-2 on an 8-game win streak, beating PHX 131-123 without the injured Austin Reaves.",
+      "story": "The Lakers are 13-2 on a 9-game win streak, though their +115 point differential is modest for that record.",
       "player": {
-        "name": "Luka Doncic",
+        "name": "Quentin Grimes",
         "pos": "G",
-        "line": "39 pts per game; 43 pts and 9 ast at PHX"
+        "line": "47 pts and 10 threes in the 118-114 win vs CHA"
       },
       "source": "claude"
     }
@@ -299,14 +299,14 @@
     }
   },
   "LAC": {
-    "key": "401909987|401910006",
+    "key": "401910006|401910022",
     "result": {
       "abbr": "LAC",
-      "story": "The Clippers are 4-8 but have won two straight, beating CHA 113-105 for a 17th straight win over them.",
+      "story": "The Clippers are 4-9 with a -75 point differential and just lost 132-107 to UTAH.",
       "player": {
         "name": "Darius Garland",
         "pos": "G",
-        "line": "27 pts and 7 ast vs CHA; 21.3 pts per game"
+        "line": "21.2 pts and 6.9 ast per game; 20 and 7 vs UTAH"
       },
       "source": "claude"
     }
@@ -338,14 +338,14 @@
     }
   },
   "SA": {
-    "key": "401909988|401910004",
+    "key": "401910004|401910022",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs are 12-2 and have won 12 straight, outscoring opponents by 12.9 per game through 14 games.",
+      "story": "The Spurs are 12-3 but lost 105-93 to DET, and Dylan Harper limped off in pain late in that game.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "28.6 pts and 11.6 reb per game over 14 games"
+        "line": "28.4 ppg, 12 rpg; 25 pts, 18 reb vs DET"
       },
       "source": "claude"
     }
