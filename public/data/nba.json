@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-17T21:46:41.338Z",
+  "updatedAt": "2026-11-18T02:57:13.548Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -553,10 +553,10 @@
             "away",
             "home"
           ],
-          "away": 0.435,
-          "home": 0.565,
-          "volume": 521156,
-          "at": "2026-11-17T21:46:41.338Z"
+          "away": 0.485,
+          "home": 0.515,
+          "volume": 2096375,
+          "at": "2026-11-18T02:57:13.548Z"
         }
       },
       {
@@ -590,10 +590,10 @@
             "away",
             "home"
           ],
-          "away": 0.205,
-          "home": 0.795,
-          "volume": 469728,
-          "at": "2026-11-17T21:46:41.338Z"
+          "away": 0.545,
+          "home": 0.455,
+          "volume": 1752304,
+          "at": "2026-11-18T02:57:13.548Z"
         }
       },
       {
@@ -626,10 +626,10 @@
             "away",
             "home"
           ],
-          "away": 0.595,
-          "home": 0.405,
-          "volume": 1028177,
-          "at": "2026-11-17T21:46:41.338Z"
+          "away": 0.995,
+          "home": 0.005,
+          "volume": 3710547,
+          "at": "2026-11-18T02:57:13.548Z"
         }
       },
       {
@@ -726,6 +726,52 @@
         ]
       },
       {
+        "id": "401910021",
+        "kickoff": "2026-11-20T01:00Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "NY",
+          "name": "Knicks",
+          "color": "#F58426",
+          "rec": "7-6"
+        },
+        "home": {
+          "abbr": "MIN",
+          "name": "Timberwolves",
+          "color": "#236192",
+          "rec": "10-4"
+        },
+        "score": 54,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Karl-Anthony Towns"
+        ]
+      },
+      {
+        "id": "401910019",
+        "kickoff": "2026-11-20T01:00Z",
+        "network": "DAZN MEM",
+        "away": {
+          "abbr": "GS",
+          "name": "Warriors",
+          "color": "#1D428A",
+          "rec": "8-6"
+        },
+        "home": {
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "10-4"
+        },
+        "score": 53,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Curry vs Jerome"
+        ]
+      },
+      {
         "id": "401910008",
         "kickoff": "2026-11-19T00:00Z",
         "network": "DAZN IND",
@@ -746,52 +792,6 @@
         "reasons": [
           "Should be close",
           "Sengun vs Siakam"
-        ]
-      },
-      {
-        "id": "401910014",
-        "kickoff": "2026-11-19T01:00Z",
-        "network": "KSBI",
-        "away": {
-          "abbr": "ATL",
-          "name": "Hawks",
-          "color": "#E03A3E",
-          "rec": "8-6"
-        },
-        "home": {
-          "abbr": "OKC",
-          "name": "Thunder",
-          "color": "#007AC1",
-          "rec": "9-5"
-        },
-        "score": 47,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Shai Gilgeous-Alexander"
-        ]
-      },
-      {
-        "id": "401910013",
-        "kickoff": "2026-11-19T01:00Z",
-        "network": "GCSEN",
-        "away": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "8-4"
-        },
-        "home": {
-          "abbr": "NO",
-          "name": "Pelicans",
-          "color": "#0C2340",
-          "rec": "5-10"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Cunningham vs Williamson"
         ]
       }
     ]
