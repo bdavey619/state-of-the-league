@@ -1,13 +1,13 @@
 {
   "PHI": {
-    "key": "401909997|401910010",
+    "key": "401910010|401910023",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 12-3 and lead the East, but their +42 point differential is modest for that record.",
+      "story": "The 76ers are 13-3 on a 4-game win streak, but their +2.9 point margin per game is modest.",
       "player": {
-        "name": "Joel Embiid",
-        "pos": "C",
-        "line": "37 pts, a season high, vs BKN"
+        "name": "Tyrese Maxey",
+        "pos": "G",
+        "line": "26.5 ppg; late scratch vs ORL with foot soreness"
       },
       "source": "claude"
     }
@@ -78,27 +78,27 @@
     }
   },
   "CLE": {
-    "key": "401909995|401910007",
+    "key": "401910007|401909307",
     "result": {
       "abbr": "CLE",
-      "story": "The Cavaliers are 8-7 with Evan Mobley out at least another 7-10 days with a sprained toe.",
+      "story": "The Cavaliers are 8-8 after a 124-121 loss to MEM, but have outscored opponents by 31 points.",
       "player": {
         "name": "Donovan Mitchell",
         "pos": "G",
-        "line": "39 pts vs CHI; 24.1 pts per game"
+        "line": "34 pts vs MEM; 24.8 pts per game this season"
       },
       "source": "claude"
     }
   },
   "IND": {
-    "key": "401909985|401910008",
+    "key": "401910008|401909307",
     "result": {
       "abbr": "IND",
-      "story": "The Pacers are 5-9 and 10th in the East after losing 131-124 at PHI.",
+      "story": "The Pacers are 5-10 and have lost two straight, the latest a 119-104 defeat by HOU.",
       "player": {
         "name": "Pascal Siakam",
         "pos": "F",
-        "line": "31 pts at PHI; 23.1 ppg over 13 games"
+        "line": "23.1 pts per game; 24 pts vs HOU"
       },
       "source": "claude"
     }
@@ -182,14 +182,14 @@
     }
   },
   "ORL": {
-    "key": "401909994|401910010",
+    "key": "401910010|401909306",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic have won 4 straight to reach 6-7, but their point differential is still -43.",
+      "story": "The Magic are 6-8 after a 4-game win streak ended with a 121-116 loss to PHI.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "24.2 pts, 8.3 ast per game; 21 and 9 ast vs BOS"
+        "line": "27 pts, 8 reb and 11 ast vs PHI"
       },
       "source": "claude"
     }
@@ -325,14 +325,14 @@
     }
   },
   "HOU": {
-    "key": "401909998|401910008",
+    "key": "401910008|401909312",
     "result": {
       "abbr": "HOU",
-      "story": "The Rockets are 11-4 at +8.3 per game, but lost 128-110 at MIA on Nov 16 after a 147-119 win at WSH.",
+      "story": "The Rockets are 12-4 and beat IND 119-104 on Nov 18, a day after a 128-110 loss at MIA.",
       "player": {
         "name": "Alperen Sengun",
         "pos": "C",
-        "line": "22.8 pts, 9.4 reb and 7.2 ast per game"
+        "line": "21.6 pts, 9.2 reb and 6.8 ast per game"
       },
       "source": "claude"
     }
@@ -351,14 +351,14 @@
     }
   },
   "MEM": {
-    "key": "401909996|401910007",
+    "key": "401910007|401910019",
     "result": {
       "abbr": "MEM",
-      "story": "The Grizzlies are 10-4 and won 136-120 at WSH, but GG Jackson will miss time with a left foot fracture.",
+      "story": "The Grizzlies are 11-4 and have won four straight, most recently 124-121 at CLE.",
       "player": {
-        "name": "Cameron Boozer",
-        "pos": "F",
-        "line": "29 pts, 7 reb and 7 ast vs WSH, a season high"
+        "name": "Ty Jerome",
+        "pos": "G",
+        "line": "25.4 pts a game, though in only 11 games"
       },
       "source": "claude"
     }
