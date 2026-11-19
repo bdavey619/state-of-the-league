@@ -1,13 +1,13 @@
 {
-  "at": "2026-11-19T02:38:56.372Z",
+  "at": "2026-11-19T13:26:41.423Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 30,
   "recap": "claude",
-  "newChanges": 0,
+  "newChanges": 1,
   "polymarket": [
-    "BOS@DEN: 56-45 via slug (0h)",
-    "NY@MIN: 49-52 via slug (0h)",
-    "GS@DAL: 2-99 via slug (0h)"
+    "HOU@DEN: 46-55 via slug (0h)",
+    "NY@MIN: 51-50 via slug (0h)",
+    "GS@MEM: 32-69 via slug (0h)"
   ],
   "issues": []
 }
