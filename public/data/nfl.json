@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-19T13:26:36.350Z",
+  "updatedAt": "2026-11-19T21:35:20.364Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
@@ -425,6 +425,43 @@
     "window": "this week",
     "games": [
       {
+        "id": "401873081",
+        "kickoff": "2026-11-26T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "CHI",
+          "name": "Bears",
+          "color": "#0B162A",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "DET",
+          "name": "Lions",
+          "color": "#0076B6",
+          "rec": "7-2"
+        },
+        "score": 89,
+        "tier": "must",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Projected coin flip",
+          "NFC North lead on the line"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-chi-det-2026-11-26",
+          "slug": "nfl-chi-det-2026-11-26",
+          "marketSlug": "nfl-chi-det-2026-11-26",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.58,
+          "home": 0.42,
+          "volume": 5868,
+          "at": "2026-11-19T21:35:20.364Z"
+        }
+      },
+      {
         "id": "401873069",
         "kickoff": "2026-11-22T21:25Z",
         "network": "CBS",
@@ -456,8 +493,8 @@
           ],
           "away": 0.715,
           "home": 0.285,
-          "volume": 4114,
-          "at": "2026-11-19T13:26:36.350Z"
+          "volume": 15087,
+          "at": "2026-11-19T21:35:20.364Z"
         }
       },
       {
@@ -491,10 +528,10 @@
             "away",
             "home"
           ],
-          "away": 0.255,
-          "home": 0.745,
-          "volume": 77722,
-          "at": "2026-11-19T13:26:36.350Z"
+          "away": 0.275,
+          "home": 0.725,
+          "volume": 120472,
+          "at": "2026-11-19T21:35:20.364Z"
         }
       },
       {
@@ -518,20 +555,7 @@
         "reasons": [
           "Should be close",
           "Rams have won 4 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-gb-la-2026-11-26",
-          "slug": "nfl-gb-la-2026-11-26",
-          "marketSlug": "nfl-gb-la-2026-11-26",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.39,
-          "home": 0.61,
-          "volume": 2488,
-          "at": "2026-11-19T13:26:36.350Z"
-        }
+        ]
       },
       {
         "id": "401873077",
@@ -663,28 +687,6 @@
           "rec": "4-5"
         },
         "score": 40,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
-        ]
-      },
-      {
-        "id": "401873076",
-        "kickoff": "2026-11-22T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "PIT",
-          "name": "Steelers",
-          "color": "#FFB612",
-          "rec": "6-3"
-        },
-        "home": {
-          "abbr": "PHI",
-          "name": "Eagles",
-          "color": "#004C54",
-          "rec": "2-7"
-        },
-        "score": 37,
         "tier": "other",
         "reasons": [
           "Should be close"

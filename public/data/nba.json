@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-19T13:26:41.423Z",
+  "updatedAt": "2026-11-19T21:35:24.252Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -581,10 +581,10 @@
             "away",
             "home"
           ],
-          "away": 0.455,
-          "home": 0.545,
-          "volume": 4386,
-          "at": "2026-11-19T13:26:41.423Z"
+          "away": 0.475,
+          "home": 0.525,
+          "volume": 8068,
+          "at": "2026-11-19T21:35:24.252Z"
         }
       },
       {
@@ -618,10 +618,10 @@
             "away",
             "home"
           ],
-          "away": 0.505,
-          "home": 0.495,
-          "volume": 196531,
-          "at": "2026-11-19T13:26:41.423Z"
+          "away": 0.495,
+          "home": 0.505,
+          "volume": 585477,
+          "at": "2026-11-19T21:35:24.252Z"
         }
       },
       {
@@ -653,10 +653,10 @@
             "away",
             "home"
           ],
-          "away": 0.315,
-          "home": 0.685,
-          "volume": 163985,
-          "at": "2026-11-19T13:26:41.423Z"
+          "away": 0.335,
+          "home": 0.665,
+          "volume": 488968,
+          "at": "2026-11-19T21:35:24.252Z"
         }
       },
       {
