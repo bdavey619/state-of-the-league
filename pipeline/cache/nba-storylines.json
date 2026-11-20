@@ -39,14 +39,14 @@
     }
   },
   "NY": {
-    "key": "401910002|401910021",
+    "key": "401910021|401910024",
     "result": {
       "abbr": "NY",
-      "story": "The Knicks are 8-6 but have a +86 point differential and have won two straight, beating TOR 111-102.",
+      "story": "The Knicks are 9-6 and have won three straight, the latest 102-99 at MIN.",
       "player": {
-        "name": "Jalen Brunson",
-        "pos": "G",
-        "line": "27 pts per game; 31 pts and 5 ast vs TOR"
+        "name": "Karl-Anthony Towns",
+        "pos": "C",
+        "line": "22 pts and 12 reb vs MIN, his former team"
       },
       "source": "claude"
     }
@@ -117,14 +117,14 @@
     }
   },
   "MIL": {
-    "key": "401910009|401910020",
+    "key": "401910020|401910023",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 1-14 and have lost 11 straight, most recently 137-130 at MIA.",
+      "story": "The Bucks are 1-15 on a 12-game losing streak, the latest a 124-114 loss to POR.",
       "player": {
-        "name": "Tyler Herro",
-        "pos": "G",
-        "line": "19.4 pts and 4.2 ast per game over 14 games"
+        "name": "Kyle Kuzma",
+        "pos": "F",
+        "line": "26 pts vs MIA; 12.3 pts per game this season"
       },
       "source": "claude"
     }
@@ -208,27 +208,27 @@
     }
   },
   "POR": {
-    "key": "401910003|401910020",
+    "key": "401910020|401910024",
     "result": {
       "abbr": "POR",
-      "story": "The Trail Blazers are 9-5 but have lost two straight at MIN, 106-98 and 106-105.",
+      "story": "The Trail Blazers are 10-5 and beat MIL 124-114 behind Damian Lillard's season-high 33 points.",
       "player": {
-        "name": "Deni Avdija",
-        "pos": "F",
-        "line": "24.2 ppg, 6.1 ast; 27 pts vs MIN"
+        "name": "Damian Lillard",
+        "pos": "G",
+        "line": "Season-high 33 pts vs MIL"
       },
       "source": "claude"
     }
   },
   "MIN": {
-    "key": "401910003|401910021",
+    "key": "401910021|401910026",
     "result": {
       "abbr": "MIN",
-      "story": "The Timberwolves are 11-4 with a +10.6 per-game margin and just beat POR 106-105 for a second straight win.",
+      "story": "The Timberwolves are 11-5 and +156, but Anthony Edwards has 'no clue' when he returns from knee surgery.",
       "player": {
-        "name": "Anthony Edwards",
+        "name": "LaMelo Ball",
         "pos": "G",
-        "line": "47 pts vs CLE; 33.3 ppg but only 4 games played"
+        "line": "15 pts, 8 reb and 8 ast vs NY"
       },
       "source": "claude"
     }
@@ -273,14 +273,14 @@
     }
   },
   "GS": {
-    "key": "401910016|401910019",
+    "key": "401910019|401910035",
     "result": {
       "abbr": "GS",
-      "story": "The Warriors are 8-7 and have lost 4 straight, winless since Stephen Curry's injury, per ESPN.",
+      "story": "The Warriors are 8-8 and have lost 5 straight, winless since Stephen Curry's injury per ESPN.",
       "player": {
-        "name": "Yaxel Lendeborg",
-        "pos": "F",
-        "line": "20.3 pts, 7.3 reb per game; 13 pts vs DAL"
+        "name": "Stephen Curry",
+        "pos": "G",
+        "line": "27.8 pts per game in 10 games this season"
       },
       "source": "claude"
     }
@@ -299,14 +299,14 @@
     }
   },
   "LAC": {
-    "key": "401910006|401910022",
+    "key": "401910022|401910025",
     "result": {
       "abbr": "LAC",
-      "story": "The Clippers are 4-9 with a -75 point differential and just lost 132-107 to UTAH.",
+      "story": "The Clippers are 4-10 and have lost two straight, the latest 124-112 at SA.",
       "player": {
         "name": "Darius Garland",
         "pos": "G",
-        "line": "21.2 pts and 6.9 ast per game; 20 and 7 vs UTAH"
+        "line": "21.3 pts and 6.8 ast per game; 23 pts vs SA"
       },
       "source": "claude"
     }
@@ -338,27 +338,27 @@
     }
   },
   "SA": {
-    "key": "401910004|401910022",
+    "key": "401910022|401910027",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs are 12-3 but lost 105-93 to DET, and Dylan Harper limped off in pain late in that game.",
+      "story": "The Spurs are 13-3 with the league's best point differential, +11.3 per game, through 16 games.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "28.4 ppg, 12 rpg; 25 pts, 18 reb vs DET"
+        "line": "32 pts and 11 reb vs LAC, 28.6 ppg on the year"
       },
       "source": "claude"
     }
   },
   "MEM": {
-    "key": "401910007|401910019",
+    "key": "401910019|401910026",
     "result": {
       "abbr": "MEM",
-      "story": "The Grizzlies are 11-4 and have won four straight, most recently 124-121 at CLE.",
+      "story": "The Grizzlies have won five straight and sit 12-4 with a +10.2 point differential per game.",
       "player": {
         "name": "Ty Jerome",
         "pos": "G",
-        "line": "25.4 pts a game, though in only 11 games"
+        "line": "25.4 ppg in 11 games, 17 pts and 9 ast vs NO"
       },
       "source": "claude"
     }

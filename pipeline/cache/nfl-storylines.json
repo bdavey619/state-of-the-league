@@ -117,27 +117,27 @@
     }
   },
   "HOU": {
-    "key": "401873056|401873066",
+    "key": "401873066|401873085",
     "result": {
       "abbr": "HOU",
-      "story": "The Texans are 3-6 despite a +14 point differential, after losing 27-24 at CLE last week.",
+      "story": "The Texans are 4-6 but have a +37 point differential after beating IND 26-3 on Thursday night.",
       "player": {
         "name": "C.J. Stroud",
         "pos": "QB",
-        "line": "5 TD passes and 384 yds in the Wk 9 win at LAC"
+        "line": "3 TD vs IND, third straight game with 3+ TD passes"
       },
       "source": "claude"
     }
   },
   "IND": {
-    "key": "401873059|401873066",
+    "key": "401873066|401873088",
     "result": {
       "abbr": "IND",
-      "story": "The Colts are 3-7 with a -63 point differential, though they beat MIA 24-22 in Week 10.",
+      "story": "The Colts are 3-8 after losing 26-3 at HOU and have allowed a league-high 297 points.",
       "player": {
         "name": "Jonathan Taylor",
         "pos": "RB",
-        "line": "16 carries for 83 yds vs MIA in Wk 10"
+        "line": "16 carries, 83 yds vs MIA in Wk 10"
       },
       "source": "claude"
     }

@@ -4,13 +4,13 @@
   "seasonLabel": "2026",
   "week": 11,
   "badge": "WK 11",
-  "kicker": "Week 11 · through Mon, Nov 16",
-  "throughLabel": "through Mon, Nov 16",
+  "kicker": "Week 11 · through Thu, Nov 19",
+  "throughLabel": "through Thu, Nov 19",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-20T02:24:09.227Z",
+  "updatedAt": "2026-11-20T13:26:07.899Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
@@ -455,10 +455,10 @@
             "away",
             "home"
           ],
-          "away": 0.58,
-          "home": 0.42,
-          "volume": 5868,
-          "at": "2026-11-20T02:24:09.227Z"
+          "away": 0.57,
+          "home": 0.43,
+          "volume": 6713,
+          "at": "2026-11-20T13:26:07.899Z"
         }
       },
       {
@@ -492,10 +492,10 @@
             "away",
             "home"
           ],
-          "away": 0.41,
-          "home": 0.59,
-          "volume": 3644,
-          "at": "2026-11-20T02:24:09.227Z"
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 3769,
+          "at": "2026-11-20T13:26:07.899Z"
         }
       },
       {
@@ -530,8 +530,8 @@
           ],
           "away": 0.715,
           "home": 0.285,
-          "volume": 20134,
-          "at": "2026-11-20T02:24:09.227Z"
+          "volume": 22642,
+          "at": "2026-11-20T13:26:07.899Z"
         }
       },
       {
@@ -1174,18 +1174,14 @@
               "city": "Houston",
               "name": "Texans",
               "color": "#03202F",
-              "w": 3,
+              "w": 4,
               "l": 6,
               "t": 0,
-              "pf": 233,
-              "pa": 219,
+              "pf": 259,
+              "pa": 222,
               "rank": 19,
-              "heat": "Steady",
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "BYE"
-                },
                 {
                   "week": 9,
                   "result": "W",
@@ -1201,19 +1197,27 @@
                   "against": 27,
                   "opp": "CLE",
                   "home": false
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 26,
+                  "against": 3,
+                  "opp": "IND",
+                  "home": true
                 }
               ],
-              "story": "The Texans are 3-6 despite a +14 point differential, after losing 27-24 at CLE last week.",
+              "story": "The Texans are 4-6 but have a +37 point differential after beating IND 26-3 on Thursday night.",
               "player": {
                 "name": "C.J. Stroud",
                 "pos": "QB",
-                "line": "5 TD passes and 384 yds in the Wk 9 win at LAC"
+                "line": "3 TD vs IND, third straight game with 3+ TD passes"
               },
               "next": {
-                "opp": "IND",
+                "opp": "BAL",
                 "home": true,
-                "kickoff": "2026-11-20T01:15Z",
-                "network": "Prime Video"
+                "kickoff": "2026-11-29T18:00Z",
+                "network": "CBS"
               }
             },
             {
@@ -1222,21 +1226,13 @@
               "name": "Colts",
               "color": "#002C5F",
               "w": 3,
-              "l": 7,
+              "l": 8,
               "t": 0,
-              "pf": 208,
-              "pa": 271,
+              "pf": 211,
+              "pa": 297,
               "rank": 29,
               "heat": "Cool",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "L",
-                  "for": 7,
-                  "against": 42,
-                  "opp": "JAX",
-                  "home": false
-                },
                 {
                   "week": 9,
                   "result": "L",
@@ -1252,19 +1248,27 @@
                   "against": 22,
                   "opp": "MIA",
                   "home": true
+                },
+                {
+                  "week": 11,
+                  "result": "L",
+                  "for": 3,
+                  "against": 26,
+                  "opp": "HOU",
+                  "home": false
                 }
               ],
-              "story": "The Colts are 3-7 with a -63 point differential, though they beat MIA 24-22 in Week 10.",
+              "story": "The Colts are 3-8 after losing 26-3 at HOU and have allowed a league-high 297 points.",
               "player": {
                 "name": "Jonathan Taylor",
                 "pos": "RB",
-                "line": "16 carries for 83 yds vs MIA in Wk 10"
+                "line": "16 carries, 83 yds vs MIA in Wk 10"
               },
               "next": {
-                "opp": "HOU",
-                "home": false,
-                "kickoff": "2026-11-20T01:15Z",
-                "network": "Prime Video"
+                "opp": "NYG",
+                "home": true,
+                "kickoff": "2026-11-29T18:00Z",
+                "network": "Fox"
               }
             },
             {
