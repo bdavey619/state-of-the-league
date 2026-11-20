@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-20T13:26:25.311Z",
+  "updatedAt": "2026-11-20T21:05:37.761Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -595,10 +595,47 @@
             "away",
             "home"
           ],
-          "away": 0.355,
-          "home": 0.645,
-          "volume": 3645,
-          "at": "2026-11-20T13:26:25.311Z"
+          "away": 0.345,
+          "home": 0.655,
+          "volume": 8535,
+          "at": "2026-11-20T21:05:37.761Z"
+        }
+      },
+      {
+        "id": "401910029",
+        "kickoff": "2026-11-22T20:30Z",
+        "network": "",
+        "away": {
+          "abbr": "DET",
+          "name": "Pistons",
+          "color": "#C8102E",
+          "rec": "10-4"
+        },
+        "home": {
+          "abbr": "ATL",
+          "name": "Hawks",
+          "color": "#E03A3E",
+          "rec": "9-6"
+        },
+        "score": 73,
+        "tier": "worth",
+        "reasons": [
+          "Projected coin flip",
+          "Two winning teams",
+          "East seeding battle"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-det-atl-2026-11-22",
+          "slug": "nba-det-atl-2026-11-22",
+          "marketSlug": "nba-det-atl-2026-11-22",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.575,
+          "home": 0.425,
+          "volume": 567,
+          "at": "2026-11-20T21:05:37.761Z"
         }
       },
       {
@@ -634,8 +671,8 @@
           ],
           "away": 0.465,
           "home": 0.535,
-          "volume": 109676,
-          "at": "2026-11-20T13:26:25.311Z"
+          "volume": 186673,
+          "at": "2026-11-20T21:05:37.761Z"
         }
       },
       {
@@ -660,20 +697,7 @@
           "Two winning teams",
           "Should be close",
           "Avdija vs Towns"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-por-nyk-2026-11-21",
-          "slug": "nba-por-nyk-2026-11-21",
-          "marketSlug": "nba-por-nyk-2026-11-21",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.335,
-          "home": 0.665,
-          "volume": 2240,
-          "at": "2026-11-20T13:26:25.311Z"
-        }
+        ]
       },
       {
         "id": "401909307",
@@ -807,28 +831,6 @@
         "tier": "other",
         "reasons": [
           "Cooper Flagg"
-        ]
-      },
-      {
-        "id": "401909310",
-        "kickoff": "2026-11-21T01:00Z",
-        "network": "KSBI",
-        "away": {
-          "abbr": "NO",
-          "name": "Pelicans",
-          "color": "#0C2340",
-          "rec": "5-11"
-        },
-        "home": {
-          "abbr": "OKC",
-          "name": "Thunder",
-          "color": "#007AC1",
-          "rec": "9-6"
-        },
-        "score": 34,
-        "tier": "other",
-        "reasons": [
-          "Williamson vs Gilgeous-Alexander"
         ]
       }
     ]

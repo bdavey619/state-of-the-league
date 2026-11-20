@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-20T13:26:07.899Z",
+  "updatedAt": "2026-11-20T21:05:35.505Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
@@ -457,8 +457,8 @@
           ],
           "away": 0.57,
           "home": 0.43,
-          "volume": 6713,
-          "at": "2026-11-20T13:26:07.899Z"
+          "volume": 9304,
+          "at": "2026-11-20T21:05:35.505Z"
         }
       },
       {
@@ -494,8 +494,45 @@
           ],
           "away": 0.415,
           "home": 0.585,
-          "volume": 3769,
-          "at": "2026-11-20T13:26:07.899Z"
+          "volume": 4568,
+          "at": "2026-11-20T21:05:35.505Z"
+        }
+      },
+      {
+        "id": "401873083",
+        "kickoff": "2026-11-27T20:00Z",
+        "network": "Prime Video",
+        "away": {
+          "abbr": "DEN",
+          "name": "Broncos",
+          "color": "#FB4F14",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "PIT",
+          "name": "Steelers",
+          "color": "#FFB612",
+          "rec": "6-3"
+        },
+        "score": 75,
+        "tier": "worth",
+        "reasons": [
+          "Two winning teams",
+          "Projected coin flip",
+          "Broncos have won 5 straight"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-den-pit-2026-11-27",
+          "slug": "nfl-den-pit-2026-11-27",
+          "marketSlug": "nfl-den-pit-2026-11-27",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.55,
+          "home": 0.45,
+          "volume": 5058,
+          "at": "2026-11-20T21:05:35.505Z"
         }
       },
       {
@@ -519,20 +556,7 @@
         "reasons": [
           "Two winning teams",
           "Jaguars have won 3 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-jax-nyg-2026-11-22",
-          "slug": "nfl-jax-nyg-2026-11-22",
-          "marketSlug": "nfl-jax-nyg-2026-11-22",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.715,
-          "home": 0.285,
-          "volume": 22642,
-          "at": "2026-11-20T13:26:07.899Z"
-        }
+        ]
       },
       {
         "id": "401873072",
@@ -670,28 +694,6 @@
         "tier": "other",
         "reasons": [
           "Bears have won 4 straight"
-        ]
-      },
-      {
-        "id": "401873070",
-        "kickoff": "2026-11-22T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "MIA",
-          "name": "Dolphins",
-          "color": "#008E97",
-          "rec": "1-8"
-        },
-        "home": {
-          "abbr": "BUF",
-          "name": "Bills",
-          "color": "#00338D",
-          "rec": "8-1"
-        },
-        "score": 42,
-        "tier": "other",
-        "reasons": [
-          "Bills have won 5 straight"
         ]
       }
     ]
