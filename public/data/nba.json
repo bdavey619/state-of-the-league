@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-19T21:35:24.252Z",
+  "updatedAt": "2026-11-20T02:24:11.244Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -551,6 +551,43 @@
     "window": "next 48 hours",
     "games": [
       {
+        "id": "401910026",
+        "kickoff": "2026-11-22T01:00Z",
+        "network": "DAZN MIN",
+        "away": {
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "11-4"
+        },
+        "home": {
+          "abbr": "MIN",
+          "name": "Timberwolves",
+          "color": "#236192",
+          "rec": "11-4"
+        },
+        "score": 75,
+        "tier": "worth",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Should be close",
+          "West seeding battle"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-mem-min-2026-11-21",
+          "slug": "nba-mem-min-2026-11-21",
+          "marketSlug": "nba-mem-min-2026-11-21",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.325,
+          "home": 0.675,
+          "volume": 496,
+          "at": "2026-11-20T02:24:11.244Z"
+        }
+      },
+      {
         "id": "401909312",
         "kickoff": "2026-11-21T03:00Z",
         "network": "Prime Video",
@@ -581,10 +618,47 @@
             "away",
             "home"
           ],
-          "away": 0.475,
-          "home": 0.525,
-          "volume": 8068,
-          "at": "2026-11-19T21:35:24.252Z"
+          "away": 0.445,
+          "home": 0.555,
+          "volume": 16630,
+          "at": "2026-11-20T02:24:11.244Z"
+        }
+      },
+      {
+        "id": "401910024",
+        "kickoff": "2026-11-22T00:30Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "POR",
+          "name": "Trail Blazers",
+          "color": "#E03A3E",
+          "rec": "9-5"
+        },
+        "home": {
+          "abbr": "NY",
+          "name": "Knicks",
+          "color": "#F58426",
+          "rec": "8-6"
+        },
+        "score": 59,
+        "tier": "other",
+        "reasons": [
+          "Two winning teams",
+          "Should be close",
+          "Avdija vs Towns"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-por-nyk-2026-11-21",
+          "slug": "nba-por-nyk-2026-11-21",
+          "marketSlug": "nba-por-nyk-2026-11-21",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.38,
+          "home": 0.62,
+          "volume": 894,
+          "at": "2026-11-20T02:24:11.244Z"
         }
       },
       {
@@ -609,20 +683,7 @@
           "Two winning teams",
           "Both teams hot",
           "Karl-Anthony Towns"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-nyk-min-2026-11-19",
-          "slug": "nba-nyk-min-2026-11-19",
-          "marketSlug": "nba-nyk-min-2026-11-19",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.495,
-          "home": 0.505,
-          "volume": 585477,
-          "at": "2026-11-19T21:35:24.252Z"
-        }
+        ]
       },
       {
         "id": "401910019",
@@ -644,20 +705,7 @@
         "tier": "other",
         "reasons": [
           "Curry vs Jerome"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-gsw-mem-2026-11-19",
-          "slug": "nba-gsw-mem-2026-11-19",
-          "marketSlug": "nba-gsw-mem-2026-11-19",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.335,
-          "home": 0.665,
-          "volume": 488968,
-          "at": "2026-11-19T21:35:24.252Z"
-        }
+        ]
       },
       {
         "id": "401909307",
@@ -704,6 +752,28 @@
         ]
       },
       {
+        "id": "401910027",
+        "kickoff": "2026-11-22T01:00Z",
+        "network": "DAZN SAS",
+        "away": {
+          "abbr": "NO",
+          "name": "Pelicans",
+          "color": "#0C2340",
+          "rec": "5-11"
+        },
+        "home": {
+          "abbr": "SA",
+          "name": "Spurs",
+          "color": "#8A8D8F",
+          "rec": "12-3"
+        },
+        "score": 43,
+        "tier": "other",
+        "reasons": [
+          "Williamson vs Wembanyama"
+        ]
+      },
+      {
         "id": "401909311",
         "kickoff": "2026-11-21T02:30Z",
         "network": "Suns Live",
@@ -747,72 +817,6 @@
         "reasons": [
           "Projected coin flip",
           "Franz Wagner"
-        ]
-      },
-      {
-        "id": "401910022",
-        "kickoff": "2026-11-20T01:00Z",
-        "network": "DAZN SAS",
-        "away": {
-          "abbr": "LAC",
-          "name": "Clippers",
-          "color": "#C8102E",
-          "rec": "4-9"
-        },
-        "home": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "12-3"
-        },
-        "score": 36,
-        "tier": "other",
-        "reasons": [
-          "Victor Wembanyama"
-        ]
-      },
-      {
-        "id": "401909310",
-        "kickoff": "2026-11-21T01:00Z",
-        "network": "KSBI",
-        "away": {
-          "abbr": "NO",
-          "name": "Pelicans",
-          "color": "#0C2340",
-          "rec": "5-11"
-        },
-        "home": {
-          "abbr": "OKC",
-          "name": "Thunder",
-          "color": "#007AC1",
-          "rec": "9-6"
-        },
-        "score": 34,
-        "tier": "other",
-        "reasons": [
-          "Williamson vs Gilgeous-Alexander"
-        ]
-      },
-      {
-        "id": "401909313",
-        "kickoff": "2026-11-21T03:00Z",
-        "network": "Spectrum Sports Net",
-        "away": {
-          "abbr": "SAC",
-          "name": "Kings",
-          "color": "#5A2D81",
-          "rec": "1-13"
-        },
-        "home": {
-          "abbr": "LAL",
-          "name": "Lakers",
-          "color": "#552583",
-          "rec": "13-3"
-        },
-        "score": 34,
-        "tier": "other",
-        "reasons": [
-          "Luka Doncic"
         ]
       }
     ]

@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-19T21:35:20.364Z",
+  "updatedAt": "2026-11-20T02:24:09.227Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
@@ -458,7 +458,44 @@
           "away": 0.58,
           "home": 0.42,
           "volume": 5868,
-          "at": "2026-11-19T21:35:20.364Z"
+          "at": "2026-11-20T02:24:09.227Z"
+        }
+      },
+      {
+        "id": "401873082",
+        "kickoff": "2026-11-27T01:20Z",
+        "network": "NBC",
+        "away": {
+          "abbr": "KC",
+          "name": "Chiefs",
+          "color": "#E31837",
+          "rec": "7-2"
+        },
+        "home": {
+          "abbr": "BUF",
+          "name": "Bills",
+          "color": "#00338D",
+          "rec": "8-1"
+        },
+        "score": 83,
+        "tier": "must",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Projected coin flip",
+          "Bills have won 5 straight"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-kc-buf-2026-11-27",
+          "slug": "nfl-kc-buf-2026-11-27",
+          "marketSlug": "nfl-kc-buf-2026-11-27",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.41,
+          "home": 0.59,
+          "volume": 3644,
+          "at": "2026-11-20T02:24:09.227Z"
         }
       },
       {
@@ -493,8 +530,8 @@
           ],
           "away": 0.715,
           "home": 0.285,
-          "volume": 15087,
-          "at": "2026-11-19T21:35:20.364Z"
+          "volume": 20134,
+          "at": "2026-11-20T02:24:09.227Z"
         }
       },
       {
@@ -519,20 +556,7 @@
           "Should be close",
           "Lions have won 5 straight",
           "Both teams hot"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-tb-det-2026-11-22",
-          "slug": "nfl-tb-det-2026-11-22",
-          "marketSlug": "nfl-tb-det-2026-11-22",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.275,
-          "home": 0.725,
-          "volume": 120472,
-          "at": "2026-11-19T21:35:20.364Z"
-        }
+        ]
       },
       {
         "id": "401873079",
@@ -668,28 +692,6 @@
         "tier": "other",
         "reasons": [
           "Bills have won 5 straight"
-        ]
-      },
-      {
-        "id": "401873068",
-        "kickoff": "2026-11-22T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "BAL",
-          "name": "Ravens",
-          "color": "#241773",
-          "rec": "4-6"
-        },
-        "home": {
-          "abbr": "CAR",
-          "name": "Panthers",
-          "color": "#0085CA",
-          "rec": "4-5"
-        },
-        "score": 40,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
         ]
       }
     ]
