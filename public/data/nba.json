@@ -4,13 +4,13 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Thu, Nov 19",
-  "throughLabel": "through Thu, Nov 19",
+  "kicker": "2026-27 · through Fri, Nov 20",
+  "throughLabel": "through Fri, Nov 20",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-20T21:05:37.761Z",
+  "updatedAt": "2026-11-21T02:28:43.166Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -595,10 +595,10 @@
             "away",
             "home"
           ],
-          "away": 0.345,
-          "home": 0.655,
-          "volume": 8535,
-          "at": "2026-11-20T21:05:37.761Z"
+          "away": 0.325,
+          "home": 0.675,
+          "volume": 13533,
+          "at": "2026-11-21T02:28:43.166Z"
         }
       },
       {
@@ -615,13 +615,13 @@
           "abbr": "ATL",
           "name": "Hawks",
           "color": "#E03A3E",
-          "rec": "9-6"
+          "rec": "10-6"
         },
-        "score": 73,
+        "score": 74,
         "tier": "worth",
         "reasons": [
-          "Projected coin flip",
           "Two winning teams",
+          "Projected coin flip",
           "East seeding battle"
         ],
         "polymarket": {
@@ -632,11 +632,35 @@
             "away",
             "home"
           ],
-          "away": 0.575,
-          "home": 0.425,
-          "volume": 567,
-          "at": "2026-11-20T21:05:37.761Z"
+          "away": 0.565,
+          "home": 0.435,
+          "volume": 623,
+          "at": "2026-11-21T02:28:43.166Z"
         }
+      },
+      {
+        "id": "401910030",
+        "kickoff": "2026-11-22T23:00Z",
+        "network": "KSBI",
+        "away": {
+          "abbr": "OKC",
+          "name": "Thunder",
+          "color": "#007AC1",
+          "rec": "9-6"
+        },
+        "home": {
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "9-6"
+        },
+        "score": 73,
+        "tier": "worth",
+        "reasons": [
+          "Projected coin flip",
+          "Heat have won 6 straight",
+          "Gilgeous-Alexander vs Antetokounmpo"
+        ]
       },
       {
         "id": "401909312",
@@ -660,20 +684,7 @@
           "Two winning teams",
           "Projected coin flip",
           "Sengun vs Jokic"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-hou-den-2026-11-20",
-          "slug": "nba-hou-den-2026-11-20",
-          "marketSlug": "nba-hou-den-2026-11-20",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.465,
-          "home": 0.535,
-          "volume": 186673,
-          "at": "2026-11-20T21:05:37.761Z"
-        }
+        ]
       },
       {
         "id": "401910024",
@@ -697,6 +708,75 @@
           "Two winning teams",
           "Should be close",
           "Avdija vs Towns"
+        ]
+      },
+      {
+        "id": "401910035",
+        "kickoff": "2026-11-23T01:30Z",
+        "network": "",
+        "away": {
+          "abbr": "BOS",
+          "name": "Celtics",
+          "color": "#007A33",
+          "rec": "11-4"
+        },
+        "home": {
+          "abbr": "GS",
+          "name": "Warriors",
+          "color": "#1D428A",
+          "rec": "8-8"
+        },
+        "score": 53,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Tatum vs Curry"
+        ]
+      },
+      {
+        "id": "401910032",
+        "kickoff": "2026-11-23T00:00Z",
+        "network": "",
+        "away": {
+          "abbr": "DEN",
+          "name": "Nuggets",
+          "color": "#0E2240",
+          "rec": "8-5"
+        },
+        "home": {
+          "abbr": "CHI",
+          "name": "Bulls",
+          "color": "#CE1141",
+          "rec": "4-10"
+        },
+        "score": 48,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Nikola Jokic"
+        ]
+      },
+      {
+        "id": "401910031",
+        "kickoff": "2026-11-23T00:00Z",
+        "network": "MNMT",
+        "away": {
+          "abbr": "ORL",
+          "name": "Magic",
+          "color": "#0077C0",
+          "rec": "6-8"
+        },
+        "home": {
+          "abbr": "WSH",
+          "name": "Wizards",
+          "color": "#002B5C",
+          "rec": "5-11"
+        },
+        "score": 47,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Wagner vs Davis"
         ]
       },
       {
@@ -741,96 +821,6 @@
         "tier": "other",
         "reasons": [
           "Barnes vs Cunningham"
-        ]
-      },
-      {
-        "id": "401910027",
-        "kickoff": "2026-11-22T01:00Z",
-        "network": "DAZN SAS",
-        "away": {
-          "abbr": "NO",
-          "name": "Pelicans",
-          "color": "#0C2340",
-          "rec": "5-11"
-        },
-        "home": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "13-3"
-        },
-        "score": 42,
-        "tier": "other",
-        "reasons": [
-          "Williamson vs Wembanyama"
-        ]
-      },
-      {
-        "id": "401909311",
-        "kickoff": "2026-11-21T02:30Z",
-        "network": "Suns Live",
-        "away": {
-          "abbr": "PHX",
-          "name": "Suns",
-          "color": "#E56020",
-          "rec": "7-7"
-        },
-        "home": {
-          "abbr": "UTAH",
-          "name": "Jazz",
-          "color": "#3E2680",
-          "rec": "3-13"
-        },
-        "score": 41,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Devin Booker"
-        ]
-      },
-      {
-        "id": "401909306",
-        "kickoff": "2026-11-21T00:30Z",
-        "network": "DAZN (YES)",
-        "away": {
-          "abbr": "ORL",
-          "name": "Magic",
-          "color": "#0077C0",
-          "rec": "6-8"
-        },
-        "home": {
-          "abbr": "BKN",
-          "name": "Nets",
-          "color": "#000000",
-          "rec": "3-11"
-        },
-        "score": 38,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Franz Wagner"
-        ]
-      },
-      {
-        "id": "401910025",
-        "kickoff": "2026-11-22T01:00Z",
-        "network": "KFAA-TV",
-        "away": {
-          "abbr": "LAC",
-          "name": "Clippers",
-          "color": "#C8102E",
-          "rec": "4-10"
-        },
-        "home": {
-          "abbr": "DAL",
-          "name": "Mavericks",
-          "color": "#00538C",
-          "rec": "8-7"
-        },
-        "score": 36,
-        "tier": "other",
-        "reasons": [
-          "Cooper Flagg"
         ]
       }
     ]
@@ -1141,7 +1131,7 @@
               "pa": 1553,
               "rank": 10,
               "heat": "Warm",
-              "seed": 4,
+              "seed": 5,
               "form": "7-3",
               "trend": [
                 -1,
@@ -1495,14 +1485,14 @@
               "city": "Atlanta",
               "name": "Hawks",
               "color": "#E03A3E",
-              "w": 9,
+              "w": 10,
               "l": 6,
               "t": 0,
-              "pf": 1766,
-              "pa": 1737,
-              "rank": 13,
+              "pf": 1877,
+              "pa": 1834,
+              "rank": 11,
               "heat": "Warm",
-              "seed": 5,
+              "seed": 4,
               "form": "7-3",
               "trend": [
                 1,
@@ -1519,18 +1509,19 @@
                 2,
                 1,
                 2,
-                3
+                3,
+                4
               ],
-              "story": "The Hawks are 9-6 and 7-3 in their last 10, most recently beating OKC 117-112 on the road.",
+              "story": "The Hawks are 10-6 on a three-game winning streak after beating CHA 111-97, though it is still early.",
               "player": {
                 "name": "Jalen Johnson",
                 "pos": "F",
-                "line": "16 pts, 12 reb and 11 ast vs OKC"
+                "line": "19.7 pts, 9 reb, 7.5 ast per game; 26 pts vs CHA"
               },
               "next": {
-                "opp": "CHA",
+                "opp": "DET",
                 "home": true,
-                "kickoff": "2026-11-21T00:00Z",
+                "kickoff": "2026-11-22T20:30Z",
                 "network": ""
               }
             },
@@ -1544,7 +1535,7 @@
               "t": 0,
               "pf": 1808,
               "pa": 1798,
-              "rank": 12,
+              "rank": 13,
               "heat": "Hot",
               "seed": 6,
               "form": "8-2",
@@ -1672,10 +1663,10 @@
               "name": "Hornets",
               "color": "#00788C",
               "w": 4,
-              "l": 10,
+              "l": 11,
               "t": 0,
-              "pf": 1402,
-              "pa": 1546,
+              "pf": 1499,
+              "pa": 1657,
               "rank": 28,
               "heat": "Cold",
               "seed": 13,
@@ -1694,19 +1685,20 @@
                 -3,
                 -4,
                 -5,
-                -6
+                -6,
+                -7
               ],
-              "story": "The Hornets are 4-10 and 1-9 in their last 10, most recently losing 118-114 at LAL.",
+              "story": "The Hornets have lost four straight and are 4-11 with a -158 point differential.",
               "player": {
-                "name": "Brandon Miller",
+                "name": "Moussa Diabate",
                 "pos": "F",
-                "line": "19.9 pts per game, 28 pts at LAL"
+                "line": "21 pts and 15 reb vs ATL"
               },
               "next": {
-                "opp": "ATL",
-                "home": false,
-                "kickoff": "2026-11-21T00:00Z",
-                "network": ""
+                "opp": "MEM",
+                "home": true,
+                "kickoff": "2026-11-24T00:00Z",
+                "network": "DAZN MEM"
               }
             }
           ]
@@ -1861,7 +1853,7 @@
               "t": 0,
               "pf": 1682,
               "pa": 1616,
-              "rank": 11,
+              "rank": 12,
               "heat": "Steady",
               "seed": 8,
               "form": "5-5",

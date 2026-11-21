@@ -34,7 +34,7 @@
       "division": "East Atlantic",
       "streak": "W3",
       "pct": 0.6,
-      "seed": 4
+      "seed": 5
     },
     "TOR": {
       "w": 5,
@@ -121,22 +121,22 @@
       "seed": 15
     },
     "ATL": {
-      "w": 9,
+      "w": 10,
       "l": 6,
       "t": 0,
-      "rank": 13,
+      "rank": 11,
       "heat": "Warm",
       "place": 1,
       "division": "East Southeast",
-      "streak": "W2",
-      "pct": 0.6,
-      "seed": 5
+      "streak": "W3",
+      "pct": 0.625,
+      "seed": 4
     },
     "MIA": {
       "w": 9,
       "l": 6,
       "t": 0,
-      "rank": 12,
+      "rank": 13,
       "heat": "Hot",
       "place": 2,
       "division": "East Southeast",
@@ -170,14 +170,14 @@
     },
     "CHA": {
       "w": 4,
-      "l": 10,
+      "l": 11,
       "t": 0,
       "rank": 28,
       "heat": "Cold",
       "place": 5,
       "division": "East Southeast",
-      "streak": "L3",
-      "pct": 0.2857142857142857,
+      "streak": "L4",
+      "pct": 0.26666666666666666,
       "seed": 13
     },
     "MIN": {
@@ -220,7 +220,7 @@
       "w": 9,
       "l": 6,
       "t": 0,
-      "rank": 11,
+      "rank": 12,
       "heat": "Steady",
       "place": 4,
       "division": "West Northwest",

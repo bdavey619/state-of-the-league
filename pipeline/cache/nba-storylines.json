@@ -130,14 +130,14 @@
     }
   },
   "ATL": {
-    "key": "401910014|401909305",
+    "key": "401909305|401910029",
     "result": {
       "abbr": "ATL",
-      "story": "The Hawks are 9-6 and 7-3 in their last 10, most recently beating OKC 117-112 on the road.",
+      "story": "The Hawks are 10-6 on a three-game winning streak after beating CHA 111-97, though it is still early.",
       "player": {
         "name": "Jalen Johnson",
         "pos": "F",
-        "line": "16 pts, 12 reb and 11 ast vs OKC"
+        "line": "19.7 pts, 9 reb, 7.5 ast per game; 26 pts vs CHA"
       },
       "source": "claude"
     }
@@ -169,14 +169,14 @@
     }
   },
   "CHA": {
-    "key": "401910005|401909305",
+    "key": "401909305|401910036",
     "result": {
       "abbr": "CHA",
-      "story": "The Hornets are 4-10 and 1-9 in their last 10, most recently losing 118-114 at LAL.",
+      "story": "The Hornets have lost four straight and are 4-11 with a -158 point differential.",
       "player": {
-        "name": "Brandon Miller",
+        "name": "Moussa Diabate",
         "pos": "F",
-        "line": "19.9 pts per game, 28 pts at LAL"
+        "line": "21 pts and 15 reb vs ATL"
       },
       "source": "claude"
     }
