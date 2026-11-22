@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-22T13:24:44.860Z",
+  "updatedAt": "2026-11-22T20:21:44.683Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -531,27 +531,6 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Celtics have won 5 straight."
-    },
-    {
-      "at": "2026-11-01T18:26:50.906Z",
-      "abbr": "WSH",
-      "kind": "lead",
-      "weight": 5,
-      "text": "The Wizards took over first place in the East Southeast."
-    },
-    {
-      "at": "2026-11-01T18:26:50.906Z",
-      "abbr": "MIN",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Timberwolves slid to No. 8 in the power rankings."
-    },
-    {
-      "at": "2026-11-01T18:26:50.906Z",
-      "abbr": "NO",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Pelicans climbed to No. 17 in the power rankings."
     }
   ],
   "recap": {
@@ -640,10 +619,10 @@
             "away",
             "home"
           ],
-          "away": 0.545,
-          "home": 0.455,
-          "volume": 125269,
-          "at": "2026-11-22T13:24:44.860Z"
+          "away": 0.555,
+          "home": 0.445,
+          "volume": 415965,
+          "at": "2026-11-22T20:21:44.683Z"
         }
       },
       {
@@ -679,8 +658,8 @@
           ],
           "away": 0.415,
           "home": 0.585,
-          "volume": 2633,
-          "at": "2026-11-22T13:24:44.860Z"
+          "volume": 3161,
+          "at": "2026-11-22T20:21:44.683Z"
         }
       },
       {

@@ -1,12 +1,12 @@
 {
-  "at": "2026-11-22T13:24:42.662Z",
+  "at": "2026-11-22T20:21:41.623Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 32,
   "recap": "claude",
   "newChanges": 0,
   "polymarket": [
-    "CHI@DET: 57-43 via slug (0h)",
-    "KC@BUF: 41-59 via slug (0h)",
+    "CHI@DET: 59-41 via slug (0h)",
+    "KC@BUF: 44-56 via slug (0h)",
     "DEN@PIT: 55-45 via slug (0h)"
   ],
   "issues": []

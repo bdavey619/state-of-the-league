@@ -364,27 +364,6 @@
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "events": [
     {
-      "at": "2026-11-01T18:26:50.906Z",
-      "abbr": "WSH",
-      "kind": "lead",
-      "weight": 5,
-      "text": "The Wizards took over first place in the East Southeast."
-    },
-    {
-      "at": "2026-11-01T18:26:50.906Z",
-      "abbr": "MIN",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Timberwolves slid to No. 8 in the power rankings."
-    },
-    {
-      "at": "2026-11-01T18:26:50.906Z",
-      "abbr": "NO",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Pelicans climbed to No. 17 in the power rankings."
-    },
-    {
       "at": "2026-11-02T00:53:42.897Z",
       "abbr": "BOS",
       "kind": "streak",
