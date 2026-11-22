@@ -1,13 +1,13 @@
 {
   "PHI": {
-    "key": "401910010|401910023",
+    "key": "401910023|401910037",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 13-3 on a 4-game win streak, but their +2.9 point margin per game is modest.",
+      "story": "The 76ers are 14-3 on a five-game win streak, but a +50 point differential lags the record.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "26.5 ppg; late scratch vs ORL with foot soreness"
+        "line": "25.9 pts per game; started with Brown out vs MIL"
       },
       "source": "claude"
     }
@@ -117,14 +117,14 @@
     }
   },
   "MIL": {
-    "key": "401910020|401910023",
+    "key": "401910023|401910039",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 1-15 on a 12-game losing streak, the latest a 124-114 loss to POR.",
+      "story": "The Bucks are 1-16 and have lost 13 straight, the latest 132-129 at PHI.",
       "player": {
-        "name": "Kyle Kuzma",
-        "pos": "F",
-        "line": "26 pts vs MIA; 12.3 pts per game this season"
+        "name": "Tyler Herro",
+        "pos": "G",
+        "line": "50 pts, 11 reb, 7 ast at PHI in a 132-129 loss"
       },
       "source": "claude"
     }

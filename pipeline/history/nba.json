@@ -1,15 +1,15 @@
 {
   "snapshot": {
     "PHI": {
-      "w": 13,
+      "w": 14,
       "l": 3,
       "t": 0,
       "rank": 7,
       "heat": "Warm",
       "place": 1,
       "division": "East Atlantic",
-      "streak": "W4",
-      "pct": 0.8125,
+      "streak": "W5",
+      "pct": 0.8235294117647058,
       "seed": 1
     },
     "BOS": {
@@ -110,14 +110,14 @@
     },
     "MIL": {
       "w": 1,
-      "l": 15,
+      "l": 16,
       "t": 0,
-      "rank": 30,
+      "rank": 29,
       "heat": "Cold",
       "place": 5,
       "division": "East Central",
-      "streak": "L12",
-      "pct": 0.0625,
+      "streak": "L13",
+      "pct": 0.058823529411764705,
       "seed": 15
     },
     "ATL": {
@@ -292,7 +292,7 @@
       "w": 1,
       "l": 14,
       "t": 0,
-      "rank": 29,
+      "rank": 30,
       "heat": "Cold",
       "place": 5,
       "division": "West Pacific",
@@ -887,6 +887,20 @@
       "kind": "heat",
       "weight": 3,
       "text": "The Pelicans have gone cold."
+    },
+    {
+      "at": "2026-11-22T01:25:00.701Z",
+      "abbr": "PHI",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The 76ers have won 5 straight."
+    },
+    {
+      "at": "2026-11-22T01:25:00.701Z",
+      "abbr": "MIL",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Bucks have lost 13 straight."
     }
   ],
   "recap": {

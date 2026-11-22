@@ -4,16 +4,30 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Fri, Nov 20",
-  "throughLabel": "through Fri, Nov 20",
+  "kicker": "2026-27 · through Sat, Nov 21",
+  "throughLabel": "through Sat, Nov 21",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-21T20:06:18.347Z",
+  "updatedAt": "2026-11-22T01:25:00.701Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-22T01:25:00.701Z",
+      "abbr": "MIL",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Bucks have lost 13 straight."
+    },
+    {
+      "at": "2026-11-22T01:25:00.701Z",
+      "abbr": "PHI",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The 76ers have won 5 straight."
+    },
     {
       "at": "2026-11-21T13:25:23.267Z",
       "abbr": "NO",
@@ -602,10 +616,47 @@
             "away",
             "home"
           ],
-          "away": 0.325,
-          "home": 0.675,
-          "volume": 355917,
-          "at": "2026-11-21T20:06:18.347Z"
+          "away": 0.385,
+          "home": 0.615,
+          "volume": 1562608,
+          "at": "2026-11-22T01:25:00.701Z"
+        }
+      },
+      {
+        "id": "401910037",
+        "kickoff": "2026-11-24T00:00Z",
+        "network": "BlazerVision",
+        "away": {
+          "abbr": "POR",
+          "name": "Trail Blazers",
+          "color": "#E03A3E",
+          "rec": "10-5"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "76ers",
+          "color": "#006BB6",
+          "rec": "14-3"
+        },
+        "score": 76,
+        "tier": "worth",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Projected coin flip",
+          "76ers have won 5 straight"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-por-phi-2026-11-23",
+          "slug": "nba-por-phi-2026-11-23",
+          "marketSlug": "nba-por-phi-2026-11-23",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 674,
+          "at": "2026-11-22T01:25:00.701Z"
         }
       },
       {
@@ -654,20 +705,7 @@
           "Projected coin flip",
           "East seeding battle",
           "Cade Cunningham"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-det-atl-2026-11-22",
-          "slug": "nba-det-atl-2026-11-22",
-          "marketSlug": "nba-det-atl-2026-11-22",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.575,
-          "home": 0.425,
-          "volume": 2565,
-          "at": "2026-11-21T20:06:18.347Z"
-        }
+        ]
       },
       {
         "id": "401910024",
@@ -740,6 +778,29 @@
         ]
       },
       {
+        "id": "401910038",
+        "kickoff": "2026-11-24T00:30Z",
+        "network": "KSBI",
+        "away": {
+          "abbr": "OKC",
+          "name": "Thunder",
+          "color": "#007AC1",
+          "rec": "10-6"
+        },
+        "home": {
+          "abbr": "IND",
+          "name": "Pacers",
+          "color": "#FDBB30",
+          "rec": "5-11"
+        },
+        "score": 48,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip",
+          "Gilgeous-Alexander vs Siakam"
+        ]
+      },
+      {
         "id": "401910032",
         "kickoff": "2026-11-23T00:00Z",
         "network": "",
@@ -763,70 +824,26 @@
         ]
       },
       {
-        "id": "401910027",
-        "kickoff": "2026-11-22T01:00Z",
-        "network": "DAZN SAS",
+        "id": "401910041",
+        "kickoff": "2026-11-24T01:00Z",
+        "network": "DAZN CLE",
         "away": {
-          "abbr": "NO",
-          "name": "Pelicans",
-          "color": "#0C2340",
-          "rec": "5-12"
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "9-8"
         },
         "home": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "13-3"
+          "abbr": "CHI",
+          "name": "Bulls",
+          "color": "#CE1141",
+          "rec": "4-11"
         },
-        "score": 41,
+        "score": 44,
         "tier": "other",
         "reasons": [
-          "Williamson vs Wembanyama"
-        ]
-      },
-      {
-        "id": "401910033",
-        "kickoff": "2026-11-23T00:00Z",
-        "network": "KJZZ-TV",
-        "away": {
-          "abbr": "DAL",
-          "name": "Mavericks",
-          "color": "#00538C",
-          "rec": "8-7"
-        },
-        "home": {
-          "abbr": "UTAH",
-          "name": "Jazz",
-          "color": "#3E2680",
-          "rec": "3-14"
-        },
-        "score": 41,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Cooper Flagg"
-        ]
-      },
-      {
-        "id": "401910034",
-        "kickoff": "2026-11-23T01:00Z",
-        "network": "DAZN IND",
-        "away": {
-          "abbr": "IND",
-          "name": "Pacers",
-          "color": "#FDBB30",
-          "rec": "5-11"
-        },
-        "home": {
-          "abbr": "NY",
-          "name": "Knicks",
-          "color": "#F58426",
-          "rec": "9-6"
-        },
-        "score": 40,
-        "tier": "other",
-        "reasons": [
-          "Siakam vs Towns"
+          "Should be close",
+          "Donovan Mitchell"
         ]
       }
     ]
@@ -912,19 +929,6 @@
     },
     {
       "rank": 7,
-      "name": "Tyrese Maxey",
-      "pos": "G",
-      "team": "PHI",
-      "gp": 15,
-      "ppg": 26.5,
-      "rpg": 3.3,
-      "apg": 5.8,
-      "ts": 63.7,
-      "gs": 21.1,
-      "trend": "flat"
-    },
-    {
-      "rank": 8,
       "name": "Alperen Sengun",
       "pos": "C",
       "team": "HOU",
@@ -937,7 +941,7 @@
       "trend": "flat"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "Cooper Flagg",
       "pos": "F",
       "team": "DAL",
@@ -950,7 +954,7 @@
       "trend": "flat"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "Cade Cunningham",
       "pos": "G",
       "team": "DET",
@@ -961,6 +965,19 @@
       "ts": 58.4,
       "gs": 20.7,
       "trend": "up"
+    },
+    {
+      "rank": 10,
+      "name": "Tyrese Maxey",
+      "pos": "G",
+      "team": "PHI",
+      "gp": 16,
+      "ppg": 25.9,
+      "rpg": 3.3,
+      "apg": 5.7,
+      "ts": 63.3,
+      "gs": 20.6,
+      "trend": "flat"
     },
     {
       "rank": 11,
@@ -1041,11 +1058,11 @@
               "city": "Philadelphia",
               "name": "76ers",
               "color": "#006BB6",
-              "w": 13,
+              "w": 14,
               "l": 3,
               "t": 0,
-              "pf": 1832,
-              "pa": 1785,
+              "pf": 1964,
+              "pa": 1914,
               "rank": 7,
               "heat": "Warm",
               "seed": 1,
@@ -1066,19 +1083,20 @@
                 7,
                 8,
                 9,
-                10
+                10,
+                11
               ],
-              "story": "The 76ers are 13-3 on a 4-game win streak, but their +2.9 point margin per game is modest.",
+              "story": "The 76ers are 14-3 on a five-game win streak, but a +50 point differential lags the record.",
               "player": {
                 "name": "Tyrese Maxey",
                 "pos": "G",
-                "line": "26.5 ppg; late scratch vs ORL with foot soreness"
+                "line": "25.9 pts per game; started with Brown out vs MIL"
               },
               "next": {
-                "opp": "MIL",
+                "opp": "POR",
                 "home": true,
-                "kickoff": "2026-11-21T18:00Z",
-                "network": "MyMi"
+                "kickoff": "2026-11-24T00:00Z",
+                "network": "BlazerVision"
               }
             },
             {
@@ -1448,11 +1466,11 @@
               "name": "Bucks",
               "color": "#00471B",
               "w": 1,
-              "l": 15,
+              "l": 16,
               "t": 0,
-              "pf": 1730,
-              "pa": 1937,
-              "rank": 30,
+              "pf": 1859,
+              "pa": 2069,
+              "rank": 29,
               "heat": "Cold",
               "seed": 15,
               "form": "0-10",
@@ -1472,18 +1490,19 @@
                 -11,
                 -12,
                 -13,
-                -14
+                -14,
+                -15
               ],
-              "story": "The Bucks are 1-15 on a 12-game losing streak, the latest a 124-114 loss to POR.",
+              "story": "The Bucks are 1-16 and have lost 13 straight, the latest 132-129 at PHI.",
               "player": {
-                "name": "Kyle Kuzma",
-                "pos": "F",
-                "line": "26 pts vs MIA; 12.3 pts per game this season"
+                "name": "Tyler Herro",
+                "pos": "G",
+                "line": "50 pts, 11 reb, 7 ast at PHI in a 132-129 loss"
               },
               "next": {
-                "opp": "PHI",
+                "opp": "TOR",
                 "home": false,
-                "kickoff": "2026-11-21T18:00Z",
+                "kickoff": "2026-11-24T00:30Z",
                 "network": "MyMi"
               }
             }
@@ -2142,7 +2161,7 @@
               "t": 0,
               "pf": 1612,
               "pa": 1810,
-              "rank": 29,
+              "rank": 30,
               "heat": "Cold",
               "seed": 15,
               "form": "1-9",
