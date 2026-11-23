@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-23T13:35:22.389Z",
+  "updatedAt": "2026-11-23T18:44:58.984Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -524,13 +524,6 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Spurs have won 5 straight."
-    },
-    {
-      "at": "2026-11-02T16:34:13.287Z",
-      "abbr": "LAC",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Clippers have lost 5 straight."
     }
   ],
   "recap": {
@@ -595,10 +588,10 @@
             "away",
             "home"
           ],
-          "away": 0.405,
-          "home": 0.595,
-          "volume": 224949,
-          "at": "2026-11-23T13:35:22.389Z"
+          "away": 0.445,
+          "home": 0.555,
+          "volume": 761951,
+          "at": "2026-11-23T18:44:58.984Z"
         }
       },
       {
@@ -633,8 +626,8 @@
           ],
           "away": 0.235,
           "home": 0.765,
-          "volume": 1741,
-          "at": "2026-11-23T13:35:22.389Z"
+          "volume": 2208,
+          "at": "2026-11-23T18:44:58.984Z"
         }
       },
       {

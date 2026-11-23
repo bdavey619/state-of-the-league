@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-23T13:35:20.290Z",
+  "updatedAt": "2026-11-23T18:44:55.641Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
@@ -356,13 +356,6 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Bears have won 3 straight."
-    },
-    {
-      "at": "2026-11-02T16:34:00.051Z",
-      "abbr": "WSH",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Commanders have warmed up after a rough stretch."
     }
   ],
   "recap": {
@@ -429,8 +422,8 @@
           ],
           "away": 0.565,
           "home": 0.435,
-          "volume": 23444,
-          "at": "2026-11-23T13:35:20.290Z"
+          "volume": 23919,
+          "at": "2026-11-23T18:44:55.641Z"
         }
       },
       {
@@ -466,8 +459,8 @@
           ],
           "away": 0.415,
           "home": 0.585,
-          "volume": 25038,
-          "at": "2026-11-23T13:35:20.290Z"
+          "volume": 26497,
+          "at": "2026-11-23T18:44:55.641Z"
         }
       },
       {
@@ -501,10 +494,10 @@
             "away",
             "home"
           ],
-          "away": 0.575,
-          "home": 0.425,
-          "volume": 37911,
-          "at": "2026-11-23T13:35:20.290Z"
+          "away": 0.585,
+          "home": 0.415,
+          "volume": 40467,
+          "at": "2026-11-23T18:44:55.641Z"
         }
       },
       {

@@ -364,13 +364,6 @@
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "events": [
     {
-      "at": "2026-11-02T16:34:13.287Z",
-      "abbr": "LAC",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Clippers have lost 5 straight."
-    },
-    {
       "at": "2026-11-03T14:41:42.818Z",
       "abbr": "HOU",
       "kind": "lead",

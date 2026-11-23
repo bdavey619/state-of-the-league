@@ -388,13 +388,6 @@
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "events": [
     {
-      "at": "2026-11-02T16:34:00.051Z",
-      "abbr": "WSH",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Commanders have warmed up after a rough stretch."
-    },
-    {
       "at": "2026-11-03T14:41:18.003Z",
       "abbr": "CHI",
       "kind": "heat",
