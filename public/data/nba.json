@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-23T13:29:15.829Z",
+  "updatedAt": "2026-11-23T13:35:22.389Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -598,7 +598,7 @@
           "away": 0.405,
           "home": 0.595,
           "volume": 224949,
-          "at": "2026-11-23T13:29:15.829Z"
+          "at": "2026-11-23T13:35:22.389Z"
         }
       },
       {
@@ -634,7 +634,7 @@
           "away": 0.235,
           "home": 0.765,
           "volume": 1741,
-          "at": "2026-11-23T13:29:15.829Z"
+          "at": "2026-11-23T13:35:22.389Z"
         }
       },
       {
@@ -1103,11 +1103,11 @@
                 6,
                 5
               ],
-              "story": "Lost 4 straight; +155 on the season.",
+              "story": "The Celtics have lost four straight, two by a point, though they are +155 in point differential.",
               "player": {
                 "name": "Jayson Tatum",
                 "pos": "F",
-                "line": "26.4 pts, 6.9 reb, 6.7 ast per game"
+                "line": "27 pts, 10 reb and 6 ast vs GS"
               },
               "next": {
                 "opp": "WSH",
@@ -1149,11 +1149,11 @@
                 4,
                 5
               ],
-              "story": "Won 5 straight; +97 on the season.",
+              "story": "The Knicks have won five straight, the latest 113-106 over IND, and sit third in the East at 11-6.",
               "player": {
                 "name": "Karl-Anthony Towns",
                 "pos": "C",
-                "line": "21.8 pts, 13.9 reb, 4 ast per game"
+                "line": "30 pts and 13 reb vs IND"
               },
               "next": {
                 "opp": "CLE",

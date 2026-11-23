@@ -1,24 +1,13 @@
 {
-  "at": "2026-11-23T13:29:15.829Z",
+  "at": "2026-11-23T13:35:22.389Z",
   "model": "claude-sonnet-5-5",
-  "claudeStories": 28,
+  "claudeStories": 30,
   "recap": "claude",
-  "newChanges": 1,
+  "newChanges": 0,
   "polymarket": [
     "POR@PHI: 41-60 via slug (0h)",
     "DAL@DEN: 24-77 via slug (0h)",
     "OKC@IND: no market"
   ],
-  "issues": [
-    {
-      "teams": [
-        "PHI",
-        "BOS",
-        "NY",
-        "TOR",
-        "BKN"
-      ],
-      "error": "Could not parse JSON (stop_reason end_turn): [\n{\"abbr\":\"PHI\",\"story\":\"The 76ers are 14-3 and have won 5 straight, but a +50 point differential is modest for that record.\",\"player\":{\"name\":\"Tyrese Maxey\",\"pos\":\"G\",\"line\":\"25.9 pts per game throug"
-    }
-  ]
+  "issues": []
 }

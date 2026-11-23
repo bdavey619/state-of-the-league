@@ -16,13 +16,13 @@
     "key": "401910035|401909315",
     "result": {
       "abbr": "BOS",
-      "story": "Lost 4 straight; +155 on the season.",
+      "story": "The Celtics have lost four straight, two by a point, though they are +155 in point differential.",
       "player": {
         "name": "Jayson Tatum",
         "pos": "F",
-        "line": "26.4 pts, 6.9 reb, 6.7 ast per game"
+        "line": "27 pts, 10 reb and 6 ast vs GS"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "TOR": {
@@ -42,13 +42,13 @@
     "key": "401910034|401909319",
     "result": {
       "abbr": "NY",
-      "story": "Won 5 straight; +97 on the season.",
+      "story": "The Knicks have won five straight, the latest 113-106 over IND, and sit third in the East at 11-6.",
       "player": {
         "name": "Karl-Anthony Towns",
         "pos": "C",
-        "line": "21.8 pts, 13.9 reb, 4 ast per game"
+        "line": "30 pts and 13 reb vs IND"
       },
-      "source": "template"
+      "source": "claude"
     }
   },
   "BKN": {
