@@ -1,13 +1,13 @@
 {
   "BUF": {
-    "key": "401873054|401873070",
+    "key": "401873070|401873082",
     "result": {
       "abbr": "BUF",
-      "story": "The Bills are 8-1, the franchise's best start in 35 years, after beating the Jets 31-12.",
+      "story": "The Bills are 9-1 and have won 6 straight, most recently beating MIA 26-9.",
       "player": {
         "name": "James Cook III",
         "pos": "RB",
-        "line": "157 yds and a TD on 18 carries vs NYJ"
+        "line": "89 yds and a TD vs MIA in Wk 11"
       },
       "source": "claude"
     }
@@ -26,40 +26,40 @@
     }
   },
   "NYJ": {
-    "key": "401873054|401873074",
+    "key": "401873074|401873089",
     "result": {
       "abbr": "NYJ",
-      "story": "The Jets are 2-8 and have lost five straight, most recently 31-12 to BUF.",
+      "story": "The Jets beat LAC 27-24 to snap a 5-game skid, but they are still 3-8.",
       "player": {
-        "name": "Garrett Wilson",
-        "pos": "WR",
-        "line": "7 catches for 106 yds vs BUF in Wk 10"
+        "name": "Geno Smith",
+        "pos": "QB",
+        "line": "17 of 21, 176 yds and 3 TD vs LAC"
       },
       "source": "claude"
     }
   },
   "MIA": {
-    "key": "401873059|401873070",
+    "key": "401873070|401873089",
     "result": {
       "abbr": "MIA",
-      "story": "The Dolphins are 1-8 and have lost three straight, most recently 24-22 at IND.",
+      "story": "The Dolphins are 1-9 and have lost 4 straight, scoring a league-low 157 points.",
       "player": {
         "name": "Caleb Douglas",
         "pos": "WR",
-        "line": "3 catches for 71 yds vs IND in Wk 10"
+        "line": "3 catches, 71 yds vs IND in Wk 10"
       },
       "source": "claude"
     }
   },
   "PIT": {
-    "key": "401873064|401873076",
+    "key": "401873076|401873083",
     "result": {
       "abbr": "PIT",
-      "story": "The Steelers are 6-3 but lost 38-18 at CIN, and their +16 point differential is thin for that record.",
+      "story": "The Steelers have lost two straight, 38-18 at CIN and 19-16 at PHI, and sit 6-4 in the AFC North.",
       "player": {
         "name": "Aaron Rodgers",
         "pos": "QB",
-        "line": "Chasing records in his 22nd NFL season"
+        "line": "227 yds and a TD in the 19-16 loss at PHI"
       },
       "source": "claude"
     }
@@ -91,27 +91,27 @@
     }
   },
   "BAL": {
-    "key": "401873065|401873068",
+    "key": "401873068|401873085",
     "result": {
       "abbr": "BAL",
-      "story": "The Ravens have lost five straight, the latest 23-20 to previously winless LAC, and sit at 4-6.",
+      "story": "The Ravens have lost six straight, the latest 35-33 at CAR, and sit 4-7 in the AFC North.",
       "player": {
         "name": "Jacoby Brissett",
         "pos": "QB",
-        "line": "340 yds and an INT in the loss to LAC"
+        "line": "276 yds, 1 TD and 1 INT in the 35-33 loss at CAR"
       },
       "source": "claude"
     }
   },
   "JAX": {
-    "key": "401873057|401873069",
+    "key": "401873069|401873090",
     "result": {
       "abbr": "JAX",
-      "story": "The Jaguars are 7-2 with a +125 point differential after three straight wins, the latest 40-23 at TEN.",
+      "story": "The Jaguars lead the AFC South at 7-3 but lost 23-18 at NYG, with Trevor Lawrence intercepted twice.",
       "player": {
-        "name": "Trevor Lawrence",
-        "pos": "QB",
-        "line": "352 yds and 3 TDs in the 40-23 win at TEN"
+        "name": "Parker Washington",
+        "pos": "WR",
+        "line": "8 catches, 103 yds vs NYG"
       },
       "source": "claude"
     }
@@ -143,92 +143,92 @@
     }
   },
   "TEN": {
-    "key": "401873057|401873073",
+    "key": "401873073|401873090",
     "result": {
       "abbr": "TEN",
-      "story": "The Titans are 1-8 and have lost three straight, the latest 40-23 to JAX.",
+      "story": "The Titans are 1-9 and have lost four straight, most recently 51-30 at DAL.",
       "player": {
         "name": "Tony Pollard",
         "pos": "RB",
-        "line": "21 carries, 117 yds and 2 TDs vs CIN in Wk 8"
+        "line": "21 carries, 110 yds at DAL"
       },
       "source": "claude"
     }
   },
   "DEN": {
-    "key": "401873041|401873075",
+    "key": "401873075|401873083",
     "result": {
       "abbr": "DEN",
-      "story": "The Broncos are 7-2 on a five-game win streak, but their point differential is only +12.",
+      "story": "The Broncos have won six straight and are 8-2, though their point differential is only +26.",
       "player": {
-        "name": "Bo Nix",
-        "pos": "QB",
-        "line": "73 yds and a TD vs ARI in Wk 7"
+        "name": "Jonah Coleman",
+        "pos": "RB",
+        "line": "111 yds and 3 TD vs LV last week"
       },
       "source": "claude"
     }
   },
   "KC": {
-    "key": "401873058|401873067",
+    "key": "401873067|401873082",
     "result": {
       "abbr": "KC",
-      "story": "The Chiefs are 7-2, atop the AFC West and have won two straight, most recently 35-13 at ATL.",
+      "story": "The Chiefs are 8-2 and atop the AFC West, with three straight wins, the latest a 34-7 win over ARI.",
       "player": {
         "name": "Patrick Mahomes",
         "pos": "QB",
-        "line": "22/35, 348 yds and 5 TD at ATL"
+        "line": "27/39, 324 yds and 3 TD vs ARI"
       },
       "source": "claude"
     }
   },
   "LV": {
-    "key": "401873062|401873075",
+    "key": "401873075|401873086",
     "result": {
       "abbr": "LV",
-      "story": "The Raiders are 4-6 and lost 21-13 to SEA in rookie Fernando Mendoza's first start.",
+      "story": "The Raiders have lost three straight, the latest 38-24 at DEN, and have allowed a league-high 327 points.",
       "player": {
-        "name": "Brock Bowers",
-        "pos": "TE",
-        "line": "7 catches, 111 yds and a TD vs SF in Wk 9"
+        "name": "Fernando Mendoza",
+        "pos": "QB",
+        "line": "267 yds, 3 TD and an INT vs DEN"
       },
       "source": "claude"
     }
   },
   "LAC": {
-    "key": "401873065|401873074",
+    "key": "401873074|401873093",
     "result": {
       "abbr": "LAC",
-      "story": "The Chargers are 1-8 but just got their first win, beating BAL 23-20 on the road.",
+      "story": "The Chargers are 1-9 after losing 27-24 to NYJ, one game after beating BAL 23-20.",
       "player": {
         "name": "Omarion Hampton",
         "pos": "RB",
-        "line": "105 yds and a TD at BAL in Wk 10"
+        "line": "14 carries for 89 yds vs NYJ"
       },
       "source": "claude"
     }
   },
   "NYG": {
-    "key": "401873052|401873069",
+    "key": "401873069|401873088",
     "result": {
       "abbr": "NYG",
-      "story": "The Giants lost 24-21 to WSH on a late TD drive, and their NFC East lead at 5-3-1 is shrinking.",
+      "story": "The Giants are 6-3-1 and lead the NFC East on a +12 point differential, after beating JAX 23-18.",
       "player": {
-        "name": "Isaiah Likely",
-        "pos": "TE",
-        "line": "9 catches, 127 yds and a TD vs WSH"
+        "name": "Malik Nabers",
+        "pos": "WR",
+        "line": "Caught a McCarthy TD pass in the 23-18 win over JAX"
       },
       "source": "claude"
     }
   },
   "DAL": {
-    "key": "401873063|401873073",
+    "key": "401873073|401873080",
     "result": {
       "abbr": "DAL",
-      "story": "The Cowboys are 4-6 but have a +4 point differential after a 46-40 loss to SF in Week 10.",
+      "story": "The Cowboys are 5-6 but lead the NFL with 337 points scored, after beating TEN 51-30.",
       "player": {
-        "name": "CeeDee Lamb",
-        "pos": "WR",
-        "line": "195 yds and a TD vs IND in Week 9"
+        "name": "Dak Prescott",
+        "pos": "QB",
+        "line": "28/33, 325 yds and 4 TD vs TEN"
       },
       "source": "claude"
     }
@@ -247,14 +247,14 @@
     }
   },
   "PHI": {
-    "key": "401873044|401873076",
+    "key": "401873076|401873080",
     "result": {
       "abbr": "PHI",
-      "story": "The Eagles have lost seven straight, and Nick Sirianni has not ruled out staff changes at the bye.",
+      "story": "The Eagles are 3-7 with a -70 point differential, but beat PIT 19-16 in Week 11.",
       "player": {
-        "name": "Joe Milton",
-        "pos": "QB",
-        "line": "9 carries, 64 yds vs NYG in Week 9"
+        "name": "Saquon Barkley",
+        "pos": "RB",
+        "line": "17 carries, 75 yds and a TD vs PIT"
       },
       "source": "claude"
     }
@@ -273,27 +273,27 @@
     }
   },
   "CHI": {
-    "key": "401873050|401873071",
+    "key": "401873071|401873081",
     "result": {
       "abbr": "CHI",
-      "story": "The Bears are 7-2 and have won four straight, the latest a 27-24 win over TB.",
+      "story": "The Bears are 8-2 and have won five straight, most recently beating NO 21-13.",
       "player": {
-        "name": "Caleb Williams",
-        "pos": "QB",
-        "line": "279 yds and 2 TD, but 4 INT vs TB"
+        "name": "Luther Burden III",
+        "pos": "WR",
+        "line": "97 yds and a TD vs TB in Wk 9"
       },
       "source": "claude"
     }
   },
   "DET": {
-    "key": "401873053|401873072",
+    "key": "401873072|401873081",
     "result": {
       "abbr": "DET",
-      "story": "The Lions have won five straight and lead the NFL with 257 points, most recently beating NE 35-10.",
+      "story": "The Lions are 8-2 and have won six straight, most recently beating TB 31-21.",
       "player": {
         "name": "Jahmyr Gibbs",
         "pos": "RB",
-        "line": "Ran for 153 yds and 2 TDs vs NE"
+        "line": "98 yds and 2 TDs on 23 carries vs TB"
       },
       "source": "claude"
     }
@@ -312,27 +312,27 @@
     }
   },
   "CAR": {
-    "key": "401873055|401873068",
+    "key": "401873068|401873094",
     "result": {
       "abbr": "CAR",
-      "story": "The Panthers hold first in the NFC South at 4-5 after beating NO 20-17 on the road.",
+      "story": "The Panthers are 5-5 and atop the NFC South after beating BAL 35-33 for their second straight win.",
       "player": {
         "name": "Chuba Hubbard",
         "pos": "RB",
-        "line": "92 yds and 2 TD in the win at NO"
+        "line": "120 yds and 2 TD vs BAL"
       },
       "source": "claude"
     }
   },
   "TB": {
-    "key": "401873050|401873072",
+    "key": "401873072|401873094",
     "result": {
       "abbr": "TB",
-      "story": "The Buccaneers are 3-6 despite a +24 point differential, most recently losing 27-24 at CHI.",
+      "story": "The Buccaneers are 3-7 despite a +14 point differential, and lost 31-21 at DET last time out.",
       "player": {
         "name": "Bucky Irving",
         "pos": "RB",
-        "line": "97 yds and 2 TD vs CHI"
+        "line": "97 yds and 2 TD vs CHI in Wk 9"
       },
       "source": "claude"
     }
@@ -351,14 +351,14 @@
     }
   },
   "NO": {
-    "key": "401873055|401873071",
+    "key": "401873071|401873087",
     "result": {
       "abbr": "NO",
-      "story": "The Saints lost 20-17 to CAR, and late mistakes cost them a chance at first in the NFC South.",
+      "story": "The Saints are 3-7 and have lost two straight, most recently 21-13 at CHI.",
       "player": {
-        "name": "Jordyn Tyson",
+        "name": "Chris Olave",
         "pos": "WR",
-        "line": "11 catches for 80 yds vs CAR in Wk 10"
+        "line": "9 catches and 102 yds vs CHI"
       },
       "source": "claude"
     }
@@ -403,14 +403,14 @@
     }
   },
   "ARI": {
-    "key": "401873061|401873067",
+    "key": "401873067|401873092",
     "result": {
       "abbr": "ARI",
-      "story": "The Cardinals have lost two straight, the latest 34-6 to LAR, and are 3-7 with a -105 point differential.",
+      "story": "The Cardinals are 3-8 and have lost three straight, the latest 34-7 at KC.",
       "player": {
         "name": "Trey McBride",
         "pos": "TE",
-        "line": "10 catches, 111 yds and a TD vs DEN in Wk 7"
+        "line": "10 catches, 111 yds and a TD vs DEN"
       },
       "source": "claude"
     }

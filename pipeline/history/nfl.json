@@ -1,15 +1,15 @@
 {
   "snapshot": {
     "BUF": {
-      "w": 8,
+      "w": 9,
       "l": 1,
       "t": 0,
       "rank": 1,
       "heat": "Hot",
       "place": 1,
       "division": "AFC East",
-      "streak": "W5",
-      "pct": 0.8888888888888888,
+      "streak": "W6",
+      "pct": 0.9,
       "seed": 1
     },
     "NE": {
@@ -25,28 +25,28 @@
       "seed": 8
     },
     "NYJ": {
-      "w": 2,
+      "w": 3,
       "l": 8,
       "t": 0,
       "rank": 27,
-      "heat": "Cold",
+      "heat": "Cool",
       "place": 3,
       "division": "AFC East",
-      "streak": "L5",
-      "pct": 0.2,
-      "seed": 13
+      "streak": "W1",
+      "pct": 0.2727272727272727,
+      "seed": 12
     },
     "MIA": {
       "w": 1,
-      "l": 8,
+      "l": 9,
       "t": 0,
       "rank": 30,
       "heat": "Cold",
       "place": 4,
       "division": "AFC East",
-      "streak": "L3",
-      "pct": 0.1111111111111111,
-      "seed": 15
+      "streak": "L4",
+      "pct": 0.1,
+      "seed": 14
     },
     "CIN": {
       "w": 7,
@@ -58,18 +58,18 @@
       "division": "AFC North",
       "streak": "W5",
       "pct": 0.7777777777777778,
-      "seed": 3
+      "seed": 4
     },
     "PIT": {
       "w": 6,
-      "l": 3,
+      "l": 4,
       "t": 0,
       "rank": 10,
-      "heat": "Steady",
+      "heat": "Cold",
       "place": 2,
       "division": "AFC North",
-      "streak": "L1",
-      "pct": 0.6666666666666666,
+      "streak": "L2",
+      "pct": 0.6,
       "seed": 6
     },
     "CLE": {
@@ -86,27 +86,27 @@
     },
     "BAL": {
       "w": 4,
-      "l": 6,
+      "l": 7,
       "t": 0,
       "rank": 22,
       "heat": "Cold",
       "place": 4,
       "division": "AFC North",
-      "streak": "L5",
-      "pct": 0.4,
-      "seed": 11
+      "streak": "L6",
+      "pct": 0.36363636363636365,
+      "seed": 10
     },
     "JAX": {
       "w": 7,
-      "l": 2,
+      "l": 3,
       "t": 0,
       "rank": 3,
-      "heat": "Hot",
+      "heat": "Warm",
       "place": 1,
       "division": "AFC South",
-      "streak": "W3",
-      "pct": 0.7777777777777778,
-      "seed": 2
+      "streak": "L1",
+      "pct": 0.7,
+      "seed": 5
     },
     "HOU": {
       "w": 4,
@@ -130,90 +130,90 @@
       "division": "AFC South",
       "streak": "L1",
       "pct": 0.2727272727272727,
-      "seed": 12
+      "seed": 13
     },
     "TEN": {
       "w": 1,
-      "l": 8,
+      "l": 9,
       "t": 0,
       "rank": 32,
       "heat": "Cold",
       "place": 4,
       "division": "AFC South",
-      "streak": "L3",
-      "pct": 0.1111111111111111,
-      "seed": 14
+      "streak": "L4",
+      "pct": 0.1,
+      "seed": 15
     },
     "KC": {
-      "w": 7,
+      "w": 8,
       "l": 2,
       "t": 0,
       "rank": 6,
       "heat": "Hot",
       "place": 1,
       "division": "AFC West",
-      "streak": "W2",
-      "pct": 0.7777777777777778,
-      "seed": 4
+      "streak": "W3",
+      "pct": 0.8,
+      "seed": 2
     },
     "DEN": {
-      "w": 7,
+      "w": 8,
       "l": 2,
       "t": 0,
       "rank": 5,
-      "heat": "Hot",
+      "heat": "Warm",
       "place": 2,
       "division": "AFC West",
-      "streak": "W5",
-      "pct": 0.7777777777777778,
-      "seed": 5
+      "streak": "W6",
+      "pct": 0.8,
+      "seed": 3
     },
     "LV": {
       "w": 4,
-      "l": 6,
+      "l": 7,
       "t": 0,
       "rank": 25,
-      "heat": "Cool",
+      "heat": "Cold",
       "place": 3,
       "division": "AFC West",
-      "streak": "L2",
-      "pct": 0.4,
-      "seed": 10
+      "streak": "L3",
+      "pct": 0.36363636363636365,
+      "seed": 11
     },
     "LAC": {
       "w": 1,
-      "l": 8,
+      "l": 9,
       "t": 0,
       "rank": 31,
       "heat": "Cool",
       "place": 4,
       "division": "AFC West",
-      "streak": "W1",
-      "pct": 0.1111111111111111,
+      "streak": "L1",
+      "pct": 0.1,
       "seed": 16
     },
     "NYG": {
-      "w": 5,
+      "w": 6,
       "l": 3,
       "t": 1,
       "rank": 15,
-      "heat": "Steady",
+      "heat": "Warm",
       "place": 1,
       "division": "NFC East",
-      "streak": "L1",
-      "pct": 0.6111111111111112,
+      "streak": "W1",
+      "pct": 0.65,
       "seed": 5
     },
     "DAL": {
-      "w": 4,
+      "w": 5,
       "l": 6,
       "t": 0,
       "rank": 18,
-      "heat": "Cool",
+      "heat": "Warm",
       "place": 2,
       "division": "NFC East",
-      "streak": "L1",
-      "pct": 0.4,
+      "streak": "W1",
+      "pct": 0.45454545454545453,
       "seed": 10
     },
     "WSH": {
@@ -229,39 +229,39 @@
       "seed": 11
     },
     "PHI": {
-      "w": 2,
+      "w": 3,
       "l": 7,
       "t": 0,
       "rank": 28,
-      "heat": "Cold",
+      "heat": "Steady",
       "place": 4,
       "division": "NFC East",
-      "streak": "L7",
-      "pct": 0.2222222222222222,
-      "seed": 16
+      "streak": "W1",
+      "pct": 0.3,
+      "seed": 15
     },
     "DET": {
-      "w": 7,
+      "w": 8,
       "l": 2,
       "t": 0,
       "rank": 8,
       "heat": "Hot",
       "place": 1,
       "division": "NFC North",
-      "streak": "W5",
-      "pct": 0.7777777777777778,
+      "streak": "W6",
+      "pct": 0.8,
       "seed": 2
     },
     "CHI": {
-      "w": 7,
+      "w": 8,
       "l": 2,
       "t": 0,
       "rank": 4,
-      "heat": "Hot",
+      "heat": "Warm",
       "place": 2,
       "division": "NFC North",
-      "streak": "W4",
-      "pct": 0.7777777777777778,
+      "streak": "W5",
+      "pct": 0.8,
       "seed": 3
     },
     "MIN": {
@@ -289,39 +289,39 @@
       "seed": 8
     },
     "CAR": {
-      "w": 4,
+      "w": 5,
       "l": 5,
       "t": 0,
       "rank": 16,
-      "heat": "Steady",
+      "heat": "Warm",
       "place": 1,
       "division": "NFC South",
-      "streak": "W1",
-      "pct": 0.4444444444444444,
+      "streak": "W2",
+      "pct": 0.5,
       "seed": 9
     },
     "TB": {
       "w": 3,
-      "l": 6,
+      "l": 7,
       "t": 0,
       "rank": 17,
-      "heat": "Warm",
+      "heat": "Cool",
       "place": 2,
       "division": "NFC South",
-      "streak": "L1",
-      "pct": 0.3333333333333333,
+      "streak": "L2",
+      "pct": 0.3,
       "seed": 12
     },
     "NO": {
       "w": 3,
-      "l": 6,
+      "l": 7,
       "t": 0,
       "rank": 24,
-      "heat": "Steady",
+      "heat": "Cool",
       "place": 3,
       "division": "NFC South",
-      "streak": "L1",
-      "pct": 0.3333333333333333,
+      "streak": "L2",
+      "pct": 0.3,
       "seed": 13
     },
     "ATL": {
@@ -374,117 +374,19 @@
     },
     "ARI": {
       "w": 3,
-      "l": 7,
+      "l": 8,
       "t": 0,
       "rank": 26,
       "heat": "Cold",
       "place": 4,
       "division": "NFC West",
-      "streak": "L2",
-      "pct": 0.3,
-      "seed": 15
+      "streak": "L3",
+      "pct": 0.2727272727272727,
+      "seed": 16
     }
   },
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "events": [
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "DEN",
-      "kind": "lead",
-      "weight": 5,
-      "text": "The Broncos took over first place in the AFC West."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "CAR",
-      "kind": "lead",
-      "weight": 5,
-      "text": "The Panthers took over first place in the NFC South."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "BUF",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Bills are now running hot."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "BUF",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The Bills have won 3 straight."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "NYJ",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Jets have gone cold."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "NYJ",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Jets have lost 3 straight."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "CIN",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The Bengals have won 3 straight."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "BAL",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Ravens have gone cold."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "BAL",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Ravens have lost 3 straight."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "LV",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Raiders have warmed up after a rough stretch."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "LAC",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Chargers have lost 7 straight."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "MIN",
-      "kind": "unbeaten-ended",
-      "weight": 6,
-      "text": "The Vikings are no longer unbeaten."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "DET",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The Lions have won 3 straight."
-    },
-    {
-      "at": "2026-11-02T00:52:19.832Z",
-      "abbr": "TB",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Buccaneers are now running hot."
-    },
     {
       "at": "2026-11-02T16:34:00.051Z",
       "abbr": "WSH",
@@ -764,6 +666,69 @@
       "kind": "first-win",
       "weight": 5,
       "text": "The Chargers finally got their first win."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "PIT",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Steelers have gone cold."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "KC",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Chiefs have won 3 straight."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "LV",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Raiders have gone cold."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "LV",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Raiders have lost 3 straight."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "DAL",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Cowboys have warmed up after a rough stretch."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "PHI",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Eagles have warmed up after a rough stretch."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "CHI",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bears have won 5 straight."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "TB",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Buccaneers have cooled off."
+    },
+    {
+      "at": "2026-11-23T01:48:42.101Z",
+      "abbr": "ARI",
+      "kind": "streak",
+      "weight": 3,
+      "text": "The Cardinals have lost 3 straight."
     }
   ],
   "recap": {

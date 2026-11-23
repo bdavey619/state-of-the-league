@@ -65,14 +65,14 @@
     }
   },
   "DET": {
-    "key": "401909308|401910029",
+    "key": "401910029|401909314",
     "result": {
       "abbr": "DET",
-      "story": "The Pistons are 10-5, third in the East, and just lost 105-102 to TOR at home.",
+      "story": "The Pistons are 10-6 and top the East Central, but have lost 2 straight, the latest 107-97 at ATL.",
       "player": {
         "name": "Cade Cunningham",
         "pos": "G",
-        "line": "25.6 pts, 7.9 ast per game; 23 pts, 9 ast vs TOR"
+        "line": "24.2 ppg, 8.3 apg; held to a season-low 5 at ATL"
       },
       "source": "claude"
     }
@@ -130,14 +130,14 @@
     }
   },
   "ATL": {
-    "key": "401909305|401910029",
+    "key": "401910029|401909330",
     "result": {
       "abbr": "ATL",
-      "story": "The Hawks are 10-6 on a three-game winning streak after beating CHA 111-97, though it is still early.",
+      "story": "The Hawks are 11-6 and have won 4 straight, most recently 107-97 over DET, with 8-2 in the last 10.",
       "player": {
         "name": "Jalen Johnson",
         "pos": "F",
-        "line": "19.7 pts, 9 reb, 7.5 ast per game; 26 pts vs CHA"
+        "line": "19.1 pts, 9.1 reb and 6.9 ast per game"
       },
       "source": "claude"
     }
@@ -156,14 +156,14 @@
     }
   },
   "MIA": {
-    "key": "401910009|401910030",
+    "key": "401910030|401909317",
     "result": {
       "abbr": "MIA",
-      "story": "The Heat have won six straight to reach 9-6, though their season point differential is only +10.",
+      "story": "The Heat are 10-6 on a 7-game win streak, but their point differential is only +20 so far.",
       "player": {
         "name": "Giannis Antetokounmpo",
         "pos": "F",
-        "line": "28.2 pts, 12.6 reb per game; 27 pts vs MIL"
+        "line": "28.2 pts and 12.6 reb per game"
       },
       "source": "claude"
     }
@@ -195,14 +195,14 @@
     }
   },
   "OKC": {
-    "key": "401909310|401910030",
+    "key": "401910030|401910038",
     "result": {
       "abbr": "OKC",
-      "story": "The Thunder are 10-6 after beating NO 126-120 behind Shai Gilgeous-Alexander's 40 points.",
+      "story": "The Thunder are 10-7 and 5-5 in their last 10, after a 123-113 loss at MIA.",
       "player": {
         "name": "Shai Gilgeous-Alexander",
         "pos": "G",
-        "line": "40 pts vs NO; 31.7 pts per game this season"
+        "line": "31.7 pts per game, including 40 vs NO"
       },
       "source": "claude"
     }

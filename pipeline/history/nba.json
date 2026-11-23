@@ -62,15 +62,15 @@
     },
     "DET": {
       "w": 10,
-      "l": 5,
+      "l": 6,
       "t": 0,
-      "rank": 9,
-      "heat": "Warm",
+      "rank": 11,
+      "heat": "Steady",
       "place": 1,
       "division": "East Central",
-      "streak": "L1",
-      "pct": 0.6666666666666666,
-      "seed": 3
+      "streak": "L2",
+      "pct": 0.625,
+      "seed": 5
     },
     "CLE": {
       "w": 9,
@@ -121,27 +121,27 @@
       "seed": 15
     },
     "ATL": {
+      "w": 11,
+      "l": 6,
+      "t": 0,
+      "rank": 9,
+      "heat": "Warm",
+      "place": 1,
+      "division": "East Southeast",
+      "streak": "W4",
+      "pct": 0.6470588235294118,
+      "seed": 3
+    },
+    "MIA": {
       "w": 10,
       "l": 6,
       "t": 0,
       "rank": 12,
-      "heat": "Warm",
-      "place": 1,
-      "division": "East Southeast",
-      "streak": "W3",
-      "pct": 0.625,
-      "seed": 5
-    },
-    "MIA": {
-      "w": 9,
-      "l": 6,
-      "t": 0,
-      "rank": 14,
       "heat": "Hot",
       "place": 2,
       "division": "East Southeast",
-      "streak": "W6",
-      "pct": 0.6,
+      "streak": "W7",
+      "pct": 0.625,
       "seed": 6
     },
     "ORL": {
@@ -218,14 +218,14 @@
     },
     "OKC": {
       "w": 10,
-      "l": 6,
+      "l": 7,
       "t": 0,
-      "rank": 11,
+      "rank": 14,
       "heat": "Steady",
       "place": 4,
       "division": "West Northwest",
-      "streak": "W1",
-      "pct": 0.625,
+      "streak": "L1",
+      "pct": 0.5882352941176471,
       "seed": 8
     },
     "UTAH": {
@@ -363,20 +363,6 @@
   },
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "events": [
-    {
-      "at": "2026-11-02T00:53:42.897Z",
-      "abbr": "BOS",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The Celtics have won 5 straight."
-    },
-    {
-      "at": "2026-11-02T00:53:42.897Z",
-      "abbr": "BKN",
-      "kind": "first-win",
-      "weight": 5,
-      "text": "The Nets finally got their first win."
-    },
     {
       "at": "2026-11-02T16:34:13.287Z",
       "abbr": "LAC",
@@ -880,6 +866,13 @@
       "kind": "streak",
       "weight": 3,
       "text": "The Bucks have lost 13 straight."
+    },
+    {
+      "at": "2026-11-23T01:50:00.540Z",
+      "abbr": "MIA",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Heat have won 7 straight."
     }
   ],
   "recap": {
