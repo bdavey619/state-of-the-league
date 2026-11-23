@@ -10,10 +10,17 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-23T01:48:42.101Z",
+  "updatedAt": "2026-11-23T13:28:56.460Z",
   "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-23T13:28:56.460Z",
+      "abbr": "SF",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The 49ers have won 3 straight."
+    },
     {
       "at": "2026-11-23T01:48:42.101Z",
       "abbr": "PIT",
@@ -420,10 +427,10 @@
             "away",
             "home"
           ],
-          "away": 0.56,
-          "home": 0.44,
-          "volume": 17759,
-          "at": "2026-11-23T01:48:42.101Z"
+          "away": 0.565,
+          "home": 0.435,
+          "volume": 23444,
+          "at": "2026-11-23T13:28:56.460Z"
         }
       },
       {
@@ -457,10 +464,10 @@
             "away",
             "home"
           ],
-          "away": 0.425,
-          "home": 0.575,
-          "volume": 11573,
-          "at": "2026-11-23T01:48:42.101Z"
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 25038,
+          "at": "2026-11-23T13:28:56.460Z"
         }
       },
       {
@@ -494,10 +501,10 @@
             "away",
             "home"
           ],
-          "away": 0.555,
-          "home": 0.445,
-          "volume": 28116,
-          "at": "2026-11-23T01:48:42.101Z"
+          "away": 0.575,
+          "home": 0.425,
+          "volume": 37911,
+          "at": "2026-11-23T13:28:56.460Z"
         }
       },
       {
@@ -514,13 +521,13 @@
           "abbr": "SF",
           "name": "49ers",
           "color": "#AA0000",
-          "rec": "8-1"
+          "rec": "9-1"
         },
-        "score": 68,
+        "score": 71,
         "tier": "worth",
         "reasons": [
           "Two winning teams",
-          "Should be close",
+          "49ers have won 3 straight",
           "Both teams hot"
         ]
       },
@@ -545,29 +552,6 @@
         "reasons": [
           "Should be close",
           "Rams have won 4 straight"
-        ]
-      },
-      {
-        "id": "401873077",
-        "kickoff": "2026-11-23T01:20Z",
-        "network": "NBC",
-        "away": {
-          "abbr": "MIN",
-          "name": "Vikings",
-          "color": "#4F2683",
-          "rec": "7-2"
-        },
-        "home": {
-          "abbr": "SF",
-          "name": "49ers",
-          "color": "#AA0000",
-          "rec": "8-1"
-        },
-        "score": 63,
-        "tier": "other",
-        "reasons": [
-          "Two winning teams",
-          "Should be close"
         ]
       },
       {
@@ -614,6 +598,26 @@
         "reasons": [
           "Bengals have won 5 straight"
         ]
+      },
+      {
+        "id": "401873084",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "ATL",
+          "name": "Falcons",
+          "color": "#A71930",
+          "rec": "3-7"
+        },
+        "home": {
+          "abbr": "MIN",
+          "name": "Vikings",
+          "color": "#4F2683",
+          "rec": "7-3"
+        },
+        "score": 39,
+        "tier": "other",
+        "reasons": []
       },
       {
         "id": "401873080",
@@ -1806,21 +1810,13 @@
               "name": "Vikings",
               "color": "#4F2683",
               "w": 7,
-              "l": 2,
+              "l": 3,
               "t": 0,
-              "pf": 176,
-              "pa": 126,
+              "pf": 186,
+              "pa": 161,
               "rank": 9,
-              "heat": "Steady",
+              "heat": "Cool",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "L",
-                  "for": 15,
-                  "against": 19,
-                  "opp": "DET",
-                  "home": false
-                },
                 {
                   "week": 9,
                   "result": "L",
@@ -1836,19 +1832,27 @@
                   "against": 10,
                   "opp": "GB",
                   "home": false
+                },
+                {
+                  "week": 11,
+                  "result": "L",
+                  "for": 10,
+                  "against": 35,
+                  "opp": "SF",
+                  "home": false
                 }
               ],
-              "story": "The Vikings beat GB 30-10 to end a two-game skid and have allowed the fewest points in the NFL (126).",
+              "story": "The Vikings have the NFL's fewest points allowed (161) but lost 35-10 at SF in their last game.",
               "player": {
                 "name": "Justin Jefferson",
                 "pos": "WR",
-                "line": "9 REC, 74 yds vs GB in Week 10"
+                "line": "9 catches for 74 yds vs GB in Wk 10"
               },
               "next": {
-                "opp": "SF",
-                "home": false,
-                "kickoff": "2026-11-23T01:20Z",
-                "network": "NBC"
+                "opp": "ATL",
+                "home": true,
+                "kickoff": "2026-11-29T18:00Z",
+                "network": "Fox"
               }
             },
             {
@@ -2117,18 +2121,14 @@
               "city": "San Francisco",
               "name": "49ers",
               "color": "#AA0000",
-              "w": 8,
+              "w": 9,
               "l": 1,
               "t": 0,
-              "pf": 281,
-              "pa": 196,
+              "pf": 316,
+              "pa": 206,
               "rank": 2,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "BYE"
-                },
                 {
                   "week": 9,
                   "result": "W",
@@ -2144,19 +2144,27 @@
                   "against": 40,
                   "opp": "DAL",
                   "home": false
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 35,
+                  "against": 10,
+                  "opp": "MIN",
+                  "home": true
                 }
               ],
-              "story": "The 49ers are 8-1 and beat DAL 46-40 last week, but their +85 point differential trails the record.",
+              "story": "The 49ers are 9-1 on a three-game win streak after beating MIN 35-10 in Mexico City.",
               "player": {
                 "name": "Brock Purdy",
                 "pos": "QB",
-                "line": "22/28, 389 yds and 3 TD vs DAL"
+                "line": "21/26, 255 yds and 3 TD vs MIN"
               },
               "next": {
-                "opp": "MIN",
+                "opp": "SEA",
                 "home": true,
-                "kickoff": "2026-11-23T01:20Z",
-                "network": "NBC"
+                "kickoff": "2026-11-29T21:25Z",
+                "network": "Fox"
               }
             },
             {

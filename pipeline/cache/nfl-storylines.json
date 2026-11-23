@@ -260,14 +260,14 @@
     }
   },
   "MIN": {
-    "key": "401873060|401873077",
+    "key": "401873077|401873084",
     "result": {
       "abbr": "MIN",
-      "story": "The Vikings beat GB 30-10 to end a two-game skid and have allowed the fewest points in the NFL (126).",
+      "story": "The Vikings have the NFL's fewest points allowed (161) but lost 35-10 at SF in their last game.",
       "player": {
         "name": "Justin Jefferson",
         "pos": "WR",
-        "line": "9 REC, 74 yds vs GB in Week 10"
+        "line": "9 catches for 74 yds vs GB in Wk 10"
       },
       "source": "claude"
     }
@@ -364,14 +364,14 @@
     }
   },
   "SF": {
-    "key": "401873063|401873077",
+    "key": "401873077|401873091",
     "result": {
       "abbr": "SF",
-      "story": "The 49ers are 8-1 and beat DAL 46-40 last week, but their +85 point differential trails the record.",
+      "story": "The 49ers are 9-1 on a three-game win streak after beating MIN 35-10 in Mexico City.",
       "player": {
         "name": "Brock Purdy",
         "pos": "QB",
-        "line": "22/28, 389 yds and 3 TD vs DAL"
+        "line": "21/26, 255 yds and 3 TD vs MIN"
       },
       "source": "claude"
     }

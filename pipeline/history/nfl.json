@@ -266,14 +266,14 @@
     },
     "MIN": {
       "w": 7,
-      "l": 2,
+      "l": 3,
       "t": 0,
       "rank": 9,
-      "heat": "Steady",
+      "heat": "Cool",
       "place": 3,
       "division": "NFC North",
-      "streak": "W1",
-      "pct": 0.7777777777777778,
+      "streak": "L1",
+      "pct": 0.7,
       "seed": 4
     },
     "GB": {
@@ -337,15 +337,15 @@
       "seed": 14
     },
     "SF": {
-      "w": 8,
+      "w": 9,
       "l": 1,
       "t": 0,
       "rank": 2,
       "heat": "Hot",
       "place": 1,
       "division": "NFC West",
-      "streak": "W2",
-      "pct": 0.8888888888888888,
+      "streak": "W3",
+      "pct": 0.9,
       "seed": 1
     },
     "LAR": {
@@ -729,6 +729,13 @@
       "kind": "streak",
       "weight": 3,
       "text": "The Cardinals have lost 3 straight."
+    },
+    {
+      "at": "2026-11-23T13:28:56.460Z",
+      "abbr": "SF",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The 49ers have won 3 straight."
     }
   ],
   "recap": {

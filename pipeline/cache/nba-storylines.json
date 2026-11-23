@@ -13,16 +13,16 @@
     }
   },
   "BOS": {
-    "key": "401910028|401910035",
+    "key": "401910035|401909315",
     "result": {
       "abbr": "BOS",
-      "story": "The Celtics are 11-5 but have lost 3 straight, the latest 97-96 at SAC, despite a +156 point differential.",
+      "story": "Lost 4 straight; +155 on the season.",
       "player": {
         "name": "Jayson Tatum",
         "pos": "F",
-        "line": "26.4 pts per game; 24 pts and 8 reb vs DEN"
+        "line": "26.4 pts, 6.9 reb, 6.7 ast per game"
       },
-      "source": "claude"
+      "source": "template"
     }
   },
   "TOR": {
@@ -39,16 +39,16 @@
     }
   },
   "NY": {
-    "key": "401910024|401910034",
+    "key": "401910034|401909319",
     "result": {
       "abbr": "NY",
-      "story": "The Knicks have won 4 straight, the latest 97-96 vs POR on a Bridges buzzer-beater.",
+      "story": "Won 5 straight; +97 on the season.",
       "player": {
-        "name": "Jalen Brunson",
-        "pos": "G",
-        "line": "30 pts vs POR; 26.8 pts per game this season"
+        "name": "Karl-Anthony Towns",
+        "pos": "C",
+        "line": "21.8 pts, 13.9 reb, 4 ast per game"
       },
-      "source": "claude"
+      "source": "template"
     }
   },
   "BKN": {
@@ -91,27 +91,27 @@
     }
   },
   "IND": {
-    "key": "401909307|401910034",
+    "key": "401910034|401910038",
     "result": {
       "abbr": "IND",
-      "story": "The Pacers are 5-11 and have lost three straight, most recently 128-119 at CLE.",
+      "story": "The Pacers are 5-12 with four straight losses, the latest 113-106 at NY, and a -65 point differential.",
       "player": {
-        "name": "Pascal Siakam",
-        "pos": "F",
-        "line": "23 pts per game; 21 pts and 7 reb vs CLE"
+        "name": "Tyrese Haliburton",
+        "pos": "G",
+        "line": "21.8 pts and 9.5 ast per game, but only 4 games played"
       },
       "source": "claude"
     }
   },
   "CHI": {
-    "key": "401909309|401910032",
+    "key": "401910032|401910041",
     "result": {
       "abbr": "CHI",
-      "story": "The Bulls are 4-11 with a -8.1 point differential per game after a 98-94 home loss to WSH.",
+      "story": "The Bulls are 4-12 and lost 151-145 to DEN in overtime; Norman Powell was out with a mild hamstring strain.",
       "player": {
-        "name": "Caleb Wilson",
-        "pos": "F",
-        "line": "Rookie averaging 18.9 pts and 6.2 reb in 10 games"
+        "name": "Josh Giddey",
+        "pos": "G",
+        "line": "23 pts, 14 reb and 22 ast vs DEN"
       },
       "source": "claude"
     }
@@ -143,14 +143,14 @@
     }
   },
   "WSH": {
-    "key": "401909309|401910031",
+    "key": "401910031|401909315",
     "result": {
       "abbr": "WSH",
-      "story": "The Wizards are 6-11 and 2-8 in their last 10, but have won two straight after beating CHI 98-94.",
+      "story": "The Wizards have won three straight after an 8-game skid, but are 7-11 with a -91 point differential.",
       "player": {
         "name": "Anthony Davis",
         "pos": "F",
-        "line": "36 pts and 11 reb vs CHI"
+        "line": "25.1 pts and 9.9 reb per game; 22 pts vs ORL"
       },
       "source": "claude"
     }
@@ -182,14 +182,14 @@
     }
   },
   "ORL": {
-    "key": "401909306|401910031",
+    "key": "401910031|401909314",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic are 7-8 with a -46 point differential, but beat BKN 113-111 on Franz Wagner's late jumper.",
+      "story": "The Magic are 7-9 with a -66 point differential after they lost 116-96 at WSH.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "35 pts and the game-winner vs BKN"
+        "line": "24.5 pts, 6.9 reb and 8.3 ast per game in 16 games"
       },
       "source": "claude"
     }
@@ -234,27 +234,27 @@
     }
   },
   "DEN": {
-    "key": "401909312|401910032",
+    "key": "401910032|401909316",
     "result": {
       "abbr": "DEN",
-      "story": "The Nuggets have won two straight, beating HOU 133-124, but are only +21 in point differential at 9-5.",
+      "story": "The Nuggets have won three straight, beating CHI 151-145 in OT, but their point differential is only +27.",
       "player": {
         "name": "Nikola Jokic",
         "pos": "C",
-        "line": "26 pts, 7 reb and 11 ast vs HOU"
+        "line": "37 pts, 18 reb, 11 ast vs CHI, a 202nd career triple-double"
       },
       "source": "claude"
     }
   },
   "UTAH": {
-    "key": "401909311|401910033",
+    "key": "401910033|401910044",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 3-14 with a -126 point differential and lost 111-101 to PHX in their latest game.",
+      "story": "The Jazz are 3-15 and have lost two straight, the latest 116-114 to DAL after a late comeback fell short.",
       "player": {
-        "name": "Darryn Peterson",
+        "name": "Keyonte George",
         "pos": "G",
-        "line": "20 pts, 10 reb and 8 ast vs PHX"
+        "line": "20.8 pts and 7.1 ast per game over 17 games"
       },
       "source": "claude"
     }
@@ -273,14 +273,14 @@
     }
   },
   "GS": {
-    "key": "401910019|401910035",
+    "key": "401910035|401909324",
     "result": {
       "abbr": "GS",
-      "story": "The Warriors are 8-8 and have lost 5 straight, winless since Stephen Curry's injury per ESPN.",
+      "story": "The Warriors are 9-8 after beating BOS 88-87 to snap a five-game losing streak.",
       "player": {
-        "name": "Stephen Curry",
+        "name": "Brandin Podziemski",
         "pos": "G",
-        "line": "27.8 pts per game in 10 games this season"
+        "line": "18 pts and 7 reb vs BOS in the 88-87 win"
       },
       "source": "claude"
     }
@@ -364,14 +364,14 @@
     }
   },
   "DAL": {
-    "key": "401910025|401910033",
+    "key": "401910033|401909316",
     "result": {
       "abbr": "DAL",
-      "story": "The Mavericks are 9-7 with a near-even -0.2 point differential after beating LAC 110-100.",
+      "story": "The Mavericks are 10-7 and have won 3 straight, though their point differential is -1.",
       "player": {
         "name": "Cooper Flagg",
         "pos": "F",
-        "line": "24.1 ppg this season and 22 pts vs LAC"
+        "line": "28 pts, game-winning free throws at UTAH"
       },
       "source": "claude"
     }
