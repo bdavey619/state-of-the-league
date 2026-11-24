@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-23T18:44:58.984Z",
+  "updatedAt": "2026-11-24T00:51:19.857Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -588,11 +588,96 @@
             "away",
             "home"
           ],
+          "away": 0.385,
+          "home": 0.615,
+          "volume": 3207192,
+          "at": "2026-11-24T00:51:19.857Z"
+        }
+      },
+      {
+        "id": "401909317",
+        "kickoff": "2026-11-25T22:00Z",
+        "network": "ESPN",
+        "away": {
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "10-6"
+        },
+        "home": {
+          "abbr": "PHI",
+          "name": "76ers",
+          "color": "#006BB6",
+          "rec": "14-3"
+        },
+        "score": 72,
+        "tier": "worth",
+        "reasons": [
+          "Two winning teams",
+          "Should be close",
+          "Heat have won 7 straight"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-mia-phi-2026-11-25",
+          "slug": "nba-mia-phi-2026-11-25",
+          "marketSlug": "nba-mia-phi-2026-11-25",
+          "sides": [
+            "away",
+            "home"
+          ],
           "away": 0.445,
           "home": 0.555,
-          "volume": 761951,
-          "at": "2026-11-23T18:44:58.984Z"
+          "volume": 7170,
+          "at": "2026-11-24T00:51:19.857Z"
         }
+      },
+      {
+        "id": "401909320",
+        "kickoff": "2026-11-26T00:30Z",
+        "network": "ESPN",
+        "away": {
+          "abbr": "MIN",
+          "name": "Timberwolves",
+          "color": "#236192",
+          "rec": "12-5"
+        },
+        "home": {
+          "abbr": "OKC",
+          "name": "Thunder",
+          "color": "#007AC1",
+          "rec": "10-7"
+        },
+        "score": 66,
+        "tier": "worth",
+        "reasons": [
+          "Two winning teams",
+          "Projected coin flip",
+          "Shai Gilgeous-Alexander"
+        ]
+      },
+      {
+        "id": "401909319",
+        "kickoff": "2026-11-26T00:30Z",
+        "network": "DAZN CLE",
+        "away": {
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "9-8"
+        },
+        "home": {
+          "abbr": "NY",
+          "name": "Knicks",
+          "color": "#F58426",
+          "rec": "11-6"
+        },
+        "score": 63,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Knicks have won 5 straight",
+          "Mitchell vs Towns"
+        ]
       },
       {
         "id": "401909316",
@@ -615,20 +700,7 @@
         "reasons": [
           "Should be close",
           "Flagg vs Jokic"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-dal-den-2026-11-24",
-          "slug": "nba-dal-den-2026-11-24",
-          "marketSlug": "nba-dal-den-2026-11-24",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.235,
-          "home": 0.765,
-          "volume": 2208,
-          "at": "2026-11-23T18:44:58.984Z"
-        }
+        ]
       },
       {
         "id": "401910038",
@@ -742,72 +814,6 @@
         "reasons": [
           "Projected coin flip",
           "Booker vs Williamson"
-        ]
-      },
-      {
-        "id": "401910044",
-        "kickoff": "2026-11-24T03:00Z",
-        "network": "NBA TV",
-        "away": {
-          "abbr": "UTAH",
-          "name": "Jazz",
-          "color": "#3E2680",
-          "rec": "3-15"
-        },
-        "home": {
-          "abbr": "LAL",
-          "name": "Lakers",
-          "color": "#552583",
-          "rec": "14-3"
-        },
-        "score": 39,
-        "tier": "other",
-        "reasons": [
-          "Luka Doncic"
-        ]
-      },
-      {
-        "id": "401910043",
-        "kickoff": "2026-11-24T01:30Z",
-        "network": "ClipperVision",
-        "away": {
-          "abbr": "LAC",
-          "name": "Clippers",
-          "color": "#C8102E",
-          "rec": "4-11"
-        },
-        "home": {
-          "abbr": "HOU",
-          "name": "Rockets",
-          "color": "#CE1141",
-          "rec": "12-5"
-        },
-        "score": 34,
-        "tier": "other",
-        "reasons": [
-          "Alperen Sengun"
-        ]
-      },
-      {
-        "id": "401910045",
-        "kickoff": "2026-11-24T03:00Z",
-        "network": "DAZN SAS",
-        "away": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "14-3"
-        },
-        "home": {
-          "abbr": "SAC",
-          "name": "Kings",
-          "color": "#5A2D81",
-          "rec": "2-14"
-        },
-        "score": 33,
-        "tier": "other",
-        "reasons": [
-          "Victor Wembanyama"
         ]
       }
     ]
