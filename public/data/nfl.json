@@ -2,16 +2,16 @@
   "league": "NFL",
   "season": 2026,
   "seasonLabel": "2026",
-  "week": 11,
-  "badge": "WK 11",
-  "kicker": "Week 11 · through Sun, Nov 22",
-  "throughLabel": "through Sun, Nov 22",
+  "week": 12,
+  "badge": "WK 12",
+  "kicker": "Week 12 · through Mon, Nov 23",
+  "throughLabel": "through Mon, Nov 23",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-24T00:51:16.947Z",
-  "powerSource": "CBS Sports, Pete Prisco (Week 11, Nov 17)",
+  "updatedAt": "2026-11-24T05:22:04.325Z",
+  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
   "aiStorylines": true,
   "changes": [
     {
@@ -359,29 +359,31 @@
     }
   ],
   "recap": {
-    "label": "Week 10 recap",
-    "at": "2026-11-17T13:27:39.287Z",
+    "label": "Week 11 recap",
+    "at": "2026-11-24T05:22:04.325Z",
     "bullets": [
       {
-        "text": "The Lions, Bears and Vikings are all 7-2, turning the NFC North into a three-way race.",
+        "text": "The Browns are 6-4 despite being outscored by 32 points, and the Broncos are 8-2 with a point differential of only +26.",
         "teams": [
-          "DET",
-          "CHI",
-          "MIN"
+          "CLE",
+          "DEN"
         ]
       },
       {
-        "text": "The Ravens have lost five straight and sit at 4-6, a slide that included a loss to the previously winless Chargers.",
+        "text": "The Ravens have fallen to 4-7 on a long skid, and the 6-4 Steelers have lost two straight while the Bengals lead the AFC North at 7-3.",
         "teams": [
           "BAL",
-          "LAC"
+          "PIT",
+          "CIN"
         ]
       },
       {
-        "text": "The Broncos (7-2) and 49ers (8-1) have strong records, but point differentials of +12 and +85 say they are less dominant than that.",
+        "text": "The 49ers and Bills are both 9-1, while the Lions and Bears sit at 8-2 and the Bears have won five straight.",
         "teams": [
-          "DEN",
-          "SF"
+          "SF",
+          "BUF",
+          "DET",
+          "CHI"
         ]
       }
     ]
@@ -405,7 +407,7 @@
           "color": "#0076B6",
           "rec": "8-2"
         },
-        "score": 87,
+        "score": 89,
         "tier": "must",
         "reasons": [
           "Top-8 vs top-8",
@@ -422,8 +424,8 @@
           ],
           "away": 0.565,
           "home": 0.435,
-          "volume": 26475,
-          "at": "2026-11-24T00:51:16.947Z"
+          "volume": 29833,
+          "at": "2026-11-24T05:22:04.325Z"
         }
       },
       {
@@ -442,7 +444,7 @@
           "color": "#00338D",
           "rec": "9-1"
         },
-        "score": 84,
+        "score": 86,
         "tier": "must",
         "reasons": [
           "Top-8 vs top-8",
@@ -459,45 +461,8 @@
           ],
           "away": 0.415,
           "home": 0.585,
-          "volume": 37340,
-          "at": "2026-11-24T00:51:16.947Z"
-        }
-      },
-      {
-        "id": "401873083",
-        "kickoff": "2026-11-27T20:00Z",
-        "network": "Prime Video",
-        "away": {
-          "abbr": "DEN",
-          "name": "Broncos",
-          "color": "#FB4F14",
-          "rec": "8-2"
-        },
-        "home": {
-          "abbr": "PIT",
-          "name": "Steelers",
-          "color": "#FFB612",
-          "rec": "6-4"
-        },
-        "score": 73,
-        "tier": "worth",
-        "reasons": [
-          "Two winning teams",
-          "Projected coin flip",
-          "Broncos have won 6 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-den-pit-2026-11-27",
-          "slug": "nfl-den-pit-2026-11-27",
-          "marketSlug": "nfl-den-pit-2026-11-27",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.585,
-          "home": 0.415,
-          "volume": 42051,
-          "at": "2026-11-24T00:51:16.947Z"
+          "volume": 52798,
+          "at": "2026-11-24T05:22:04.325Z"
         }
       },
       {
@@ -516,13 +481,26 @@
           "color": "#AA0000",
           "rec": "9-1"
         },
-        "score": 71,
+        "score": 73,
         "tier": "worth",
         "reasons": [
           "Two winning teams",
           "49ers have won 3 straight",
           "Both teams hot"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-sea-sf-2026-11-29",
+          "slug": "nfl-sea-sf-2026-11-29",
+          "marketSlug": "nfl-sea-sf-2026-11-29",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.395,
+          "home": 0.605,
+          "volume": 30675,
+          "at": "2026-11-24T05:22:04.325Z"
+        }
       },
       {
         "id": "401873079",
@@ -540,77 +518,58 @@
           "color": "#003594",
           "rec": "6-4"
         },
-        "score": 64,
-        "tier": "other",
+        "score": 65,
+        "tier": "worth",
         "reasons": [
+          "Two winning teams",
           "Should be close",
           "Rams have won 4 straight"
         ]
       },
       {
-        "id": "401873078",
-        "kickoff": "2026-11-24T01:15Z",
+        "id": "401873083",
+        "kickoff": "2026-11-27T20:00Z",
+        "network": "Prime Video",
+        "away": {
+          "abbr": "DEN",
+          "name": "Broncos",
+          "color": "#FB4F14",
+          "rec": "8-2"
+        },
+        "home": {
+          "abbr": "PIT",
+          "name": "Steelers",
+          "color": "#FFB612",
+          "rec": "6-4"
+        },
+        "score": 65,
+        "tier": "worth",
+        "reasons": [
+          "Projected coin flip",
+          "Broncos have won 6 straight"
+        ]
+      },
+      {
+        "id": "401873094",
+        "kickoff": "2026-12-01T01:15Z",
         "network": "ESPN",
         "away": {
-          "abbr": "CIN",
-          "name": "Bengals",
-          "color": "#FB4F14",
-          "rec": "7-2"
+          "abbr": "CAR",
+          "name": "Panthers",
+          "color": "#0085CA",
+          "rec": "5-5"
         },
         "home": {
-          "abbr": "WSH",
-          "name": "Commanders",
-          "color": "#5A1414",
-          "rec": "3-5-1"
-        },
-        "score": 58,
-        "tier": "other",
-        "reasons": [
-          "Bengals have won 5 straight",
-          "Both teams hot"
-        ]
-      },
-      {
-        "id": "401873087",
-        "kickoff": "2026-11-29T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "NO",
-          "name": "Saints",
-          "color": "#D3BC8D",
+          "abbr": "TB",
+          "name": "Buccaneers",
+          "color": "#D50A0A",
           "rec": "3-7"
         },
-        "home": {
-          "abbr": "CIN",
-          "name": "Bengals",
-          "color": "#FB4F14",
-          "rec": "7-2"
-        },
-        "score": 48,
+        "score": 49,
         "tier": "other",
         "reasons": [
-          "Bengals have won 5 straight"
+          "Should be close"
         ]
-      },
-      {
-        "id": "401873084",
-        "kickoff": "2026-11-29T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "ATL",
-          "name": "Falcons",
-          "color": "#A71930",
-          "rec": "3-7"
-        },
-        "home": {
-          "abbr": "MIN",
-          "name": "Vikings",
-          "color": "#4F2683",
-          "rec": "7-3"
-        },
-        "score": 39,
-        "tier": "other",
-        "reasons": []
       },
       {
         "id": "401873080",
@@ -628,30 +587,72 @@
           "color": "#003594",
           "rec": "5-6"
         },
+        "score": 44,
+        "tier": "other",
+        "reasons": []
+      },
+      {
+        "id": "401873088",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "NYG",
+          "name": "Giants",
+          "color": "#0B2265",
+          "rec": "6-3-1"
+        },
+        "home": {
+          "abbr": "IND",
+          "name": "Colts",
+          "color": "#002C5F",
+          "rec": "3-8"
+        },
+        "score": 40,
+        "tier": "other",
+        "reasons": [
+          "Should be close"
+        ]
+      },
+      {
+        "id": "401873087",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "NO",
+          "name": "Saints",
+          "color": "#D3BC8D",
+          "rec": "3-7"
+        },
+        "home": {
+          "abbr": "CIN",
+          "name": "Bengals",
+          "color": "#FB4F14",
+          "rec": "7-3"
+        },
         "score": 38,
         "tier": "other",
         "reasons": []
       },
       {
-        "id": "401873086",
-        "kickoff": "2026-11-30T01:20Z",
-        "network": "NBC",
+        "id": "401873089",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "CBS",
         "away": {
-          "abbr": "LV",
-          "name": "Raiders",
-          "color": "#A5ACAF",
-          "rec": "4-7"
+          "abbr": "NYJ",
+          "name": "Jets",
+          "color": "#125740",
+          "rec": "3-8"
         },
         "home": {
-          "abbr": "CLE",
-          "name": "Browns",
-          "color": "#FF3C00",
-          "rec": "6-4"
+          "abbr": "MIA",
+          "name": "Dolphins",
+          "color": "#008E97",
+          "rec": "1-9"
         },
-        "score": 38,
+        "score": 36,
         "tier": "other",
         "reasons": [
-          "Should be close"
+          "Projected coin flip"
         ]
       }
     ]
@@ -674,7 +675,7 @@
               "t": 0,
               "pf": 313,
               "pa": 208,
-              "rank": 1,
+              "rank": 2,
               "heat": "Hot",
               "last3": [
                 {
@@ -776,7 +777,7 @@
               "t": 0,
               "pf": 221,
               "pa": 278,
-              "rank": 27,
+              "rank": 25,
               "heat": "Cool",
               "last3": [
                 {
@@ -827,7 +828,7 @@
               "t": 0,
               "pf": 157,
               "pa": 250,
-              "rank": 30,
+              "rank": 32,
               "heat": "Cold",
               "last3": [
                 {
@@ -879,21 +880,13 @@
               "name": "Bengals",
               "color": "#FB4F14",
               "w": 7,
-              "l": 2,
+              "l": 3,
               "t": 0,
-              "pf": 278,
-              "pa": 193,
+              "pf": 298,
+              "pa": 215,
               "rank": 7,
-              "heat": "Hot",
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 43,
-                  "against": 36,
-                  "opp": "TEN",
-                  "home": true
-                },
                 {
                   "week": 9,
                   "result": "W",
@@ -909,19 +902,27 @@
                   "against": 18,
                   "opp": "PIT",
                   "home": true
+                },
+                {
+                  "week": 11,
+                  "result": "L",
+                  "for": 20,
+                  "against": 22,
+                  "opp": "WSH",
+                  "home": false
                 }
               ],
-              "story": "The Bengals are 7-2 on a five-game win streak after beating PIT 38-18 to take sole lead of the AFC North.",
+              "story": "The Bengals are 7-3 and lead the AFC North, but lost 22-20 at WSH on a last-second field goal.",
               "player": {
                 "name": "Joe Burrow",
                 "pos": "QB",
-                "line": "35/44, 409 yds and 4 TD vs PIT"
+                "line": "28/40, 300 yds and 2 TD in the Wk 11 loss at WSH"
               },
               "next": {
-                "opp": "WSH",
-                "home": false,
-                "kickoff": "2026-11-24T01:15Z",
-                "network": "ESPN"
+                "opp": "NO",
+                "home": true,
+                "kickoff": "2026-11-29T18:00Z",
+                "network": "CBS"
               }
             },
             {
@@ -934,7 +935,7 @@
               "t": 0,
               "pf": 214,
               "pa": 201,
-              "rank": 10,
+              "rank": 16,
               "heat": "Cold",
               "last3": [
                 {
@@ -981,7 +982,7 @@
               "t": 0,
               "pf": 188,
               "pa": 220,
-              "rank": 14,
+              "rank": 18,
               "heat": "Cool",
               "last3": [
                 {
@@ -1032,7 +1033,7 @@
               "t": 0,
               "pf": 242,
               "pa": 294,
-              "rank": 22,
+              "rank": 24,
               "heat": "Cold",
               "last3": [
                 {
@@ -1088,7 +1089,7 @@
               "t": 0,
               "pf": 287,
               "pa": 167,
-              "rank": 3,
+              "rank": 4,
               "heat": "Warm",
               "last3": [
                 {
@@ -1139,7 +1140,7 @@
               "t": 0,
               "pf": 259,
               "pa": 222,
-              "rank": 19,
+              "rank": 13,
               "heat": "Warm",
               "last3": [
                 {
@@ -1190,7 +1191,7 @@
               "t": 0,
               "pf": 211,
               "pa": 297,
-              "rank": 29,
+              "rank": 27,
               "heat": "Cool",
               "last3": [
                 {
@@ -1241,7 +1242,7 @@
               "t": 0,
               "pf": 197,
               "pa": 290,
-              "rank": 32,
+              "rank": 30,
               "heat": "Cold",
               "last3": [
                 {
@@ -1293,7 +1294,7 @@
               "t": 0,
               "pf": 271,
               "pa": 163,
-              "rank": 6,
+              "rank": 3,
               "heat": "Hot",
               "last3": [
                 {
@@ -1344,7 +1345,7 @@
               "t": 0,
               "pf": 236,
               "pa": 210,
-              "rank": 5,
+              "rank": 9,
               "heat": "Warm",
               "last3": [
                 {
@@ -1391,7 +1392,7 @@
               "t": 0,
               "pf": 275,
               "pa": 327,
-              "rank": 25,
+              "rank": 26,
               "heat": "Cold",
               "last3": [
                 {
@@ -1442,7 +1443,7 @@
               "t": 0,
               "pf": 168,
               "pa": 266,
-              "rank": 31,
+              "rank": 29,
               "heat": "Cool",
               "last3": [
                 {
@@ -1504,7 +1505,7 @@
               "t": 1,
               "pf": 226,
               "pa": 214,
-              "rank": 15,
+              "rank": 11,
               "heat": "Warm",
               "last3": [
                 {
@@ -1555,7 +1556,7 @@
               "t": 0,
               "pf": 337,
               "pa": 312,
-              "rank": 18,
+              "rank": 15,
               "heat": "Warm",
               "last3": [
                 {
@@ -1601,22 +1602,14 @@
               "city": "Washington",
               "name": "Commanders",
               "color": "#5A1414",
-              "w": 3,
+              "w": 4,
               "l": 5,
               "t": 1,
-              "pf": 196,
-              "pa": 223,
-              "rank": 23,
+              "pf": 218,
+              "pa": 243,
+              "rank": 19,
               "heat": "Warm",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 27,
-                  "against": 10,
-                  "opp": "PHI",
-                  "home": true
-                },
                 {
                   "week": 9,
                   "result": "L",
@@ -1632,19 +1625,27 @@
                   "against": 21,
                   "opp": "NYG",
                   "home": false
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 22,
+                  "against": 20,
+                  "opp": "CIN",
+                  "home": true
                 }
               ],
-              "story": "The Commanders are 3-5-1 but beat NYG 24-21 on a Jayden Daniels game-winning drive.",
+              "story": "The Commanders are 4-5-1 and have won two straight, beating CIN 22-20 on a field goal as time expired.",
               "player": {
                 "name": "Jayden Daniels",
                 "pos": "QB",
-                "line": "Game-winning drive vs NYG after two INTs"
+                "line": "Led a 64-yard drive in 34 seconds to beat CIN"
               },
               "next": {
-                "opp": "CIN",
-                "home": true,
-                "kickoff": "2026-11-24T01:15Z",
-                "network": "ESPN"
+                "opp": "ARI",
+                "home": false,
+                "kickoff": "2026-11-29T21:25Z",
+                "network": "Fox"
               }
             },
             {
@@ -1657,7 +1658,7 @@
               "t": 0,
               "pf": 167,
               "pa": 237,
-              "rank": 28,
+              "rank": 23,
               "heat": "Steady",
               "last3": [
                 {
@@ -1709,7 +1710,7 @@
               "t": 0,
               "pf": 288,
               "pa": 220,
-              "rank": 8,
+              "rank": 5,
               "heat": "Hot",
               "last3": [
                 {
@@ -1760,7 +1761,7 @@
               "t": 0,
               "pf": 262,
               "pa": 197,
-              "rank": 4,
+              "rank": 6,
               "heat": "Warm",
               "last3": [
                 {
@@ -1807,7 +1808,7 @@
               "t": 0,
               "pf": 186,
               "pa": 161,
-              "rank": 9,
+              "rank": 12,
               "heat": "Cool",
               "last3": [
                 {
@@ -1858,7 +1859,7 @@
               "t": 0,
               "pf": 226,
               "pa": 221,
-              "rank": 13,
+              "rank": 14,
               "heat": "Steady",
               "last3": [
                 {
@@ -1914,7 +1915,7 @@
               "t": 0,
               "pf": 254,
               "pa": 269,
-              "rank": 16,
+              "rank": 17,
               "heat": "Warm",
               "last3": [
                 {
@@ -1965,7 +1966,7 @@
               "t": 0,
               "pf": 223,
               "pa": 209,
-              "rank": 17,
+              "rank": 21,
               "heat": "Cool",
               "last3": [
                 {
@@ -2012,7 +2013,7 @@
               "t": 0,
               "pf": 215,
               "pa": 257,
-              "rank": 24,
+              "rank": 22,
               "heat": "Cool",
               "last3": [
                 {
@@ -2063,7 +2064,7 @@
               "t": 0,
               "pf": 201,
               "pa": 258,
-              "rank": 21,
+              "rank": 28,
               "heat": "Cold",
               "last3": [
                 {
@@ -2119,7 +2120,7 @@
               "t": 0,
               "pf": 316,
               "pa": 206,
-              "rank": 2,
+              "rank": 1,
               "heat": "Hot",
               "last3": [
                 {
@@ -2170,7 +2171,7 @@
               "t": 0,
               "pf": 248,
               "pa": 187,
-              "rank": 11,
+              "rank": 8,
               "heat": "Hot",
               "last3": [
                 {
@@ -2221,7 +2222,7 @@
               "t": 0,
               "pf": 223,
               "pa": 175,
-              "rank": 12,
+              "rank": 10,
               "heat": "Warm",
               "last3": [
                 {
@@ -2272,7 +2273,7 @@
               "t": 0,
               "pf": 191,
               "pa": 323,
-              "rank": 26,
+              "rank": 31,
               "heat": "Cold",
               "last3": [
                 {
