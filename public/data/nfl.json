@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-24T13:28:12.411Z",
+  "updatedAt": "2026-11-24T18:19:46.077Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
@@ -342,20 +342,6 @@
       "kind": "heat",
       "weight": 3,
       "text": "The Jaguars are now running hot."
-    },
-    {
-      "at": "2026-11-03T14:41:18.003Z",
-      "abbr": "CHI",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Bears are now running hot."
-    },
-    {
-      "at": "2026-11-03T14:41:18.003Z",
-      "abbr": "CHI",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The Bears have won 3 straight."
     }
   ],
   "recap": {
@@ -424,8 +410,8 @@
           ],
           "away": 0.565,
           "home": 0.435,
-          "volume": 33204,
-          "at": "2026-11-24T13:28:12.411Z"
+          "volume": 35176,
+          "at": "2026-11-24T18:19:46.077Z"
         }
       },
       {
@@ -461,8 +447,8 @@
           ],
           "away": 0.415,
           "home": 0.585,
-          "volume": 60319,
-          "at": "2026-11-24T13:28:12.411Z"
+          "volume": 68556,
+          "at": "2026-11-24T18:19:46.077Z"
         }
       },
       {
@@ -496,10 +482,10 @@
             "away",
             "home"
           ],
-          "away": 0.385,
-          "home": 0.615,
-          "volume": 31929,
-          "at": "2026-11-24T13:28:12.411Z"
+          "away": 0.375,
+          "home": 0.625,
+          "volume": 32336,
+          "at": "2026-11-24T18:19:46.077Z"
         }
       },
       {

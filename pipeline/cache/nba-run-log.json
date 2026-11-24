@@ -1,12 +1,12 @@
 {
-  "at": "2026-11-24T13:28:14.640Z",
+  "at": "2026-11-24T18:19:49.162Z",
   "model": "claude-sonnet-5-5",
   "claudeStories": 30,
   "recap": "claude",
   "newChanges": 0,
   "polymarket": [
-    "MIA@PHI: 42-59 via slug (0h)",
-    "SA@POR: 60-41 via slug (0h)",
+    "MIA@PHI: 44-56 via slug (0h)",
+    "SA@POR: 62-39 via slug (0h)",
     "MIN@OKC: no market"
   ],
   "issues": []

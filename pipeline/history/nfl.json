@@ -388,20 +388,6 @@
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "events": [
     {
-      "at": "2026-11-03T14:41:18.003Z",
-      "abbr": "CHI",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Bears are now running hot."
-    },
-    {
-      "at": "2026-11-03T14:41:18.003Z",
-      "abbr": "CHI",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The Bears have won 3 straight."
-    },
-    {
       "at": "2026-11-06T19:57:19.790Z",
       "abbr": "JAX",
       "kind": "heat",
