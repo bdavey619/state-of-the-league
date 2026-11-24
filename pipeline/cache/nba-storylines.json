@@ -247,27 +247,27 @@
     }
   },
   "UTAH": {
-    "key": "401910033|401910044",
+    "key": "401910044|401909334",
     "result": {
       "abbr": "UTAH",
-      "story": "The Jazz are 3-15 and have lost two straight, the latest 116-114 to DAL after a late comeback fell short.",
+      "story": "The Jazz are 3-16 with a -7.5 per-game margin and have lost 3 straight, the latest 109-94 at LAL.",
       "player": {
         "name": "Keyonte George",
         "pos": "G",
-        "line": "20.8 pts and 7.1 ast per game over 17 games"
+        "line": "20.4 pts and 6.8 ast per game over 18 games"
       },
       "source": "claude"
     }
   },
   "LAL": {
-    "key": "401909313|401910044",
+    "key": "401910044|401909333",
     "result": {
       "abbr": "LAL",
-      "story": "The Lakers are 14-3 and first in the West, but edged SAC 106-104 after JJ Redick ripped their lack of fight.",
+      "story": "The Lakers are 15-3 and 2nd in the West, but their +6.7 point differential is less than that record suggests.",
       "player": {
         "name": "Luka Doncic",
         "pos": "G",
-        "line": "37.2 pts per game; 25 pts and 8 ast vs SAC"
+        "line": "36.6 pts per game; 28 pts and 8 ast vs UTAH"
       },
       "source": "claude"
     }
@@ -312,14 +312,14 @@
     }
   },
   "SAC": {
-    "key": "401910028|401910045",
+    "key": "401910045|401909324",
     "result": {
       "abbr": "SAC",
-      "story": "The Kings are 2-14 but beat BOS 97-96 on a Keegan Murray putback, ending an 8-game skid.",
+      "story": "The Kings are 2-15 with the NBA's worst point differential per game at -12.5.",
       "player": {
-        "name": "Darius Acuff Jr.",
-        "pos": "G",
-        "line": "25.4 pts per game; 21 pts and 8 ast vs BOS"
+        "name": "Domantas Sabonis",
+        "pos": "F",
+        "line": "13.5 reb per game; 20 pts, 12 reb, 8 ast vs SA"
       },
       "source": "claude"
     }
@@ -338,14 +338,14 @@
     }
   },
   "SA": {
-    "key": "401910027|401910045",
+    "key": "401910045|401909325",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs are 14-3 with the NBA's best point differential at +11.9 per game, though it is still early.",
+      "story": "The Spurs are 15-3 with the NBA's best margin at +12.2 per game, winners of three straight.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "50 pts and 19 reb vs NO; 29.9 ppg on the season"
+        "line": "50 pts, 19 reb vs NO; expected back vs POR"
       },
       "source": "claude"
     }

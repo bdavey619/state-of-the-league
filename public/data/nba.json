@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-24T05:22:34.718Z",
+  "updatedAt": "2026-11-24T13:28:14.640Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -616,10 +616,10 @@
             "away",
             "home"
           ],
-          "away": 0.46,
-          "home": 0.54,
-          "volume": 7728,
-          "at": "2026-11-24T05:22:34.718Z"
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 14302,
+          "at": "2026-11-24T13:28:14.640Z"
         }
       },
       {
@@ -630,7 +630,7 @@
           "abbr": "SA",
           "name": "Spurs",
           "color": "#8A8D8F",
-          "rec": "14-3"
+          "rec": "15-3"
         },
         "home": {
           "abbr": "POR",
@@ -653,10 +653,10 @@
             "away",
             "home"
           ],
-          "away": 0.635,
-          "home": 0.365,
-          "volume": 1733,
-          "at": "2026-11-24T05:22:34.718Z"
+          "away": 0.595,
+          "home": 0.405,
+          "volume": 2804,
+          "at": "2026-11-24T13:28:14.640Z"
         }
       },
       {
@@ -799,47 +799,47 @@
         ]
       },
       {
-        "id": "401910044",
-        "kickoff": "2026-11-24T03:00Z",
-        "network": "NBA TV",
+        "id": "401909318",
+        "kickoff": "2026-11-26T00:00Z",
+        "network": "",
         "away": {
-          "abbr": "UTAH",
-          "name": "Jazz",
-          "color": "#3E2680",
-          "rec": "3-15"
+          "abbr": "CHI",
+          "name": "Bulls",
+          "color": "#CE1141",
+          "rec": "5-12"
         },
         "home": {
-          "abbr": "LAL",
-          "name": "Lakers",
-          "color": "#552583",
-          "rec": "14-3"
+          "abbr": "CHA",
+          "name": "Hornets",
+          "color": "#00788C",
+          "rec": "4-12"
         },
-        "score": 39,
+        "score": 31,
         "tier": "other",
         "reasons": [
-          "Luka Doncic"
+          "Projected coin flip"
         ]
       },
       {
-        "id": "401910045",
-        "kickoff": "2026-11-24T03:00Z",
-        "network": "DAZN SAS",
+        "id": "401909321",
+        "kickoff": "2026-11-26T01:00Z",
+        "network": "ClipperVision",
         "away": {
-          "abbr": "SA",
-          "name": "Spurs",
-          "color": "#8A8D8F",
-          "rec": "14-3"
+          "abbr": "LAC",
+          "name": "Clippers",
+          "color": "#C8102E",
+          "rec": "4-12"
         },
         "home": {
-          "abbr": "SAC",
-          "name": "Kings",
-          "color": "#5A2D81",
-          "rec": "2-14"
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "13-5"
         },
-        "score": 32,
+        "score": 30,
         "tier": "other",
         "reasons": [
-          "Victor Wembanyama"
+          "Ty Jerome"
         ]
       }
     ]
@@ -847,19 +847,6 @@
   "players": [
     {
       "rank": 1,
-      "name": "Luka Doncic",
-      "pos": "G",
-      "team": "LAL",
-      "gp": 15,
-      "ppg": 37.2,
-      "rpg": 6.7,
-      "apg": 7.7,
-      "ts": 62.9,
-      "gs": 27.3,
-      "trend": "down"
-    },
-    {
-      "rank": 2,
       "name": "Victor Wembanyama",
       "pos": "F",
       "team": "SA",
@@ -870,6 +857,19 @@
       "ts": 62.9,
       "gs": 27.3,
       "trend": "flat"
+    },
+    {
+      "rank": 2,
+      "name": "Luka Doncic",
+      "pos": "G",
+      "team": "LAL",
+      "gp": 16,
+      "ppg": 36.6,
+      "rpg": 6.6,
+      "apg": 7.7,
+      "ts": 62.1,
+      "gs": 26.6,
+      "trend": "down"
     },
     {
       "rank": 3,
@@ -1950,10 +1950,10 @@
               "name": "Jazz",
               "color": "#3E2680",
               "w": 3,
-              "l": 15,
+              "l": 16,
               "t": 0,
-              "pf": 1955,
-              "pa": 2083,
+              "pf": 2049,
+              "pa": 2192,
               "rank": 25,
               "heat": "Cool",
               "seed": 14,
@@ -1976,19 +1976,20 @@
                 -11,
                 -10,
                 -11,
-                -12
+                -12,
+                -13
               ],
-              "story": "The Jazz are 3-15 and have lost two straight, the latest 116-114 to DAL after a late comeback fell short.",
+              "story": "The Jazz are 3-16 with a -7.5 per-game margin and have lost 3 straight, the latest 109-94 at LAL.",
               "player": {
                 "name": "Keyonte George",
                 "pos": "G",
-                "line": "20.8 pts and 7.1 ast per game over 17 games"
+                "line": "20.4 pts and 6.8 ast per game over 18 games"
               },
               "next": {
-                "opp": "LAL",
-                "home": false,
-                "kickoff": "2026-11-24T03:00Z",
-                "network": "NBA TV"
+                "opp": "DEN",
+                "home": true,
+                "kickoff": "2026-11-28T02:30Z",
+                "network": "KJZZ-TV"
               }
             }
           ]
@@ -2001,11 +2002,11 @@
               "city": "Los Angeles",
               "name": "Lakers",
               "color": "#552583",
-              "w": 14,
+              "w": 15,
               "l": 3,
               "t": 0,
-              "pf": 2040,
-              "pa": 1935,
+              "pf": 2149,
+              "pa": 2029,
               "rank": 3,
               "heat": "Hot",
               "seed": 2,
@@ -2027,19 +2028,20 @@
                 10,
                 11,
                 10,
-                11
+                11,
+                12
               ],
-              "story": "The Lakers are 14-3 and first in the West, but edged SAC 106-104 after JJ Redick ripped their lack of fight.",
+              "story": "The Lakers are 15-3 and 2nd in the West, but their +6.7 point differential is less than that record suggests.",
               "player": {
                 "name": "Luka Doncic",
                 "pos": "G",
-                "line": "37.2 pts per game; 25 pts and 8 ast vs SAC"
+                "line": "36.6 pts per game; 28 pts and 8 ast vs UTAH"
               },
               "next": {
-                "opp": "UTAH",
-                "home": true,
-                "kickoff": "2026-11-24T03:00Z",
-                "network": "NBA TV"
+                "opp": "SA",
+                "home": false,
+                "kickoff": "2026-11-28T02:30Z",
+                "network": "Prime Video"
               }
             },
             {
@@ -2184,14 +2186,14 @@
               "name": "Kings",
               "color": "#5A2D81",
               "w": 2,
-              "l": 14,
+              "l": 15,
               "t": 0,
-              "pf": 1709,
-              "pa": 1906,
+              "pf": 1816,
+              "pa": 2029,
               "rank": 30,
               "heat": "Cold",
               "seed": 15,
-              "form": "2-8",
+              "form": "1-9",
               "trend": [
                 -1,
                 -2,
@@ -2208,19 +2210,20 @@
                 -11,
                 -12,
                 -13,
-                -12
+                -12,
+                -13
               ],
-              "story": "The Kings are 2-14 but beat BOS 97-96 on a Keegan Murray putback, ending an 8-game skid.",
+              "story": "The Kings are 2-15 with the NBA's worst point differential per game at -12.5.",
               "player": {
-                "name": "Darius Acuff Jr.",
-                "pos": "G",
-                "line": "25.4 pts per game; 21 pts and 8 ast vs BOS"
+                "name": "Domantas Sabonis",
+                "pos": "F",
+                "line": "13.5 reb per game; 20 pts, 12 reb, 8 ast vs SA"
               },
               "next": {
-                "opp": "SA",
-                "home": true,
-                "kickoff": "2026-11-24T03:00Z",
-                "network": "DAZN SAS"
+                "opp": "GS",
+                "home": false,
+                "kickoff": "2026-11-26T03:00Z",
+                "network": ""
               }
             }
           ]
@@ -2233,11 +2236,11 @@
               "city": "San Antonio",
               "name": "Spurs",
               "color": "#8A8D8F",
-              "w": 14,
+              "w": 15,
               "l": 3,
               "t": 0,
-              "pf": 1994,
-              "pa": 1791,
+              "pf": 2117,
+              "pa": 1898,
               "rank": 1,
               "heat": "Hot",
               "seed": 1,
@@ -2259,19 +2262,20 @@
                 10,
                 9,
                 10,
-                11
+                11,
+                12
               ],
-              "story": "The Spurs are 14-3 with the NBA's best point differential at +11.9 per game, though it is still early.",
+              "story": "The Spurs are 15-3 with the NBA's best margin at +12.2 per game, winners of three straight.",
               "player": {
                 "name": "Victor Wembanyama",
                 "pos": "F",
-                "line": "50 pts and 19 reb vs NO; 29.9 ppg on the season"
+                "line": "50 pts, 19 reb vs NO; expected back vs POR"
               },
               "next": {
-                "opp": "SAC",
+                "opp": "POR",
                 "home": false,
-                "kickoff": "2026-11-24T03:00Z",
-                "network": "DAZN SAS"
+                "kickoff": "2026-11-26T03:00Z",
+                "network": "ESPN"
               }
             },
             {

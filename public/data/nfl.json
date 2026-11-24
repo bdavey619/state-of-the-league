@@ -10,8 +10,8 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-24T05:22:04.325Z",
-  "powerSource": "computed from point differential (45%), record (35%) and recent form (20%)",
+  "updatedAt": "2026-11-24T13:28:12.411Z",
+  "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
     {
@@ -407,7 +407,7 @@
           "color": "#0076B6",
           "rec": "8-2"
         },
-        "score": 89,
+        "score": 88,
         "tier": "must",
         "reasons": [
           "Top-8 vs top-8",
@@ -424,8 +424,8 @@
           ],
           "away": 0.565,
           "home": 0.435,
-          "volume": 29833,
-          "at": "2026-11-24T05:22:04.325Z"
+          "volume": 33204,
+          "at": "2026-11-24T13:28:12.411Z"
         }
       },
       {
@@ -444,7 +444,7 @@
           "color": "#00338D",
           "rec": "9-1"
         },
-        "score": 86,
+        "score": 85,
         "tier": "must",
         "reasons": [
           "Top-8 vs top-8",
@@ -461,8 +461,8 @@
           ],
           "away": 0.415,
           "home": 0.585,
-          "volume": 52798,
-          "at": "2026-11-24T05:22:04.325Z"
+          "volume": 60319,
+          "at": "2026-11-24T13:28:12.411Z"
         }
       },
       {
@@ -481,7 +481,7 @@
           "color": "#AA0000",
           "rec": "9-1"
         },
-        "score": 73,
+        "score": 72,
         "tier": "worth",
         "reasons": [
           "Two winning teams",
@@ -496,35 +496,11 @@
             "away",
             "home"
           ],
-          "away": 0.395,
-          "home": 0.605,
-          "volume": 30675,
-          "at": "2026-11-24T05:22:04.325Z"
+          "away": 0.385,
+          "home": 0.615,
+          "volume": 31929,
+          "at": "2026-11-24T13:28:12.411Z"
         }
-      },
-      {
-        "id": "401873079",
-        "kickoff": "2026-11-26T01:00Z",
-        "network": "Netflix",
-        "away": {
-          "abbr": "GB",
-          "name": "Packers",
-          "color": "#203731",
-          "rec": "6-4"
-        },
-        "home": {
-          "abbr": "LAR",
-          "name": "Rams",
-          "color": "#003594",
-          "rec": "6-4"
-        },
-        "score": 65,
-        "tier": "worth",
-        "reasons": [
-          "Two winning teams",
-          "Should be close",
-          "Rams have won 4 straight"
-        ]
       },
       {
         "id": "401873083",
@@ -542,11 +518,35 @@
           "color": "#FFB612",
           "rec": "6-4"
         },
-        "score": 65,
+        "score": 69,
         "tier": "worth",
         "reasons": [
+          "Two winning teams",
           "Projected coin flip",
           "Broncos have won 6 straight"
+        ]
+      },
+      {
+        "id": "401873079",
+        "kickoff": "2026-11-26T01:00Z",
+        "network": "Netflix",
+        "away": {
+          "abbr": "GB",
+          "name": "Packers",
+          "color": "#203731",
+          "rec": "6-4"
+        },
+        "home": {
+          "abbr": "LAR",
+          "name": "Rams",
+          "color": "#003594",
+          "rec": "6-4"
+        },
+        "score": 63,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Rams have won 4 straight"
         ]
       },
       {
@@ -565,7 +565,51 @@
           "color": "#D50A0A",
           "rec": "3-7"
         },
-        "score": 49,
+        "score": 48,
+        "tier": "other",
+        "reasons": [
+          "Should be close"
+        ]
+      },
+      {
+        "id": "401873086",
+        "kickoff": "2026-11-30T01:20Z",
+        "network": "NBC",
+        "away": {
+          "abbr": "LV",
+          "name": "Raiders",
+          "color": "#A5ACAF",
+          "rec": "4-7"
+        },
+        "home": {
+          "abbr": "CLE",
+          "name": "Browns",
+          "color": "#FF3C00",
+          "rec": "6-4"
+        },
+        "score": 42,
+        "tier": "other",
+        "reasons": [
+          "Should be close"
+        ]
+      },
+      {
+        "id": "401873088",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "NYG",
+          "name": "Giants",
+          "color": "#0B2265",
+          "rec": "6-3-1"
+        },
+        "home": {
+          "abbr": "IND",
+          "name": "Colts",
+          "color": "#002C5F",
+          "rec": "3-8"
+        },
+        "score": 41,
         "tier": "other",
         "reasons": [
           "Should be close"
@@ -587,31 +631,9 @@
           "color": "#003594",
           "rec": "5-6"
         },
-        "score": 44,
+        "score": 39,
         "tier": "other",
         "reasons": []
-      },
-      {
-        "id": "401873088",
-        "kickoff": "2026-11-29T18:00Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "NYG",
-          "name": "Giants",
-          "color": "#0B2265",
-          "rec": "6-3-1"
-        },
-        "home": {
-          "abbr": "IND",
-          "name": "Colts",
-          "color": "#002C5F",
-          "rec": "3-8"
-        },
-        "score": 40,
-        "tier": "other",
-        "reasons": [
-          "Should be close"
-        ]
       },
       {
         "id": "401873087",
@@ -629,31 +651,9 @@
           "color": "#FB4F14",
           "rec": "7-3"
         },
-        "score": 38,
-        "tier": "other",
-        "reasons": []
-      },
-      {
-        "id": "401873089",
-        "kickoff": "2026-11-29T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "NYJ",
-          "name": "Jets",
-          "color": "#125740",
-          "rec": "3-8"
-        },
-        "home": {
-          "abbr": "MIA",
-          "name": "Dolphins",
-          "color": "#008E97",
-          "rec": "1-9"
-        },
         "score": 36,
         "tier": "other",
-        "reasons": [
-          "Projected coin flip"
-        ]
+        "reasons": []
       }
     ]
   },
@@ -726,7 +726,7 @@
               "t": 0,
               "pf": 221,
               "pa": 242,
-              "rank": 20,
+              "rank": 17,
               "heat": "Cold",
               "last3": [
                 {
@@ -777,7 +777,7 @@
               "t": 0,
               "pf": 221,
               "pa": 278,
-              "rank": 25,
+              "rank": 26,
               "heat": "Cool",
               "last3": [
                 {
@@ -884,7 +884,7 @@
               "t": 0,
               "pf": 298,
               "pa": 215,
-              "rank": 7,
+              "rank": 6,
               "heat": "Warm",
               "last3": [
                 {
@@ -935,7 +935,7 @@
               "t": 0,
               "pf": 214,
               "pa": 201,
-              "rank": 16,
+              "rank": 15,
               "heat": "Cold",
               "last3": [
                 {
@@ -982,7 +982,7 @@
               "t": 0,
               "pf": 188,
               "pa": 220,
-              "rank": 18,
+              "rank": 13,
               "heat": "Cool",
               "last3": [
                 {
@@ -1033,7 +1033,7 @@
               "t": 0,
               "pf": 242,
               "pa": 294,
-              "rank": 24,
+              "rank": 20,
               "heat": "Cold",
               "last3": [
                 {
@@ -1089,7 +1089,7 @@
               "t": 0,
               "pf": 287,
               "pa": 167,
-              "rank": 4,
+              "rank": 9,
               "heat": "Warm",
               "last3": [
                 {
@@ -1140,7 +1140,7 @@
               "t": 0,
               "pf": 259,
               "pa": 222,
-              "rank": 13,
+              "rank": 19,
               "heat": "Warm",
               "last3": [
                 {
@@ -1191,7 +1191,7 @@
               "t": 0,
               "pf": 211,
               "pa": 297,
-              "rank": 27,
+              "rank": 28,
               "heat": "Cool",
               "last3": [
                 {
@@ -1242,7 +1242,7 @@
               "t": 0,
               "pf": 197,
               "pa": 290,
-              "rank": 30,
+              "rank": 31,
               "heat": "Cold",
               "last3": [
                 {
@@ -1294,7 +1294,7 @@
               "t": 0,
               "pf": 271,
               "pa": 163,
-              "rank": 3,
+              "rank": 5,
               "heat": "Hot",
               "last3": [
                 {
@@ -1345,7 +1345,7 @@
               "t": 0,
               "pf": 236,
               "pa": 210,
-              "rank": 9,
+              "rank": 3,
               "heat": "Warm",
               "last3": [
                 {
@@ -1392,7 +1392,7 @@
               "t": 0,
               "pf": 275,
               "pa": 327,
-              "rank": 26,
+              "rank": 21,
               "heat": "Cold",
               "last3": [
                 {
@@ -1443,7 +1443,7 @@
               "t": 0,
               "pf": 168,
               "pa": 266,
-              "rank": 29,
+              "rank": 30,
               "heat": "Cool",
               "last3": [
                 {
@@ -1505,7 +1505,7 @@
               "t": 1,
               "pf": 226,
               "pa": 214,
-              "rank": 11,
+              "rank": 8,
               "heat": "Warm",
               "last3": [
                 {
@@ -1556,7 +1556,7 @@
               "t": 0,
               "pf": 337,
               "pa": 312,
-              "rank": 15,
+              "rank": 18,
               "heat": "Warm",
               "last3": [
                 {
@@ -1607,7 +1607,7 @@
               "t": 1,
               "pf": 218,
               "pa": 243,
-              "rank": 19,
+              "rank": 22,
               "heat": "Warm",
               "last3": [
                 {
@@ -1658,7 +1658,7 @@
               "t": 0,
               "pf": 167,
               "pa": 237,
-              "rank": 23,
+              "rank": 27,
               "heat": "Steady",
               "last3": [
                 {
@@ -1710,7 +1710,7 @@
               "t": 0,
               "pf": 288,
               "pa": 220,
-              "rank": 5,
+              "rank": 7,
               "heat": "Hot",
               "last3": [
                 {
@@ -1761,7 +1761,7 @@
               "t": 0,
               "pf": 262,
               "pa": 197,
-              "rank": 6,
+              "rank": 4,
               "heat": "Warm",
               "last3": [
                 {
@@ -1808,7 +1808,7 @@
               "t": 0,
               "pf": 186,
               "pa": 161,
-              "rank": 12,
+              "rank": 10,
               "heat": "Cool",
               "last3": [
                 {
@@ -1915,7 +1915,7 @@
               "t": 0,
               "pf": 254,
               "pa": 269,
-              "rank": 17,
+              "rank": 16,
               "heat": "Warm",
               "last3": [
                 {
@@ -1966,7 +1966,7 @@
               "t": 0,
               "pf": 223,
               "pa": 209,
-              "rank": 21,
+              "rank": 23,
               "heat": "Cool",
               "last3": [
                 {
@@ -2013,7 +2013,7 @@
               "t": 0,
               "pf": 215,
               "pa": 257,
-              "rank": 22,
+              "rank": 25,
               "heat": "Cool",
               "last3": [
                 {
@@ -2064,7 +2064,7 @@
               "t": 0,
               "pf": 201,
               "pa": 258,
-              "rank": 28,
+              "rank": 24,
               "heat": "Cold",
               "last3": [
                 {
@@ -2171,7 +2171,7 @@
               "t": 0,
               "pf": 248,
               "pa": 187,
-              "rank": 8,
+              "rank": 12,
               "heat": "Hot",
               "last3": [
                 {
@@ -2222,7 +2222,7 @@
               "t": 0,
               "pf": 223,
               "pa": 175,
-              "rank": 10,
+              "rank": 11,
               "heat": "Warm",
               "last3": [
                 {
@@ -2273,7 +2273,7 @@
               "t": 0,
               "pf": 191,
               "pa": 323,
-              "rank": 31,
+              "rank": 29,
               "heat": "Cold",
               "last3": [
                 {
