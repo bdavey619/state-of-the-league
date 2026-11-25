@@ -234,14 +234,14 @@
     }
   },
   "DEN": {
-    "key": "401910032|401909316",
+    "key": "401909316|401909334",
     "result": {
       "abbr": "DEN",
-      "story": "The Nuggets have won three straight, beating CHI 151-145 in OT, but their point differential is only +27.",
+      "story": "The Nuggets are 10-6 on a thin +8 point differential and just lost 120-101 vs DAL.",
       "player": {
         "name": "Nikola Jokic",
         "pos": "C",
-        "line": "37 pts, 18 reb, 11 ast vs CHI, a 202nd career triple-double"
+        "line": "24.6 pts, 10.9 reb and 8.9 ast per game"
       },
       "source": "claude"
     }
@@ -364,14 +364,14 @@
     }
   },
   "DAL": {
-    "key": "401910033|401909316",
+    "key": "401909316|401909332",
     "result": {
       "abbr": "DAL",
-      "story": "The Mavericks are 10-7 and have won 3 straight, though their point differential is -1.",
+      "story": "The Mavericks have won 4 straight to reach 11-7, though their point differential is only +18.",
       "player": {
         "name": "Cooper Flagg",
         "pos": "F",
-        "line": "28 pts, game-winning free throws at UTAH"
+        "line": "24 pts and 12 ast vs DEN; 24.3 pts per game"
       },
       "source": "claude"
     }

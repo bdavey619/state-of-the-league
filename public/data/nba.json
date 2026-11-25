@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-25T04:18:43.361Z",
+  "updatedAt": "2026-11-25T13:25:23.043Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -511,10 +511,10 @@
             "away",
             "home"
           ],
-          "away": 0.495,
-          "home": 0.505,
-          "volume": 61573,
-          "at": "2026-11-25T04:18:43.361Z"
+          "away": 0.475,
+          "home": 0.525,
+          "volume": 201609,
+          "at": "2026-11-25T13:25:23.043Z"
         }
       },
       {
@@ -548,10 +548,10 @@
             "away",
             "home"
           ],
-          "away": 0.575,
-          "home": 0.425,
-          "volume": 22666,
-          "at": "2026-11-25T04:18:43.361Z"
+          "away": 0.585,
+          "home": 0.415,
+          "volume": 50930,
+          "at": "2026-11-25T13:25:23.043Z"
         }
       },
       {
@@ -573,7 +573,6 @@
         "score": 64,
         "tier": "other",
         "reasons": [
-          "Two winning teams",
           "Projected coin flip",
           "Shai Gilgeous-Alexander"
         ]
@@ -602,29 +601,6 @@
         ]
       },
       {
-        "id": "401909316",
-        "kickoff": "2026-11-25T03:00Z",
-        "network": "NBC",
-        "away": {
-          "abbr": "DAL",
-          "name": "Mavericks",
-          "color": "#00538C",
-          "rec": "10-7"
-        },
-        "home": {
-          "abbr": "DEN",
-          "name": "Nuggets",
-          "color": "#0E2240",
-          "rec": "10-5"
-        },
-        "score": 52,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Flagg vs Jokic"
-        ]
-      },
-      {
         "id": "401909323",
         "kickoff": "2026-11-26T01:30Z",
         "network": "Suns Live",
@@ -640,12 +616,11 @@
           "color": "#CE1141",
           "rec": "13-5"
         },
-        "score": 52,
+        "score": 54,
         "tier": "other",
         "reasons": [
-          "Two winning teams",
-          "Both teams hot",
-          "Booker vs Sengun"
+          "Booker vs Sengun",
+          "Both teams hot"
         ]
       },
       {
@@ -781,12 +756,12 @@
       "name": "Nikola Jokic",
       "pos": "C",
       "team": "DEN",
-      "gp": 15,
-      "ppg": 25.1,
+      "gp": 16,
+      "ppg": 24.6,
       "rpg": 10.9,
-      "apg": 9.2,
-      "ts": 61.6,
-      "gs": 24.5,
+      "apg": 8.9,
+      "ts": 61.3,
+      "gs": 23.8,
       "trend": "flat"
     },
     {
@@ -807,12 +782,12 @@
       "name": "Jamal Murray",
       "pos": "G",
       "team": "DEN",
-      "gp": 15,
-      "ppg": 26.2,
-      "rpg": 5,
-      "apg": 5.9,
-      "ts": 66.5,
-      "gs": 22,
+      "gp": 16,
+      "ppg": 25.8,
+      "rpg": 4.8,
+      "apg": 5.7,
+      "ts": 65.5,
+      "gs": 21.4,
       "trend": "flat"
     },
     {
@@ -859,12 +834,12 @@
       "name": "Cooper Flagg",
       "pos": "F",
       "team": "DAL",
-      "gp": 16,
+      "gp": 17,
       "ppg": 24.3,
       "rpg": 6.3,
-      "apg": 6.4,
-      "ts": 59.7,
-      "gs": 20.3,
+      "apg": 6.7,
+      "ts": 59.5,
+      "gs": 20.4,
       "trend": "flat"
     },
     {
@@ -1704,50 +1679,6 @@
               }
             },
             {
-              "abbr": "DEN",
-              "city": "Denver",
-              "name": "Nuggets",
-              "color": "#0E2240",
-              "w": 10,
-              "l": 5,
-              "t": 0,
-              "pf": 1755,
-              "pa": 1728,
-              "rank": 13,
-              "heat": "Warm",
-              "seed": 6,
-              "form": "7-3",
-              "trend": [
-                -1,
-                0,
-                -1,
-                0,
-                1,
-                0,
-                1,
-                2,
-                1,
-                2,
-                3,
-                2,
-                3,
-                4,
-                5
-              ],
-              "story": "The Nuggets have won three straight, beating CHI 151-145 in OT, but their point differential is only +27.",
-              "player": {
-                "name": "Nikola Jokic",
-                "pos": "C",
-                "line": "37 pts, 18 reb, 11 ast vs CHI, a 202nd career triple-double"
-              },
-              "next": {
-                "opp": "DAL",
-                "home": true,
-                "kickoff": "2026-11-25T03:00Z",
-                "network": "NBC"
-              }
-            },
-            {
               "abbr": "POR",
               "city": "Portland",
               "name": "Trail Blazers",
@@ -1759,7 +1690,7 @@
               "pa": 1876,
               "rank": 8,
               "heat": "Steady",
-              "seed": 7,
+              "seed": 6,
               "form": "5-5",
               "trend": [
                 1,
@@ -1794,6 +1725,51 @@
               }
             },
             {
+              "abbr": "DEN",
+              "city": "Denver",
+              "name": "Nuggets",
+              "color": "#0E2240",
+              "w": 10,
+              "l": 6,
+              "t": 0,
+              "pf": 1856,
+              "pa": 1848,
+              "rank": 14,
+              "heat": "Warm",
+              "seed": 7,
+              "form": "7-3",
+              "trend": [
+                -1,
+                0,
+                -1,
+                0,
+                1,
+                0,
+                1,
+                2,
+                1,
+                2,
+                3,
+                2,
+                3,
+                4,
+                5,
+                4
+              ],
+              "story": "The Nuggets are 10-6 on a thin +8 point differential and just lost 120-101 vs DAL.",
+              "player": {
+                "name": "Nikola Jokic",
+                "pos": "C",
+                "line": "24.6 pts, 10.9 reb and 8.9 ast per game"
+              },
+              "next": {
+                "opp": "UTAH",
+                "home": false,
+                "kickoff": "2026-11-28T02:30Z",
+                "network": "KJZZ-TV"
+              }
+            },
+            {
               "abbr": "OKC",
               "city": "Oklahoma City",
               "name": "Thunder",
@@ -1803,7 +1779,7 @@
               "t": 0,
               "pf": 2041,
               "pa": 1984,
-              "rank": 15,
+              "rank": 16,
               "heat": "Steady",
               "seed": 10,
               "form": "4-6",
@@ -1950,7 +1926,7 @@
               "t": 0,
               "pf": 1831,
               "pa": 1840,
-              "rank": 14,
+              "rank": 15,
               "heat": "Hot",
               "seed": 9,
               "form": "8-2",
@@ -2273,15 +2249,15 @@
               "city": "Dallas",
               "name": "Mavericks",
               "color": "#00538C",
-              "w": 10,
+              "w": 11,
               "l": 7,
               "t": 0,
-              "pf": 1911,
-              "pa": 1912,
-              "rank": 16,
-              "heat": "Steady",
+              "pf": 2031,
+              "pa": 2013,
+              "rank": 13,
+              "heat": "Warm",
               "seed": 8,
-              "form": "6-4",
+              "form": "7-3",
               "trend": [
                 -1,
                 0,
@@ -2299,19 +2275,20 @@
                 0,
                 1,
                 2,
-                3
+                3,
+                4
               ],
-              "story": "The Mavericks are 10-7 and have won 3 straight, though their point differential is -1.",
+              "story": "The Mavericks have won 4 straight to reach 11-7, though their point differential is only +18.",
               "player": {
                 "name": "Cooper Flagg",
                 "pos": "F",
-                "line": "28 pts, game-winning free throws at UTAH"
+                "line": "24 pts and 12 ast vs DEN; 24.3 pts per game"
               },
               "next": {
-                "opp": "DEN",
+                "opp": "PHX",
                 "home": false,
-                "kickoff": "2026-11-25T03:00Z",
-                "network": "NBC"
+                "kickoff": "2026-11-28T02:00Z",
+                "network": "Suns Live"
               }
             },
             {
