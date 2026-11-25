@@ -13,14 +13,14 @@
     }
   },
   "BOS": {
-    "key": "401910035|401909315",
+    "key": "401909315|401909330",
     "result": {
       "abbr": "BOS",
-      "story": "The Celtics have lost four straight, two by a point, though they are +155 in point differential.",
+      "story": "The Celtics are 12-6 with a +170 point differential, but snapped a four-game skid, beating WSH 131-116.",
       "player": {
         "name": "Jayson Tatum",
         "pos": "F",
-        "line": "27 pts, 10 reb and 6 ast vs GS"
+        "line": "41 pts, 6 reb and 8 ast vs WSH"
       },
       "source": "claude"
     }
@@ -65,14 +65,14 @@
     }
   },
   "DET": {
-    "key": "401910029|401909314",
+    "key": "401909314|401909327",
     "result": {
       "abbr": "DET",
-      "story": "The Pistons are 10-6 and top the East Central, but have lost 2 straight, the latest 107-97 at ATL.",
+      "story": "The Pistons are 11-6 and lead the East Central, coming off a 104-86 win at ORL without Cade Cunningham.",
       "player": {
-        "name": "Cade Cunningham",
+        "name": "Ausar Thompson",
         "pos": "G",
-        "line": "24.2 ppg, 8.3 apg; held to a season-low 5 at ATL"
+        "line": "10 reb and 7 ast vs ORL, 8.6 reb per game this year"
       },
       "source": "claude"
     }
@@ -143,14 +143,14 @@
     }
   },
   "WSH": {
-    "key": "401910031|401909315",
+    "key": "401909315|401910046",
     "result": {
       "abbr": "WSH",
-      "story": "The Wizards have won three straight after an 8-game skid, but are 7-11 with a -91 point differential.",
+      "story": "The Wizards are 7-12 after a 131-116 loss to BOS ended a three-game winning streak.",
       "player": {
         "name": "Anthony Davis",
         "pos": "F",
-        "line": "25.1 pts and 9.9 reb per game; 22 pts vs ORL"
+        "line": "33 pts and 13 reb vs BOS, 25.6 pts per game"
       },
       "source": "claude"
     }
@@ -182,14 +182,14 @@
     }
   },
   "ORL": {
-    "key": "401910031|401909314",
+    "key": "401909314|401910046",
     "result": {
       "abbr": "ORL",
-      "story": "The Magic are 7-9 with a -66 point differential after they lost 116-96 at WSH.",
+      "story": "The Magic are 7-10 and have lost two straight, the latest 104-86 to DET in an NBA Cup game.",
       "player": {
         "name": "Franz Wagner",
         "pos": "F",
-        "line": "24.5 pts, 6.9 reb and 8.3 ast per game in 16 games"
+        "line": "24.2 pts and 8.1 ast per game over 17 games"
       },
       "source": "claude"
     }

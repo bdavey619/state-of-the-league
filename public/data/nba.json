@@ -4,13 +4,13 @@
   "seasonLabel": "2026-27",
   "week": null,
   "badge": "2026-27",
-  "kicker": "2026-27 · through Mon, Nov 23",
-  "throughLabel": "through Mon, Nov 23",
+  "kicker": "2026-27 · through Tue, Nov 24",
+  "throughLabel": "through Tue, Nov 24",
   "formNote": "Hot/cold reads each team's last 10 games, weighting recent games more and factoring in margin.",
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-24T23:01:32.832Z",
+  "updatedAt": "2026-11-25T04:18:43.361Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -511,10 +511,10 @@
             "away",
             "home"
           ],
-          "away": 0.485,
-          "home": 0.515,
-          "volume": 48003,
-          "at": "2026-11-24T23:01:32.832Z"
+          "away": 0.495,
+          "home": 0.505,
+          "volume": 61573,
+          "at": "2026-11-25T04:18:43.361Z"
         }
       },
       {
@@ -548,10 +548,10 @@
             "away",
             "home"
           ],
-          "away": 0.605,
-          "home": 0.395,
-          "volume": 7481,
-          "at": "2026-11-24T23:01:32.832Z"
+          "away": 0.575,
+          "home": 0.425,
+          "volume": 22666,
+          "at": "2026-11-25T04:18:43.361Z"
         }
       },
       {
@@ -649,51 +649,6 @@
         ]
       },
       {
-        "id": "401909314",
-        "kickoff": "2026-11-25T00:00Z",
-        "network": "",
-        "away": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "10-6"
-        },
-        "home": {
-          "abbr": "ORL",
-          "name": "Magic",
-          "color": "#0077C0",
-          "rec": "7-9"
-        },
-        "score": 48,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Cunningham vs Wagner"
-        ]
-      },
-      {
-        "id": "401909315",
-        "kickoff": "2026-11-25T01:00Z",
-        "network": "NBC",
-        "away": {
-          "abbr": "BOS",
-          "name": "Celtics",
-          "color": "#007A33",
-          "rec": "11-6"
-        },
-        "home": {
-          "abbr": "WSH",
-          "name": "Wizards",
-          "color": "#002B5C",
-          "rec": "7-11"
-        },
-        "score": 44,
-        "tier": "other",
-        "reasons": [
-          "Tatum vs Davis"
-        ]
-      },
-      {
         "id": "401909318",
         "kickoff": "2026-11-26T00:00Z",
         "network": "",
@@ -736,6 +691,48 @@
         "reasons": [
           "Ty Jerome"
         ]
+      },
+      {
+        "id": "401909322",
+        "kickoff": "2026-11-26T01:00Z",
+        "network": "DAZN (YES)",
+        "away": {
+          "abbr": "BKN",
+          "name": "Nets",
+          "color": "#000000",
+          "rec": "3-13"
+        },
+        "home": {
+          "abbr": "MIL",
+          "name": "Bucks",
+          "color": "#00471B",
+          "rec": "2-16"
+        },
+        "score": 25,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip"
+        ]
+      },
+      {
+        "id": "401909324",
+        "kickoff": "2026-11-26T03:00Z",
+        "network": "",
+        "away": {
+          "abbr": "SAC",
+          "name": "Kings",
+          "color": "#5A2D81",
+          "rec": "2-15"
+        },
+        "home": {
+          "abbr": "GS",
+          "name": "Warriors",
+          "color": "#1D428A",
+          "rec": "9-8"
+        },
+        "score": 24,
+        "tier": "other",
+        "reasons": []
       }
     ]
   },
@@ -820,6 +817,19 @@
     },
     {
       "rank": 7,
+      "name": "Anthony Davis",
+      "pos": "F",
+      "team": "WSH",
+      "gp": 17,
+      "ppg": 25.6,
+      "rpg": 10.1,
+      "apg": 2,
+      "ts": 60.8,
+      "gs": 20.9,
+      "trend": "flat"
+    },
+    {
+      "rank": 8,
       "name": "Alperen Sengun",
       "pos": "C",
       "team": "HOU",
@@ -832,20 +842,20 @@
       "trend": "flat"
     },
     {
-      "rank": 8,
-      "name": "Anthony Davis",
+      "rank": 9,
+      "name": "Jayson Tatum",
       "pos": "F",
-      "team": "WSH",
+      "team": "BOS",
       "gp": 16,
-      "ppg": 25.1,
-      "rpg": 9.9,
-      "apg": 2.1,
-      "ts": 60.4,
-      "gs": 20.4,
+      "ppg": 27.3,
+      "rpg": 6.8,
+      "apg": 6.8,
+      "ts": 57.4,
+      "gs": 20.5,
       "trend": "flat"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Cooper Flagg",
       "pos": "F",
       "team": "DAL",
@@ -858,7 +868,7 @@
       "trend": "flat"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Tyrese Maxey",
       "pos": "G",
       "team": "PHI",
@@ -871,7 +881,7 @@
       "trend": "flat"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Karl-Anthony Towns",
       "pos": "C",
       "team": "NY",
@@ -881,19 +891,6 @@
       "apg": 4,
       "ts": 65,
       "gs": 19.9,
-      "trend": "flat"
-    },
-    {
-      "rank": 12,
-      "name": "Jayson Tatum",
-      "pos": "F",
-      "team": "BOS",
-      "gp": 15,
-      "ppg": 26.4,
-      "rpg": 6.9,
-      "apg": 6.7,
-      "ts": 56.7,
-      "gs": 19.8,
       "trend": "flat"
     },
     {
@@ -911,19 +908,6 @@
     },
     {
       "rank": 14,
-      "name": "Franz Wagner",
-      "pos": "F",
-      "team": "ORL",
-      "gp": 16,
-      "ppg": 24.5,
-      "rpg": 6.9,
-      "apg": 8.3,
-      "ts": 55.4,
-      "gs": 19.1,
-      "trend": "up"
-    },
-    {
-      "rank": 15,
       "name": "Deni Avdija",
       "pos": "F",
       "team": "POR",
@@ -933,6 +917,19 @@
       "apg": 6.1,
       "ts": 62.7,
       "gs": 19,
+      "trend": "flat"
+    },
+    {
+      "rank": 15,
+      "name": "Franz Wagner",
+      "pos": "F",
+      "team": "ORL",
+      "gp": 17,
+      "ppg": 24.2,
+      "rpg": 7,
+      "apg": 8.1,
+      "ts": 55,
+      "gs": 18.9,
       "trend": "flat"
     }
   ],
@@ -954,7 +951,7 @@
               "t": 0,
               "pf": 2075,
               "pa": 2042,
-              "rank": 10,
+              "rank": 11,
               "heat": "Warm",
               "seed": 1,
               "form": "7-3",
@@ -996,13 +993,13 @@
               "city": "Boston",
               "name": "Celtics",
               "color": "#007A33",
-              "w": 11,
+              "w": 12,
               "l": 6,
               "t": 0,
-              "pf": 1891,
-              "pa": 1736,
-              "rank": 6,
-              "heat": "Steady",
+              "pf": 2022,
+              "pa": 1852,
+              "rank": 5,
+              "heat": "Warm",
               "seed": 2,
               "form": "6-4",
               "trend": [
@@ -1022,19 +1019,20 @@
                 8,
                 7,
                 6,
-                5
+                5,
+                6
               ],
-              "story": "The Celtics have lost four straight, two by a point, though they are +155 in point differential.",
+              "story": "The Celtics are 12-6 with a +170 point differential, but snapped a four-game skid, beating WSH 131-116.",
               "player": {
                 "name": "Jayson Tatum",
                 "pos": "F",
-                "line": "27 pts, 10 reb and 6 ast vs GS"
+                "line": "41 pts, 6 reb and 8 ast vs WSH"
               },
               "next": {
-                "opp": "WSH",
-                "home": false,
-                "kickoff": "2026-11-25T01:00Z",
-                "network": "NBC"
+                "opp": "ATL",
+                "home": true,
+                "kickoff": "2026-11-28T01:00Z",
+                "network": ""
               }
             },
             {
@@ -1093,7 +1091,7 @@
               "t": 0,
               "pf": 1896,
               "pa": 1898,
-              "rank": 20,
+              "rank": 19,
               "heat": "Cool",
               "seed": 10,
               "form": "2-8",
@@ -1184,14 +1182,14 @@
               "city": "Detroit",
               "name": "Pistons",
               "color": "#C8102E",
-              "w": 10,
+              "w": 11,
               "l": 6,
               "t": 0,
-              "pf": 1814,
-              "pa": 1737,
-              "rank": 11,
+              "pf": 1918,
+              "pa": 1823,
+              "rank": 9,
               "heat": "Steady",
-              "seed": 5,
+              "seed": 4,
               "form": "5-5",
               "trend": [
                 1,
@@ -1209,19 +1207,20 @@
                 5,
                 6,
                 5,
-                4
+                4,
+                5
               ],
-              "story": "The Pistons are 10-6 and top the East Central, but have lost 2 straight, the latest 107-97 at ATL.",
+              "story": "The Pistons are 11-6 and lead the East Central, coming off a 104-86 win at ORL without Cade Cunningham.",
               "player": {
-                "name": "Cade Cunningham",
+                "name": "Ausar Thompson",
                 "pos": "G",
-                "line": "24.2 ppg, 8.3 apg; held to a season-low 5 at ATL"
+                "line": "10 reb and 7 ast vs ORL, 8.6 reb per game this year"
               },
               "next": {
-                "opp": "ORL",
-                "home": false,
-                "kickoff": "2026-11-25T00:00Z",
-                "network": ""
+                "opp": "MIL",
+                "home": true,
+                "kickoff": "2026-11-28T00:30Z",
+                "network": "MyMi"
               }
             },
             {
@@ -1426,9 +1425,9 @@
               "t": 0,
               "pf": 1984,
               "pa": 1931,
-              "rank": 9,
+              "rank": 10,
               "heat": "Warm",
-              "seed": 4,
+              "seed": 5,
               "form": "8-2",
               "trend": [
                 1,
@@ -1513,11 +1512,11 @@
               "name": "Magic",
               "color": "#0077C0",
               "w": 7,
-              "l": 9,
+              "l": 10,
               "t": 0,
-              "pf": 1740,
-              "pa": 1806,
-              "rank": 19,
+              "pf": 1826,
+              "pa": 1910,
+              "rank": 20,
               "heat": "Steady",
               "seed": 8,
               "form": "5-5",
@@ -1537,19 +1536,20 @@
                 -1,
                 -2,
                 -1,
-                -2
+                -2,
+                -3
               ],
-              "story": "The Magic are 7-9 with a -66 point differential after they lost 116-96 at WSH.",
+              "story": "The Magic are 7-10 and have lost two straight, the latest 104-86 to DET in an NBA Cup game.",
               "player": {
                 "name": "Franz Wagner",
                 "pos": "F",
-                "line": "24.5 pts, 6.9 reb and 8.3 ast per game in 16 games"
+                "line": "24.2 pts and 8.1 ast per game over 17 games"
               },
               "next": {
-                "opp": "DET",
-                "home": true,
-                "kickoff": "2026-11-25T00:00Z",
-                "network": ""
+                "opp": "WSH",
+                "home": false,
+                "kickoff": "2026-11-28T22:00Z",
+                "network": "MNMT"
               }
             },
             {
@@ -1558,10 +1558,10 @@
               "name": "Wizards",
               "color": "#002B5C",
               "w": 7,
-              "l": 11,
+              "l": 12,
               "t": 0,
-              "pf": 1986,
-              "pa": 2077,
+              "pf": 2102,
+              "pa": 2208,
               "rank": 22,
               "heat": "Cool",
               "seed": 9,
@@ -1584,19 +1584,20 @@
                 -7,
                 -6,
                 -5,
-                -4
+                -4,
+                -5
               ],
-              "story": "The Wizards have won three straight after an 8-game skid, but are 7-11 with a -91 point differential.",
+              "story": "The Wizards are 7-12 after a 131-116 loss to BOS ended a three-game winning streak.",
               "player": {
                 "name": "Anthony Davis",
                 "pos": "F",
-                "line": "25.1 pts and 9.9 reb per game; 22 pts vs ORL"
+                "line": "33 pts and 13 reb vs BOS, 25.6 pts per game"
               },
               "next": {
-                "opp": "BOS",
+                "opp": "ORL",
                 "home": true,
-                "kickoff": "2026-11-25T01:00Z",
-                "network": "NBC"
+                "kickoff": "2026-11-28T22:00Z",
+                "network": "MNMT"
               }
             },
             {
@@ -2230,7 +2231,7 @@
               "t": 0,
               "pf": 2126,
               "pa": 1984,
-              "rank": 5,
+              "rank": 6,
               "heat": "Warm",
               "seed": 5,
               "form": "6-4",

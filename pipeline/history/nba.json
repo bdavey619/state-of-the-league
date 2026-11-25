@@ -4,7 +4,7 @@
       "w": 14,
       "l": 4,
       "t": 0,
-      "rank": 10,
+      "rank": 11,
       "heat": "Warm",
       "place": 1,
       "division": "East Atlantic",
@@ -13,15 +13,15 @@
       "seed": 1
     },
     "BOS": {
-      "w": 11,
+      "w": 12,
       "l": 6,
       "t": 0,
-      "rank": 6,
-      "heat": "Steady",
+      "rank": 5,
+      "heat": "Warm",
       "place": 2,
       "division": "East Atlantic",
-      "streak": "L4",
-      "pct": 0.6470588235294118,
+      "streak": "W1",
+      "pct": 0.6666666666666666,
       "seed": 2
     },
     "NY": {
@@ -40,7 +40,7 @@
       "w": 6,
       "l": 11,
       "t": 0,
-      "rank": 20,
+      "rank": 19,
       "heat": "Cool",
       "place": 4,
       "division": "East Atlantic",
@@ -61,16 +61,16 @@
       "seed": 14
     },
     "DET": {
-      "w": 10,
+      "w": 11,
       "l": 6,
       "t": 0,
-      "rank": 11,
+      "rank": 9,
       "heat": "Steady",
       "place": 1,
       "division": "East Central",
-      "streak": "L2",
-      "pct": 0.625,
-      "seed": 5
+      "streak": "W1",
+      "pct": 0.6470588235294118,
+      "seed": 4
     },
     "CLE": {
       "w": 9,
@@ -124,13 +124,13 @@
       "w": 11,
       "l": 6,
       "t": 0,
-      "rank": 9,
+      "rank": 10,
       "heat": "Warm",
       "place": 1,
       "division": "East Southeast",
       "streak": "W4",
       "pct": 0.6470588235294118,
-      "seed": 4
+      "seed": 5
     },
     "MIA": {
       "w": 10,
@@ -146,26 +146,26 @@
     },
     "ORL": {
       "w": 7,
-      "l": 9,
+      "l": 10,
       "t": 0,
-      "rank": 19,
+      "rank": 20,
       "heat": "Steady",
       "place": 3,
       "division": "East Southeast",
-      "streak": "L1",
-      "pct": 0.4375,
+      "streak": "L2",
+      "pct": 0.4117647058823529,
       "seed": 8
     },
     "WSH": {
       "w": 7,
-      "l": 11,
+      "l": 12,
       "t": 0,
       "rank": 22,
       "heat": "Cool",
       "place": 4,
       "division": "East Southeast",
-      "streak": "W3",
-      "pct": 0.3888888888888889,
+      "streak": "L1",
+      "pct": 0.3684210526315789,
       "seed": 9
     },
     "CHA": {
@@ -328,7 +328,7 @@
       "w": 13,
       "l": 5,
       "t": 0,
-      "rank": 5,
+      "rank": 6,
       "heat": "Warm",
       "place": 3,
       "division": "West Southwest",
