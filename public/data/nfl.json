@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-25T13:25:20.763Z",
+  "updatedAt": "2026-11-25T22:33:36.206Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
@@ -410,8 +410,8 @@
           ],
           "away": 0.525,
           "home": 0.475,
-          "volume": 137660,
-          "at": "2026-11-25T13:25:20.763Z"
+          "volume": 146429,
+          "at": "2026-11-25T22:33:36.206Z"
         }
       },
       {
@@ -445,10 +445,10 @@
             "away",
             "home"
           ],
-          "away": 0.425,
-          "home": 0.575,
-          "volume": 86230,
-          "at": "2026-11-25T13:25:20.763Z"
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 121947,
+          "at": "2026-11-25T22:33:36.206Z"
         }
       },
       {
@@ -482,10 +482,10 @@
             "away",
             "home"
           ],
-          "away": 0.385,
-          "home": 0.615,
-          "volume": 35135,
-          "at": "2026-11-25T13:25:20.763Z"
+          "away": 0.445,
+          "home": 0.555,
+          "volume": 47781,
+          "at": "2026-11-25T22:33:36.206Z"
         }
       },
       {
