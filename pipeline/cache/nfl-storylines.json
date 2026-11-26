@@ -273,27 +273,27 @@
     }
   },
   "CHI": {
-    "key": "401873071|401873081",
+    "key": "401873081|401873100",
     "result": {
       "abbr": "CHI",
-      "story": "The Bears are 8-2 and have won five straight, most recently beating NO 21-13.",
+      "story": "The Bears beat DET 39-35 on a TD with 3 seconds left and are 9-2 on a six-game win streak.",
       "player": {
-        "name": "Luther Burden III",
-        "pos": "WR",
-        "line": "97 yds and a TD vs TB in Wk 9"
+        "name": "Caleb Williams",
+        "pos": "QB",
+        "line": "345 yds and 2 TD in the win at DET"
       },
       "source": "claude"
     }
   },
   "DET": {
-    "key": "401873072|401873081",
+    "key": "401873081|401873098",
     "result": {
       "abbr": "DET",
-      "story": "The Lions are 8-2 and have won six straight, most recently beating TB 31-21.",
+      "story": "The Lions lost 39-35 to CHI on a TD with 3 seconds left and are 8-3, 2nd in the NFC North.",
       "player": {
         "name": "Jahmyr Gibbs",
         "pos": "RB",
-        "line": "98 yds and 2 TDs on 23 carries vs TB"
+        "line": "205 yds and 3 TD vs CHI"
       },
       "source": "claude"
     }

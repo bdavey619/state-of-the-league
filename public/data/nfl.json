@@ -4,16 +4,23 @@
   "seasonLabel": "2026",
   "week": 12,
   "badge": "WK 12",
-  "kicker": "Week 12 · through Wed, Nov 25",
-  "throughLabel": "through Wed, Nov 25",
+  "kicker": "Week 12 · through Thu, Nov 26",
+  "throughLabel": "through Thu, Nov 26",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-26T13:25:03.437Z",
+  "updatedAt": "2026-11-26T22:21:25.222Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-26T22:21:25.222Z",
+      "abbr": "CHI",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Bears took over first place in the NFC North."
+    },
     {
       "at": "2026-11-26T13:25:03.437Z",
       "abbr": "GB",
@@ -360,30 +367,27 @@
   ],
   "recap": {
     "label": "Week 11 recap",
-    "at": "2026-11-24T05:22:04.325Z",
+    "at": "2026-11-26T22:21:25.222Z",
     "bullets": [
       {
-        "text": "The Browns are 6-4 despite being outscored by 32 points, and the Broncos are 8-2 with a point differential of only +26.",
+        "text": "The Bears took over first place in the NFC North at 9-2, pushing the Lions down to second at 8-3.",
         "teams": [
-          "CLE",
-          "DEN"
+          "CHI",
+          "DET"
         ]
       },
       {
-        "text": "The Ravens have fallen to 4-7 on a long skid, and the 6-4 Steelers have lost two straight while the Bengals lead the AFC North at 7-3.",
+        "text": "The Ravens have lost six straight and sit 4-7, while the Bengals lead the AFC North at 7-3.",
         "teams": [
           "BAL",
-          "PIT",
           "CIN"
         ]
       },
       {
-        "text": "The 49ers and Bills are both 9-1, while the Lions and Bears sit at 8-2 and the Bears have won five straight.",
+        "text": "The Browns are 6-4 despite being outscored by 32 points, while the Texans are 4-6 with a +37 point differential.",
         "teams": [
-          "SF",
-          "BUF",
-          "DET",
-          "CHI"
+          "CLE",
+          "HOU"
         ]
       }
     ]
@@ -391,43 +395,6 @@
   "mustWatch": {
     "window": "this week",
     "games": [
-      {
-        "id": "401873081",
-        "kickoff": "2026-11-26T18:00Z",
-        "network": "CBS",
-        "away": {
-          "abbr": "CHI",
-          "name": "Bears",
-          "color": "#0B162A",
-          "rec": "8-2"
-        },
-        "home": {
-          "abbr": "DET",
-          "name": "Lions",
-          "color": "#0076B6",
-          "rec": "8-2"
-        },
-        "score": 88,
-        "tier": "must",
-        "reasons": [
-          "Top-8 vs top-8",
-          "Projected coin flip",
-          "NFC North lead on the line"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-chi-det-2026-11-26",
-          "slug": "nfl-chi-det-2026-11-26",
-          "marketSlug": "nfl-chi-det-2026-11-26",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.515,
-          "home": 0.485,
-          "volume": 594422,
-          "at": "2026-11-26T13:25:03.437Z"
-        }
-      },
       {
         "id": "401873082",
         "kickoff": "2026-11-27T01:20Z",
@@ -459,10 +426,10 @@
             "away",
             "home"
           ],
-          "away": 0.405,
-          "home": 0.595,
-          "volume": 437882,
-          "at": "2026-11-26T13:25:03.437Z"
+          "away": 0.395,
+          "home": 0.605,
+          "volume": 685069,
+          "at": "2026-11-26T22:21:25.222Z"
         }
       },
       {
@@ -498,8 +465,8 @@
           ],
           "away": 0.425,
           "home": 0.575,
-          "volume": 62973,
-          "at": "2026-11-26T13:25:03.437Z"
+          "volume": 87232,
+          "at": "2026-11-26T22:21:25.222Z"
         }
       },
       {
@@ -524,7 +491,20 @@
           "Two winning teams",
           "Projected coin flip",
           "Broncos have won 6 straight"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-den-pit-2026-11-27",
+          "slug": "nfl-den-pit-2026-11-27",
+          "marketSlug": "nfl-den-pit-2026-11-27",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.675,
+          "home": 0.325,
+          "volume": 597116,
+          "at": "2026-11-26T22:21:25.222Z"
+        }
       },
       {
         "id": "401873094",
@@ -651,6 +631,28 @@
         "score": 36,
         "tier": "other",
         "reasons": []
+      },
+      {
+        "id": "401873089",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "NYJ",
+          "name": "Jets",
+          "color": "#125740",
+          "rec": "3-8"
+        },
+        "home": {
+          "abbr": "MIA",
+          "name": "Dolphins",
+          "color": "#008E97",
+          "rec": "1-9"
+        },
+        "score": 35,
+        "tier": "other",
+        "reasons": [
+          "Projected coin flip"
+        ]
       }
     ]
   },
@@ -1698,26 +1700,65 @@
           "name": "NFC North",
           "teams": [
             {
+              "abbr": "CHI",
+              "city": "Chicago",
+              "name": "Bears",
+              "color": "#0B162A",
+              "w": 9,
+              "l": 2,
+              "t": 0,
+              "pf": 301,
+              "pa": 232,
+              "rank": 4,
+              "heat": "Warm",
+              "last3": [
+                {
+                  "week": 10,
+                  "result": "BYE"
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 21,
+                  "against": 13,
+                  "opp": "NO",
+                  "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "W",
+                  "for": 39,
+                  "against": 35,
+                  "opp": "DET",
+                  "home": false
+                }
+              ],
+              "story": "The Bears beat DET 39-35 on a TD with 3 seconds left and are 9-2 on a six-game win streak.",
+              "player": {
+                "name": "Caleb Williams",
+                "pos": "QB",
+                "line": "345 yds and 2 TD in the win at DET"
+              },
+              "next": {
+                "opp": "JAX",
+                "home": true,
+                "kickoff": "2026-12-06T18:00Z",
+                "network": "Fox"
+              }
+            },
+            {
               "abbr": "DET",
               "city": "Detroit",
               "name": "Lions",
               "color": "#0076B6",
               "w": 8,
-              "l": 2,
+              "l": 3,
               "t": 0,
-              "pf": 288,
-              "pa": 220,
+              "pf": 323,
+              "pa": 259,
               "rank": 7,
-              "heat": "Hot",
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 19,
-                  "against": 9,
-                  "opp": "MIA",
-                  "home": false
-                },
                 {
                   "week": 10,
                   "result": "W",
@@ -1733,65 +1774,26 @@
                   "against": 21,
                   "opp": "TB",
                   "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "L",
+                  "for": 35,
+                  "against": 39,
+                  "opp": "CHI",
+                  "home": true
                 }
               ],
-              "story": "The Lions are 8-2 and have won six straight, most recently beating TB 31-21.",
+              "story": "The Lions lost 39-35 to CHI on a TD with 3 seconds left and are 8-3, 2nd in the NFC North.",
               "player": {
                 "name": "Jahmyr Gibbs",
                 "pos": "RB",
-                "line": "98 yds and 2 TDs on 23 carries vs TB"
+                "line": "205 yds and 3 TD vs CHI"
               },
               "next": {
-                "opp": "CHI",
-                "home": true,
-                "kickoff": "2026-11-26T18:00Z",
-                "network": "CBS"
-              }
-            },
-            {
-              "abbr": "CHI",
-              "city": "Chicago",
-              "name": "Bears",
-              "color": "#0B162A",
-              "w": 8,
-              "l": 2,
-              "t": 0,
-              "pf": 262,
-              "pa": 197,
-              "rank": 4,
-              "heat": "Warm",
-              "last3": [
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 27,
-                  "against": 24,
-                  "opp": "TB",
-                  "home": true
-                },
-                {
-                  "week": 10,
-                  "result": "BYE"
-                },
-                {
-                  "week": 11,
-                  "result": "W",
-                  "for": 21,
-                  "against": 13,
-                  "opp": "NO",
-                  "home": true
-                }
-              ],
-              "story": "The Bears are 8-2 and have won five straight, most recently beating NO 21-13.",
-              "player": {
-                "name": "Luther Burden III",
-                "pos": "WR",
-                "line": "97 yds and a TD vs TB in Wk 9"
-              },
-              "next": {
-                "opp": "DET",
+                "opp": "ATL",
                 "home": false,
-                "kickoff": "2026-11-26T18:00Z",
+                "kickoff": "2026-12-06T18:00Z",
                 "network": "CBS"
               }
             },

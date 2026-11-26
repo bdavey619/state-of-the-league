@@ -364,48 +364,6 @@
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "events": [
     {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "ATL",
-      "kind": "lead",
-      "weight": 5,
-      "text": "The Hawks took over first place in the East Southeast."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "PHI",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The 76ers have won 5 straight."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "NY",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Knicks climbed to No. 12 in the power rankings."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "WSH",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Wizards slid to No. 19 in the power rankings."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "CHA",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Hornets have lost 5 straight."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "LAC",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Clippers have lost 7 straight."
-    },
-    {
       "at": "2026-11-07T18:02:46.907Z",
       "abbr": "OKC",
       "kind": "lead",

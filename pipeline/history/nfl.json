@@ -240,28 +240,28 @@
       "pct": 0.3,
       "seed": 15
     },
-    "DET": {
-      "w": 8,
-      "l": 2,
-      "t": 0,
-      "rank": 7,
-      "heat": "Hot",
-      "place": 1,
-      "division": "NFC North",
-      "streak": "W6",
-      "pct": 0.8,
-      "seed": 2
-    },
     "CHI": {
-      "w": 8,
+      "w": 9,
       "l": 2,
       "t": 0,
       "rank": 4,
       "heat": "Warm",
+      "place": 1,
+      "division": "NFC North",
+      "streak": "W6",
+      "pct": 0.8181818181818182,
+      "seed": 2
+    },
+    "DET": {
+      "w": 8,
+      "l": 3,
+      "t": 0,
+      "rank": 7,
+      "heat": "Warm",
       "place": 2,
       "division": "NFC North",
-      "streak": "W5",
-      "pct": 0.8,
+      "streak": "L1",
+      "pct": 0.7272727272727273,
       "seed": 3
     },
     "MIN": {
@@ -729,35 +729,39 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Rams have won 5 straight."
+    },
+    {
+      "at": "2026-11-26T22:21:25.222Z",
+      "abbr": "CHI",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Bears took over first place in the NFC North."
     }
   ],
   "recap": {
     "key": "wk-11",
     "label": "Week 11 recap",
-    "at": "2026-11-24T05:22:04.325Z",
+    "at": "2026-11-26T22:21:25.222Z",
     "bullets": [
       {
-        "text": "The Browns are 6-4 despite being outscored by 32 points, and the Broncos are 8-2 with a point differential of only +26.",
+        "text": "The Bears took over first place in the NFC North at 9-2, pushing the Lions down to second at 8-3.",
         "teams": [
-          "CLE",
-          "DEN"
+          "CHI",
+          "DET"
         ]
       },
       {
-        "text": "The Ravens have fallen to 4-7 on a long skid, and the 6-4 Steelers have lost two straight while the Bengals lead the AFC North at 7-3.",
+        "text": "The Ravens have lost six straight and sit 4-7, while the Bengals lead the AFC North at 7-3.",
         "teams": [
           "BAL",
-          "PIT",
           "CIN"
         ]
       },
       {
-        "text": "The 49ers and Bills are both 9-1, while the Lions and Bears sit at 8-2 and the Bears have won five straight.",
+        "text": "The Browns are 6-4 despite being outscored by 32 points, while the Texans are 4-6 with a +37 point differential.",
         "teams": [
-          "SF",
-          "BUF",
-          "DET",
-          "CHI"
+          "CLE",
+          "HOU"
         ]
       }
     ],

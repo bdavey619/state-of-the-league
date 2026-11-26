@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-26T13:25:23.278Z",
+  "updatedAt": "2026-11-26T22:21:45.624Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -433,48 +433,6 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Spurs have won 7 straight."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "ATL",
-      "kind": "lead",
-      "weight": 5,
-      "text": "The Hawks took over first place in the East Southeast."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "NY",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Knicks climbed to No. 12 in the power rankings."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "WSH",
-      "kind": "rank",
-      "weight": 3,
-      "text": "The Wizards slid to No. 19 in the power rankings."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "CHA",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Hornets have lost 5 straight."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "LAC",
-      "kind": "streak",
-      "weight": 3,
-      "text": "The Clippers have lost 7 straight."
-    },
-    {
-      "at": "2026-11-05T20:40:28.498Z",
-      "abbr": "PHI",
-      "kind": "streak",
-      "weight": 2,
-      "text": "The 76ers have won 5 straight."
     }
   ],
   "recap": {
@@ -539,10 +497,10 @@
             "away",
             "home"
           ],
-          "away": 0.355,
-          "home": 0.645,
-          "volume": 46280,
-          "at": "2026-11-26T13:25:23.278Z"
+          "away": 0.365,
+          "home": 0.635,
+          "volume": 52096,
+          "at": "2026-11-26T22:21:45.624Z"
         }
       },
       {
@@ -576,10 +534,10 @@
             "away",
             "home"
           ],
-          "away": 0.395,
-          "home": 0.605,
-          "volume": 4374,
-          "at": "2026-11-26T13:25:23.278Z"
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 14056,
+          "at": "2026-11-26T22:21:45.624Z"
         }
       },
       {
@@ -613,10 +571,10 @@
             "away",
             "home"
           ],
-          "away": 0.385,
-          "home": 0.615,
-          "volume": 21372,
-          "at": "2026-11-26T13:25:23.278Z"
+          "away": 0.395,
+          "home": 0.605,
+          "volume": 39020,
+          "at": "2026-11-26T22:21:45.624Z"
         }
       },
       {
@@ -713,6 +671,29 @@
         ]
       },
       {
+        "id": "401910046",
+        "kickoff": "2026-11-28T22:00Z",
+        "network": "MNMT2",
+        "away": {
+          "abbr": "ORL",
+          "name": "Magic",
+          "color": "#0077C0",
+          "rec": "7-10"
+        },
+        "home": {
+          "abbr": "WSH",
+          "name": "Wizards",
+          "color": "#002B5C",
+          "rec": "7-12"
+        },
+        "score": 48,
+        "tier": "other",
+        "reasons": [
+          "Should be close",
+          "Wagner vs Davis"
+        ]
+      },
+      {
         "id": "401909336",
         "kickoff": "2026-11-28T02:30Z",
         "network": "KUNP 16",
@@ -754,28 +735,6 @@
         "tier": "other",
         "reasons": [
           "Scottie Barnes"
-        ]
-      },
-      {
-        "id": "401909327",
-        "kickoff": "2026-11-28T00:30Z",
-        "network": "MyMi",
-        "away": {
-          "abbr": "MIL",
-          "name": "Bucks",
-          "color": "#00471B",
-          "rec": "2-17"
-        },
-        "home": {
-          "abbr": "DET",
-          "name": "Pistons",
-          "color": "#C8102E",
-          "rec": "11-6"
-        },
-        "score": 30,
-        "tier": "other",
-        "reasons": [
-          "Herro vs Cunningham"
         ]
       }
     ]
