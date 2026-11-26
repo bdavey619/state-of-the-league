@@ -4,16 +4,30 @@
   "seasonLabel": "2026",
   "week": 12,
   "badge": "WK 12",
-  "kicker": "Week 12 · through Mon, Nov 23",
-  "throughLabel": "through Mon, Nov 23",
+  "kicker": "Week 12 · through Wed, Nov 25",
+  "throughLabel": "through Wed, Nov 25",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-26T03:38:43.034Z",
+  "updatedAt": "2026-11-26T13:25:03.437Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-26T13:25:03.437Z",
+      "abbr": "GB",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Packers have gone cold."
+    },
+    {
+      "at": "2026-11-26T13:25:03.437Z",
+      "abbr": "LAR",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Rams have won 5 straight."
+    },
     {
       "at": "2026-11-23T13:28:56.460Z",
       "abbr": "SF",
@@ -408,10 +422,10 @@
             "away",
             "home"
           ],
-          "away": 0.525,
-          "home": 0.475,
-          "volume": 161830,
-          "at": "2026-11-26T03:38:43.034Z"
+          "away": 0.515,
+          "home": 0.485,
+          "volume": 594422,
+          "at": "2026-11-26T13:25:03.437Z"
         }
       },
       {
@@ -445,10 +459,10 @@
             "away",
             "home"
           ],
-          "away": 0.415,
-          "home": 0.585,
-          "volume": 131337,
-          "at": "2026-11-26T03:38:43.034Z"
+          "away": 0.405,
+          "home": 0.595,
+          "volume": 437882,
+          "at": "2026-11-26T13:25:03.437Z"
         }
       },
       {
@@ -482,10 +496,10 @@
             "away",
             "home"
           ],
-          "away": 0.435,
-          "home": 0.565,
-          "volume": 58551,
-          "at": "2026-11-26T03:38:43.034Z"
+          "away": 0.425,
+          "home": 0.575,
+          "volume": 62973,
+          "at": "2026-11-26T13:25:03.437Z"
         }
       },
       {
@@ -510,29 +524,6 @@
           "Two winning teams",
           "Projected coin flip",
           "Broncos have won 6 straight"
-        ]
-      },
-      {
-        "id": "401873079",
-        "kickoff": "2026-11-26T01:00Z",
-        "network": "Netflix",
-        "away": {
-          "abbr": "GB",
-          "name": "Packers",
-          "color": "#203731",
-          "rec": "6-4"
-        },
-        "home": {
-          "abbr": "LAR",
-          "name": "Rams",
-          "color": "#003594",
-          "rec": "6-4"
-        },
-        "score": 63,
-        "tier": "other",
-        "reasons": [
-          "Should be close",
-          "Rams have won 4 straight"
         ]
       },
       {
@@ -636,6 +627,26 @@
           "name": "Bengals",
           "color": "#FB4F14",
           "rec": "7-3"
+        },
+        "score": 36,
+        "tier": "other",
+        "reasons": []
+      },
+      {
+        "id": "401873085",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "BAL",
+          "name": "Ravens",
+          "color": "#241773",
+          "rec": "4-7"
+        },
+        "home": {
+          "abbr": "HOU",
+          "name": "Texans",
+          "color": "#03202F",
+          "rec": "4-6"
         },
         "score": 36,
         "tier": "other",
@@ -1841,29 +1852,13 @@
               "name": "Packers",
               "color": "#203731",
               "w": 6,
-              "l": 4,
+              "l": 5,
               "t": 0,
-              "pf": 226,
-              "pa": 221,
+              "pf": 239,
+              "pa": 247,
               "rank": 14,
-              "heat": "Steady",
+              "heat": "Cold",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 27,
-                  "against": 19,
-                  "opp": "CAR",
-                  "home": true
-                },
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 45,
-                  "against": 27,
-                  "opp": "NE",
-                  "home": false
-                },
                 {
                   "week": 10,
                   "result": "L",
@@ -1871,19 +1866,31 @@
                   "against": 30,
                   "opp": "MIN",
                   "home": true
+                },
+                {
+                  "week": 11,
+                  "result": "BYE"
+                },
+                {
+                  "week": 12,
+                  "result": "L",
+                  "for": 13,
+                  "against": 26,
+                  "opp": "LAR",
+                  "home": false
                 }
               ],
-              "story": "The Packers dropped to 6-4 with a 30-10 home loss to MIN, and Jordan Love said the team was frustrated.",
+              "story": "The Packers have lost two straight, 26-13 at LAR, giving up 241 rushing yards to the Rams.",
               "player": {
-                "name": "Christian Watson",
-                "pos": "WR",
-                "line": "171 yds and a TD vs NE in Week 9"
+                "name": "Jordan Love",
+                "pos": "QB",
+                "line": "198 yds, 1 TD and 2 INT in the loss at LAR"
               },
               "next": {
-                "opp": "LAR",
+                "opp": "NO",
                 "home": false,
-                "kickoff": "2026-11-26T01:00Z",
-                "network": "Netflix"
+                "kickoff": "2026-12-06T18:00Z",
+                "network": "Fox"
               }
             }
           ]
@@ -2152,30 +2159,14 @@
               "city": "Los Angeles",
               "name": "Rams",
               "color": "#003594",
-              "w": 6,
+              "w": 7,
               "l": 4,
               "t": 0,
-              "pf": 248,
-              "pa": 187,
+              "pf": 274,
+              "pa": 200,
               "rank": 12,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 8,
-                  "result": "W",
-                  "for": 24,
-                  "against": 9,
-                  "opp": "LAC",
-                  "home": true
-                },
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 20,
-                  "against": 13,
-                  "opp": "WSH",
-                  "home": false
-                },
                 {
                   "week": 10,
                   "result": "W",
@@ -2183,19 +2174,31 @@
                   "against": 6,
                   "opp": "ARI",
                   "home": false
+                },
+                {
+                  "week": 11,
+                  "result": "BYE"
+                },
+                {
+                  "week": 12,
+                  "result": "W",
+                  "for": 26,
+                  "against": 13,
+                  "opp": "GB",
+                  "home": true
                 }
               ],
-              "story": "The Rams have won four straight, including 34-6 at ARI, and are 6-4 and second in the NFC West.",
+              "story": "The Rams have won five straight, beating GB 26-13 after rushing for a season-high 241 yards.",
               "player": {
-                "name": "Matthew Stafford",
-                "pos": "QB",
-                "line": "249 yds and 3 TD vs ARI, with 1 INT"
+                "name": "Blake Corum",
+                "pos": "RB",
+                "line": "32 carries, 184 yds and a TD vs GB"
               },
               "next": {
-                "opp": "GB",
+                "opp": "KC",
                 "home": true,
-                "kickoff": "2026-11-26T01:00Z",
-                "network": "Netflix"
+                "kickoff": "2026-12-04T01:15Z",
+                "network": "Prime Video"
               }
             },
             {

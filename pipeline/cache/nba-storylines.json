@@ -208,14 +208,14 @@
     }
   },
   "POR": {
-    "key": "401910037|401909325",
+    "key": "401909325|401909336",
     "result": {
       "abbr": "POR",
-      "story": "The Trail Blazers are 11-6 with a +110 point differential after beating PHI 128-111 in their latest game.",
+      "story": "The Trail Blazers are 12-6 and have won two straight, beating SA 116-111 on Nov 25.",
       "player": {
         "name": "Deni Avdija",
         "pos": "F",
-        "line": "31 pts with 5 threes vs PHI, 24.3 ppg this season"
+        "line": "33 pts, 12 reb and 7 ast vs SA"
       },
       "source": "claude"
     }
@@ -273,27 +273,27 @@
     }
   },
   "GS": {
-    "key": "401910035|401909324",
+    "key": "401909324|401909336",
     "result": {
       "abbr": "GS",
-      "story": "The Warriors are 9-8 after beating BOS 88-87 to snap a five-game losing streak.",
+      "story": "The Warriors are 10-8 with a +5 point differential, winners of two straight after beating SAC 129-110.",
       "player": {
-        "name": "Brandin Podziemski",
-        "pos": "G",
-        "line": "18 pts and 7 reb vs BOS in the 88-87 win"
+        "name": "Yaxel Lendeborg",
+        "pos": "F",
+        "line": "19 pts, 7.4 reb a game; 15 pts and 8 reb vs SAC"
       },
       "source": "claude"
     }
   },
   "PHX": {
-    "key": "401910042|401909323",
+    "key": "401909323|401909332",
     "result": {
       "abbr": "PHX",
-      "story": "The Suns have won four straight, most recently beating NO 123-119 in OT, yet their point differential is -9.",
+      "story": "The Suns are 9-8 and 7-3 in their last 10, but their point differential is -21 after a 116-104 loss at HOU.",
       "player": {
         "name": "Devin Booker",
         "pos": "G",
-        "line": "24.5 pts per game; 22 pts and 8 ast vs NO"
+        "line": "24.5 pts a game; 25 pts and 5 ast vs HOU"
       },
       "source": "claude"
     }
@@ -312,40 +312,40 @@
     }
   },
   "SAC": {
-    "key": "401910045|401909324",
+    "key": "401909324|401910060",
     "result": {
       "abbr": "SAC",
-      "story": "The Kings are 2-15 with the NBA's worst point differential per game at -12.5.",
+      "story": "The Kings are 2-16 with the NBA's worst point differential per game at -12.9, after a 129-110 loss at GS.",
       "player": {
-        "name": "Domantas Sabonis",
-        "pos": "F",
-        "line": "13.5 reb per game; 20 pts, 12 reb, 8 ast vs SA"
+        "name": "Darius Acuff Jr.",
+        "pos": "G",
+        "line": "24.4 pts, 7.3 ast a game; 22 pts and 9 ast vs GS"
       },
       "source": "claude"
     }
   },
   "HOU": {
-    "key": "401910043|401909323",
+    "key": "401909323|401910050",
     "result": {
       "abbr": "HOU",
-      "story": "The Rockets are 13-5 and beat LAC 116-104 last time out, though they are 6-4 in their last 10.",
+      "story": "The Rockets are 14-5 and beat PHX 116-104 as Kevin Durant reached 33,000 career points.",
       "player": {
-        "name": "Kevin Durant",
-        "pos": "F",
-        "line": "32 pts and 9 reb vs LAC; 21.6 ppg this season"
+        "name": "Alperen Sengun",
+        "pos": "C",
+        "line": "Triple-double vs PHX: 23 pts, 11 reb, 11 ast"
       },
       "source": "claude"
     }
   },
   "SA": {
-    "key": "401910045|401909325",
+    "key": "401909325|401909333",
     "result": {
       "abbr": "SA",
-      "story": "The Spurs are 15-3 with the NBA's best margin at +12.2 per game, winners of three straight.",
+      "story": "The Spurs are 15-4 with the NBA's best point differential (+11.3 a game) but lost 116-111 at POR.",
       "player": {
         "name": "Victor Wembanyama",
         "pos": "F",
-        "line": "50 pts, 19 reb vs NO; expected back vs POR"
+        "line": "44 pts, 16 reb at POR; 30.7 ppg on the season"
       },
       "source": "claude"
     }

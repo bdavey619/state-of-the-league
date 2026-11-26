@@ -299,14 +299,14 @@
     }
   },
   "GB": {
-    "key": "401873060|401873079",
+    "key": "401873079|401873099",
     "result": {
       "abbr": "GB",
-      "story": "The Packers dropped to 6-4 with a 30-10 home loss to MIN, and Jordan Love said the team was frustrated.",
+      "story": "The Packers have lost two straight, 26-13 at LAR, giving up 241 rushing yards to the Rams.",
       "player": {
-        "name": "Christian Watson",
-        "pos": "WR",
-        "line": "171 yds and a TD vs NE in Week 9"
+        "name": "Jordan Love",
+        "pos": "QB",
+        "line": "198 yds, 1 TD and 2 INT in the loss at LAR"
       },
       "source": "claude"
     }
@@ -377,14 +377,14 @@
     }
   },
   "LAR": {
-    "key": "401873061|401873079",
+    "key": "401873079|401873096",
     "result": {
       "abbr": "LAR",
-      "story": "The Rams have won four straight, including 34-6 at ARI, and are 6-4 and second in the NFC West.",
+      "story": "The Rams have won five straight, beating GB 26-13 after rushing for a season-high 241 yards.",
       "player": {
-        "name": "Matthew Stafford",
-        "pos": "QB",
-        "line": "249 yds and 3 TD vs ARI, with 1 INT"
+        "name": "Blake Corum",
+        "pos": "RB",
+        "line": "32 carries, 184 yds and a TD vs GB"
       },
       "source": "claude"
     }

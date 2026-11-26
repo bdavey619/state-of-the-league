@@ -278,14 +278,14 @@
     },
     "GB": {
       "w": 6,
-      "l": 4,
+      "l": 5,
       "t": 0,
       "rank": 14,
-      "heat": "Steady",
+      "heat": "Cold",
       "place": 4,
       "division": "NFC North",
-      "streak": "L1",
-      "pct": 0.6,
+      "streak": "L2",
+      "pct": 0.5454545454545454,
       "seed": 8
     },
     "CAR": {
@@ -349,15 +349,15 @@
       "seed": 1
     },
     "LAR": {
-      "w": 6,
+      "w": 7,
       "l": 4,
       "t": 0,
       "rank": 12,
       "heat": "Hot",
       "place": 2,
       "division": "NFC West",
-      "streak": "W4",
-      "pct": 0.6,
+      "streak": "W5",
+      "pct": 0.6363636363636364,
       "seed": 6
     },
     "SEA": {
@@ -715,6 +715,20 @@
       "kind": "streak",
       "weight": 2,
       "text": "The 49ers have won 3 straight."
+    },
+    {
+      "at": "2026-11-26T13:25:03.437Z",
+      "abbr": "GB",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Packers have gone cold."
+    },
+    {
+      "at": "2026-11-26T13:25:03.437Z",
+      "abbr": "LAR",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Rams have won 5 straight."
     }
   ],
   "recap": {
