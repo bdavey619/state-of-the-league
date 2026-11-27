@@ -388,13 +388,6 @@
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "events": [
     {
-      "at": "2026-11-06T19:57:19.790Z",
-      "abbr": "JAX",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Jaguars are now running hot."
-    },
-    {
       "at": "2026-11-09T00:59:44.113Z",
       "abbr": "NE",
       "kind": "heat",

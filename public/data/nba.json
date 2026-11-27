@@ -10,7 +10,7 @@
   "features": {
     "trends": true
   },
-  "updatedAt": "2026-11-27T13:25:53.492Z",
+  "updatedAt": "2026-11-27T21:58:18.587Z",
   "powerSource": "computed from point differential per game (50%), record (30%) and last 10 games (20%)",
   "aiStorylines": true,
   "changes": [
@@ -467,6 +467,43 @@
     "window": "next 48 hours",
     "games": [
       {
+        "id": "401910051",
+        "kickoff": "2026-11-29T21:00Z",
+        "network": "Spectrum Sports Net",
+        "away": {
+          "abbr": "LAL",
+          "name": "Lakers",
+          "color": "#552583",
+          "rec": "15-3"
+        },
+        "home": {
+          "abbr": "MEM",
+          "name": "Grizzlies",
+          "color": "#5D76A9",
+          "rec": "14-5"
+        },
+        "score": 84,
+        "tier": "must",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Should be close",
+          "West seeding battle"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nba-lal-mem-2026-11-29",
+          "slug": "nba-lal-mem-2026-11-29",
+          "marketSlug": "nba-lal-mem-2026-11-29",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.59,
+          "home": 0.41,
+          "volume": 1115,
+          "at": "2026-11-27T21:58:18.587Z"
+        }
+      },
+      {
         "id": "401909333",
         "kickoff": "2026-11-28T02:30Z",
         "network": "Prime Video",
@@ -499,8 +536,8 @@
           ],
           "away": 0.345,
           "home": 0.655,
-          "volume": 116922,
-          "at": "2026-11-27T13:25:53.492Z"
+          "volume": 672713,
+          "at": "2026-11-27T21:58:18.587Z"
         }
       },
       {
@@ -534,10 +571,10 @@
             "away",
             "home"
           ],
-          "away": 0.385,
-          "home": 0.615,
-          "volume": 67428,
-          "at": "2026-11-27T13:25:53.492Z"
+          "away": 0.415,
+          "home": 0.585,
+          "volume": 400638,
+          "at": "2026-11-27T21:58:18.587Z"
         }
       },
       {
@@ -562,20 +599,31 @@
           "Two winning teams",
           "East seeding battle",
           "Knicks have won 6 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nba-mia-nyk-2026-11-27",
-          "slug": "nba-mia-nyk-2026-11-27",
-          "marketSlug": "nba-mia-nyk-2026-11-27",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.385,
-          "home": 0.615,
-          "volume": 120852,
-          "at": "2026-11-27T13:25:53.492Z"
-        }
+        ]
+      },
+      {
+        "id": "401910052",
+        "kickoff": "2026-11-29T21:00Z",
+        "network": "NBA TV",
+        "away": {
+          "abbr": "BOS",
+          "name": "Celtics",
+          "color": "#007A33",
+          "rec": "12-6"
+        },
+        "home": {
+          "abbr": "SA",
+          "name": "Spurs",
+          "color": "#8A8D8F",
+          "rec": "15-4"
+        },
+        "score": 68,
+        "tier": "worth",
+        "reasons": [
+          "Top-8 vs top-8",
+          "Should be close",
+          "Tatum vs Wembanyama"
+        ]
       },
       {
         "id": "401909330",
@@ -671,72 +719,26 @@
         ]
       },
       {
-        "id": "401909328",
-        "kickoff": "2026-11-28T00:30Z",
-        "network": "",
+        "id": "401910054",
+        "kickoff": "2026-11-29T20:30Z",
+        "network": "DAZN CLE",
         "away": {
-          "abbr": "PHI",
-          "name": "76ers",
-          "color": "#006BB6",
-          "rec": "15-4"
+          "abbr": "MIA",
+          "name": "Heat",
+          "color": "#98002E",
+          "rec": "10-7"
         },
         "home": {
-          "abbr": "IND",
-          "name": "Pacers",
-          "color": "#FDBB30",
-          "rec": "6-12"
+          "abbr": "CLE",
+          "name": "Cavaliers",
+          "color": "#860038",
+          "rec": "9-10"
         },
-        "score": 50,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Maxey vs Siakam"
-        ]
-      },
-      {
-        "id": "401910046",
-        "kickoff": "2026-11-28T22:00Z",
-        "network": "MNMT2",
-        "away": {
-          "abbr": "ORL",
-          "name": "Magic",
-          "color": "#0077C0",
-          "rec": "7-10"
-        },
-        "home": {
-          "abbr": "WSH",
-          "name": "Wizards",
-          "color": "#002B5C",
-          "rec": "7-12"
-        },
-        "score": 48,
+        "score": 52,
         "tier": "other",
         "reasons": [
           "Should be close",
-          "Wagner vs Davis"
-        ]
-      },
-      {
-        "id": "401910048",
-        "kickoff": "2026-11-29T01:00Z",
-        "network": "DAZN IND",
-        "away": {
-          "abbr": "IND",
-          "name": "Pacers",
-          "color": "#FDBB30",
-          "rec": "6-12"
-        },
-        "home": {
-          "abbr": "CHI",
-          "name": "Bulls",
-          "color": "#CE1141",
-          "rec": "6-12"
-        },
-        "score": 46,
-        "tier": "other",
-        "reasons": [
-          "Projected coin flip",
-          "Pascal Siakam"
+          "Antetokounmpo vs Mitchell"
         ]
       }
     ]

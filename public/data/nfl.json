@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-27T13:25:19.225Z",
+  "updatedAt": "2026-11-27T21:58:14.835Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
@@ -370,13 +370,6 @@
       "kind": "streak",
       "weight": 2,
       "text": "The Rams have won 3 straight."
-    },
-    {
-      "at": "2026-11-06T19:57:19.790Z",
-      "abbr": "JAX",
-      "kind": "heat",
-      "weight": 3,
-      "text": "The Jaguars are now running hot."
     }
   ],
   "recap": {
@@ -441,10 +434,10 @@
             "away",
             "home"
           ],
-          "away": 0.51,
-          "home": 0.49,
-          "volume": 30901,
-          "at": "2026-11-27T13:25:19.225Z"
+          "away": 0.505,
+          "home": 0.495,
+          "volume": 38716,
+          "at": "2026-11-27T21:58:14.835Z"
         }
       },
       {
@@ -478,10 +471,10 @@
             "away",
             "home"
           ],
-          "away": 0.425,
-          "home": 0.575,
-          "volume": 92616,
-          "at": "2026-11-27T13:25:19.225Z"
+          "away": 0.455,
+          "home": 0.545,
+          "volume": 125178,
+          "at": "2026-11-27T21:58:14.835Z"
         }
       },
       {
@@ -515,10 +508,10 @@
             "away",
             "home"
           ],
-          "away": 0.685,
-          "home": 0.315,
-          "volume": 800956,
-          "at": "2026-11-27T13:25:19.225Z"
+          "away": 0.075,
+          "home": 0.925,
+          "volume": 7512470,
+          "at": "2026-11-27T21:58:14.835Z"
         }
       },
       {
