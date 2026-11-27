@@ -221,14 +221,14 @@
     }
   },
   "DAL": {
-    "key": "401873073|401873080",
+    "key": "401873080|401873108",
     "result": {
       "abbr": "DAL",
-      "story": "The Cowboys are 5-6 but lead the NFL with 337 points scored, after beating TEN 51-30.",
+      "story": "The Cowboys are 5-7 despite a +24 point differential and just lost 39-38 to PHI after leading by 21.",
       "player": {
-        "name": "Dak Prescott",
-        "pos": "QB",
-        "line": "28/33, 325 yds and 4 TD vs TEN"
+        "name": "Javonte Williams",
+        "pos": "RB",
+        "line": "101 rushing yds and 2 TD vs PHI in Wk 12"
       },
       "source": "claude"
     }
@@ -247,14 +247,14 @@
     }
   },
   "PHI": {
-    "key": "401873076|401873080",
+    "key": "401873080|401873104",
     "result": {
       "abbr": "PHI",
-      "story": "The Eagles are 3-7 with a -70 point differential, but beat PIT 19-16 in Week 11.",
+      "story": "The Eagles are 4-7 but have won two straight, beating DAL 39-38 on a 59-yard field goal.",
       "player": {
-        "name": "Saquon Barkley",
-        "pos": "RB",
-        "line": "17 carries, 75 yds and a TD vs PIT"
+        "name": "DeVonta Smith",
+        "pos": "WR",
+        "line": "11 catches, 200 yds and 2 TD vs DAL in Wk 12"
       },
       "source": "claude"
     }

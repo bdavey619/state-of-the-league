@@ -10,7 +10,7 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-26T22:21:25.222Z",
+  "updatedAt": "2026-11-27T03:40:02.825Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
@@ -426,10 +426,47 @@
             "away",
             "home"
           ],
-          "away": 0.395,
-          "home": 0.605,
-          "volume": 685069,
-          "at": "2026-11-26T22:21:25.222Z"
+          "away": 0.455,
+          "home": 0.545,
+          "volume": 5955843,
+          "at": "2026-11-27T03:40:02.825Z"
+        }
+      },
+      {
+        "id": "401873096",
+        "kickoff": "2026-12-04T01:15Z",
+        "network": "Prime Video",
+        "away": {
+          "abbr": "KC",
+          "name": "Chiefs",
+          "color": "#E31837",
+          "rec": "8-2"
+        },
+        "home": {
+          "abbr": "LAR",
+          "name": "Rams",
+          "color": "#003594",
+          "rec": "7-4"
+        },
+        "score": 78,
+        "tier": "worth",
+        "reasons": [
+          "Two winning teams",
+          "Projected coin flip",
+          "Chiefs have won 3 straight"
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-kc-la-2026-12-04",
+          "slug": "nfl-kc-la-2026-12-04",
+          "marketSlug": "nfl-kc-la-2026-12-04",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.51,
+          "home": 0.49,
+          "volume": 30017,
+          "at": "2026-11-27T03:40:02.825Z"
         }
       },
       {
@@ -465,8 +502,8 @@
           ],
           "away": 0.425,
           "home": 0.575,
-          "volume": 87232,
-          "at": "2026-11-26T22:21:25.222Z"
+          "volume": 87619,
+          "at": "2026-11-27T03:40:02.825Z"
         }
       },
       {
@@ -491,20 +528,7 @@
           "Two winning teams",
           "Projected coin flip",
           "Broncos have won 6 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-den-pit-2026-11-27",
-          "slug": "nfl-den-pit-2026-11-27",
-          "marketSlug": "nfl-den-pit-2026-11-27",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.675,
-          "home": 0.325,
-          "volume": 597116,
-          "at": "2026-11-26T22:21:25.222Z"
-        }
+        ]
       },
       {
         "id": "401873094",
@@ -571,26 +595,6 @@
         "reasons": [
           "Should be close"
         ]
-      },
-      {
-        "id": "401873080",
-        "kickoff": "2026-11-26T21:30Z",
-        "network": "Fox",
-        "away": {
-          "abbr": "PHI",
-          "name": "Eagles",
-          "color": "#004C54",
-          "rec": "3-7"
-        },
-        "home": {
-          "abbr": "DAL",
-          "name": "Cowboys",
-          "color": "#003594",
-          "rec": "5-6"
-        },
-        "score": 39,
-        "tier": "other",
-        "reasons": []
       },
       {
         "id": "401873087",
@@ -1546,57 +1550,6 @@
               }
             },
             {
-              "abbr": "DAL",
-              "city": "Dallas",
-              "name": "Cowboys",
-              "color": "#003594",
-              "w": 5,
-              "l": 6,
-              "t": 0,
-              "pf": 337,
-              "pa": 312,
-              "rank": 18,
-              "heat": "Warm",
-              "last3": [
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 27,
-                  "against": 23,
-                  "opp": "IND",
-                  "home": false
-                },
-                {
-                  "week": 10,
-                  "result": "L",
-                  "for": 40,
-                  "against": 46,
-                  "opp": "SF",
-                  "home": true
-                },
-                {
-                  "week": 11,
-                  "result": "W",
-                  "for": 51,
-                  "against": 30,
-                  "opp": "TEN",
-                  "home": true
-                }
-              ],
-              "story": "The Cowboys are 5-6 but lead the NFL with 337 points scored, after beating TEN 51-30.",
-              "player": {
-                "name": "Dak Prescott",
-                "pos": "QB",
-                "line": "28/33, 325 yds and 4 TD vs TEN"
-              },
-              "next": {
-                "opp": "PHI",
-                "home": true,
-                "kickoff": "2026-11-26T21:30Z",
-                "network": "Fox"
-              }
-            },
-            {
               "abbr": "WSH",
               "city": "Washington",
               "name": "Commanders",
@@ -1648,26 +1601,69 @@
               }
             },
             {
+              "abbr": "DAL",
+              "city": "Dallas",
+              "name": "Cowboys",
+              "color": "#003594",
+              "w": 5,
+              "l": 7,
+              "t": 0,
+              "pf": 375,
+              "pa": 351,
+              "rank": 18,
+              "heat": "Steady",
+              "last3": [
+                {
+                  "week": 10,
+                  "result": "L",
+                  "for": 40,
+                  "against": 46,
+                  "opp": "SF",
+                  "home": true
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 51,
+                  "against": 30,
+                  "opp": "TEN",
+                  "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "L",
+                  "for": 38,
+                  "against": 39,
+                  "opp": "PHI",
+                  "home": true
+                }
+              ],
+              "story": "The Cowboys are 5-7 despite a +24 point differential and just lost 39-38 to PHI after leading by 21.",
+              "player": {
+                "name": "Javonte Williams",
+                "pos": "RB",
+                "line": "101 rushing yds and 2 TD vs PHI in Wk 12"
+              },
+              "next": {
+                "opp": "SEA",
+                "home": false,
+                "kickoff": "2026-12-08T01:15Z",
+                "network": "ESPN"
+              }
+            },
+            {
               "abbr": "PHI",
               "city": "Philadelphia",
               "name": "Eagles",
               "color": "#004C54",
-              "w": 3,
+              "w": 4,
               "l": 7,
               "t": 0,
-              "pf": 167,
-              "pa": 237,
+              "pf": 206,
+              "pa": 275,
               "rank": 27,
-              "heat": "Steady",
+              "heat": "Warm",
               "last3": [
-                {
-                  "week": 9,
-                  "result": "L",
-                  "for": 11,
-                  "against": 19,
-                  "opp": "NYG",
-                  "home": true
-                },
                 {
                   "week": 10,
                   "result": "BYE"
@@ -1679,18 +1675,26 @@
                   "against": 16,
                   "opp": "PIT",
                   "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "W",
+                  "for": 39,
+                  "against": 38,
+                  "opp": "DAL",
+                  "home": false
                 }
               ],
-              "story": "The Eagles are 3-7 with a -70 point differential, but beat PIT 19-16 in Week 11.",
+              "story": "The Eagles are 4-7 but have won two straight, beating DAL 39-38 on a 59-yard field goal.",
               "player": {
-                "name": "Saquon Barkley",
-                "pos": "RB",
-                "line": "17 carries, 75 yds and a TD vs PIT"
+                "name": "DeVonta Smith",
+                "pos": "WR",
+                "line": "11 catches, 200 yds and 2 TD vs DAL in Wk 12"
               },
               "next": {
-                "opp": "DAL",
+                "opp": "ARI",
                 "home": false,
-                "kickoff": "2026-11-26T21:30Z",
+                "kickoff": "2026-12-06T21:05Z",
                 "network": "Fox"
               }
             }
