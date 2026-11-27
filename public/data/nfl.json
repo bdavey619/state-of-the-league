@@ -10,10 +10,24 @@
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-27T03:40:02.825Z",
+  "updatedAt": "2026-11-27T13:25:19.225Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-27T13:25:19.225Z",
+      "abbr": "DEN",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Broncos took over first place in the AFC West."
+    },
+    {
+      "at": "2026-11-27T13:25:19.225Z",
+      "abbr": "BUF",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bills have won 7 straight."
+    },
     {
       "at": "2026-11-26T22:21:25.222Z",
       "abbr": "CHI",
@@ -367,7 +381,7 @@
   ],
   "recap": {
     "label": "Week 11 recap",
-    "at": "2026-11-26T22:21:25.222Z",
+    "at": "2026-11-27T13:25:19.225Z",
     "bullets": [
       {
         "text": "The Bears took over first place in the NFC North at 9-2, pushing the Lions down to second at 8-3.",
@@ -377,17 +391,18 @@
         ]
       },
       {
-        "text": "The Ravens have lost six straight and sit 4-7, while the Bengals lead the AFC North at 7-3.",
+        "text": "Records and margins disagree: the Browns are 6-4 while being outscored, and the Texans (4-6) and Cowboys (5-7) are both in the plus.",
         "teams": [
-          "BAL",
-          "CIN"
+          "CLE",
+          "HOU",
+          "DAL"
         ]
       },
       {
-        "text": "The Browns are 6-4 despite being outscored by 32 points, while the Texans are 4-6 with a +37 point differential.",
+        "text": "The Ravens have lost six straight and sit 4-7 in the AFC North, a collapse that leaves them well behind the 7-3 Bengals.",
         "teams": [
-          "CLE",
-          "HOU"
+          "BAL",
+          "CIN"
         ]
       }
     ]
@@ -396,43 +411,6 @@
     "window": "this week",
     "games": [
       {
-        "id": "401873082",
-        "kickoff": "2026-11-27T01:20Z",
-        "network": "NBC",
-        "away": {
-          "abbr": "KC",
-          "name": "Chiefs",
-          "color": "#E31837",
-          "rec": "8-2"
-        },
-        "home": {
-          "abbr": "BUF",
-          "name": "Bills",
-          "color": "#00338D",
-          "rec": "9-1"
-        },
-        "score": 85,
-        "tier": "must",
-        "reasons": [
-          "Top-8 vs top-8",
-          "Projected coin flip",
-          "Chiefs have won 3 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-kc-buf-2026-11-27",
-          "slug": "nfl-kc-buf-2026-11-27",
-          "marketSlug": "nfl-kc-buf-2026-11-27",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.455,
-          "home": 0.545,
-          "volume": 5955843,
-          "at": "2026-11-27T03:40:02.825Z"
-        }
-      },
-      {
         "id": "401873096",
         "kickoff": "2026-12-04T01:15Z",
         "network": "Prime Video",
@@ -440,7 +418,7 @@
           "abbr": "KC",
           "name": "Chiefs",
           "color": "#E31837",
-          "rec": "8-2"
+          "rec": "8-3"
         },
         "home": {
           "abbr": "LAR",
@@ -448,12 +426,12 @@
           "color": "#003594",
           "rec": "7-4"
         },
-        "score": 78,
+        "score": 77,
         "tier": "worth",
         "reasons": [
           "Two winning teams",
           "Projected coin flip",
-          "Chiefs have won 3 straight"
+          "Rams have won 5 straight"
         ],
         "polymarket": {
           "url": "https://polymarket.com/event/nfl-kc-la-2026-12-04",
@@ -465,8 +443,8 @@
           ],
           "away": 0.51,
           "home": 0.49,
-          "volume": 30017,
-          "at": "2026-11-27T03:40:02.825Z"
+          "volume": 30901,
+          "at": "2026-11-27T13:25:19.225Z"
         }
       },
       {
@@ -502,8 +480,8 @@
           ],
           "away": 0.425,
           "home": 0.575,
-          "volume": 87619,
-          "at": "2026-11-27T03:40:02.825Z"
+          "volume": 92616,
+          "at": "2026-11-27T13:25:19.225Z"
         }
       },
       {
@@ -528,7 +506,20 @@
           "Two winning teams",
           "Projected coin flip",
           "Broncos have won 6 straight"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-den-pit-2026-11-27",
+          "slug": "nfl-den-pit-2026-11-27",
+          "marketSlug": "nfl-den-pit-2026-11-27",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.685,
+          "home": 0.315,
+          "volume": 800956,
+          "at": "2026-11-27T13:25:19.225Z"
+        }
       },
       {
         "id": "401873094",
@@ -657,6 +648,26 @@
         "reasons": [
           "Projected coin flip"
         ]
+      },
+      {
+        "id": "401873084",
+        "kickoff": "2026-11-29T18:00Z",
+        "network": "Fox",
+        "away": {
+          "abbr": "ATL",
+          "name": "Falcons",
+          "color": "#A71930",
+          "rec": "3-7"
+        },
+        "home": {
+          "abbr": "MIN",
+          "name": "Vikings",
+          "color": "#4F2683",
+          "rec": "7-3"
+        },
+        "score": 35,
+        "tier": "other",
+        "reasons": []
       }
     ]
   },
@@ -673,22 +684,14 @@
               "city": "Buffalo",
               "name": "Bills",
               "color": "#00338D",
-              "w": 9,
+              "w": 10,
               "l": 1,
               "t": 0,
-              "pf": 313,
-              "pa": 208,
+              "pf": 326,
+              "pa": 218,
               "rank": 2,
               "heat": "Hot",
               "last3": [
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 23,
-                  "against": 6,
-                  "opp": "MIN",
-                  "home": false
-                },
                 {
                   "week": 10,
                   "result": "W",
@@ -704,19 +707,27 @@
                   "against": 9,
                   "opp": "MIA",
                   "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "W",
+                  "for": 13,
+                  "against": 10,
+                  "opp": "KC",
+                  "home": true
                 }
               ],
-              "story": "The Bills are 9-1 and have won 6 straight, most recently beating MIA 26-9.",
+              "story": "The Bills have won seven straight, beating KC 13-10 while Josh Allen threw for only 81 yards.",
               "player": {
                 "name": "James Cook III",
                 "pos": "RB",
-                "line": "89 yds and a TD vs MIA in Wk 11"
+                "line": "117 yds and a TD on 32 carries vs KC"
               },
               "next": {
-                "opp": "KC",
-                "home": true,
-                "kickoff": "2026-11-27T01:20Z",
-                "network": "NBC"
+                "opp": "NE",
+                "home": false,
+                "kickoff": "2026-12-06T21:25Z",
+                "network": "CBS"
               }
             },
             {
@@ -1288,57 +1299,6 @@
           "name": "AFC West",
           "teams": [
             {
-              "abbr": "KC",
-              "city": "Kansas City",
-              "name": "Chiefs",
-              "color": "#E31837",
-              "w": 8,
-              "l": 2,
-              "t": 0,
-              "pf": 271,
-              "pa": 163,
-              "rank": 5,
-              "heat": "Hot",
-              "last3": [
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 35,
-                  "against": 12,
-                  "opp": "NYJ",
-                  "home": true
-                },
-                {
-                  "week": 10,
-                  "result": "W",
-                  "for": 35,
-                  "against": 13,
-                  "opp": "ATL",
-                  "home": false
-                },
-                {
-                  "week": 11,
-                  "result": "W",
-                  "for": 34,
-                  "against": 7,
-                  "opp": "ARI",
-                  "home": true
-                }
-              ],
-              "story": "The Chiefs are 8-2 and atop the AFC West, with three straight wins, the latest a 34-7 win over ARI.",
-              "player": {
-                "name": "Patrick Mahomes",
-                "pos": "QB",
-                "line": "27/39, 324 yds and 3 TD vs ARI"
-              },
-              "next": {
-                "opp": "BUF",
-                "home": false,
-                "kickoff": "2026-11-27T01:20Z",
-                "network": "NBC"
-              }
-            },
-            {
               "abbr": "DEN",
               "city": "Denver",
               "name": "Broncos",
@@ -1382,6 +1342,57 @@
                 "opp": "PIT",
                 "home": false,
                 "kickoff": "2026-11-27T20:00Z",
+                "network": "Prime Video"
+              }
+            },
+            {
+              "abbr": "KC",
+              "city": "Kansas City",
+              "name": "Chiefs",
+              "color": "#E31837",
+              "w": 8,
+              "l": 3,
+              "t": 0,
+              "pf": 281,
+              "pa": 176,
+              "rank": 5,
+              "heat": "Warm",
+              "last3": [
+                {
+                  "week": 10,
+                  "result": "W",
+                  "for": 35,
+                  "against": 13,
+                  "opp": "ATL",
+                  "home": false
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 34,
+                  "against": 7,
+                  "opp": "ARI",
+                  "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "L",
+                  "for": 10,
+                  "against": 13,
+                  "opp": "BUF",
+                  "home": false
+                }
+              ],
+              "story": "The Chiefs are 8-3 but lost 13-10 at BUF on a 57-yard field goal as time expired.",
+              "player": {
+                "name": "Patrick Mahomes",
+                "pos": "QB",
+                "line": "16/29 for 174 yds in the 13-10 loss at BUF"
+              },
+              "next": {
+                "opp": "LAR",
+                "home": false,
+                "kickoff": "2026-12-04T01:15Z",
                 "network": "Prime Video"
               }
             },

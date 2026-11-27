@@ -1,13 +1,13 @@
 {
   "BUF": {
-    "key": "401873070|401873082",
+    "key": "401873082|401873105",
     "result": {
       "abbr": "BUF",
-      "story": "The Bills are 9-1 and have won 6 straight, most recently beating MIA 26-9.",
+      "story": "The Bills have won seven straight, beating KC 13-10 while Josh Allen threw for only 81 yards.",
       "player": {
         "name": "James Cook III",
         "pos": "RB",
-        "line": "89 yds and a TD vs MIA in Wk 11"
+        "line": "117 yds and a TD on 32 carries vs KC"
       },
       "source": "claude"
     }
@@ -169,14 +169,14 @@
     }
   },
   "KC": {
-    "key": "401873067|401873082",
+    "key": "401873082|401873096",
     "result": {
       "abbr": "KC",
-      "story": "The Chiefs are 8-2 and atop the AFC West, with three straight wins, the latest a 34-7 win over ARI.",
+      "story": "The Chiefs are 8-3 but lost 13-10 at BUF on a 57-yard field goal as time expired.",
       "player": {
         "name": "Patrick Mahomes",
         "pos": "QB",
-        "line": "27/39, 324 yds and 3 TD vs ARI"
+        "line": "16/29 for 174 yds in the 13-10 loss at BUF"
       },
       "source": "claude"
     }

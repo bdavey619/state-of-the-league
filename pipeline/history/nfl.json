@@ -1,15 +1,15 @@
 {
   "snapshot": {
     "BUF": {
-      "w": 9,
+      "w": 10,
       "l": 1,
       "t": 0,
       "rank": 2,
       "heat": "Hot",
       "place": 1,
       "division": "AFC East",
-      "streak": "W6",
-      "pct": 0.9,
+      "streak": "W7",
+      "pct": 0.9090909090909091,
       "seed": 1
     },
     "NE": {
@@ -144,28 +144,28 @@
       "pct": 0.1,
       "seed": 15
     },
-    "KC": {
-      "w": 8,
-      "l": 2,
-      "t": 0,
-      "rank": 5,
-      "heat": "Hot",
-      "place": 1,
-      "division": "AFC West",
-      "streak": "W3",
-      "pct": 0.8,
-      "seed": 2
-    },
     "DEN": {
       "w": 8,
       "l": 2,
       "t": 0,
       "rank": 3,
       "heat": "Warm",
-      "place": 2,
+      "place": 1,
       "division": "AFC West",
       "streak": "W6",
       "pct": 0.8,
+      "seed": 2
+    },
+    "KC": {
+      "w": 8,
+      "l": 3,
+      "t": 0,
+      "rank": 5,
+      "heat": "Warm",
+      "place": 2,
+      "division": "AFC West",
+      "streak": "L1",
+      "pct": 0.7272727272727273,
       "seed": 3
     },
     "LV": {
@@ -736,12 +736,26 @@
       "kind": "lead",
       "weight": 5,
       "text": "The Bears took over first place in the NFC North."
+    },
+    {
+      "at": "2026-11-27T13:25:19.225Z",
+      "abbr": "DEN",
+      "kind": "lead",
+      "weight": 5,
+      "text": "The Broncos took over first place in the AFC West."
+    },
+    {
+      "at": "2026-11-27T13:25:19.225Z",
+      "abbr": "BUF",
+      "kind": "streak",
+      "weight": 2,
+      "text": "The Bills have won 7 straight."
     }
   ],
   "recap": {
     "key": "wk-11",
     "label": "Week 11 recap",
-    "at": "2026-11-26T22:21:25.222Z",
+    "at": "2026-11-27T13:25:19.225Z",
     "bullets": [
       {
         "text": "The Bears took over first place in the NFC North at 9-2, pushing the Lions down to second at 8-3.",
@@ -751,17 +765,18 @@
         ]
       },
       {
-        "text": "The Ravens have lost six straight and sit 4-7, while the Bengals lead the AFC North at 7-3.",
+        "text": "Records and margins disagree: the Browns are 6-4 while being outscored, and the Texans (4-6) and Cowboys (5-7) are both in the plus.",
         "teams": [
-          "BAL",
-          "CIN"
+          "CLE",
+          "HOU",
+          "DAL"
         ]
       },
       {
-        "text": "The Browns are 6-4 despite being outscored by 32 points, while the Texans are 4-6 with a +37 point differential.",
+        "text": "The Ravens have lost six straight and sit 4-7 in the AFC North, a collapse that leaves them well behind the 7-3 Bengals.",
         "teams": [
-          "CLE",
-          "HOU"
+          "BAL",
+          "CIN"
         ]
       }
     ],
