@@ -4,16 +4,23 @@
   "seasonLabel": "2026",
   "week": 12,
   "badge": "WK 12",
-  "kicker": "Week 12 · through Thu, Nov 26",
-  "throughLabel": "through Thu, Nov 26",
+  "kicker": "Week 12 · through Fri, Nov 27",
+  "throughLabel": "through Fri, Nov 27",
   "formNote": "Hot/cold reads each team's last three weeks, weighting the latest game most and factoring in margin.",
   "features": {
     "trends": false
   },
-  "updatedAt": "2026-11-27T21:58:14.835Z",
+  "updatedAt": "2026-11-28T03:21:17.352Z",
   "powerSource": "The Arizona Republic, Jeremy Cluff (Week 12, Nov 23)",
   "aiStorylines": true,
   "changes": [
+    {
+      "at": "2026-11-28T03:21:17.352Z",
+      "abbr": "PIT",
+      "kind": "heat",
+      "weight": 3,
+      "text": "The Steelers have warmed up after a rough stretch."
+    },
     {
       "at": "2026-11-27T13:25:19.225Z",
       "abbr": "DEN",
@@ -436,8 +443,8 @@
           ],
           "away": 0.505,
           "home": 0.495,
-          "volume": 38716,
-          "at": "2026-11-27T21:58:14.835Z"
+          "volume": 50338,
+          "at": "2026-11-28T03:21:17.352Z"
         }
       },
       {
@@ -471,47 +478,10 @@
             "away",
             "home"
           ],
-          "away": 0.455,
-          "home": 0.545,
-          "volume": 125178,
-          "at": "2026-11-27T21:58:14.835Z"
-        }
-      },
-      {
-        "id": "401873083",
-        "kickoff": "2026-11-27T20:00Z",
-        "network": "Prime Video",
-        "away": {
-          "abbr": "DEN",
-          "name": "Broncos",
-          "color": "#FB4F14",
-          "rec": "8-2"
-        },
-        "home": {
-          "abbr": "PIT",
-          "name": "Steelers",
-          "color": "#FFB612",
-          "rec": "6-4"
-        },
-        "score": 69,
-        "tier": "worth",
-        "reasons": [
-          "Two winning teams",
-          "Projected coin flip",
-          "Broncos have won 6 straight"
-        ],
-        "polymarket": {
-          "url": "https://polymarket.com/event/nfl-den-pit-2026-11-27",
-          "slug": "nfl-den-pit-2026-11-27",
-          "marketSlug": "nfl-den-pit-2026-11-27",
-          "sides": [
-            "away",
-            "home"
-          ],
-          "away": 0.075,
-          "home": 0.925,
-          "volume": 7512470,
-          "at": "2026-11-27T21:58:14.835Z"
+          "away": 0.525,
+          "home": 0.475,
+          "volume": 195213,
+          "at": "2026-11-28T03:21:17.352Z"
         }
       },
       {
@@ -534,7 +504,20 @@
         "tier": "other",
         "reasons": [
           "Should be close"
-        ]
+        ],
+        "polymarket": {
+          "url": "https://polymarket.com/event/nfl-car-tb-2026-12-01",
+          "slug": "nfl-car-tb-2026-12-01",
+          "marketSlug": "nfl-car-tb-2026-12-01",
+          "sides": [
+            "away",
+            "home"
+          ],
+          "away": 0.395,
+          "home": 0.605,
+          "volume": 46143,
+          "at": "2026-11-28T03:21:17.352Z"
+        }
       },
       {
         "id": "401873086",
@@ -661,6 +644,28 @@
         "score": 35,
         "tier": "other",
         "reasons": []
+      },
+      {
+        "id": "401873093",
+        "kickoff": "2026-11-29T21:05Z",
+        "network": "CBS",
+        "away": {
+          "abbr": "NE",
+          "name": "Patriots",
+          "color": "#002244",
+          "rec": "5-5"
+        },
+        "home": {
+          "abbr": "LAC",
+          "name": "Chargers",
+          "color": "#0080C6",
+          "rec": "1-9"
+        },
+        "score": 32,
+        "tier": "other",
+        "reasons": [
+          "Should be close"
+        ]
       }
     ]
   },
@@ -937,18 +942,14 @@
               "city": "Pittsburgh",
               "name": "Steelers",
               "color": "#FFB612",
-              "w": 6,
+              "w": 7,
               "l": 4,
               "t": 0,
-              "pf": 214,
-              "pa": 201,
+              "pf": 241,
+              "pa": 206,
               "rank": 15,
-              "heat": "Cold",
+              "heat": "Steady",
               "last3": [
-                {
-                  "week": 9,
-                  "result": "BYE"
-                },
                 {
                   "week": 10,
                   "result": "L",
@@ -964,19 +965,27 @@
                   "against": 19,
                   "opp": "PHI",
                   "home": false
+                },
+                {
+                  "week": 12,
+                  "result": "W",
+                  "for": 27,
+                  "against": 5,
+                  "opp": "DEN",
+                  "home": true
                 }
               ],
-              "story": "The Steelers have lost two straight, 38-18 at CIN and 19-16 at PHI, and sit 6-4 in the AFC North.",
+              "story": "The Steelers beat DEN 27-5 with two defensive TDs and are 7-4, second in the AFC North.",
               "player": {
-                "name": "Aaron Rodgers",
-                "pos": "QB",
-                "line": "227 yds and a TD in the 19-16 loss at PHI"
+                "name": "Rico Dowdle",
+                "pos": "RB",
+                "line": "11 carries, 71 yds in the 27-5 win over DEN"
               },
               "next": {
-                "opp": "DEN",
+                "opp": "HOU",
                 "home": true,
-                "kickoff": "2026-11-27T20:00Z",
-                "network": "Prime Video"
+                "kickoff": "2026-12-07T01:20Z",
+                "network": "NBC"
               }
             },
             {
@@ -1292,53 +1301,6 @@
           "name": "AFC West",
           "teams": [
             {
-              "abbr": "DEN",
-              "city": "Denver",
-              "name": "Broncos",
-              "color": "#FB4F14",
-              "w": 8,
-              "l": 2,
-              "t": 0,
-              "pf": 236,
-              "pa": 210,
-              "rank": 3,
-              "heat": "Warm",
-              "last3": [
-                {
-                  "week": 9,
-                  "result": "W",
-                  "for": 26,
-                  "against": 21,
-                  "opp": "CAR",
-                  "home": false
-                },
-                {
-                  "week": 10,
-                  "result": "BYE"
-                },
-                {
-                  "week": 11,
-                  "result": "W",
-                  "for": 38,
-                  "against": 24,
-                  "opp": "LV",
-                  "home": true
-                }
-              ],
-              "story": "The Broncos have won six straight and are 8-2, though their point differential is only +26.",
-              "player": {
-                "name": "Jonah Coleman",
-                "pos": "RB",
-                "line": "111 yds and 3 TD vs LV last week"
-              },
-              "next": {
-                "opp": "PIT",
-                "home": false,
-                "kickoff": "2026-11-27T20:00Z",
-                "network": "Prime Video"
-              }
-            },
-            {
               "abbr": "KC",
               "city": "Kansas City",
               "name": "Chiefs",
@@ -1387,6 +1349,53 @@
                 "home": false,
                 "kickoff": "2026-12-04T01:15Z",
                 "network": "Prime Video"
+              }
+            },
+            {
+              "abbr": "DEN",
+              "city": "Denver",
+              "name": "Broncos",
+              "color": "#FB4F14",
+              "w": 8,
+              "l": 3,
+              "t": 0,
+              "pf": 241,
+              "pa": 237,
+              "rank": 3,
+              "heat": "Steady",
+              "last3": [
+                {
+                  "week": 10,
+                  "result": "BYE"
+                },
+                {
+                  "week": 11,
+                  "result": "W",
+                  "for": 38,
+                  "against": 24,
+                  "opp": "LV",
+                  "home": true
+                },
+                {
+                  "week": 12,
+                  "result": "L",
+                  "for": 5,
+                  "against": 27,
+                  "opp": "PIT",
+                  "home": false
+                }
+              ],
+              "story": "The Broncos are 8-3 with a +4 point differential after a 27-5 loss at PIT.",
+              "player": {
+                "name": "Bo Nix",
+                "pos": "QB",
+                "line": "169 yds and 2 INT in the 27-5 loss at PIT"
+              },
+              "next": {
+                "opp": "MIA",
+                "home": true,
+                "kickoff": "2026-12-06T21:05Z",
+                "network": "Fox"
               }
             },
             {

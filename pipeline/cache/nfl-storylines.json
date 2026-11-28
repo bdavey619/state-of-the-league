@@ -52,14 +52,14 @@
     }
   },
   "PIT": {
-    "key": "401873076|401873083",
+    "key": "401873083|401873107",
     "result": {
       "abbr": "PIT",
-      "story": "The Steelers have lost two straight, 38-18 at CIN and 19-16 at PHI, and sit 6-4 in the AFC North.",
+      "story": "The Steelers beat DEN 27-5 with two defensive TDs and are 7-4, second in the AFC North.",
       "player": {
-        "name": "Aaron Rodgers",
-        "pos": "QB",
-        "line": "227 yds and a TD in the 19-16 loss at PHI"
+        "name": "Rico Dowdle",
+        "pos": "RB",
+        "line": "11 carries, 71 yds in the 27-5 win over DEN"
       },
       "source": "claude"
     }
@@ -156,14 +156,14 @@
     }
   },
   "DEN": {
-    "key": "401873075|401873083",
+    "key": "401873083|401873103",
     "result": {
       "abbr": "DEN",
-      "story": "The Broncos have won six straight and are 8-2, though their point differential is only +26.",
+      "story": "The Broncos are 8-3 with a +4 point differential after a 27-5 loss at PIT.",
       "player": {
-        "name": "Jonah Coleman",
-        "pos": "RB",
-        "line": "111 yds and 3 TD vs LV last week"
+        "name": "Bo Nix",
+        "pos": "QB",
+        "line": "169 yds and 2 INT in the 27-5 loss at PIT"
       },
       "source": "claude"
     }

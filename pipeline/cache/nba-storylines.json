@@ -1,13 +1,13 @@
 {
   "PHI": {
-    "key": "401909317|401909328",
+    "key": "401909328|401910050",
     "result": {
       "abbr": "PHI",
-      "story": "The 76ers are 15-4 on a modest +40 differential, and Jaylen Brown left with hamstring tightness.",
+      "story": "The 76ers are 16-4 and lead the East, but the +64 point differential lags the record.",
       "player": {
         "name": "Tyrese Maxey",
         "pos": "G",
-        "line": "30 pts and 6 ast vs MIA; 25.9 ppg"
+        "line": "25.3 pts and 5.7 ast per game, team-best Game Score 19.5"
       },
       "source": "claude"
     }
@@ -26,53 +26,53 @@
     }
   },
   "TOR": {
-    "key": "401910039|401909329",
+    "key": "401909329|401910057",
     "result": {
       "abbr": "TOR",
-      "story": "The Raptors are 6-11 and 2-8 over their last 10, yet their point differential is just -2.",
+      "story": "The Raptors are 7-11 despite a +22 point differential, and Kawhi Leonard is at least a week from returning.",
       "player": {
         "name": "Scottie Barnes",
         "pos": "F",
-        "line": "31 pts and 8 ast vs MIL"
+        "line": "34 pts vs BKN, 25.5 pts per game in 13 games"
       },
       "source": "claude"
     }
   },
   "NY": {
-    "key": "401909319|401909326",
+    "key": "401909326|401910056",
     "result": {
       "abbr": "NY",
-      "story": "The Knicks are 12-6 and have won six straight, most recently beating CLE 121-102.",
+      "story": "The Knicks are 12-7 but lost 108-105 to MIA, which ended their six-game winning streak.",
       "player": {
         "name": "Jalen Brunson",
         "pos": "G",
-        "line": "26.1 pts and 5.9 ast per game"
+        "line": "27 pts and 8 ast vs MIA, 26.2 pts per game this season"
       },
       "source": "claude"
     }
   },
   "BKN": {
-    "key": "401909322|401909329",
+    "key": "401909329|401910047",
     "result": {
       "abbr": "BKN",
-      "story": "The Nets are 4-13 with a -138 differential, though they just beat MIL 104-97.",
+      "story": "The Nets are 4-14 with a -162 point differential and just lost 124-100 at TOR.",
       "player": {
         "name": "Julius Randle",
         "pos": "F",
-        "line": "28 pts and 9 reb vs MIL; 21.9 ppg"
+        "line": "21.9 pts per game, 28 pts in the win over MIL"
       },
       "source": "claude"
     }
   },
   "DET": {
-    "key": "401909314|401909327",
+    "key": "401909327|401910055",
     "result": {
       "abbr": "DET",
-      "story": "The Pistons are 11-6 and lead the East Central, coming off a 104-86 win at ORL without Cade Cunningham.",
+      "story": "The Pistons are 12-6 and third in the East with a +110 point differential after beating MIL 113-98.",
       "player": {
-        "name": "Ausar Thompson",
+        "name": "Cade Cunningham",
         "pos": "G",
-        "line": "10 reb and 7 ast vs ORL, 8.6 reb per game this year"
+        "line": "24.2 pts, 8.3 ast a game; 15 ast vs ATL"
       },
       "source": "claude"
     }
@@ -91,14 +91,14 @@
     }
   },
   "IND": {
-    "key": "401910038|401909328",
+    "key": "401909328|401910048",
     "result": {
       "abbr": "IND",
-      "story": "The Pacers are 6-12 but beat OKC 125-120 to snap a four-game losing streak.",
+      "story": "The Pacers are 6-13 with a 3-7 mark over their last 10, and lost 111-87 vs PHI on Nov 27.",
       "player": {
-        "name": "Pascal Siakam",
-        "pos": "F",
-        "line": "22.9 pts per game; 20 pts with a late 3 vs OKC"
+        "name": "Tyrese Haliburton",
+        "pos": "G",
+        "line": "21.8 pts, 9.5 ast per game over just 4 games"
       },
       "source": "claude"
     }
@@ -117,14 +117,14 @@
     }
   },
   "MIL": {
-    "key": "401909322|401909327",
+    "key": "401909327|401910049",
     "result": {
       "abbr": "MIL",
-      "story": "The Bucks are 2-17 with a -212 point differential, and a win at TOR on Nov 23 ended a 13-game skid.",
+      "story": "The Bucks are 2-18 with a -227 point differential and lost 113-98 at DET on Nov 27.",
       "player": {
         "name": "Tyler Herro",
         "pos": "G",
-        "line": "28 pts vs BKN; 22.3 pts per game this season"
+        "line": "22.2 pts a game; 20 pts vs DET"
       },
       "source": "claude"
     }
@@ -156,14 +156,14 @@
     }
   },
   "MIA": {
-    "key": "401909317|401909326",
+    "key": "401909326|401910054",
     "result": {
       "abbr": "MIA",
-      "story": "The Heat are 10-7 and 8-2 in their last 10, but lost 111-104 at PHI in their latest game.",
+      "story": "The Heat are 11-7 but only +16 in point differential, after a 108-105 win at NY.",
       "player": {
         "name": "Giannis Antetokounmpo",
         "pos": "F",
-        "line": "28.4 pts, 12.7 reb per game; 32 pts vs PHI"
+        "line": "28.1 pts, 13.3 reb per game; 23 reb vs NY"
       },
       "source": "claude"
     }
